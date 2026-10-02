@@ -24,6 +24,13 @@ Screenshots in `assets/img/` come from the app's simulator with demo data (`-dem
 bar); the social preview `og-image.jpg` is drawn by `tools/web/og_image.swift` in the app repository. Update the
 screenshots when the app's screens change noticeably.
 
+Widget pictures in `assets/img/widgets/` (`<name>-light.png` / `-dark.png`, 2×) are rendered from the app's real widget
+views: in the app repo, launch the Personal build with `-demoData -skipOnboarding -today 2026-11-12 -screen
+widgetsExport`, copy `Documents/widget-export/` out of the simulator's app container
+(`xcrun simctl get_app_container <udid> com.kwull.mostlydaily.dev data`) and downscale the 3× PNGs to 2×. The Home
+Screen and Lock Screen demo on the home page swaps a widget for its `-done`/`-after` picture with a checkbox (CSS
+only, no script).
+
 When the app is live: replace the "Coming soon" buttons with Apple's official "Download on the App Store" badge and
 link, add `<meta name="apple-itunes-app" content="app-id=…">`, and add the App Store URL to the JSON-LD and
 `llms.txt`.
