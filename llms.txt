@@ -2,7 +2,7 @@
 
 > A forgiving habit tracker for iPhone. Levels instead of fragile streaks, rest days that count as rest, and Limit habits with a colour calendar. No account, no tracking.
 
-- Platform: iPhone, iOS 26 or later. Coming to the App Store in November 2026.
+- Platform: iPhone. Coming to the App Store in November 2026.
 - Developer: Uladzimir Kazakevich. Contact: contact@mostlydaily.com
 - Price: free to download. Free includes 3 habits (one can be a Limit habit) with no time limit. Premium (yearly with a 14-day free trial, monthly, or lifetime) adds unlimited habits with Focus mode, the evening Lock Screen check-in for Limit habits, past reflections and recaps, more widgets and app icons, several reminders per habit. When Premium ends nothing is deleted.
 - How it works: each habit has a consistency level (Starting, Sometimes, Often, Mostly; Mostly is the top). One miss never resets anything; the "never missed twice" run ends only after two misses in a row. Rest, sick and travel days are not misses. Limit habits (drinks, sugar, screen time) get a colour calendar of clear, light and heavier days.
