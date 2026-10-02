@@ -75,3 +75,12 @@ Replace the "Coming soon" buttons with Apple's official "Download on the App Sto
 name="apple-itunes-app" content="app-id=…">`, and add the App Store URL to the JSON-LD and `llms.txt`.
 
 Contact: contact@mostlydaily.com
+
+## Widget demo (Home Screen and Lock Screen tabs)
+`assets/site.js` (`setupWidgetDemos`) keeps one shared day (Floss, Read, Alcohol-free, Move, Meditate) and shows each
+widget's picture for it, with buttons placed exactly over the real rings. Pictures and ring positions come from the
+app: `-screen widgetsExport` writes every tap state plus `rings.json`; `assets/widget-demo.json` is the subset the demo
+reaches (positions as fractions of the widget, `next` picture, what the tap does). States only the script can reach
+ship as WebP only. Without JavaScript the first pictures show, static. Behaviour matches the app (tested end to end on
+the Home and Lock Screen): a ring checks in, a done ring undoes, Next up moves to the next habit, the Limit tile logs a
+clear day in the evening.

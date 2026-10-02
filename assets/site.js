@@ -339,6 +339,114 @@
     phones.classList.add("is-tilting");
   }
 
+
+  /* ---------- Widget demo: one shared day, like the real widgets. Ring positions and the pictures of every state are
+     exported from the app (assets/widget-demo.json, `-screen widgetsExport`); a tap changes the day and every widget
+     shows its picture for it. ---------- */
+  var DOES = { "done": "mark done", "undo": "undo", "clear day": "log a clear day" };
+  var KEYS = { "Floss": "floss", "Read 10 pages": "read", "Alcohol-free days": "alcohol", "Move 20 minutes": "move", "Meditate": "meditate" };
+  var START = { floss: false, read: false, alcohol: false, move: true, meditate: true };
+
+  function pictureFor(kind, day, map) {
+    if (kind === "habit") return day.read ? "habit-read-done" : "habit-read";
+    if (kind === "lock") return day.read ? "lock-habit-done" : "lock-habit";
+    if (kind === "next") {
+      if (!day.floss) return "next-up-step1";
+      if (!day.read) return "next-up-step2";
+      if (!day.alcohol) return "next-up-step3";
+      return "next-up-step4";
+    }
+    // Today (medium): the exported names list what differs from the boards' day, in this order.
+    var parts = [];
+    if (day.read) parts.push("read");
+    if (day.alcohol) parts.push("alcohol");
+    if (!day.move) parts.push("no-move");
+    if (day.floss) parts.push("floss");
+    if (!day.meditate) parts.push("no-meditate");
+    var name = parts.length ? "today-" + parts.join("-") : "today";
+    return map[name] ? name : null;
+  }
+
+  function setupWidgetDemos() {
+    var boxes = Array.prototype.slice.call(document.querySelectorAll("[data-demo]"));
+    if (!boxes.length || !window.fetch) return;
+    fetch("/assets/widget-demo.json").then(function (r) { return r.json(); }).then(function (map) {
+      var day = Object.assign({}, START);
+      var widgets = boxes.map(function (box) { return makeWidget(box, map); });
+      function render(focus) {
+        widgets.forEach(function (w) { w.show(day, focus); });
+        Array.prototype.forEach.call(document.querySelectorAll("[data-demo-reset]"), function (b) {
+          b.hidden = JSON.stringify(day) === JSON.stringify(START);
+        });
+      }
+      widgets.forEach(function (w) {
+        w.onTap = function (t, box) {
+          var key = KEYS[t.habit];
+          if (!key) return;
+          var next = Object.assign({}, day);
+          next[key] = t.does !== "undo";
+          // Next up shows the habits in order; only states the app exported can be shown.
+          if (widgets.some(function (x) { return x.kind === "today"; }) && !pictureFor("today", next, map)) return;
+          day = next;
+          render({ box: box, habit: t.habit });
+        };
+      });
+      Array.prototype.forEach.call(document.querySelectorAll("[data-demo-reset]"), function (b) {
+        b.addEventListener("click", function () { day = Object.assign({}, START); render(null); });
+      });
+      render(null);
+    }).catch(function () { /* the static pictures stay */ });
+  }
+
+  function makeWidget(box, map) {
+    var start = box.getAttribute("data-demo");
+    var kind = start.indexOf("next-up") === 0 ? "next" : start.indexOf("habit") === 0 ? "habit" : start.indexOf("lock") === 0 ? "lock" : "today";
+    var darkOnly = box.hasAttribute("data-dark");
+    var label = box.getAttribute("data-label") || "Widget";
+    var picture = box.querySelector("picture");
+    var img = picture.querySelector("img");
+    var layer = document.createElement("div");
+    layer.className = "wdemo-hits";
+    box.appendChild(layer);
+    box.classList.add("is-live");
+    var current = null;
+    var widget = { kind: kind, onTap: null };
+
+    function src(name, scheme) { return "/assets/img/widgets/" + name + "-" + scheme + ".webp"; }
+    widget.show = function (day, focus) {
+      var name = pictureFor(kind, day, map);
+      if (!name || !map[name]) return;
+      var entry = map[name];
+      if (name !== current) {
+        Array.prototype.forEach.call(picture.querySelectorAll("source"), function (s) { s.remove(); });
+        if (!darkOnly) {
+          var dark = document.createElement("source");
+          dark.type = "image/webp"; dark.media = "(prefers-color-scheme: dark)"; dark.srcset = src(name, "dark");
+          picture.insertBefore(dark, img);
+        }
+        img.src = src(name, darkOnly ? "dark" : "light");
+        current = name;
+      }
+      img.alt = label + ": " + (entry.targets.length ? entry.targets.map(function (t) { return t.habit; }).join(", ") : "all done for today");
+      layer.textContent = "";
+      var focusTarget = null;
+      entry.targets.forEach(function (t) {
+        if (!t.next || !KEYS[t.habit]) return;
+        var b = document.createElement("button");
+        b.type = "button";
+        b.className = "wdemo-hit";
+        b.style.left = (t.x * 100) + "%"; b.style.top = (t.y * 100) + "%";
+        b.style.width = (t.w * 100) + "%"; b.style.height = (t.h * 100) + "%";
+        b.setAttribute("aria-label", t.habit + ": " + (DOES[t.does] || t.does));
+        b.addEventListener("click", function () { box.classList.add("was-tapped"); widget.onTap && widget.onTap(t, box); });
+        layer.appendChild(b);
+        if (focus && focus.box === box && t.habit === focus.habit) focusTarget = b;
+      });
+      if (focus && focus.box === box) (focusTarget || layer.querySelector("button") || box).focus({ preventScroll: true });
+    };
+    return widget;
+  }
+
   function start() {
     var sim = document.querySelector("[data-sim]");
     if (sim) setupSimulator(sim);
@@ -348,6 +456,7 @@
     setupNav();
     setupHero();
     setupReveal();
+    setupWidgetDemos();
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
   else start();
