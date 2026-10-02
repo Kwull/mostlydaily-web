@@ -110,6 +110,9 @@ h3 { font-size: 20px; margin: 0 0 6px; }
   background: linear-gradient(160deg, #DCE6F4, #EBDDEC 55%, #F2E6DA); }
 .wcard .art img { max-height: 244px; width: auto; }
 .wcard .art.small img { max-height: 170px; }
+.wcard .art.stack { position: relative; justify-content: flex-end; padding-right: 26px; }
+.wcard .art.stack .front { position: absolute; left: 18px; bottom: 18px; }
+.wcard .art.stack .front img { max-height: 118px; }
 .wcard h3 { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .tag { font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 10px; background: var(--card2); color: var(--ink2); }
 .tag.premium { background: var(--accent); color: var(--on-accent); }

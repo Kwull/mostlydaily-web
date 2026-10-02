@@ -6,7 +6,7 @@
 - Developer: Uladzimir Kazakevich. Contact: contact@mostlydaily.com
 - Price: free to download. Free includes 3 habits (one can be a Limit habit) with no time limit. Premium (yearly with a 14-day free trial, monthly, or lifetime) adds unlimited habits with Focus mode, the evening Lock Screen check-in for Limit habits, past reflections and recaps, more widgets and app icons, several reminders per habit. When Premium ends nothing is deleted.
 - How it works: each habit has a consistency level (Starting, Sometimes, Often, Mostly; Mostly is the top). One miss never resets anything; the "never missed twice" run ends only after two misses in a row. Rest, sick and travel days are not misses. Limit habits (drinks, sugar, screen time) get a colour calendar of clear, light and heavier days.
-- Widgets: tap the ring on a widget to check in without opening the app. Free: Next up (small), Habit (small), Today (medium), Lock Screen widgets, StandBy, Control Center controls (Check in, Clear day, Close the day), Siri and Shortcuts. Premium adds Today and week (large), a month calendar, This week and Who you're becoming (mosaic or stars).
+- Widgets: tap the ring on a widget to check in without opening the app. Free: Next up (small), Habit (small), Today (medium), Lock Screen widgets, StandBy, Control Center controls (Check in, Clear day, Close the day), Siri and Shortcuts. Premium adds Today and week (large), a month calendar (small or large), This week and Who you're becoming (mosaic or stars).
 - Privacy: no account, no server, no analytics, no tracking. Data stays on the device and in the user's private iCloud; drinks linked to Apple Health stay in Apple Health.
 - Not a medical, treatment or recovery app.
 
