@@ -348,13 +348,15 @@ button.sim-day:active::before { transform: scale(.92); }
 .wdemo-hits { position: absolute; inset: 0; }
 .wdemo-hit { position: absolute; margin: 0; padding: 0; border: 0; border-radius: 50%; background: transparent; cursor: pointer;
   -webkit-tap-highlight-color: transparent; }
-.wdemo-hit:hover { box-shadow: 0 0 0 3px color-mix(in srgb, var(--link) 45%, transparent); }
 .wdemo-hit:focus-visible { outline: 3px solid var(--link); outline-offset: 2px; }
-.wdemo-hit:active { transform: scale(.94); }
 @media (prefers-reduced-motion: no-preference) {
   .wdemo.is-live:not(.was-tapped) .wdemo-hit:first-child { animation: ring-hint 2.4s ease-in-out 1.2s 3; }
   @keyframes ring-hint { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--link) 0%, transparent); }
-    50% { box-shadow: 0 0 0 6px color-mix(in srgb, var(--link) 35%, transparent); } }
+    50% { box-shadow: 0 0 0 4px color-mix(in srgb, var(--link) 22%, transparent); } }
 }
 .wdemo img { transition: opacity .2s ease; }
 .linkish { background: none; border: 0; padding: 0 0 0 6px; font: inherit; color: var(--link); cursor: pointer; text-decoration: underline; min-height: 44px; }
+.linkish.is-off { visibility: hidden; }
+.wdemo-hit:focus:not(:focus-visible) { outline: none; }
+.wdemo > picture, .wdemo img { display: block; width: 100%; height: auto; }
+.lock-row picture { display: block; } .lock-row img { display: block; width: 100%; height: auto; }

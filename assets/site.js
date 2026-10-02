@@ -376,11 +376,11 @@
       function render(focus) {
         widgets.forEach(function (w) { w.show(day, focus); });
         Array.prototype.forEach.call(document.querySelectorAll("[data-demo-reset]"), function (b) {
-          b.hidden = JSON.stringify(day) === JSON.stringify(START);
+          b.classList.toggle("is-off", JSON.stringify(day) === JSON.stringify(START));
         });
       }
       widgets.forEach(function (w) {
-        w.onTap = function (t, box) {
+        w.onTap = function (t, box, keyboard) {
           var key = KEYS[t.habit];
           if (!key) return;
           var next = Object.assign({}, day);
@@ -388,7 +388,7 @@
           // Next up shows the habits in order; only states the app exported can be shown.
           if (widgets.some(function (x) { return x.kind === "today"; }) && !pictureFor("today", next, map)) return;
           day = next;
-          render({ box: box, habit: t.habit });
+          render(keyboard ? { box: box, habit: t.habit } : null);
         };
       });
       Array.prototype.forEach.call(document.querySelectorAll("[data-demo-reset]"), function (b) {
@@ -418,14 +418,22 @@
       if (!name || !map[name]) return;
       var entry = map[name];
       if (name !== current) {
-        Array.prototype.forEach.call(picture.querySelectorAll("source"), function (s) { s.remove(); });
-        if (!darkOnly) {
-          var dark = document.createElement("source");
-          dark.type = "image/webp"; dark.media = "(prefers-color-scheme: dark)"; dark.srcset = src(name, "dark");
-          picture.insertBefore(dark, img);
-        }
-        img.src = src(name, darkOnly ? "dark" : "light");
         current = name;
+        var scheme = darkOnly || matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        var next = new Image();
+        next.src = src(name, scheme);
+        var swap = function () {
+          if (current !== name) return; // a newer tap won
+          Array.prototype.forEach.call(picture.querySelectorAll("source"), function (s) { s.remove(); });
+          if (!darkOnly) {
+            var dark = document.createElement("source");
+            dark.type = "image/webp"; dark.media = "(prefers-color-scheme: dark)"; dark.srcset = src(name, "dark");
+            picture.insertBefore(dark, img);
+          }
+          img.removeAttribute("loading");
+          img.src = src(name, darkOnly ? "dark" : "light");
+        };
+        (next.decode ? next.decode() : Promise.resolve()).then(swap, swap);
       }
       img.alt = label + ": " + (entry.targets.length ? entry.targets.map(function (t) { return t.habit; }).join(", ") : "all done for today");
       layer.textContent = "";
@@ -438,7 +446,11 @@
         b.style.left = (t.x * 100) + "%"; b.style.top = (t.y * 100) + "%";
         b.style.width = (t.w * 100) + "%"; b.style.height = (t.h * 100) + "%";
         b.setAttribute("aria-label", t.habit + ": " + (DOES[t.does] || t.does));
-        b.addEventListener("click", function () { box.classList.add("was-tapped"); widget.onTap && widget.onTap(t, box); });
+        b.addEventListener("click", function (e) {
+          box.classList.add("was-tapped");
+          // Move focus to the new ring only for keyboard users (detail 0); a pointer tap leaves no ring behind.
+          widget.onTap && widget.onTap(t, box, e.detail === 0);
+        });
         layer.appendChild(b);
         if (focus && focus.box === box && t.habit === focus.habit) focusTarget = b;
       });

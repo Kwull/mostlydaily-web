@@ -84,3 +84,6 @@ reaches (positions as fractions of the widget, `next` picture, what the tap does
 ship as WebP only. Without JavaScript the first pictures show, static. Behaviour matches the app (tested end to end on
 the Home and Lock Screen): a ring checks in, a done ring undoes, Next up moves to the next habit, the Limit tile logs a
 clear day in the evening.
+
+**Cache:** GitHub Pages caches files for ~10 minutes. When `site.css` or `site.js` changes, bump the `?v=` on their links
+in every page (all pages use the same value) so returning visitors get matching files.
