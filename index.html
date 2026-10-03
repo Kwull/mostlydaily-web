@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mostly Daily: a forgiving habit tracker for iPhone</title>
-<meta name="description" content="A forgiving habit tracker for iPhone. Levels instead of fragile streaks, rest days that count as rest, and Limit habits with a colour calendar. No account, no tracking.">
+<meta name="description" content="A forgiving habit tracker for iPhone. Check in from a widget, miss a day without losing your progress, and watch your mosaic grow. No account, no tracking.">
 <link rel="canonical" href="https://mostlydaily.com/">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
@@ -12,293 +12,247 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Mostly Daily">
 <meta property="og:title" content="Mostly Daily: a forgiving habit tracker for iPhone">
-<meta property="og:description" content="A forgiving habit tracker for iPhone. Levels instead of fragile streaks, rest days that count as rest, and Limit habits with a colour calendar. No account, no tracking.">
+<meta property="og:description" content="A forgiving habit tracker for iPhone. Check in from a widget, miss a day without losing your progress, and watch your mosaic grow. No account, no tracking.">
 <meta property="og:url" content="https://mostlydaily.com/">
 <meta property="og:image" content="https://mostlydaily.com/assets/img/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Mostly Daily: Miss a day. Keep your progress. Two screens of the app's Today, in light and dark.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://mostlydaily.com/assets/img/og-image.jpg">
+<meta name="twitter:image:alt" content="Mostly Daily: Miss a day. Keep your progress. Two screens of the app's Today, in light and dark.">
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/site.css?v=20261002162754">
-<script src="/assets/site.js?v=20261002162754" defer></script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Mostly Daily", "operatingSystem": "iOS", "applicationCategory": "HealthApplication", "url": "https://mostlydaily.com", "description": "A forgiving habit tracker for iPhone. Levels instead of fragile streaks, rest days that count as rest, and Limit habits with a colour calendar. No account, no tracking.", "author": {"@type": "Person", "name": "Uladzimir Kazakevich"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What happens when I miss a day?", "acceptedAnswer": {"@type": "Answer", "text": "Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of \"never missed twice\" only ends after two misses in a row."}}, {"@type": "Question", "name": "What is a Limit habit?", "acceptedAnswer": {"@type": "Answer", "text": "A habit you want less of, like drinks, sugar or screen time. You log the amount each evening and get a colour calendar of clear, light and heavier days, with a goal of clear days per week."}}, {"@type": "Question", "name": "Can I check in from a widget?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Tap the ring on a Home Screen or Lock Screen widget and the habit is checked in right away, without opening the app. There are also Control Center controls, StandBy, and Siri and Shortcuts."}}, {"@type": "Question", "name": "Do I need an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. There is no account and no sign-in. Your habits stay on your devices and sync through your own private iCloud."}}, {"@type": "Question", "name": "What does Free include?", "acceptedAnswer": {"@type": "Answer", "text": "3 habits (one can be a Limit habit), levels, rest days, reminders, widgets, Apple Health and iCloud sync, with no time limit."}}, {"@type": "Question", "name": "What does Premium add?", "acceptedAnswer": {"@type": "Answer", "text": "Unlimited habits with Focus mode, the evening check-in on the Lock Screen, every past reflection and recap, more widgets and app icons, and several reminders per habit."}}, {"@type": "Question", "name": "Can my family share Premium?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Premium Family shares Premium with up to 5 family members through Apple Family Sharing, yearly or once for life. Nobody needs an account, and each person's habits stay private on their own devices."}}, {"@type": "Question", "name": "What happens if Premium ends?", "acceptedAnswer": {"@type": "Answer", "text": "Nothing is deleted. Habits beyond the Free plan are paused with all their history, and you can export everything at any time."}}, {"@type": "Question", "name": "Is my data private?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Mostly Daily has no server, no analytics and no tracking. Drinks you link to Apple Health stay in Apple Health and are never stored in iCloud."}}, {"@type": "Question", "name": "Is it a treatment or recovery program?", "acceptedAnswer": {"@type": "Answer", "text": "No. Mostly Daily is for self-tracking and gives no medical advice. If you're worried about your health or drinking, please talk to a professional."}}]}</script>
+<link rel="stylesheet" href="/assets/site.css?v=20261004">
+<script src="/assets/site.js?v=20261004" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Mostly Daily", "operatingSystem": "iOS", "applicationCategory": "HealthApplication", "url": "https://mostlydaily.com", "description": "A forgiving habit tracker for iPhone. Check in from a widget, miss a day without losing your progress, and watch your mosaic grow. No account, no tracking.", "inLanguage": "en", "softwareVersion": "1.0", "image": "https://mostlydaily.com/assets/img/app-icon.png", "screenshot": ["https://mostlydaily.com/assets/img/today.jpg", "https://mostlydaily.com/assets/img/habit-detail.jpg", "https://mostlydaily.com/assets/img/limit-detail.jpg", "https://mostlydaily.com/assets/img/today-all-done.jpg"], "author": {"@type": "Person", "name": "Uladzimir Kazakevich"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What happens when I miss a day?", "acceptedAnswer": {"@type": "Answer", "text": "Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of \"never missed twice\" only ends after two misses in a row."}}, {"@type": "Question", "name": "What is a Limit habit?", "acceptedAnswer": {"@type": "Answer", "text": "A habit you want less of, like drinks, sugar or screen time. You log the amount in the evening and get a colour calendar of clear, lighter and heavier days, with a goal of clear days per week."}}, {"@type": "Question", "name": "Do I need an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. There is no account and no sign-in. Your habits stay on your devices and sync through your own iCloud."}}, {"@type": "Question", "name": "Is my data private?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. No server, no analytics, no tracking. Check-ins from Apple Health and the drinks you log stay on your phone and are never put in iCloud."}}, {"@type": "Question", "name": "What happens if Premium ends?", "acceptedAnswer": {"@type": "Answer", "text": "Nothing is deleted. Habits beyond the Free plan are paused with all their history, and you can export everything at any time."}}, {"@type": "Question", "name": "Is it a treatment or recovery program?", "acceptedAnswer": {"@type": "Answer", "text": "No. Mostly Daily is for self-tracking and gives no medical advice. If you're worried about your health or drinking, please talk to a professional."}}]}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap">
-  <a class="brand" href="/"><img src="/assets/img/app-icon-64.png" alt="" width="30" height="30">Mostly Daily</a>
-  <nav class="nav" aria-label="Main"><a href="/#try">Try it</a><a href="/#widgets">Widgets</a><a href="/#features">Features</a><a href="/#pricing">Pricing</a><a href="/guides/">Guides</a><a href="/support.html">Support</a></nav>
+  <a class="brand" href="/"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>Mostly Daily</a>
+  <nav class="nav" aria-label="Main"><a href="/#widgets">Widgets</a><a href="/#miss">Miss a day</a><a href="/#pricing">Pricing</a><a href="/guides/">Guides</a><a href="/support.html">Support</a></nav>
   <details class="menu"><summary aria-label="Menu"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path class="menu-open" d="M4 7h16M4 12h16M4 17h16"/><path class="menu-close" d="M6 6l12 12M18 6L6 18"/></svg></summary>
-    <nav aria-label="Menu"><a href="/#try">Try it</a><a href="/#widgets">Widgets</a><a href="/#features">Features</a><a href="/#pricing">Pricing</a><a href="/#faq">Questions</a><a href="/guides/">Guides</a><a href="/support.html">Support</a><a href="/#get">Get the app</a></nav></details>
-  <a class="button" href="/#get">Get the app</a>
+    <nav aria-label="Menu"><a href="/#widgets">Widgets</a><a href="/#miss">Miss a day</a><a href="/#pricing">Pricing</a><a href="/#faq">Questions</a><a href="/guides/">Guides</a><a href="/support.html">Support</a></nav></details>
+  <span class="button soon">Coming in November</span>
 </div></header>
 <main id="main">
 
+<!-- HERO -->
 <div class="wrap">
   <div class="hero">
-    <div class="hero-text">
+    <div>
       <h1>Miss a day.<br>Keep your progress.</h1>
-      <p class="lead">Mostly Daily is a habit tracker that measures consistency, not perfection. One miss never resets anything, and rest days count as rest.</p>
-      <a class="store-badge" href="/#get" aria-label="Coming soon to the App Store"><svg width="22" height="26" viewBox="0 0 17 20" aria-hidden="true" fill="currentColor"><path d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9C3.6 4.8 2 5.8 1.1 7.4c-1.8 3.2-.5 7.9 1.3 10.5.9 1.3 1.9 2.7 3.2 2.6 1.3 0 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.6 1-1.5 1.4-2.9 1.4-3-.1 0-2.7-1-2.7-4.3zM11.6 3c.7-.9 1.2-2 1.1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3-1.5z"/></svg><span><small>Coming soon to the</small>App Store</span></a>
-      <ul class="facts" aria-label="At a glance"><li>Free to start</li><li>Interactive widgets</li><li>No account</li><li>No tracking</li><li>For iPhone</li></ul>
+      <p class="lead">A habit tracker for iPhone that measures consistency, not perfection. One miss never resets anything, and rest days count as rest.</p>
+      <span class="button soon soon-large">Coming to iPhone in November</span>
+      <ul class="facts" aria-label="At a glance"><li>Free to start</li><li>No account</li><li>No tracking</li><li>For iPhone</li></ul>
     </div>
-    <div class="phones">
-      <div class="phone"><picture><source type="image/webp" srcset="/assets/img/today-253.webp 253w, /assets/img/today.webp 506w" sizes="(max-width: 819px) calc(46vw - 18px), 230px"><img src="/assets/img/today.jpg" alt="Today: habits for the evening with a day ring and this week" width="506" height="1100" fetchpriority="high" decoding="async"></picture></div>
-      <div class="phone"><picture><source type="image/webp" srcset="/assets/img/today-dark-253.webp 253w, /assets/img/today-dark.webp 506w" sizes="(max-width: 819px) calc(46vw - 18px), 230px"><img src="/assets/img/today-dark.jpg" alt="Today in dark mode" width="506" height="1100" decoding="async"></picture></div>
+    <div class="hero-visual">
+      <div class="phone"><picture><source type="image/webp" srcset="/assets/img/today-dark-253.webp 253w, /assets/img/today-dark.webp 506w" sizes="(max-width: 819px) 68vw, 300px" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/today-dark.jpg" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/today-253.webp 253w, /assets/img/today.webp 506w" sizes="(max-width: 819px) 68vw, 300px"><img src="/assets/img/today.jpg" alt="Today: the day ring, your mosaic of check-ins, and one ring button per habit" width="506" height="1100" fetchpriority="high" decoding="async"></picture></div>
+      <span class="hint" aria-hidden="true" data-js data-hero-hint>Tap the ring</span>
+      <div class="wg" role="group" data-widget="habit" style="--c: var(--blue)" aria-label="Habit widget: Read 10 pages"><div class="name">Read 10 pages</div><div class="track" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="today"></i></div><div class="foot"><div class="meter" aria-hidden="true"><div class="bars"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="word">Mostly</div></div><span class="ring is-hinting" style="--p: 85" data-tap="read" aria-label="Check in Read 10 pages"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="sym" d="M3 5.5C5.6 5.5 8 6.1 10.5 7.5v12.3C8 18.5 5.6 17.8 3 17.8zM21 5.5c-2.6 0-5 .6-7.5 2v12.3c2.5-1.3 4.9-2 7.5-2z" fill="currentColor"/><path class="chk" d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
     </div>
   </div>
 </div>
 
-<section id="try" class="try-section"><div class="wrap">
-  <div class="section-head" data-reveal>
-    <p class="eyebrow">Try it</p>
-    <h2>Miss a day and see what happens</h2>
-    <p class="sub">Three weeks of one habit, with a couple of misses and a rest day. Here is how Mostly Daily sees them, next to a plain streak.</p>
+<!-- WIDGETS -->
+<section id="widgets"><div class="wrap">
+  <div class="section-head">
+    <p class="eyebrow">Widgets</p>
+    <h2>Tap. Done. No app to open.</h2>
+    <p class="sub">Check in from the Home Screen. One tap on the ring, and the habit is done; a second tap undoes it. The same on the Lock Screen, in StandBy and from Control Center.</p>
   </div>
-  <svg class="symbols" aria-hidden="true" focusable="false"><symbol id="i-check" viewBox="0 0 24 24"><path d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></symbol><symbol id="i-rest" viewBox="0 0 24 24"><path d="M16.6 14.9A6 6 0 0 1 9.1 7.4a6 6 0 1 0 7.5 7.5z" fill="currentColor"/></symbol></svg>
-  <div class="sim" data-sim>
-    <div class="sim-days">
-      <div class="sim-habit"><span class="sim-habit-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M2.5 6.2c0-.7.5-1.2 1.2-1.2 2.6 0 5 .6 7.3 2v12.3c-2.3-1.3-4.7-2-7.3-2-.7 0-1.2-.5-1.2-1.2zM21.5 6.2c0-.7-.5-1.2-1.2-1.2-2.6 0-5 .6-7.3 2v12.3c2.3-1.3 4.7-2 7.3-2 .7 0 1.2-.5 1.2-1.2z"/></svg></span><span><b>Read 10 pages</b><small>The last 3 weeks</small></span></div>
-      <div class="sim-grid" role="group" aria-label="The last 21 days, oldest first">
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 1 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 2 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 3 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 4 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 5 of 21, done</span></span>
-        <span class="sim-day is-miss" data-state="miss"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 6 of 21, missed</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 7 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 8 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 9 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 10 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 11 of 21, done</span></span>
-        <span class="sim-day is-rest" data-state="rest"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 12 of 21, rest day</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 13 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 14 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 15 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 16 of 21, done</span></span>
-        <span class="sim-day is-miss" data-state="miss"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 17 of 21, missed</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 18 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 19 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Day 20 of 21, done</span></span>
-        <span class="sim-day is-done" data-state="done"><svg class="i-done" aria-hidden="true"><use href="#i-check"/></svg><svg class="i-rest" aria-hidden="true"><use href="#i-rest"/></svg><span class="sr">Today, done</span></span>
-      </div>
-      <div class="sim-axis" aria-hidden="true"><span>3 weeks ago</span><span>Today</span></div>
-      <p class="sim-how" id="sim-how">Tap a day to switch it: done, missed, rest.</p>
-      <div class="sim-legend" aria-hidden="true"><span><i class="sim-day is-done"><svg class="i-done"><use href="#i-check"/></svg></i>Done</span><span><i class="sim-day is-miss"></i>Missed</span><span><i class="sim-day is-rest"><svg class="i-rest"><use href="#i-rest"/></svg></i>Rest</span></div>
-      <div class="sim-presets" role="group" aria-label="Try a pattern">
-        <button type="button" data-preset="every">Every day</button><button type="button" data-preset="one">One miss</button><button type="button" data-preset="two">Two in a row</button><button type="button" data-preset="off">A week off sick</button><button type="button" data-preset="start">Start over</button>
-      </div>
-    </div>
-    <div class="sim-results">
-      <div class="sim-panel sim-ours">
-        <p class="sim-label">Mostly Daily</p>
-        <div class="sim-ring">
-          <svg viewBox="0 0 120 120" aria-hidden="true"><circle class="sim-ring-track" cx="60" cy="60" r="50" pathLength="100"/><circle class="sim-ring-value" cx="60" cy="60" r="50" pathLength="100" style="stroke-dasharray: 90 100"/></svg>
-          <div class="sim-ring-text"><b data-score>90</b><span data-level>Mostly</span></div>
+  <div class="split">
+    <div class="homescreen">
+      <div class="hs-grid">
+        <div class="wg" role="group" data-widget="next" style="--c: var(--pink)" aria-label="Next up widget">
+          <div class="count"><span class="dayring" aria-hidden="true"></span><span data-count>2/5</span></div>
+          <div class="name" data-next-name>Floss</div>
+          <div class="foot"><div class="meter" aria-hidden="true"><div class="bars" data-next-bars><i class="on"></i><i class="on"></i><i></i><i></i></div><div class="word" data-next-word>Sometimes</div></div>
+            <span class="ring" style="--p: 42" data-next-ring data-tap="floss" aria-label="Check in Floss"><svg viewBox="0 0 24 24" aria-hidden="true"><g class="sym"><path d="M3 12c3-3 6-4.2 9-4.2s6 1.2 9 4.2c-3 3-6 4.2-9 4.2S6 15 3 12z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 12h14" stroke="currentColor" stroke-width="1.6"/></g><path class="chk" d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+          <div class="alldone" hidden><span class="dayring" aria-hidden="true"></span>All done</div>
+          <div class="mosaic" data-mosaic="small" hidden aria-hidden="true"></div>
         </div>
-        <ol class="sim-ladder" aria-label="Levels, top first"><li data-l="3" class="is-current"><b>Mostly</b><span>75–100</span></li><li data-l="2"><b>Often</b><span>50–74</span></li><li data-l="1"><b>Sometimes</b><span>25–49</span></li><li data-l="0"><b>Starting</b><span>0–24</span></li></ol>
-        <p class="sim-run"><span>Never missed twice</span><b data-run>21 days</b></p>
+        <div class="wg" role="group" data-widget="habit" style="--c: var(--blue)" aria-label="Habit widget: Read 10 pages"><div class="name">Read 10 pages</div><div class="track" aria-hidden="true"><i class="on"></i><i class="on"></i><i></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="today"></i></div><div class="foot"><div class="meter" aria-hidden="true"><div class="bars"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="word">Mostly</div></div><span class="ring" style="--p: 85" data-tap="read" aria-label="Check in Read 10 pages"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="sym" d="M3 5.5C5.6 5.5 8 6.1 10.5 7.5v12.3C8 18.5 5.6 17.8 3 17.8zM21 5.5c-2.6 0-5 .6-7.5 2v12.3c2.5-1.3 4.9-2 7.5-2z" fill="currentColor"/><path class="chk" d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div></div>
+        <div class="wg" role="group" data-widget="limit" style="--c: var(--purple)" aria-label="Limit widget: Alcohol-free days">
+          <div class="name">Alcohol-free days</div>
+          <div class="track limit" aria-hidden="true"><i class="on"></i><i class="on"></i><i class="on"></i><i class="today"></i><i></i><i></i><i></i></div>
+          <div class="foot"><div class="meter" aria-hidden="true"><div class="bars"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="word">Mostly</div></div>
+            <span class="ring square" style="--p: 78" data-tap="alcohol" aria-label="Log a clear day for Alcohol-free days"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10l-.6 6.2a4.4 4.4 0 0 1-8.8 0z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 13.6V20M8.5 20.5h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span></div>
+        </div>
+        <div class="wg" role="group" data-widget="floss" style="--c: var(--pink)" aria-label="Habit widget: Floss">
+          <div class="name">Floss</div>
+          <div class="track" aria-hidden="true"><i class="on"></i><i></i><i class="on"></i><i class="on"></i><i></i><i class="on"></i><i class="today"></i></div>
+          <div class="foot"><div class="meter" aria-hidden="true"><div class="bars"><i class="on"></i><i class="on"></i><i></i><i></i></div><div class="word">Sometimes</div></div>
+            <span class="ring" style="--p: 42" data-tap="floss" aria-label="Check in Floss"><svg viewBox="0 0 24 24" aria-hidden="true"><g class="sym"><path d="M3 12c3-3 6-4.2 9-4.2s6 1.2 9 4.2c-3 3-6 4.2-9 4.2S6 15 3 12z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5 12h14" stroke="currentColor" stroke-width="1.6"/></g><path class="chk" d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+        </div>
       </div>
-      <div class="sim-panel sim-streak">
-        <p class="sim-label">A plain streak</p>
-        <p class="sim-big"><b data-streak>4</b><span data-streak-unit>days in a row</span></p>
-        <p class="sim-small">Counts done days in a row, so any miss or day off takes it back to 0.</p>
-      </div>
+      <p class="try" data-js>Try it: tap a ring. <button type="button" data-reset hidden>Start over</button></p>
     </div>
-    <p class="sim-note" data-note aria-live="polite">2 misses, never two in a row: your run keeps going and your level is Mostly. Rest days don't count as misses.</p>
+    <div>
+      <p class="lead" style="margin:0 0 6px">Every widget shows the habit's colour and level, and has one control. Done turns the whole widget its colour. When everything is done, Next up shows your mosaic.</p>
+      <div class="vote">
+        <div class="mosaic" data-mosaic="big" role="img" aria-label="Your mosaic: 60 tiles"><i class="t a"></i><i class="t c"></i><i class="t e"></i><i class="t b"></i><i class="t e"></i><i class="t b"></i><i class="t d"></i><i class="t a"></i><i class="t d"></i><i class="t a"></i><i class="t c"></i><i class="t e"></i><i class="t c"></i><i class="t e"></i><i class="t b"></i><i class="t d"></i><i class="t b"></i><i class="t d"></i><i class="t a"></i><i class="t c"></i><i class="t a"></i><i class="t c"></i><i class="t e"></i><i class="t b"></i><i class="t e"></i><i class="t b"></i><i class="t d"></i><i class="t a"></i><i class="t d"></i><i class="t a"></i><i class="t c"></i><i class="t e"></i><i class="t c"></i><i class="t e"></i><i class="t b"></i><i class="t d"></i><i class="t b"></i><i class="t d"></i><i class="t a"></i><i class="t c"></i><i class="t a"></i><i class="t c"></i><i class="t e"></i><i class="t b"></i><i class="t e"></i><i class="t b"></i><i class="t d"></i><i class="t a"></i><i class="t d"></i><i class="t a"></i><i class="t c"></i><i class="t e"></i><i class="t c"></i><i class="t e"></i><i class="t b"></i><i class="t d"></i><i class="t b"></i><i class="t d"></i><i class="t a"></i><i class="t c"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <p class="muted"><b style="color:var(--ink)">Every check-in is a vote.</b> Each tap lands one tile in the habit's colour. A hundred tiles make a mosaic; it's kept, and the next one starts. Nothing is ever taken away.</p>
+      </div>
+      <ul class="spec">
+        <li><b>Habit</b><span class="tag">Small · Free</span><span class="muted">One habit, this week, its level, one ring.</span></li>
+        <li><b>Next up</b><span class="tag">Small · Free</span><span class="muted">The next open habit; your mosaic when all are done.</span></li>
+        <li><b>Today</b><span class="tag">Medium · Free</span><span class="muted">The day ring and your open habits.</span></li>
+        <li><b>Today and week, Month calendar, This week, Who you're becoming</b><span class="tag premium">Premium</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="split" style="margin-top:48px">
+    <div class="lock"><picture><source type="image/webp" srcset="/assets/img/lock-screen-266.webp 266w, /assets/img/lock-screen.webp 532w" sizes="320px"><img src="/assets/img/lock-screen.jpg" alt="Lock Screen widgets: the day ring above the clock, Floss next with its ring, All done with the mosaic, and one-tap habit rings" width="532" height="952" loading="lazy" decoding="async"></picture></div>
+    <div>
+      <h3>On the Lock Screen too</h3>
+      <p class="muted">The day at a glance above the clock, what's next, and one habit you can tap without unlocking. In StandBy it's big and calm on the nightstand. Control Center and Siri check in with one press.</p>
+    </div>
+  </div>
+  <div class="gallery" role="group" aria-label="Every widget">
+    <figure><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/gallery-habit-dark.webp" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/gallery-habit-light.webp"><img src="/assets/img/widgets/gallery-habit-light.png" alt="Habit widgets: Read 10 pages open and done, Move 20 minutes done, Meditate as a new habit" width="656" height="656" loading="lazy" decoding="async"></picture></div><figcaption><b>Habit, every state</b>Open, done, a new habit</figcaption></figure>
+    <figure><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/gallery-limit-dark.webp" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/gallery-limit-light.webp"><img src="/assets/img/widgets/gallery-limit-light.png" alt="Limit widgets for Alcohol-free days: waiting for the evening, a clear day, and a day with two drinks" width="656" height="656" loading="lazy" decoding="async"></picture></div><figcaption><b>Limit</b>Evening, a clear day, a day with drinks</figcaption></figure>
+    <figure><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/gallery-next-up-dark.webp" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/gallery-next-up-light.webp"><img src="/assets/img/widgets/gallery-next-up-light.png" alt="Next up widgets: Floss, then Read 10 pages, then All done with the mosaic" width="656" height="656" loading="lazy" decoding="async"></picture></div><figcaption><b>Next up</b>The next habit, then your mosaic</figcaption></figure>
+    <figure><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/gallery-today-dark.webp" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/gallery-today-light.webp"><img src="/assets/img/widgets/gallery-today-light.png" alt="Today widget with the day ring and open habits, and the This week widget" width="676" height="656" loading="lazy" decoding="async"></picture></div><figcaption><b>Today and This week</b>Medium</figcaption></figure>
+    <figure><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/gallery-large-dark.webp" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/gallery-large-light.webp"><img src="/assets/img/widgets/gallery-large-light.png" alt="The large Today and week widget" width="676" height="708" loading="lazy" decoding="async"></picture></div><figcaption><b>Today and week</b>Every habit with its week <span class="tag premium">Large · Premium</span></figcaption></figure>
+    <figure><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/gallery-calendar-dark.webp" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/gallery-calendar-light.webp"><img src="/assets/img/widgets/gallery-calendar-light.png" alt="The large month calendar widget for Alcohol-free days" width="676" height="708" loading="lazy" decoding="async"></picture></div><figcaption><b>Month calendar</b>Clear, lighter and heavier days <span class="tag premium">Premium</span></figcaption></figure>
+    <figure><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/gallery-mosaic-dark.webp" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/gallery-mosaic-light.webp"><img src="/assets/img/widgets/gallery-mosaic-light.png" alt="Who you're becoming widgets showing the mosaic" width="676" height="656" loading="lazy" decoding="async"></picture></div><figcaption><b>Who you're becoming</b>Your mosaic, on the Home Screen <span class="tag premium">Premium</span></figcaption></figure>
+    <figure><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/gallery-modes.webp"><img src="/assets/img/widgets/gallery-modes.png" alt="Widgets in a tinted and a clear Home Screen, and in StandBy" width="748" height="1068" loading="lazy" decoding="async"></picture></div><figcaption><b>Tinted, clear and StandBy</b>Right in every Home Screen style</figcaption></figure>
+    <figure><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/gallery-lock.webp"><img src="/assets/img/widgets/gallery-lock.png" alt="Lock Screen widgets: inline, the day ring, a habit ring and Next up" width="748" height="288" loading="lazy" decoding="async"></picture></div><figcaption><b>Lock Screen</b>Inline, circular and rectangular</figcaption></figure>
   </div>
 </div></section>
 
-<section id="how"><div class="wrap">
-  <div class="section-head" data-reveal>
-    <p class="eyebrow">How it works</p>
-    <h2>Three small steps, then it mostly runs itself</h2>
+<!-- MISS A DAY -->
+<section id="miss"><div class="wrap">
+  <div class="section-head">
+    <p class="eyebrow">Miss a day</p>
+    <h2>One miss costs a few points. Not everything.</h2>
+    <p class="sub">After two good months of reading, here is your week. Tap a day and watch what a miss does: the level dips a little, and your run keeps going until you miss twice in a row.</p>
   </div>
-  <ol class="steps" data-reveal>
-    <li class="card"><span class="step-number" aria-hidden="true">1</span><h3>Start with who you want to become</h3><p class="muted">A reader, someone who moves every day, someone who drinks mindfully. Pick a habit that votes for it.</p></li>
-    <li class="card"><span class="step-number" aria-hidden="true">2</span><h3>Write when and where</h3><p class="muted">"I will read 10 pages after dinner, on the sofa." Add a two-minute version for busy days: it counts fully.</p></li>
-    <li class="card"><span class="step-number" aria-hidden="true">3</span><h3>Check in with one tap</h3><p class="muted">From the app, a widget, the Lock Screen, Siri, or let Apple Health check it in for you.</p></li>
+  <div class="sim" data-sim>
+    <div>
+      <div class="sim-habit"><span class="ring" style="--c: var(--blue); --p: 85" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 5.5C5.6 5.5 8 6.1 10.5 7.5v12.3C8 18.5 5.6 17.8 3 17.8zM21 5.5c-2.6 0-5 .6-7.5 2v12.3c2.5-1.3 4.9-2 7.5-2z" fill="currentColor"/></svg></span><span><b>Read 10 pages</b><small>This week, after two good months</small></span></div>
+      <div class="week" role="group" aria-label="This week, Monday to Sunday" data-week><span class="wk done"><span class="d"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="lbl" aria-hidden="true">M</span><span class="sr">Monday, done</span></span><span class="wk done"><span class="d"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="lbl" aria-hidden="true">T</span><span class="sr">Tuesday, done</span></span><span class="wk done"><span class="d"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="lbl" aria-hidden="true">W</span><span class="sr">Wednesday, done</span></span><span class="wk miss"><span class="d"></span><span class="lbl" aria-hidden="true">T</span><span class="sr">Thursday, missed</span></span><span class="wk done"><span class="d"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="lbl" aria-hidden="true">F</span><span class="sr">Friday, done</span></span><span class="wk done"><span class="d"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="lbl" aria-hidden="true">S</span><span class="sr">Saturday, done</span></span><span class="wk done today"><span class="d"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="lbl" aria-hidden="true">S</span><span class="sr">Sunday, done</span></span></div>
+      <p class="sim-how" data-js>Tap a day to switch it: done, missed, rest.</p>
+      <div class="presets" role="group" aria-label="Try a pattern" data-js>
+        <button type="button" data-preset="perfect" aria-pressed="false">Every day</button><button type="button" data-preset="one" aria-pressed="true">One miss</button><button type="button" data-preset="two" aria-pressed="false">Two in a row</button><button type="button" data-preset="rest" aria-pressed="false">A rest day</button>
+      </div>
+    </div>
+    <div class="sim-out">
+      <div class="lvl"><span class="ring" style="--c: var(--blue); --p: 94" data-ring ><b data-score>94</b></span><div class="meter" style="--c: var(--blue)"><div class="bars" data-bars><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="word" data-level>Mostly</div></div></div>
+      <div class="line"><span>Never missed twice</span><b data-run>67 days</b></div>
+      <div class="line"><span>A plain streak would say</span><b data-streak>3 days</b></div>
+    </div>
+    <p class="sim-note" data-note aria-live="polite">One miss, nothing reset. Your level dips a few points and your run keeps going.</p>
+  </div>
+</div></section>
+
+<!-- LEVELS -->
+<section id="levels" style="padding-top:0"><div class="wrap">
+  <div class="section-head" style="text-align:center">
+    <p class="eyebrow">Levels, not streaks</p>
+    <h2>Four levels. Mostly is the top.</h2>
+    <p class="sub" style="margin:0 auto">Every habit grows through Starting, Sometimes, Often and Mostly. You never need 100%, and nothing goes back to zero.</p>
+  </div>
+  <div class="levels" aria-hidden="true">
+    <div><span class="r" style="--p:18"></span>Starting</div><div><span class="r" style="--p:42"></span>Sometimes</div><div><span class="r" style="--p:66"></span>Often</div><div><span class="r" style="--p:88"></span>Mostly</div>
+  </div>
+  <p class="muted" style="text-align:center; margin:0">Rest, sick and travel days are real days, not misses. Plan time off for a holiday and come back to a calm welcome.</p>
+</div></section>
+
+<!-- BUILD AND LIMIT -->
+<section id="habits" style="padding-top:0"><div class="wrap">
+  <div class="section-head">
+    <p class="eyebrow">Two kinds of habit</p>
+    <h2>Habits you build. Habits you want less of.</h2>
+  </div>
+  <div class="pair">
+    <div class="card"><div><h3>Build</h3><p class="muted">Yes or no, a count, or minutes. Write when and where ("after dinner, on the sofa"), and keep a two-minute version for busy days: it counts fully. Apple Health can check in steps, exercise, mindful minutes, sleep and water for you.</p></div><div class="shot"><picture><source type="image/webp" srcset="/assets/img/habit-detail-dark-253.webp 253w, /assets/img/habit-detail-dark.webp 506w" sizes="150px" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/habit-detail-dark.jpg" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/habit-detail-253.webp 253w, /assets/img/habit-detail.webp 506w" sizes="150px"><img src="/assets/img/habit-detail.jpg" alt="Habit detail: level 85 Mostly, 34 days never missed twice, the month calendar" width="506" height="1100" loading="lazy" decoding="async"></picture></div></div>
+    <div class="card"><div><h3>Limit</h3><p class="muted">Drinks, sugar, screen time. Log the amount in the evening and get a colour calendar: clear days, lighter days, heavier days. Set a goal of clear days a week. No judgement, just the picture.</p></div><div class="shot"><picture><source type="image/webp" srcset="/assets/img/limit-detail-dark-253.webp 253w, /assets/img/limit-detail-dark.webp 506w" sizes="150px" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/limit-detail-dark.jpg" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/limit-detail-253.webp 253w, /assets/img/limit-detail.webp 506w" sizes="150px"><img src="/assets/img/limit-detail.jpg" alt="Limit habit: a colour calendar of clear, lighter and heavier days" width="506" height="1100" loading="lazy" decoding="async"></picture></div></div>
+  </div>
+</div></section>
+
+<!-- MOSAIC -->
+<section id="mosaic"><div class="wrap">
+  <div class="mosaic-big">
+    <div class="phone" style="max-width:300px;margin:0 auto"><picture><source type="image/webp" srcset="/assets/img/today-all-done-253.webp 253w, /assets/img/today-all-done.webp 506w" sizes="(max-width: 819px) 300px, 300px"><img src="/assets/img/today-all-done.jpg" alt="All done: the day ring in habit colours and the mosaic of check-ins" width="506" height="1100" loading="lazy" decoding="async"></picture></div>
+    <div>
+      <p class="eyebrow">Who you're becoming</p>
+      <h2>Every check-in is a vote.</h2>
+      <p class="sub">A reader. Someone who moves. Someone who drinks mindfully. Each check-in lands one tile in the habit's colour. Tiles are never taken away: a miss leaves no hole, because a tile is something you did, not a day you were judged on. Every hundred tiles, a mosaic is finished and kept.</p>
+      <p class="muted" style="margin-top:14px">Each week, Reflect tells you about your week in kind words, habit by habit.</p>
+    </div>
+  </div>
+</div></section>
+
+<!-- HOW IT WORKS -->
+<section id="how" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><p class="eyebrow">How it works</p><h2>Start small. It mostly runs itself.</h2></div>
+  <ol class="steps">
+    <li><b>Add a habit</b><p>Type a name, or pick one: Read, Move, Meditate, Floss, Alcohol-free days.</p></li>
+    <li><b>Put a widget on your Home Screen</b><p>Check in from there: one tap, done.</p></li>
+    <li><b>Miss a day now and then</b><p>Your level dips a little and comes back. Just don't miss twice.</p></li>
   </ol>
 </div></section>
 
-<section id="widgets"><div class="wrap">
-  <div class="section-head" data-reveal>
-    <p class="eyebrow">Widgets</p>
-    <h2>Check in without opening the app</h2>
-    <p class="sub">Most check-ins happen right on your Home Screen. Tap the ring and it's done: no app to open, no spinner. On the Lock Screen, in StandBy and from Control Center too.</p>
-  </div>
-  <div class="tabs" data-tabs>
-    <div class="tablist" data-tablist aria-label="Widgets" hidden><button type="button" aria-controls="w-home">Home Screen</button><button type="button" aria-controls="w-lock">Lock Screen</button><button type="button" aria-controls="w-more">StandBy and more</button><button type="button" aria-controls="w-all">Every widget</button></div>
-
-    <div class="tabpanel" id="w-home">
-      <h3 class="panel-title">Home Screen</h3>
-      <div class="panel-split">
-        <div class="homescreen">
-          <div class="hs-grid">
-            <div class="wdemo w-small" data-demo="next-up-step1" data-label="Next up widget"><picture><source type="image/webp" srcset="/assets/img/widgets/next-up-step1-dark.webp" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/widgets/next-up-step1-dark.png" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/next-up-step1-light.webp"><img src="/assets/img/widgets/next-up-step1-light.png" alt="Next up widget: Floss is next this evening, with a ring button" width="316" height="316" loading="lazy" decoding="async"></picture></div>
-            <div class="wdemo w-small" data-demo="habit-read" data-label="Habit widget"><picture><source type="image/webp" srcset="/assets/img/widgets/habit-read-dark.webp" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/widgets/habit-read-dark.png" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/habit-read-light.webp"><img src="/assets/img/widgets/habit-read-light.png" alt="Habit widget: Read 10 pages, Mostly 85, not done yet" width="316" height="316" loading="lazy" decoding="async"></picture></div>
-            <div class="wdemo w-wide" data-demo="today" data-label="Today widget"><picture><source type="image/webp" srcset="/assets/img/widgets/today-dark.webp" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/widgets/today-dark.png" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/today-light.webp"><img src="/assets/img/widgets/today-light.png" alt="Today widget: 2 of 5 done, Floss, Read 10 pages and Alcohol-free days open" width="676" height="316" loading="lazy" decoding="async"></picture></div>
-          </div>
-          <p class="try" data-demo-hint>Try it: tap a ring. <button type="button" class="linkish is-off" data-demo-reset>Start over</button></p>
-        </div>
-        <div class="panel-text">
-          <p class="panel-lead">Tap a ring and that habit is checked in right away, without opening the app. Next up moves on to the next habit, the Habit widget turns its colour, and a second tap on a done ring undoes it. Counts add one step per tap. Tapping anywhere else opens the app.</p>
-          <ul class="spec">
-            <li><b>Next up</b><span class="tag">Small · Free</span><span class="muted">The next open habit for this part of the day.</span></li>
-            <li><b>Habit</b><span class="tag">Small · Free</span><span class="muted">One habit in sight, with its level and this week.</span></li>
-            <li><b>Today</b><span class="tag">Medium · Free</span><span class="muted">The day ring, this week and your open habits, as a list or a row of buttons.</span></li>
-            <li><b>Today and week</b><span class="tag premium">Large · Premium</span><span class="muted">Every habit with its last seven days.</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="tabpanel" id="w-lock">
-      <h3 class="panel-title">Lock Screen</h3>
-      <div class="panel-split">
-        <div class="lockscreen" role="group" aria-label="Lock Screen with Mostly Daily widgets">
-          <picture class="lock-inline"><source type="image/webp" srcset="/assets/img/widgets/lock-inline-dark.webp"><img src="/assets/img/widgets/lock-inline-dark.png" alt="Inline: 2 of 5 done today" width="200" height="16" loading="lazy" decoding="async"></picture>
-          <div class="lock-time" aria-hidden="true">9:41</div>
-          <div class="lock-row">
-            <picture class="lock-circle"><source type="image/webp" srcset="/assets/img/widgets/lock-ring-dark.webp"><img src="/assets/img/widgets/lock-ring-dark.png" alt="Circular widget: today&#x27;s ring, 2 of 5" width="48" height="48" loading="lazy" decoding="async"></picture>
-            <picture class="lock-rect"><source type="image/webp" srcset="/assets/img/widgets/lock-next-up-dark.webp"><img src="/assets/img/widgets/lock-next-up-dark.png" alt="Rectangular widget: Floss is next" width="113" height="48" loading="lazy" decoding="async"></picture>
-            <div class="wdemo lock-circle" data-demo="lock-habit" data-dark data-label="Lock Screen habit widget"><picture><source type="image/webp" srcset="/assets/img/widgets/lock-habit-dark.webp"><img src="/assets/img/widgets/lock-habit-dark.png" alt="Circular habit widget: Read 10 pages" width="48" height="48" loading="lazy" decoding="async"></picture></div>
-          </div>
-          <p class="try on-dark" data-demo-hint>Try it: tap the book. <button type="button" class="linkish is-off" data-demo-reset>Start over</button></p>
-        </div>
-        <div class="panel-text">
-          <p class="panel-lead">Today's ring, what's next and one habit to tap, right where you look a hundred times a day.</p>
-          <ul class="spec">
-            <li><b>Inline</b><span class="tag">Free</span><span class="muted">How many habits are done today, above the clock.</span></li>
-            <li><b>Today's ring</b><span class="tag">Circular · Free</span><span class="muted">The day at a glance.</span></li>
-            <li><b>Next up</b><span class="tag">Rectangular · Free</span><span class="muted">What's next for this part of the day.</span></li>
-            <li><b>Habit</b><span class="tag">Circular · Free</span><span class="muted">Tap it to check in, without unlocking the app.</span></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="tabpanel" id="w-more">
-      <h3 class="panel-title">StandBy and more</h3>
-      <div class="modes">
-        <figure><div class="mode-art tinted"><picture><source type="image/webp" srcset="/assets/img/widgets/tinted-today-dark.webp"><img src="/assets/img/widgets/tinted-today-dark.png" alt="Today widget in a tinted Home Screen" width="676" height="316" loading="lazy" decoding="async"></picture></div><figcaption><b>Tinted and clear</b><span>Looks right whichever Home Screen style you choose.</span></figcaption></figure>
-        <figure><div class="mode-art standby"><picture><source type="image/webp" srcset="/assets/img/widgets/standby-next-up-dark.webp"><img src="/assets/img/widgets/standby-next-up-dark.png" alt="StandBy: Next up" width="316" height="316" loading="lazy" decoding="async"></picture><picture><source type="image/webp" srcset="/assets/img/widgets/standby-mosaic-dark.webp"><img src="/assets/img/widgets/standby-mosaic-dark.png" alt="StandBy: mosaic" width="316" height="316" loading="lazy" decoding="async"></picture></div><figcaption><b>StandBy</b><span>Big and calm on your nightstand, and red at night.</span></figcaption></figure>
-        <figure><div class="mode-art cc"><span class="cc-btn on" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"/><path d="M7.8 12.4l2.8 2.8 5.6-6"/></svg></span><span class="cc-btn" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h10l-.6 6.2a4.4 4.4 0 0 1-8.8 0z"/><path d="M12 13.6V20M8.5 20.5h7"/></svg></span><span class="cc-btn" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5z"/><path d="M17 3.5v3M15.5 5h3"/></svg></span></div><figcaption><b>Control Center and Siri</b><span>Check in a habit, log a clear day or close the day with one press. Or just ask Siri.</span></figcaption></figure>
-      </div>
-    </div>
-
-    <div class="tabpanel" id="w-all">
-      <h3 class="panel-title">Every widget</h3>
-      <div class="wgrid">
-        <div class="wcard"><div class="art small"><picture><source type="image/webp" srcset="/assets/img/widgets/next-up-dark.webp" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/widgets/next-up-dark.png" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/next-up-light.webp"><img src="/assets/img/widgets/next-up-light.png" alt="Next up widget" width="316" height="316" loading="lazy" decoding="async"></picture></div><h4>Next up <span class="tag">Small · Free</span></h4><p class="muted">The next open habit for this part of the day. Check it in and the next one moves up.</p></div>
-        <div class="wcard"><div class="art small"><picture><source type="image/webp" srcset="/assets/img/widgets/habit-read-done-dark.webp" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/widgets/habit-read-done-dark.png" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/habit-read-done-light.webp"><img src="/assets/img/widgets/habit-read-done-light.png" alt="Habit widget, done" width="316" height="316" loading="lazy" decoding="async"></picture></div><h4>Habit <span class="tag">Small · Free</span></h4><p class="muted">One habit in sight, with its level and this week. When it's done, the whole widget turns its colour.</p></div>
-        <div class="wcard"><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/today-buttons-dark.webp" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/widgets/today-buttons-dark.png" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/today-buttons-light.webp"><img src="/assets/img/widgets/today-buttons-light.png" alt="Today widget as buttons" width="676" height="316" loading="lazy" decoding="async"></picture></div><h4>Today <span class="tag">Medium · Free</span></h4><p class="muted">The day ring, this week and your open habits. Show them as a list, or as a row of buttons for up to six habits.</p></div>
-        <div class="wcard"><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/today-week-dark.webp" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/widgets/today-week-dark.png" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/today-week-light.webp"><img src="/assets/img/widgets/today-week-light.png" alt="Today and week widget: the day ring, this week and all five habits with their last 7 days" width="676" height="708" loading="lazy" decoding="async"></picture></div><h4>Today and week <span class="tag premium">Large · Premium</span></h4><p class="muted">Every habit with its last seven days, and a ring button for each one still open.</p></div>
-        <div class="wcard"><div class="art stack"><picture><source type="image/webp" srcset="/assets/img/widgets/calendar-limit-dark.webp" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/widgets/calendar-limit-dark.png" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/calendar-limit-light.webp"><img src="/assets/img/widgets/calendar-limit-light.png" alt="Large month calendar widget for a Limit habit" width="676" height="708" loading="lazy" decoding="async"></picture><picture class="front"><source type="image/webp" srcset="/assets/img/widgets/calendar-small-dark.webp" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/widgets/calendar-small-dark.png" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/calendar-small-light.webp"><img src="/assets/img/widgets/calendar-small-light.png" alt="Small month calendar widget: the month as dots" width="316" height="316" loading="lazy" decoding="async"></picture></div><h4>Month calendar <span class="tag premium">Small · Large · Premium</span></h4><p class="muted">The month at a glance: done days for the habits you build, clear, light and heavier days for the ones you want less of. Small shows it as dots.</p></div>
-        <div class="wcard"><div class="art"><picture><source type="image/webp" srcset="/assets/img/widgets/stars-dark.webp" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/widgets/stars-dark.png" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/widgets/stars-light.webp"><img src="/assets/img/widgets/stars-light.png" alt="Who you&#x27;re becoming widget as stars" width="676" height="316" loading="lazy" decoding="async"></picture></div><h4>Who you're becoming <span class="tag premium">Medium · Premium</span></h4><p class="muted">Your votes as a mosaic or as stars that join into a constellation every week.</p></div>
-      </div>
-    </div>
+<!-- PRIVATE -->
+<section id="private" class="private" style="padding-top:0"><div class="wrap">
+  <div class="grid3">
+    <div class="card" style="--c: var(--ink2)"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2.5" fill="currentColor"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5" fill="none" stroke="currentColor" stroke-width="2.2"/></svg></span><div><h3>No account</h3><p>No sign-in, no server, no ads, no tracking. Your habits stay on your devices and sync through your own iCloud.</p></div></div>
+    <div class="card" style="--c: var(--pink)"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20s-7.5-4.4-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.6-7.5 10-7.5 10z" fill="currentColor"/></svg></span><div><h3>Health stays on your phone</h3><p>Check-ins that come from Apple Health, and the drinks you log, stay on the device. They are never put in iCloud.</p></div></div>
+    <div class="card" style="--c: var(--blue)"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4v10.5M7.5 10l4.5 4.5 4.5-4.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 16.5v2a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5v-2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span><div><h3>Yours to keep</h3><p>Export everything as CSV on any plan. Delete everything with one tap.</p></div></div>
   </div>
 </div></section>
 
-<section id="features"><div class="wrap">
-  <div class="section-head" data-reveal>
-    <p class="eyebrow">Features</p>
-    <h2>Levels, not fragile streaks</h2>
-    <p class="sub">Every habit grows through four levels. Mostly is the top: you never need 100%.</p>
-  </div>
-  <div class="grid2" data-reveal>
-    <div class="card feature"><span class="feature-icon blue" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-dasharray="44 100" stroke-linecap="round" transform="rotate(-90 12 12)"/></svg></span><h3>Forgiving by design</h3><p class="muted">Your level dips gently after a miss and recovers just as fast. Your run only ends after two misses in a row: never miss twice.</p>
-      <div class="levels"><span>Starting</span><span>Sometimes</span><span>Often</span><span class="top">Mostly</span></div></div>
-    <div class="card feature"><span class="feature-icon purple" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M17.6 15.6A7 7 0 0 1 8.4 6.4a7 7 0 1 0 9.2 9.2z" fill="currentColor"/></svg></span><h3>Rest is rest</h3><p class="muted">Rest, sick and travel days are real days, not misses. Plan time off for a holiday, and come back to a calm welcome, not a list of misses.</p></div>
-    <div class="card feature"><span class="feature-icon green" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="2" fill="currentColor"/><rect x="13.5" y="3.5" width="7" height="7" rx="2" fill="currentColor" opacity=".55"/><rect x="3.5" y="13.5" width="7" height="7" rx="2" fill="currentColor" opacity=".55"/><rect x="13.5" y="13.5" width="7" height="7" rx="2" fill="currentColor"/></svg></span><h3>Build and Limit habits</h3><p class="muted">Yes/no, counts or minutes for the habits you build. A colour calendar of clear, light and heavier days for the ones you want less of, with clear-day goals and runs.</p></div>
-    <div class="card feature"><span class="feature-icon orange" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5l1.9 4.6 4.9.4-3.7 3.2 1.1 4.8L12 13.9l-4.2 2.6 1.1-4.8-3.7-3.2 4.9-.4z" fill="currentColor"/></svg></span><h3>Who you're becoming</h3><p class="muted">Every check-in is a vote. Watch it grow as a mosaic, one tile at a time, or as stars that join into a new constellation every week. Look back with a weekly reflection and a monthly recap you can share.</p></div>
-  </div>
-</div></section>
-
-<section id="tour"><div class="wrap">
-  <div class="section-head" data-reveal>
-    <p class="eyebrow">A look inside</p>
-    <h2>Real screens from the app</h2>
-    <p class="sub">In light and dark mode, with the same demo habits you saw above.</p>
-  </div>
-  <div class="tour" data-tour>
-    <figure><div class="shot"><picture><source type="image/webp" srcset="/assets/img/detail-dark-253.webp 253w, /assets/img/detail-dark.webp 506w" sizes="(max-width: 899px) 66vw, 300px" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/detail-dark.jpg" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/habit-detail-253.webp 253w, /assets/img/habit-detail.webp 506w" sizes="(max-width: 899px) 66vw, 300px"><img src="/assets/img/habit-detail.jpg" alt="Habit detail: your level, your run and the month at a glance" width="506" height="1100" loading="lazy" decoding="async"></picture></div><figcaption><b>Habit detail</b><span>Your level, your run and the month at a glance.</span></figcaption></figure>
-    <figure><div class="shot"><picture><source type="image/webp" srcset="/assets/img/limit-dark-253.webp 253w, /assets/img/limit-dark.webp 506w" sizes="(max-width: 899px) 66vw, 300px" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/limit-dark.jpg" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/limit-detail-253.webp 253w, /assets/img/limit-detail.webp 506w" sizes="(max-width: 899px) 66vw, 300px"><img src="/assets/img/limit-detail.jpg" alt="Limit habit: clear, light and heavier days in a colour calendar, each with a symbol" width="506" height="1100" loading="lazy" decoding="async"></picture></div><figcaption><b>Limit habits</b><span>Clear, light and heavier days, always with a symbol.</span></figcaption></figure>
-    <figure><div class="shot"><picture><source type="image/webp" srcset="/assets/img/reflect-253.webp 253w, /assets/img/reflect.webp 506w" sizes="(max-width: 899px) 66vw, 300px"><img src="/assets/img/reflect.jpg" alt="Weekly reflection: kind words about your week, habit by habit" width="506" height="1100" loading="lazy" decoding="async"></picture></div><figcaption><b>Weekly reflection</b><span>Kind words about your week, habit by habit.</span></figcaption></figure>
-    <figure><div class="shot"><picture><source type="image/webp" srcset="/assets/img/identities-253.webp 253w, /assets/img/identities.webp 506w" sizes="(max-width: 899px) 66vw, 300px"><img src="/assets/img/identities.jpg" alt="Who you&#x27;re becoming as a mosaic: one tile per vote" width="506" height="1100" loading="lazy" decoding="async"></picture></div><figcaption><b>Who you're becoming: Mosaic</b><span>One tile per vote. Tiles never disappear.</span></figcaption></figure>
-    <figure><div class="shot"><picture><source type="image/webp" srcset="/assets/img/stars-253.webp 253w, /assets/img/stars.webp 506w" sizes="(max-width: 899px) 66vw, 300px"><img src="/assets/img/stars.jpg" alt="Who you&#x27;re becoming as stars: each week&#x27;s votes join into a constellation" width="506" height="1100" loading="lazy" decoding="async"></picture></div><figcaption><b>Who you're becoming: Stars</b><span>Each week's votes join into a constellation.</span></figcaption></figure>
-    <figure><div class="shot"><picture><source type="image/webp" srcset="/assets/img/widgets-275.webp 275w, /assets/img/widgets.webp 550w" sizes="(max-width: 899px) 66vw, 300px"><img src="/assets/img/widgets.jpg" alt="Widgets on the Home Screen and Lock Screen" width="550" height="1195" loading="lazy" decoding="async"></picture></div><figcaption><b>Widgets</b><span>Check in from the Home Screen, Lock Screen and Control Center.</span></figcaption></figure>
-    <figure><div class="shot"><picture><source type="image/webp" srcset="/assets/img/welcome-253.webp 253w, /assets/img/welcome.webp 506w" sizes="(max-width: 899px) 66vw, 300px"><img src="/assets/img/welcome.jpg" alt="Welcome screen: pick who you want to become and one small habit" width="506" height="1100" loading="lazy" decoding="async"></picture></div><figcaption><b>A calm start</b><span>Pick who you want to become and one small habit.</span></figcaption></figure>
-    <figure><div class="shot"><picture><source type="image/webp" srcset="/assets/img/premium-253.webp 253w, /assets/img/premium.webp 506w" sizes="(max-width: 899px) 66vw, 300px"><img src="/assets/img/premium.jpg" alt="Premium sheet: a 14-day free trial, and Free that stays free" width="506" height="1100" loading="lazy" decoding="async"></picture></div><figcaption><b>Honest Premium</b><span>A 14-day free trial, and Free that stays free.</span></figcaption></figure>
-  </div>
-</div></section>
-
-<section id="private"><div class="wrap">
-  <div class="grid3" data-reveal>
-    <div class="card feature"><span class="feature-icon gray" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2.5" fill="currentColor"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5" fill="none" stroke="currentColor" stroke-width="2.2"/></svg></span><h3>Private</h3><p class="muted">No account, no ads, no tracking. Your habits stay on your devices and in your private iCloud.</p></div>
-    <div class="card feature"><span class="feature-icon pink" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 20s-7.5-4.4-7.5-10A4.3 4.3 0 0 1 12 7.4 4.3 4.3 0 0 1 19.5 10c0 5.6-7.5 10-7.5 10z" fill="currentColor"/></svg></span><h3>Health stays in Health</h3><p class="muted">Steps, exercise, mindful minutes, sleep and water can check habits in. Drinks you log can live in Apple Health, never in iCloud.</p></div>
-    <div class="card feature"><span class="feature-icon blue" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 4v10.5M7.5 10l4.5 4.5 4.5-4.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 16.5v2a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5-1.5v-2" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span><h3>Yours to keep</h3><p class="muted">Export everything as CSV on any plan. Delete everything with one tap.</p></div>
-  </div>
-</div></section>
-
+<!-- PRICING: no prices on the site (owner, 4 Oct 2026) -->
 <section id="pricing"><div class="wrap">
-  <div class="section-head" data-reveal>
-    <p class="eyebrow">Pricing</p>
-    <h2>Free that stays free</h2>
-    <p class="sub">Start with Free. Try Premium for 14 days when you want more.</p>
-  </div>
-  <div class="grid2 plans" data-reveal>
+  <div class="section-head"><p class="eyebrow">Pricing</p><h2>Free that stays free</h2><p class="sub">Start with Free. Try Premium for 14 days when you want more.</p></div>
+  <div class="plans">
     <div class="card plan"><h3>Free</h3><p class="price">No time limit</p>
-      <ul><li>3 habits (one can be a Limit habit)</li><li>Levels, never miss twice, rest days</li><li>Reminders and widgets</li><li>Apple Health and iCloud sync</li><li>This week's reflection and this month's recap</li><li>CSV export</li></ul></div>
-    <div class="card plan plan-premium"><h3>Premium</h3><p class="price">Yearly with a 14-day free trial, monthly, or lifetime</p>
-      <ul><li>Unlimited habits, 5 in focus at a time</li><li>Evening check-in on the Lock Screen</li><li>Every past reflection and recap</li><li>More widgets and app icons</li><li>Several reminders per habit</li><li>If Premium ends, nothing is deleted</li></ul>
-      <p class="muted family-note"><b>Premium Family:</b> share Premium with up to 5 family members through Apple Family Sharing, yearly or once for life. Everyone's habits stay private.</p></div>
+      <ul><li>3 habits (one can be a Limit habit)</li><li>Levels, never miss twice, rest days</li><li>Widgets, Lock Screen, Control Center, Siri</li><li>Apple Health and iCloud sync</li><li>This week's reflection</li><li>CSV export</li></ul></div>
+    <div class="card plan plan-premium"><h3>Premium</h3><p class="price">14-day free trial</p>
+      <ul><li>Unlimited habits, 5 in focus at a time</li><li>Every past reflection and recap</li><li>More widgets: Today and week, Month calendar, This week, Who you're becoming</li><li>Evening check-in on the Lock Screen</li><li>Several reminders per habit</li><li>Themes and app icons</li><li>If Premium ends, nothing is deleted</li></ul></div>
+    <div class="card plan"><h3>Premium Family</h3><p class="price">Premium for the whole family</p>
+      <ul><li>Premium for up to 6 people through Apple Family Sharing</li><li>No accounts, no invites</li><li>Everyone's habits stay private on their own devices</li></ul></div>
   </div>
 </div></section>
 
-<section id="guides"><div class="wrap">
-  <div class="section-head" data-reveal>
-    <p class="eyebrow">Guides</p>
-    <h2>Short reads on building habits that last</h2>
-  </div>
-  <div class="grid2" data-reveal>
-    <a class="card link-card" href="/guides/one-missed-day.html"><h3>Why one missed day doesn't break a habit</h3><p class="muted">What actually matters is what you do the day after.</p><span class="more" aria-hidden="true">Read</span></a>
+<!-- QUESTIONS -->
+<section id="faq" class="faq" style="padding-top:0"><div class="narrow">
+  <div class="section-head"><p class="eyebrow">Questions</p><h2>Questions</h2></div>
+  <details open><summary>What happens when I miss a day?</summary><p>Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of &quot;never missed twice&quot; only ends after two misses in a row.</p></details>
+  <details><summary>What is a Limit habit?</summary><p>A habit you want less of, like drinks, sugar or screen time. You log the amount in the evening and get a colour calendar of clear, lighter and heavier days, with a goal of clear days per week.</p></details>
+  <details><summary>Do I need an account?</summary><p>No. There is no account and no sign-in. Your habits stay on your devices and sync through your own iCloud.</p></details>
+  <details><summary>Is my data private?</summary><p>Yes. No server, no analytics, no tracking. Check-ins from Apple Health and the drinks you log stay on your phone and are never put in iCloud.</p></details>
+  <details><summary>What happens if Premium ends?</summary><p>Nothing is deleted. Habits beyond the Free plan are paused with all their history, and you can export everything at any time.</p></details>
+  <details><summary>Is it a treatment or recovery program?</summary><p>No. Mostly Daily is for self-tracking and gives no medical advice. If you're worried about your health or drinking, please talk to a professional.</p></details>
+</div></section>
+
+<!-- GUIDES -->
+<section id="guides" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><p class="eyebrow">Guides</p><h2>Short reads on habits that last</h2></div>
+  <div class="grid2">
+    <a class="card link-card" href="/guides/one-missed-day.html"><h3>Why one missed day doesn't break a habit</h3><p class="muted">What matters is the day after.</p><span class="more" aria-hidden="true">Read</span></a>
     <a class="card link-card" href="/guides/rest-days.html"><h3>Rest days are part of the plan</h3><p class="muted">How planned rest keeps habits going for years.</p><span class="more" aria-hidden="true">Read</span></a>
+    <!-- Guide "Habits you want less of" (guides/habits-you-want-less-of.html) is drafted but NOT linked until the owner approves its wording. -->
   </div>
 </div></section>
 
-<section id="faq" class="faq"><div class="narrow">
-  <div class="section-head" data-reveal>
-    <p class="eyebrow">FAQ</p>
-    <h2>Questions</h2>
-  </div>
-  <details><summary>What happens when I miss a day?</summary><p>Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of &quot;never missed twice&quot; only ends after two misses in a row.</p></details>
-  <details><summary>What is a Limit habit?</summary><p>A habit you want less of, like drinks, sugar or screen time. You log the amount each evening and get a colour calendar of clear, light and heavier days, with a goal of clear days per week.</p></details>
-  <details><summary>Can I check in from a widget?</summary><p>Yes. Tap the ring on a Home Screen or Lock Screen widget and the habit is checked in right away, without opening the app. There are also Control Center controls, StandBy, and Siri and Shortcuts.</p></details>
-  <details><summary>Do I need an account?</summary><p>No. There is no account and no sign-in. Your habits stay on your devices and sync through your own private iCloud.</p></details>
-  <details><summary>What does Free include?</summary><p>3 habits (one can be a Limit habit), levels, rest days, reminders, widgets, Apple Health and iCloud sync, with no time limit.</p></details>
-  <details><summary>What does Premium add?</summary><p>Unlimited habits with Focus mode, the evening check-in on the Lock Screen, every past reflection and recap, more widgets and app icons, and several reminders per habit.</p></details>
-  <details><summary>Can my family share Premium?</summary><p>Yes. Premium Family shares Premium with up to 5 family members through Apple Family Sharing, yearly or once for life. Nobody needs an account, and each person&#x27;s habits stay private on their own devices.</p></details><details><summary>What happens if Premium ends?</summary><p>Nothing is deleted. Habits beyond the Free plan are paused with all their history, and you can export everything at any time.</p></details>
-  <details><summary>Is my data private?</summary><p>Yes. Mostly Daily has no server, no analytics and no tracking. Drinks you link to Apple Health stay in Apple Health and are never stored in iCloud.</p></details>
-  <details><summary>Is it a treatment or recovery program?</summary><p>No. Mostly Daily is for self-tracking and gives no medical advice. If you&#x27;re worried about your health or drinking, please talk to a professional.</p></details>
-</div></section>
-
-<section id="get" class="closing"><div class="narrow" data-reveal>
-  <img class="icon" src="/assets/img/app-icon-192.png" alt="Mostly Daily app icon" width="96" height="96" loading="lazy" decoding="async">
+<!-- CLOSING -->
+<section id="get" class="closing"><div class="narrow">
+  <span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
   <h2>Mostly is enough.</h2>
   <p>Coming to the App Store in November 2026.</p>
-  <a class="store-badge" href="/#get" aria-label="Coming soon to the App Store"><svg width="22" height="26" viewBox="0 0 17 20" aria-hidden="true" fill="currentColor"><path d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9C3.6 4.8 2 5.8 1.1 7.4c-1.8 3.2-.5 7.9 1.3 10.5.9 1.3 1.9 2.7 3.2 2.6 1.3 0 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.6 1-1.5 1.4-2.9 1.4-3-.1 0-2.7-1-2.7-4.3zM11.6 3c.7-.9 1.2-2 1.1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.1.1 2.3-.6 3-1.5z"/></svg><span><small>Coming soon to the</small>App Store</span></a>
+  <span class="button soon soon-large">Coming to iPhone in November</span>
   <p class="facts-line">Free to start · No account · No tracking</p>
 </div></section>
 </main>
 <footer class="site-footer"><div class="wrap cols">
-  <div class="footer-brand"><a class="brand" href="/"><img src="/assets/img/app-icon-64.png" alt="" width="30" height="30" loading="lazy">Mostly Daily</a>
+  <div class="footer-brand"><a class="brand" href="/"><span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>Mostly Daily</a>
   <p>A forgiving habit tracker for iPhone.<br>© 2026 Mostlydaily</p></div>
-  <div><h2>Product</h2><a href="/#features">Features</a><a href="/#pricing">Pricing</a><a href="/#faq">FAQ</a></div>
+  <div><h2>Product</h2><a href="/#widgets">Widgets</a><a href="/#pricing">Pricing</a><a href="/#faq">Questions</a></div>
   <div class="footer-resources"><h2>Resources</h2><a href="/guides/">Guides</a><a href="/support.html">Support</a><a href="mailto:contact@mostlydaily.com">contact@mostlydaily.com</a></div>
   <div><h2>Legal</h2><a href="/privacy.html">Privacy</a><a href="/terms.html">Terms</a></div>
 </div></footer>
