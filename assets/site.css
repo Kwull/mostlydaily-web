@@ -6,6 +6,7 @@
   --blue: #007AFF; --green: #34C759; --orange: #FF9500; --pink: #FF2D55; --purple: #AF52DE; --cyan: #32ADE6;
   --yellow: #FFCC00; --coral: #F2836B;
   --tint: 16%;
+  --seg: var(--card2); --seg-on: #FFFFFF; --seg-on-ink: var(--ink);
   --miss: #8A8A8F;
   --shadow: 0 1px 2px rgba(0, 0, 0, .04), 0 10px 30px -12px rgba(0, 0, 0, .14);
   --phone-shadow: 0 40px 70px -30px rgba(20, 24, 40, .45), 0 10px 24px -12px rgba(20, 24, 40, .25);
@@ -20,6 +21,7 @@
     --blue: #0A84FF; --green: #30D158; --orange: #FF9F0A; --pink: #FF375F; --purple: #BF5AF2; --cyan: #64D2FF;
     --yellow: #FFD60A; --coral: #F58E78;
     --tint: 24%;
+    --seg: var(--card2); --seg-on: #636366; --seg-on-ink: #FFFFFF;
     --miss: #8E8E93;
     --shadow: 0 0 0 1px rgba(255, 255, 255, .04);
     --phone-shadow: 0 40px 80px -30px rgba(0, 0, 0, .9), 0 0 0 1px rgba(255, 255, 255, .06);
@@ -184,6 +186,26 @@ button.ring:active { transform: scale(.92); }
 @media (prefers-reduced-motion: no-preference) { .mosaic i.land { animation: land .45s var(--ease); } }
 @keyframes land { from { transform: scale(.2); opacity: 0; } 60% { transform: scale(1.25); } to { transform: scale(1); opacity: 1; } }
 .mosaic i.glow { box-shadow: 0 0 0 2px color-mix(in srgb, var(--tc) 40%, transparent); }
+
+
+/* Tabs (one component: widgets, Build/Limit, pricing). Without the script the tablist is hidden and the panels stack,
+   each with its own heading. */
+.tablist { display: flex; width: fit-content; max-width: 100%; margin: 0 0 28px; padding: 4px; gap: 2px; border-radius: 26px; background: var(--seg); }
+.tablist button { min-height: 44px; padding: 0 18px; border: 0; border-radius: 22px; background: transparent; color: var(--ink2); font: 600 15px/1.2 var(--font); cursor: pointer; white-space: nowrap; transition: background-color .2s, color .2s, box-shadow .2s; }
+.tablist button:hover { color: var(--ink); }
+.tablist button[aria-selected="true"] { background: var(--seg-on); color: var(--seg-on-ink); box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 1px rgba(0, 0, 0, .04); }
+@media (max-width: 559px) {
+  .tablist { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; width: 100%; border-radius: 18px; margin-bottom: 22px; }
+  .tablist button { border-radius: 14px; padding: 4px 6px; white-space: normal; }
+}
+.tabpanel { scroll-margin-top: 76px; }
+.tabpanel:focus-visible { outline-offset: 8px; border-radius: 12px; }
+.tabpanel + .tabpanel { margin-top: 56px; }
+.is-tabbed .tabpanel + .tabpanel { margin-top: 0; }
+.panel-title { font-size: 1.5rem; margin: 0 0 20px; }
+.is-tabbed .panel-title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; margin: 0; }
+@media (prefers-reduced-motion: no-preference) { .is-tabbed .tabpanel:not([hidden]) { animation: rise .45s var(--ease); } }
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 
 /* Widgets section */
 .homescreen { border-radius: 36px; padding: 28px 24px 18px; background: linear-gradient(160deg, #DCE6F4, #EBDDEC 55%, #F2E6DA); }

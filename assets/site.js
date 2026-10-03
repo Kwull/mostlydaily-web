@@ -209,6 +209,83 @@
     render(null);
   }
 
+  /* ---------- Tabs: one component (widgets, Build/Limit, pricing) ----------
+     Markup: <div data-tabs [data-tabs-start="1"] [data-tabs-max="959"]> <div class="tablist" data-tablist hidden><button aria-controls="id">..</button>..</div>
+     <div class="tabpanel" id="id"><h3 class="panel-title">..</h3>..</div>.. </div>
+     Without the script the tablist stays hidden and every panel is stacked with its own heading. With it: ARIA tabs,
+     roving tabindex, Arrow/Home/End, a #hash that names a panel selects it. data-tabs-max: tabs only while the viewport
+     is at most that many px wide; wider, the panels sit side by side as in the HTML. */
+  function setupTabs(box) {
+    var list = box.querySelector("[data-tablist]");
+    if (!list) return;
+    var tabs = Array.prototype.slice.call(list.querySelectorAll("button"));
+    var panels = tabs.map(function (t) { return document.getElementById(t.getAttribute("aria-controls")); });
+    var max = box.getAttribute("data-tabs-max");
+    var mq = max ? window.matchMedia("(max-width: " + max + "px)") : null;
+    var enabled = false, current = +(box.getAttribute("data-tabs-start") || 0);
+    tabs.forEach(function (tab, i) {
+      tab.id = tab.id || "tab-" + panels[i].id;
+      tab.addEventListener("click", function () { if (enabled) select(i, false); });
+      tab.addEventListener("keydown", function (e) {
+        if (!enabled) return;
+        var next = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
+        if (next === undefined) return;
+        e.preventDefault();
+        select((next + tabs.length) % tabs.length, true);
+      });
+    });
+    function select(index, focus) {
+      current = index;
+      tabs.forEach(function (t, i) {
+        var on = i === index;
+        t.setAttribute("aria-selected", String(on));
+        t.tabIndex = on ? 0 : -1;
+        panels[i].hidden = !on;
+      });
+      list.style.setProperty("--tab", index);
+      if (focus) tabs[index].focus();
+    }
+    function enable() {
+      enabled = true;
+      list.setAttribute("role", "tablist");
+      list.hidden = false;
+      box.classList.add("is-tabbed");
+      tabs.forEach(function (t, i) {
+        t.setAttribute("role", "tab");
+        panels[i].setAttribute("role", "tabpanel");
+        panels[i].setAttribute("aria-labelledby", t.id);
+        panels[i].tabIndex = 0;
+      });
+      select(current, false);
+    }
+    function disable() {
+      enabled = false;
+      list.removeAttribute("role");
+      list.hidden = true;
+      box.classList.remove("is-tabbed");
+      tabs.forEach(function (t, i) {
+        ["role", "aria-selected"].forEach(function (a) { t.removeAttribute(a); });
+        t.removeAttribute("tabindex");
+        ["role", "aria-labelledby", "tabindex"].forEach(function (a) { panels[i].removeAttribute(a); });
+        panels[i].hidden = false;
+      });
+    }
+    function fromHash() {
+      var i = panels.findIndex(function (p) { return "#" + p.id === location.hash; });
+      return i < 0 ? null : i;
+    }
+    function apply() { if (!mq || mq.matches) enable(); else disable(); }
+    var h = fromHash();
+    if (h !== null && (!mq || mq.matches)) current = h;
+    apply();
+    if (h !== null && enabled) panels[h].scrollIntoView();
+    if (mq) { if (mq.addEventListener) mq.addEventListener("change", apply); else mq.addListener(apply); }
+    window.addEventListener("hashchange", function () {
+      var i = fromHash();
+      if (i !== null && enabled) { select(i, false); panels[i].scrollIntoView(); }
+    });
+  }
+
   /* ---------- Scroll reveal, with a fallback so nothing stays hidden ---------- */
   function setupReveal() {
     if (reduceMotion.matches || !("IntersectionObserver" in window)) return;
@@ -264,6 +341,7 @@
   function start() {
     var sim = document.querySelector("[data-sim]");
     if (sim) setupSimulator(sim);
+    Array.prototype.forEach.call(document.querySelectorAll("[data-tabs]"), setupTabs);
     if (document.querySelector("[data-widget]")) setupWidgets();
     setupNav();
     setupReveal();
