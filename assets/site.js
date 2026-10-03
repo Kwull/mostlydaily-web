@@ -1,83 +1,50 @@
-/* mostlydaily.com: small progressive enhancements. Every page works without this file.
+/* mostlydaily.com: small progressive enhancements. Every page works without this file (the demos are static then).
    No frameworks, no third-party code, no storage, no network requests. Respects prefers-reduced-motion. */
 (function () {
   "use strict";
 
-  /* ---------- The "miss a day" simulator: the app's real rules, simplified to one daily habit ----------
+  /* ---------- The "miss a day" rules: the app's real engine, simplified to one daily habit ----------
      Level score (MostlyCore ConsistencyEngine, daily): 100 × Σ wᵢ·creditᵢ / Σ wᵢ over the last 60 opportunities,
      wᵢ = 0.5^(i/10), i = 0 the most recent. Rest days are not opportunities. Starting 0–24, Sometimes 25–49,
-     Often 50–74, Mostly 75–100; Starting until 7 opportunities exist.
+     Often 50–74, Mostly 75–100; Starting until 7 opportunities exist (always met here: the week follows 60 done days).
      Run (RunCalculator): "never missed twice" ends only after two missed opportunities in a row and starts again
      the next day; it counts days, rest days included. */
   var LEVELS = ["Starting", "Sometimes", "Often", "Mostly"];
-
-  function levelFor(score) {
-    return score < 25 ? 0 : score < 50 ? 1 : score < 75 ? 2 : 3;
-  }
+  var PREFIX = 60;                       // two good months before the week shown
 
   function evaluate(days) {
-    var ops = [];
-    var runStart = 0;
-    var missesInARow = 0;
-    var pairEver = false;
-    var misses = 0;
-    var rests = 0;
-    for (var d = 0; d < days.length; d++) {
+    var ops = [], runStart = 0, inARow = 0, pairEver = false, misses = 0, rests = 0, p, d;
+    for (p = 0; p < PREFIX; p++) ops.push(1);
+    for (d = 0; d < days.length; d++) {
       if (days[d] === "rest") { rests++; continue; }
       var credit = days[d] === "done" ? 1 : 0;
       ops.push(credit);
-      if (credit === 0) {
-        misses++;
-        missesInARow++;
-        if (missesInARow >= 2) { runStart = d + 1; pairEver = true; }
-      } else {
-        missesInARow = 0;
-      }
+      if (credit === 0) { misses++; inARow++; if (inARow >= 2) { runStart = d + 1; pairEver = true; } } else inARow = 0;
     }
-    var weighted = 0, total = 0, w = 1, factor = Math.pow(0.5, 1 / 10);
-    for (var i = ops.length - 1, seen = 0; i >= 0 && seen < 60; i--, seen++) {
-      weighted += w * ops[i];
-      total += w;
-      w *= factor;
-    }
-    var score = total > 0 ? Math.round(100 * weighted / total) : 0;
-    var established = ops.length >= 7;
-    var last = days.length - 1;
+    var weighted = 0, total = 0, w = 1, f = Math.pow(0.5, 1 / 10);
+    for (var i = ops.length - 1, seen = 0; i >= 0 && seen < 60; i--, seen++) { weighted += w * ops[i]; total += w; w *= f; }
+    var score = Math.round(100 * weighted / total);
     var streak = 0;
-    for (var s = last; s >= 0 && days[s] === "done"; s--) streak++;
+    for (var s = days.length - 1; s >= 0 && days[s] === "done"; s--) streak++;
+    if (streak === days.length) streak += PREFIX;
     return {
       score: score,
-      level: established ? levelFor(score) : 0,
-      run: runStart <= last ? last - runStart + 1 : 0,
-      streak: streak,
-      established: established,
-      misses: misses,
-      rests: rests,
-      trailingMisses: missesInARow,
-      pairEver: pairEver
+      level: score < 25 ? 0 : score < 50 ? 1 : score < 75 ? 2 : 3,
+      run: runStart === 0 ? PREFIX + days.length : days.length - runStart,
+      streak: streak, misses: misses, rests: rests, trailing: inARow, pairEver: pairEver
     };
   }
 
   function message(r) {
-    var level = LEVELS[r.level];
-    var text;
-    if (!r.established) {
-      text = "A habit shows Starting until it has 7 days to count. Rest days aren't counted, so they never pull your level down.";
-    } else if (r.misses === 0 && r.rests === 0) {
-      text = "Every day done. Mostly is the top level: there's nothing above it.";
-    } else if (r.misses === 0) {
-      text = "Rest days aren't misses: your level and your run carry on as if nothing happened.";
-    } else if (r.trailingMisses >= 2) {
-      text = "Two misses in a row end the run, gently. A new one starts with your next check-in, and your level is " + (r.level >= 2 ? "still " : "") + level + ".";
-    } else if (r.pairEver) {
-      text = "Two misses in a row ended a run, and a new one started the next day. Your level is " + level + ".";
-    } else if (r.misses === 1) {
-      text = "One miss, nothing reset. Your level dips a few points and your run keeps going.";
-    } else {
-      text = r.misses + " misses, never two in a row: your run keeps going and your level is " + level + ".";
-    }
-    if (r.misses > 0 && r.rests > 0) text += " Rest days don't count as misses.";
-    return text;
+    var level = LEVELS[r.level], t;
+    if (r.misses === 0 && r.rests === 0) t = "Every day done. Mostly is the top level; there's nothing above it.";
+    else if (r.misses === 0) t = "A rest day isn't a miss: your level and your run carry on as if nothing happened.";
+    else if (r.trailing >= 2) t = "Two misses in a row end the run, gently. A new one starts with your next check-in, and your level is " + (r.level >= 2 ? "still " : "") + level + ".";
+    else if (r.pairEver) t = "Two misses in a row ended a run and a new one started the next day. Your level is " + level + ".";
+    else if (r.misses === 1) t = "One miss, nothing reset. Your level dips a few points and your run keeps going.";
+    else t = r.misses + " misses, never two in a row: your run keeps going and your level is " + level + ".";
+    if (r.misses > 0 && r.rests > 0) t += " Rest days don't count as misses.";
+    return t;
   }
 
   if (typeof document === "undefined") {
@@ -87,187 +54,162 @@
   }
 
   var root = document.documentElement;
+  root.classList.add("has-js");
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  var finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
 
-  /* ---------- Simulator UI ---------- */
-  var STATES = ["done", "miss", "rest"];
-  var STATE_LABEL = { done: "done", miss: "missed", rest: "rest day" };
-  var PRESETS = {
-    every: function (n) { return fill(n, function () { return "done"; }); },
-    one: function (n) { return fill(n, function (i) { return i === n - 4 ? "miss" : "done"; }); },
-    two: function (n) { return fill(n, function (i) { return i === n - 6 || i === n - 5 ? "miss" : "done"; }); },
-    off: function (n) { return fill(n, function (i) { return i >= n - 12 && i < n - 5 ? "rest" : "done"; }); }
-  };
-  function fill(n, f) { var a = []; for (var i = 0; i < n; i++) a.push(f(i)); return a; }
-
+  /* ---------- Miss a day: one week track, four presets ---------- */
   function setupSimulator(sim) {
-    var grid = sim.querySelector(".sim-grid");
-    var cells = Array.prototype.slice.call(grid.children);
-    var days = cells.map(function (c) { return c.getAttribute("data-state"); });
-    var initial = days.slice();
-    var ring = sim.querySelector(".sim-ring-value");
-    var scoreEl = sim.querySelector("[data-score]");
-    var levelEl = sim.querySelector("[data-level]");
-    var runEl = sim.querySelector("[data-run]");
-    var streakEl = sim.querySelector("[data-streak]");
-    var streakUnit = sim.querySelector("[data-streak-unit]");
-    var noteEl = sim.querySelector("[data-note]");
-    var levelPills = sim.querySelectorAll(".sim-ladder li");
-    var presetButtons = sim.querySelectorAll("[data-preset]");
-
-    // Upgrade the static day marks to buttons.
-    var buttons = cells.map(function (cell, i) {
-      var b = document.createElement("button");
-      b.type = "button";
-      b.className = cell.className;
-      b.innerHTML = cell.innerHTML;
-      var hidden = b.querySelector(".sr");
-      if (hidden) hidden.remove();
-      b.setAttribute("aria-describedby", "sim-how");
-      b.addEventListener("click", function () {
-        days[i] = STATES[(STATES.indexOf(days[i]) + 1) % STATES.length];
-        render(i);
-      });
-      grid.replaceChild(b, cell);
-      return b;
-    });
-
-    Array.prototype.forEach.call(presetButtons, function (b) {
-      b.addEventListener("click", function () {
-        var key = b.getAttribute("data-preset");
-        days = key === "start" ? initial.slice() : PRESETS[key](days.length);
-        render(-1);
-      });
-    });
-    sim.classList.add("is-live");
-    render(-1);
-
-    function render(changed) {
+    var DAYNAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+    var LABELS = ["M", "T", "W", "T", "F", "S", "S"];
+    var STATES = ["done", "miss", "rest"];
+    var NAME = { done: "done", miss: "missed", rest: "rest day" };
+    var CODE = { d: "done", m: "miss", r: "rest" };
+    var PRESETS = { perfect: "ddddddd", one: "dddmddd", two: "ddmmddd", rest: "dddrddd" };
+    var ICON = {
+      done: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 12.5l3.6 3.6 7.4-8" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+      miss: "",
+      rest: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.6 14.9A6 6 0 0 1 9.1 7.4a6 6 0 1 0 7.5 7.5z" fill="currentColor"/></svg>'
+    };
+    var days = PRESETS.one.split("").map(function (c) { return CODE[c]; });
+    var week = sim.querySelector("[data-week]");
+    var out = {
+      score: sim.querySelector("[data-score]"), ring: sim.querySelector("[data-ring]"), level: sim.querySelector("[data-level]"),
+      bars: sim.querySelector("[data-bars]").children, run: sim.querySelector("[data-run]"),
+      streak: sim.querySelector("[data-streak]"), note: sim.querySelector("[data-note]")
+    };
+    var presets = sim.querySelectorAll("[data-preset]");
+    function draw(changed) {
       var r = evaluate(days);
-      buttons.forEach(function (b, i) {
-        var state = days[i];
-        b.className = "sim-day is-" + state + (i === changed ? " is-changed" : "");
-        b.setAttribute("aria-label", (i === days.length - 1 ? "Today" : "Day " + (i + 1) + " of " + days.length) + ", " + STATE_LABEL[state]);
-      });
-      ring.style.strokeDasharray = r.score + " 100";
-      scoreEl.textContent = r.score;
-      levelEl.textContent = LEVELS[r.level];
-      runEl.textContent = r.run === 1 ? "1 day" : r.run + " days";
-      streakEl.textContent = r.streak;
-      streakUnit.textContent = r.streak === 1 ? "day in a row" : "days in a row";
-      Array.prototype.forEach.call(levelPills, function (p) {
-        var on = Number(p.getAttribute("data-l")) === r.level;
-        p.classList.toggle("is-current", on);
-        if (on) p.setAttribute("aria-current", "true"); else p.removeAttribute("aria-current");
-      });
-      Array.prototype.forEach.call(presetButtons, function (b) {
-        var key = b.getAttribute("data-preset");
-        var pattern = key === "start" ? initial : PRESETS[key](days.length);
-        b.setAttribute("aria-pressed", String(pattern.join() === days.join()));
-      });
-      noteEl.textContent = message(r);
+      week.innerHTML = days.map(function (st, i) {
+        return '<button type="button" class="wk ' + st + (i === 6 ? " today" : "") + (i === changed ? " changed" : "") + '" data-i="' + i +
+          '" aria-label="' + DAYNAMES[i] + (i === 6 ? " (today)" : "") + ", " + NAME[st] + '. Tap to change."><span class="d">' + ICON[st] + '</span><span class="lbl" aria-hidden="true">' + LABELS[i] + "</span></button>";
+      }).join("");
+      if (changed >= 0) { var b = week.querySelector('[data-i="' + changed + '"]'); if (b) b.focus({ preventScroll: true }); }
+      out.score.textContent = r.score;
+      out.ring.style.setProperty("--p", r.score);
+      out.level.textContent = LEVELS[r.level];
+      for (var i = 0; i < 4; i++) out.bars[i].className = i <= r.level ? "on" : "";
+      out.run.textContent = r.run + " days";
+      out.streak.textContent = r.streak + (r.streak === 1 ? " day" : " days");
+      out.note.textContent = message(r);
+      var now = days.map(function (s) { return s[0]; }).join("");
+      Array.prototype.forEach.call(presets, function (b) { b.setAttribute("aria-pressed", String(PRESETS[b.getAttribute("data-preset")] === now)); });
     }
-  }
-
-  /* ---------- Tabs (widgets section): without script every panel is shown in turn ---------- */
-  function setupTabs(box) {
-    var list = box.querySelector("[data-tablist]");
-    var tabs = Array.prototype.slice.call(list.querySelectorAll("button"));
-    var panels = tabs.map(function (t) { return document.getElementById(t.getAttribute("aria-controls")); });
-    list.setAttribute("role", "tablist");
-    list.hidden = false;
-    box.classList.add("is-tabbed");
-    tabs.forEach(function (tab, i) {
-      tab.setAttribute("role", "tab");
-      tab.id = tab.id || "tab-" + panels[i].id;
-      panels[i].setAttribute("role", "tabpanel");
-      panels[i].setAttribute("aria-labelledby", tab.id);
-      panels[i].tabIndex = 0;
-      tab.addEventListener("click", function () { select(i, false); });
-      tab.addEventListener("keydown", function (e) {
-        var next = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
-        if (next === undefined) return;
-        e.preventDefault();
-        select((next + tabs.length) % tabs.length, true);
+    week.addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      var i = +b.getAttribute("data-i");
+      days[i] = STATES[(STATES.indexOf(days[i]) + 1) % 3];
+      draw(i);
+    });
+    Array.prototype.forEach.call(presets, function (b) {
+      b.addEventListener("click", function () {
+        days = PRESETS[b.getAttribute("data-preset")].split("").map(function (c) { return CODE[c]; });
+        draw(-1);
       });
     });
-    function select(index, focus) {
-      tabs.forEach(function (t, i) {
-        var on = i === index;
-        t.setAttribute("aria-selected", String(on));
-        t.tabIndex = on ? 0 : -1;
-        panels[i].hidden = !on;
-      });
-      list.style.setProperty("--tab", index);
-      if (focus) tabs[index].focus();
-    }
-    function fromHash() {
-      var i = panels.findIndex(function (p) { return "#" + p.id === location.hash; });
-      return i < 0 ? null : i;
-    }
-    select(fromHash() || 0, false);
-    window.addEventListener("hashchange", function () {
-      var i = fromHash();
-      if (i !== null) select(i, false);
-    });
+    draw(-1);
   }
 
-  /* ---------- Feature tour: on wide screens, a list of features next to one phone ---------- */
-  function setupTour(tour) {
-    var figures = Array.prototype.slice.call(tour.querySelectorAll("figure"));
-    var wide = window.matchMedia("(min-width: 900px)");
-    var list = document.createElement("div");
-    list.className = "tour-list";
-    list.setAttribute("role", "group");
-    list.setAttribute("aria-label", "Screens");
-    var stage = document.createElement("div");
-    stage.className = "tour-stage";
-    var active = 0;
-    var buttons = figures.map(function (fig, i) {
-      var cap = fig.querySelector("figcaption");
+  /* ---------- Home Screen demo: one shared day for every widget on the page, as in the app ----------
+     A ring checks in (a second tap undoes it); Next up walks the open habits in Today's order and shows the mosaic when
+     all are done; the Limit control logs a clear day (no checkmark); every check-in lands a tile in the mosaic. */
+  function setupWidgets() {
+    var CLS = { floss: "a", read: "b", alcohol: "c", move: "d", meditate: "e" };
+    var COLORS = { floss: "var(--pink)", read: "var(--blue)", alcohol: "var(--purple)", move: "var(--green)", meditate: "var(--orange)" };
+    var NAMES = { floss: "Floss", read: "Read 10 pages", alcohol: "Alcohol-free days" };
+    var ORDER = ["floss", "read", "alcohol"];
+    var START = { floss: false, read: false, alcohol: false, move: true, meditate: true };
+    var LEVEL = { floss: ["Sometimes", 2, 42], read: ["Mostly", 4, 85], alcohol: ["Mostly", 4, 78] };
+    var day = Object.assign({}, START);
+    var tiles = [];
+    var BASE = [], keys = Object.keys(CLS);
+    for (var n = 0; n < 60; n++) BASE.push(keys[(n * 7 + (n >> 2)) % 5]);
+    var mosaics = document.querySelectorAll("[data-mosaic]");
+
+    // Static spans become real buttons now that the script is running.
+    Array.prototype.forEach.call(document.querySelectorAll("span.ring[data-tap], span.ring[data-next-ring]"), function (el) {
       var b = document.createElement("button");
       b.type = "button";
-      b.className = "tour-item";
-      b.innerHTML = cap.innerHTML;
-      b.addEventListener("click", function () { show(i); });
-      list.appendChild(b);
-      return b;
+      Array.prototype.forEach.call(el.attributes, function (a) { b.setAttribute(a.name, a.value); });
+      b.removeAttribute("role");
+      b.innerHTML = el.innerHTML;
+      el.parentNode.replaceChild(b, el);
     });
-    function show(i) {
-      if (i === active && figures[i].classList.contains("is-active")) return;
-      var previous = figures[active];
-      figures.forEach(function (f) { f.classList.remove("is-leaving"); });
-      if (previous !== figures[i]) {
-        previous.classList.remove("is-active");
-        if (!reduceMotion.matches) {
-          previous.classList.add("is-leaving");
-          setTimeout(function () { previous.classList.remove("is-leaving"); }, 420);
+
+    function drawMosaics(landed) {
+      var all = BASE.concat(tiles);
+      mosaics.forEach(function (m) {
+        var html = "";
+        for (var i = 0; i < 100; i++) {
+          var k = all[i];
+          html += k ? '<i class="t ' + CLS[k] + (landed && i === all.length - 1 ? " land glow" : "") + '"></i>' : "<i></i>";
         }
-      }
-      figures[i].classList.add("is-active");
-      buttons.forEach(function (b, j) { b.setAttribute("aria-pressed", String(j === i)); });
-      active = i;
+        m.innerHTML = html;
+        if (m.getAttribute("data-mosaic") === "big") m.setAttribute("aria-label", "Your mosaic: " + Math.min(all.length, 100) + " tiles");
+      });
     }
-    function apply() {
-      if (wide.matches) {
-        figures.forEach(function (f) { stage.appendChild(f); });
-        tour.appendChild(list);
-        tour.appendChild(stage);
-        tour.classList.add("is-stage");
-        show(active);
-      } else if (tour.classList.contains("is-stage")) {
-        tour.classList.remove("is-stage");
-        figures.forEach(function (f) { f.classList.remove("is-active", "is-leaving"); tour.appendChild(f); });
-        list.remove();
-        stage.remove();
-      }
+
+    function render(landedKey) {
+      document.querySelectorAll("[data-widget]").forEach(function (w) {
+        var kind = w.getAttribute("data-widget");
+        if (kind === "habit" || kind === "floss") {
+          var key = kind === "habit" ? "read" : "floss", done = day[key];
+          w.classList.toggle("is-done", done);
+          var b = w.querySelector("[data-tap]");
+          if (b) b.setAttribute("aria-label", (done ? "Undo " : "Check in ") + NAMES[key]);
+        }
+        if (kind === "limit") {
+          w.classList.toggle("is-clear", day.alcohol);
+          var lb = w.querySelector("[data-tap]");
+          if (lb) lb.setAttribute("aria-label", day.alcohol ? "Undo today's clear day" : "Log a clear day for Alcohol-free days");
+        }
+        if (kind === "next") {
+          var open = ORDER.filter(function (k) { return !day[k]; });
+          var doneCount = Object.keys(day).filter(function (k) { return day[k]; }).length;
+          var all = open.length === 0;
+          w.querySelector("[data-count]").textContent = doneCount + "/5";
+          w.classList.toggle("is-alldone", all);
+          w.querySelector("[data-next-name]").hidden = all;
+          w.querySelector(".foot").hidden = all;
+          w.querySelector(".alldone").hidden = !all;
+          w.querySelector("[data-mosaic]").hidden = !all;
+          if (!all) {
+            var k = open[0], r = w.querySelector("[data-next-ring]");
+            w.style.setProperty("--c", COLORS[k]);
+            w.querySelector("[data-next-name]").textContent = NAMES[k];
+            w.querySelector("[data-next-word]").textContent = LEVEL[k][0];
+            var bars = w.querySelector("[data-next-bars]").children;
+            for (var i = 0; i < 4; i++) bars[i].className = i < LEVEL[k][1] ? "on" : "";
+            r.style.setProperty("--p", LEVEL[k][2]);
+            r.className = "ring" + (k === "alcohol" ? " square" : "");
+            r.setAttribute("aria-label", (k === "alcohol" ? "Log a clear day for " : "Check in ") + NAMES[k]);
+            r.setAttribute("data-tap", k);
+          }
+        }
+      });
+      var changed = JSON.stringify(day) !== JSON.stringify(START);
+      document.querySelectorAll("[data-reset]").forEach(function (b) { b.hidden = !changed; });
+      var hint = document.querySelector("[data-hero-hint]"); if (hint && tiles.length) hint.hidden = true;
+      drawMosaics(!!landedKey);
     }
-    apply();
-    wide.addEventListener("change", apply);
+    document.addEventListener("click", function (e) {
+      var b = e.target.closest("button[data-tap]"); if (!b) return;
+      var k = b.getAttribute("data-tap");
+      day[k] = !day[k];
+      if (day[k]) tiles.push(k); else { var i = tiles.lastIndexOf(k); if (i >= 0) tiles.splice(i, 1); }
+      document.querySelectorAll(".is-hinting").forEach(function (x) { x.classList.remove("is-hinting"); });
+      render(day[k] ? k : null);
+      // Next up replaces its button when the habit changes; keep focus on a control.
+      var again = document.querySelector('[data-widget="next"] button[data-tap]');
+      if (again && b.hasAttribute("data-next-ring") && document.activeElement !== again) again.focus({ preventScroll: true });
+    });
+    document.querySelectorAll("[data-reset]").forEach(function (b) {
+      b.addEventListener("click", function () { day = Object.assign({}, START); tiles = []; render(null); });
+    });
+    render(null);
   }
 
-  /* ---------- Scroll reveal ---------- */
+  /* ---------- Scroll reveal, with a fallback so nothing stays hidden ---------- */
   function setupReveal() {
     if (reduceMotion.matches || !("IntersectionObserver" in window)) return;
     var items = document.querySelectorAll("[data-reveal]");
@@ -284,6 +226,11 @@
       Array.prototype.forEach.call(el.children, function (child, i) { child.style.setProperty("--i", i); });
       io.observe(el);
     });
+    // Print, reader modes and very tall windows may never fire the observer: show everything 1.5 s after load.
+    function showAll() { Array.prototype.forEach.call(items, function (el) { el.classList.add("is-in"); }); }
+    if (document.readyState === "complete") setTimeout(showAll, 1500);
+    else window.addEventListener("load", function () { setTimeout(showAll, 1500); });
+    window.addEventListener("beforeprint", showAll);
   }
 
   /* ---------- Header: highlight the section in view, close the menu after a tap ---------- */
@@ -314,161 +261,12 @@
     sections.forEach(function (s) { io.observe(s); });
   }
 
-  /* ---------- Hero phones: a gentle tilt under the pointer and a little depth on scroll ---------- */
-  function setupHero() {
-    var phones = document.querySelector(".hero .phones");
-    if (!phones || reduceMotion.matches) return;
-    var frame = 0, tx = 0, ty = 0, scroll = 0;
-    function paint() {
-      frame = 0;
-      phones.style.setProperty("--rx", (ty * -5).toFixed(2) + "deg");
-      phones.style.setProperty("--ry", (tx * 7).toFixed(2) + "deg");
-      phones.style.setProperty("--lift", Math.min(scroll, 600) * -0.06 + "px");
-    }
-    function queue() { if (!frame) frame = requestAnimationFrame(paint); }
-    if (finePointer.matches) {
-      phones.addEventListener("pointermove", function (e) {
-        var r = phones.getBoundingClientRect();
-        tx = (e.clientX - r.left) / r.width - 0.5;
-        ty = (e.clientY - r.top) / r.height - 0.5;
-        queue();
-      });
-      phones.addEventListener("pointerleave", function () { tx = 0; ty = 0; queue(); });
-    }
-    window.addEventListener("scroll", function () { scroll = window.scrollY; queue(); }, { passive: true });
-    phones.classList.add("is-tilting");
-  }
-
-
-  /* ---------- Widget demo: one shared day, like the real widgets. Ring positions and the pictures of every state are
-     exported from the app (assets/widget-demo.json, `-screen widgetsExport`); a tap changes the day and every widget
-     shows its picture for it. ---------- */
-  var DOES = { "done": "mark done", "undo": "undo", "clear day": "log a clear day" };
-  var KEYS = { "Floss": "floss", "Read 10 pages": "read", "Alcohol-free days": "alcohol", "Move 20 minutes": "move", "Meditate": "meditate" };
-  var START = { floss: false, read: false, alcohol: false, move: true, meditate: true };
-
-  function pictureFor(kind, day, map) {
-    if (kind === "habit") return day.read ? "habit-read-done" : "habit-read";
-    if (kind === "lock") return day.read ? "lock-habit-done" : "lock-habit";
-    if (kind === "next") {
-      if (!day.floss) return "next-up-step1";
-      if (!day.read) return "next-up-step2";
-      if (!day.alcohol) return "next-up-step3";
-      return "next-up-step4";
-    }
-    // Today (medium): the exported names list what differs from the boards' day, in this order.
-    var parts = [];
-    if (day.read) parts.push("read");
-    if (day.alcohol) parts.push("alcohol");
-    if (!day.move) parts.push("no-move");
-    if (day.floss) parts.push("floss");
-    if (!day.meditate) parts.push("no-meditate");
-    var name = parts.length ? "today-" + parts.join("-") : "today";
-    return map[name] ? name : null;
-  }
-
-  function setupWidgetDemos() {
-    var boxes = Array.prototype.slice.call(document.querySelectorAll("[data-demo]"));
-    if (!boxes.length || !window.fetch) return;
-    fetch("/assets/widget-demo.json").then(function (r) { return r.json(); }).then(function (map) {
-      var day = Object.assign({}, START);
-      var widgets = boxes.map(function (box) { return makeWidget(box, map); });
-      function render(focus) {
-        widgets.forEach(function (w) { w.show(day, focus); });
-        Array.prototype.forEach.call(document.querySelectorAll("[data-demo-reset]"), function (b) {
-          b.classList.toggle("is-off", JSON.stringify(day) === JSON.stringify(START));
-        });
-      }
-      widgets.forEach(function (w) {
-        w.onTap = function (t, box, keyboard) {
-          var key = KEYS[t.habit];
-          if (!key) return;
-          var next = Object.assign({}, day);
-          next[key] = t.does !== "undo";
-          // Next up shows the habits in order; only states the app exported can be shown.
-          if (widgets.some(function (x) { return x.kind === "today"; }) && !pictureFor("today", next, map)) return;
-          day = next;
-          render(keyboard ? { box: box, habit: t.habit } : null);
-        };
-      });
-      Array.prototype.forEach.call(document.querySelectorAll("[data-demo-reset]"), function (b) {
-        b.addEventListener("click", function () { day = Object.assign({}, START); render(null); });
-      });
-      render(null);
-    }).catch(function () { /* the static pictures stay */ });
-  }
-
-  function makeWidget(box, map) {
-    var start = box.getAttribute("data-demo");
-    var kind = start.indexOf("next-up") === 0 ? "next" : start.indexOf("habit") === 0 ? "habit" : start.indexOf("lock") === 0 ? "lock" : "today";
-    var darkOnly = box.hasAttribute("data-dark");
-    var label = box.getAttribute("data-label") || "Widget";
-    var picture = box.querySelector("picture");
-    var img = picture.querySelector("img");
-    var layer = document.createElement("div");
-    layer.className = "wdemo-hits";
-    box.appendChild(layer);
-    box.classList.add("is-live");
-    var current = null;
-    var widget = { kind: kind, onTap: null };
-
-    function src(name, scheme) { return "/assets/img/widgets/" + name + "-" + scheme + ".webp"; }
-    widget.show = function (day, focus) {
-      var name = pictureFor(kind, day, map);
-      if (!name || !map[name]) return;
-      var entry = map[name];
-      if (name !== current) {
-        current = name;
-        var scheme = darkOnly || matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-        var next = new Image();
-        next.src = src(name, scheme);
-        var swap = function () {
-          if (current !== name) return; // a newer tap won
-          Array.prototype.forEach.call(picture.querySelectorAll("source"), function (s) { s.remove(); });
-          if (!darkOnly) {
-            var dark = document.createElement("source");
-            dark.type = "image/webp"; dark.media = "(prefers-color-scheme: dark)"; dark.srcset = src(name, "dark");
-            picture.insertBefore(dark, img);
-          }
-          img.removeAttribute("loading");
-          img.src = src(name, darkOnly ? "dark" : "light");
-        };
-        (next.decode ? next.decode() : Promise.resolve()).then(swap, swap);
-      }
-      img.alt = label + ": " + (entry.targets.length ? entry.targets.map(function (t) { return t.habit; }).join(", ") : "all done for today");
-      layer.textContent = "";
-      var focusTarget = null;
-      entry.targets.forEach(function (t) {
-        if (!t.next || !KEYS[t.habit]) return;
-        var b = document.createElement("button");
-        b.type = "button";
-        b.className = "wdemo-hit";
-        b.style.left = (t.x * 100) + "%"; b.style.top = (t.y * 100) + "%";
-        b.style.width = (t.w * 100) + "%"; b.style.height = (t.h * 100) + "%";
-        b.setAttribute("aria-label", t.habit + ": " + (DOES[t.does] || t.does));
-        b.addEventListener("click", function (e) {
-          box.classList.add("was-tapped");
-          // Move focus to the new ring only for keyboard users (detail 0); a pointer tap leaves no ring behind.
-          widget.onTap && widget.onTap(t, box, e.detail === 0);
-        });
-        layer.appendChild(b);
-        if (focus && focus.box === box && t.habit === focus.habit) focusTarget = b;
-      });
-      if (focus && focus.box === box) (focusTarget || layer.querySelector("button") || box).focus({ preventScroll: true });
-    };
-    return widget;
-  }
-
   function start() {
     var sim = document.querySelector("[data-sim]");
     if (sim) setupSimulator(sim);
-    Array.prototype.forEach.call(document.querySelectorAll("[data-tabs]"), setupTabs);
-    var tour = document.querySelector("[data-tour]");
-    if (tour) setupTour(tour);
+    if (document.querySelector("[data-widget]")) setupWidgets();
     setupNav();
-    setupHero();
     setupReveal();
-    setupWidgetDemos();
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
   else start();
