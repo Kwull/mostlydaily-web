@@ -111,15 +111,15 @@
   }
 
   /* ---------- Home Screen demo: one shared day for every widget on the page, as in the app ----------
-     A ring checks in (a second tap undoes it); Next up walks the open habits in Today's order and shows the mosaic when
+     A ring checks in (a second tap undoes it); Next up walks the open habits (Floss, Read, Alcohol-free, Move) and shows the mosaic when
      all are done; the Limit control logs a clear day (no checkmark); every check-in lands a tile in the mosaic. */
   function setupWidgets() {
     var CLS = { floss: "a", read: "b", alcohol: "c", move: "d", meditate: "e" };
     var COLORS = { floss: "var(--pink)", read: "var(--blue)", alcohol: "var(--purple)", move: "var(--green)", meditate: "var(--orange)" };
-    var NAMES = { floss: "Floss", read: "Read 10 pages", alcohol: "Alcohol-free days" };
-    var ORDER = ["floss", "read", "alcohol"];
-    var START = { floss: false, read: false, alcohol: false, move: true, meditate: true };
-    var LEVEL = { floss: ["Sometimes", 2, 42], read: ["Mostly", 4, 85], alcohol: ["Mostly", 4, 78] };
+    var NAMES = { floss: "Floss", read: "Read 10 pages", alcohol: "Alcohol-free days", move: "Move 20 minutes" };
+    var ORDER = ["floss", "read", "alcohol", "move"];
+    var START = { floss: false, read: false, alcohol: false, move: false, meditate: true };
+    var LEVEL = { floss: ["Sometimes", 2, 42], read: ["Mostly", 4, 85], alcohol: ["Mostly", 4, 78], move: ["Often", 3, 64] };
     var day = Object.assign({}, START);
     var tiles = [];
     var BASE = [], keys = Object.keys(CLS);
@@ -127,7 +127,7 @@
     var mosaics = document.querySelectorAll("[data-mosaic]");
 
     // Static spans become real buttons now that the script is running.
-    Array.prototype.forEach.call(document.querySelectorAll("span.ring[data-tap], span.ring[data-next-ring]"), function (el) {
+    Array.prototype.forEach.call(document.querySelectorAll("span.ring[data-tap], span.ring[data-next-ring], span.lock-tap[data-tap]"), function (el) {
       var b = document.createElement("button");
       b.type = "button";
       Array.prototype.forEach.call(el.attributes, function (a) { b.setAttribute(a.name, a.value); });
@@ -152,8 +152,8 @@
     function render(landedKey) {
       document.querySelectorAll("[data-widget]").forEach(function (w) {
         var kind = w.getAttribute("data-widget");
-        if (kind === "habit" || kind === "floss") {
-          var key = kind === "habit" ? "read" : "floss", done = day[key];
+        if (kind === "habit" || kind === "floss" || kind === "move") {
+          var key = kind === "habit" ? "read" : kind, done = day[key];
           w.classList.toggle("is-done", done);
           var b = w.querySelector("[data-tap]");
           if (b) b.setAttribute("aria-label", (done ? "Undo " : "Check in ") + NAMES[key]);
@@ -186,6 +186,13 @@
             r.setAttribute("data-tap", k);
           }
         }
+      });
+      document.querySelectorAll("[data-lock-open]").forEach(function (l) {
+        var k = l.getAttribute("data-tap"), base = l.getAttribute(day[k] ? "data-lock-done" : "data-lock-open");
+        var img = l.querySelector("img"), src = l.querySelector("source");
+        if (src) src.setAttribute("srcset", base + ".webp");
+        if (img) img.setAttribute("src", base + ".png");
+        l.setAttribute("aria-label", (day[k] ? "Undo " : "Check in ") + NAMES[k]);
       });
       var changed = JSON.stringify(day) !== JSON.stringify(START);
       document.querySelectorAll("[data-reset]").forEach(function (b) { b.hidden = !changed; });

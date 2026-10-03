@@ -220,27 +220,41 @@ button.ring:active { transform: scale(.92); }
 .try button { background: none; border: 0; padding: 0 0 0 8px; min-height: 44px; font: inherit; color: var(--link); text-decoration: underline; cursor: pointer; }
 .split { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); gap: 24px 48px; align-items: center; }
 @media (max-width: 859px) { .split { grid-template-columns: 1fr; } }
-.vote { display: grid; grid-template-columns: 120px 1fr; gap: 20px; align-items: center; margin-top: 20px; }
+.vote { display: grid; grid-template-columns: 120px 1fr; gap: 20px; align-items: center; }
 .vote .mosaic { width: 120px; }
 .vote p { margin: 0; }
-.spec { list-style: none; margin: 18px 0 0; padding: 0; }
-.spec li { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; padding: 12px 0; border-top: 1px solid var(--line); }
-.spec .muted { flex-basis: 100%; font-size: 15px; line-height: 1.45; }
-.lock { border-radius: 36px; overflow: hidden; max-width: 320px; margin: 0 auto; box-shadow: var(--phone-shadow); }
-@media (max-width: 819px) { .lock { max-width: 260px; } }
+@media (min-width: 860px) { .vote { grid-template-columns: 1fr; justify-items: start; gap: 22px; } .vote .mosaic { width: min(260px, 100%); } }
+/* The Lock Screen, composed as the real one: wallpaper, inline line, clock, one row of the app's own widgets */
+.lockscreen { border-radius: 36px; padding: 44px 20px 22px; min-height: 380px; display: flex; flex-direction: column; align-items: center; color: #fff; max-width: 420px; width: 100%; margin: 0 auto; box-shadow: var(--phone-shadow);
+  background: linear-gradient(180deg, #0E1A33, #24305A 42%, #4A3560 75%, #6A3F55); }
+.lock-inline { width: 250px; max-width: 100%; }
+.lock-time { font: 700 clamp(84px, 12vw, 112px)/1 ui-rounded, -apple-system, "SF Pro Rounded", system-ui, sans-serif; letter-spacing: -0.02em; margin: 6px 0 22px; opacity: .95; }
+.lock-row { display: flex; gap: 10px; align-items: center; }
+.lock-row > * { flex: none; }
+.lock-row picture { display: block; } .lock-row img { display: block; width: 100%; height: auto; }
+.lock-circle { width: 72px; }
+.lock-rect { width: 170px; }
+@media (max-width: 400px) { .lock-row { gap: 6px; } .lock-circle { width: 62px; } .lock-rect { width: 146px; } }
+.lock-tap { display: block; border-radius: 50%; }
+button.lock-tap { padding: 0; border: 0; background: none; cursor: pointer; -webkit-tap-highlight-color: transparent; transition: transform .15s var(--ease); }
+button.lock-tap:active { transform: scale(.92); }
+.lockscreen .try { color: rgba(255, 255, 255, .85); margin-top: auto; padding-top: 24px; }
+.lockscreen .try button { color: #fff; }
+
+/* Every widget: figures 300 px wide (one per phone screen, snapping), three columns on desktop. Scale, never crop. */
 .gallery { display: flex; gap: 14px; overflow-x: auto; padding: 4px 20px 12px; margin: 20px -20px 0; scroll-snap-type: x mandatory; scrollbar-width: none; }
 .gallery::-webkit-scrollbar { display: none; }
-.gallery figure { flex: 0 0 auto; margin: 0; scroll-snap-align: start; width: 250px; }
-.gallery .art { height: 250px; border-radius: 20px; background: var(--card2); display: grid; place-items: center; overflow: hidden; padding: 16px; }
-.gallery .art picture { display: grid; place-items: center; }
-.gallery .art img { max-height: 218px; max-width: 100%; width: auto; height: auto; object-fit: contain; }
+.gallery figure { flex: 0 0 auto; margin: 0; scroll-snap-align: center; width: min(300px, 82vw); }
+.gallery .art { border-radius: 20px; background: var(--card2); padding: 14px; }
+.gallery .art.dark { background: #16181F; }
+.gallery .art img { width: 100%; height: auto; }
 .gallery figcaption { font-size: 14px; color: var(--ink2); margin-top: 8px; line-height: 1.4; }
 .gallery figcaption b { color: var(--ink); display: block; }
+.gallery figcaption b .tag { margin-left: 4px; font-size: 12px; padding: 2px 8px; }
+.gallery figcaption b.second { margin-top: 6px; }
 @media (min-width: 960px) {
   .gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: visible; padding: 0; margin: 28px 0 0; gap: 28px 20px; }
   .gallery figure { width: auto; }
-  .gallery .art { height: 280px; }
-  .gallery .art img { max-height: 248px; }
 }
 
 /* Miss a day: one week track, the app's rules */
