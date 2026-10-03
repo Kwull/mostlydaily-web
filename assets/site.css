@@ -288,41 +288,37 @@ button.lock-tap:active { transform: scale(.92); }
 .sim-out .line b { color: var(--ink); font-size: 17px; }
 .sim-note { grid-column: 1 / -1; margin: 0; padding: 14px 18px; border-radius: 16px; background: var(--bg); font-size: 16px; min-height: 3.2em; }
 
-/* Levels */
-.levels { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; max-width: 560px; margin: 0 auto 16px; }
-.levels div { display: grid; justify-items: center; gap: 8px; font-weight: 600; color: var(--ink2); font-size: 15px; }
-.levels div:last-child { color: var(--ink); font-weight: 700; }
-.levels .r { width: 100%; max-width: 92px; aspect-ratio: 1; border-radius: 50%; background: conic-gradient(var(--ink) calc(var(--p) * 1%), var(--line) 0); -webkit-mask: radial-gradient(circle, transparent 60%, #000 62%); mask: radial-gradient(circle, transparent 60%, #000 62%); }
+/* Level ladder in the Miss a day result, and the static line under the note */
+.ladder { list-style: none; display: grid; grid-template-columns: repeat(4, auto); justify-content: space-between; gap: 6px; margin: 0; padding: 0; font-size: 14px; font-weight: 600; color: var(--ink2); }
+.ladder li[aria-current] { color: var(--ink); font-weight: 700; box-shadow: inset 0 -2px 0 var(--ink); }
+.sim-levels { grid-column: 1 / -1; margin: 0; font-size: 15px; line-height: 1.5; }
 
-@media (max-width: 380px) { .levels { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 240px; gap: 18px 12px; } }
-
-/* Build and Limit */
-.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-@media (max-width: 819px) { .pair { grid-template-columns: 1fr; } }
-.pair .card { display: grid; grid-template-columns: minmax(0, 1fr) 150px; gap: 16px; align-items: start; overflow: hidden; }
-.pair .shot { width: 150px; margin: 0 -20px -70px 0; }
-@media (max-width: 419px) { .pair .card { grid-template-columns: 1fr; } .pair .shot { width: 60%; margin: 0 auto -50%; } }
+/* Build and Limit (tabs): text beside a frameless crop of the app's screen in a rounded panel */
+.kind { align-items: start; }
+.kind .lead { margin: 0; }
+.screen { width: min(300px, 100%); border-radius: 26px; overflow: hidden; box-shadow: var(--shadow), 0 0 0 1px var(--line); justify-self: center; }
+.screen img { width: 100%; height: auto; }
 
 /* Mosaic section, steps */
 .mosaic-big { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px 56px; align-items: center; }
 @media (max-width: 819px) { .mosaic-big { grid-template-columns: 1fr; } .mosaic-big .phone { max-height: 400px; overflow: hidden; border-bottom-left-radius: 0; border-bottom-right-radius: 0; padding-bottom: 0; -webkit-mask-image: linear-gradient(#000 80%, transparent); mask-image: linear-gradient(#000 80%, transparent); } }
-.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; counter-reset: s; }
-@media (max-width: 819px) { .steps { grid-template-columns: 1fr; } }
-.steps li { background: var(--card); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); counter-increment: s; }
-.steps li::before { content: counter(s); display: grid; place-items: center; width: 32px; height: 32px; border-radius: 16px; background: var(--accent); color: var(--on-accent); font-weight: 700; font-size: 15px; margin-bottom: 14px; }
-.steps b { display: block; font-size: 18px; margin-bottom: 4px; }
-.steps p { margin: 0; color: var(--ink2); font-size: 16px; }
+.steps-row { list-style: none; margin: 18px auto 24px; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 22px; counter-reset: s; font-size: 16px; color: var(--ink); }
+.steps-row li { counter-increment: s; display: inline-flex; align-items: center; gap: 8px; }
+.steps-row li::before { content: counter(s); display: grid; place-items: center; width: 26px; height: 26px; border-radius: 13px; background: var(--accent); color: var(--on-accent); font-weight: 700; font-size: 13px; }
 
 /* Private */
 .private .card { display: flex; gap: 16px; align-items: flex-start; }
 .private .ic { flex: none; width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: color-mix(in srgb, var(--c) 14%, transparent); color: var(--c); }
 .private .ic svg { width: 22px; height: 22px; }
 .private p { margin: 0; color: var(--ink2); font-size: 16px; }
+@media (max-width: 819px) { .private .card { padding: 16px 18px; gap: 14px; align-items: center; } .private h3 { font-size: 17px; margin-bottom: 2px; } .private p { font-size: 15px; line-height: 1.4; } .grid3 { gap: 10px; } }
 
 /* Pricing (no prices on the site: the owner's decision) */
 .plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: start; }
-@media (max-width: 959px) { .plans { grid-template-columns: 1fr; } }
-.plan h3 { font-size: 22px; }
+.plans .tablist { grid-column: 1 / -1; }
+@media (max-width: 959px) { .plans { grid-template-columns: 1fr; } .plans.is-tabbed .tablist { margin-bottom: 16px; } .plans:not(.is-tabbed) .tabpanel + .tabpanel { margin-top: 0; } }
+.plans .tabpanel + .tabpanel { margin-top: 0; }
+.plan h3 { font-size: 22px; margin-top: 0; }
 .plan .price { font-size: 15px; color: var(--ink2); margin: 2px 0 0; }
 .plan ul { list-style: none; padding: 0; margin: 16px 0 0; }
 .plan li { padding: 4px 0 4px 28px; position: relative; font-size: 16px; }
@@ -342,6 +338,15 @@ button.lock-tap:active { transform: scale(.92); }
 .link-card .more { display: inline-block; margin-top: 12px; color: var(--link); font-weight: 600; font-size: 15px; }
 .link-card .more::after { content: " →"; }
 @media (hover: hover) and (prefers-reduced-motion: no-preference) { .link-card:hover { transform: translateY(-3px); box-shadow: 0 18px 40px -18px rgba(0, 0, 0, .25); } }
+
+.guide-rows { padding: 6px 28px; }
+.guide-rows a { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 44px; padding: 16px 0; color: inherit; text-decoration: none; }
+.guide-rows a + a { border-top: 1px solid var(--line); }
+.guide-rows b { display: block; font-size: 17px; line-height: 1.35; }
+.guide-rows small { display: block; font-size: 15px; color: var(--ink2); line-height: 1.4; }
+.guide-rows i { font-style: normal; color: var(--link); font-weight: 600; flex: none; }
+.guide-rows a:hover b { text-decoration: underline; }
+@media (max-width: 819px) { .guide-rows { padding: 2px 20px; } }
 
 /* Closing */
 .closing { text-align: center; padding: clamp(64px, 9vw, 112px) 0; }

@@ -25,7 +25,7 @@
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/site.css?v=20261004">
 <script src="/assets/site.js?v=20261004" defer></script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Mostly Daily", "operatingSystem": "iOS", "applicationCategory": "HealthApplication", "url": "https://mostlydaily.com", "description": "A forgiving habit tracker for iPhone. Check in from a widget, miss a day without losing your progress, and watch your mosaic grow. No account, no tracking.", "inLanguage": "en", "softwareVersion": "1.0", "image": "https://mostlydaily.com/assets/img/app-icon.png", "screenshot": ["https://mostlydaily.com/assets/img/today.jpg", "https://mostlydaily.com/assets/img/habit-detail.jpg", "https://mostlydaily.com/assets/img/limit-detail.jpg", "https://mostlydaily.com/assets/img/today-all-done.jpg"], "author": {"@type": "Person", "name": "Uladzimir Kazakevich"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "MobileApplication", "name": "Mostly Daily", "operatingSystem": "iOS", "applicationCategory": "HealthApplication", "url": "https://mostlydaily.com", "description": "A forgiving habit tracker for iPhone. Check in from a widget, miss a day without losing your progress, and watch your mosaic grow. No account, no tracking.", "inLanguage": "en", "softwareVersion": "1.0", "image": "https://mostlydaily.com/assets/img/app-icon.png", "screenshot": ["https://mostlydaily.com/assets/img/today.jpg", "https://mostlydaily.com/assets/img/habit-screen.jpg", "https://mostlydaily.com/assets/img/limit-screen.jpg", "https://mostlydaily.com/assets/img/today-all-done.jpg"], "author": {"@type": "Person", "name": "Uladzimir Kazakevich"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What happens when I miss a day?", "acceptedAnswer": {"@type": "Answer", "text": "Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of \"never missed twice\" only ends after two misses in a row."}}, {"@type": "Question", "name": "What is a Limit habit?", "acceptedAnswer": {"@type": "Answer", "text": "A habit you want less of, like drinks, sugar or screen time. You log the amount in the evening and get a colour calendar of clear, lighter and heavier days, with a goal of clear days per week."}}, {"@type": "Question", "name": "Do I need an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. There is no account and no sign-in. Your habits stay on your devices and sync through your own iCloud."}}, {"@type": "Question", "name": "Is my data private?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. No server, no analytics, no tracking. Check-ins from Apple Health and the drinks you log stay on your phone and are never put in iCloud."}}, {"@type": "Question", "name": "What happens if Premium ends?", "acceptedAnswer": {"@type": "Answer", "text": "Nothing is deleted. Habits beyond the Free plan are paused with all their history, and you can export everything at any time."}}, {"@type": "Question", "name": "Is it a treatment or recovery program?", "acceptedAnswer": {"@type": "Answer", "text": "No. Mostly Daily is for self-tracking and gives no medical advice. If you're worried about your health or drinking, please talk to a professional."}}]}</script>
 </head>
 <body>
@@ -158,24 +158,13 @@
     </div>
     <div class="sim-out">
       <div class="lvl"><span class="ring" style="--c: var(--blue); --p: 94" data-ring ><b data-score>94</b></span><div class="meter" style="--c: var(--blue)"><div class="bars" data-bars><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div><div class="word" data-level>Mostly</div></div></div>
+      <ol class="ladder" data-ladder aria-label="The four levels"><li>Starting</li><li>Sometimes</li><li>Often</li><li aria-current="true">Mostly</li></ol>
       <div class="line"><span>Never missed twice</span><b data-run>67 days</b></div>
       <div class="line"><span>A plain streak would say</span><b data-streak>3 days</b></div>
     </div>
     <p class="sim-note" data-note aria-live="polite">One miss, nothing reset. Your level dips a few points and your run keeps going.</p>
+    <p class="sim-levels muted">Four levels; Mostly is the top. You never need 100%, and nothing goes back to zero. Rest, sick and travel days are real days, not misses.</p>
   </div>
-</div></section>
-
-<!-- LEVELS -->
-<section id="levels" style="padding-top:0"><div class="wrap">
-  <div class="section-head" style="text-align:center">
-    <p class="eyebrow">Levels, not streaks</p>
-    <h2>Four levels. Mostly is the top.</h2>
-    <p class="sub" style="margin:0 auto">Every habit grows through Starting, Sometimes, Often and Mostly. You never need 100%, and nothing goes back to zero.</p>
-  </div>
-  <div class="levels" aria-hidden="true">
-    <div><span class="r" style="--p:18"></span>Starting</div><div><span class="r" style="--p:42"></span>Sometimes</div><div><span class="r" style="--p:66"></span>Often</div><div><span class="r" style="--p:88"></span>Mostly</div>
-  </div>
-  <p class="muted" style="text-align:center; margin:0">Rest, sick and travel days are real days, not misses. Plan time off for a holiday and come back to a calm welcome.</p>
 </div></section>
 
 <!-- BUILD AND LIMIT -->
@@ -184,16 +173,29 @@
     <p class="eyebrow">Two kinds of habit</p>
     <h2>Habits you build. Habits you want less of.</h2>
   </div>
-  <div class="pair">
-    <div class="card"><div><h3>Build</h3><p class="muted">Yes or no, a count, or minutes. Write when and where ("after dinner, on the sofa"), and keep a two-minute version for busy days: it counts fully. Apple Health can check in steps, exercise, mindful minutes, sleep and water for you.</p></div><div class="shot"><picture><source type="image/webp" srcset="/assets/img/habit-detail-dark-253.webp 253w, /assets/img/habit-detail-dark.webp 506w" sizes="150px" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/habit-detail-dark.jpg" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/habit-detail-253.webp 253w, /assets/img/habit-detail.webp 506w" sizes="150px"><img src="/assets/img/habit-detail.jpg" alt="Habit detail: level 85 Mostly, 34 days never missed twice, the month calendar" width="506" height="1100" loading="lazy" decoding="async"></picture></div></div>
-    <div class="card"><div><h3>Limit</h3><p class="muted">Drinks, sugar, screen time. Log the amount in the evening and get a colour calendar: clear days, lighter days, heavier days. Set a goal of clear days a week. No judgement, just the picture.</p></div><div class="shot"><picture><source type="image/webp" srcset="/assets/img/limit-detail-dark-253.webp 253w, /assets/img/limit-detail-dark.webp 506w" sizes="150px" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/limit-detail-dark.jpg" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/limit-detail-253.webp 253w, /assets/img/limit-detail.webp 506w" sizes="150px"><img src="/assets/img/limit-detail.jpg" alt="Limit habit: a colour calendar of clear, lighter and heavier days" width="506" height="1100" loading="lazy" decoding="async"></picture></div></div>
+  <div class="tabs" data-tabs>
+    <div class="tablist" data-tablist aria-label="Kinds of habit" hidden><button type="button" aria-controls="habit-build">Build</button><button type="button" aria-controls="habit-limit">Limit</button></div>
+    <div class="tabpanel" id="habit-build">
+      <h3 class="panel-title">Build</h3>
+      <div class="split kind">
+        <p class="lead">Yes or no, a count, or minutes. Write when and where ("after dinner, on the sofa"), and keep a two-minute version for busy days: it counts fully. Apple Health can check in steps, exercise, mindful minutes, sleep and water for you.</p>
+        <div class="screen"><picture><source type="image/webp" srcset="/assets/img/habit-screen-dark-301.webp 301w, /assets/img/habit-screen-dark.webp 603w" sizes="300px" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/habit-screen-dark.jpg" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/habit-screen-301.webp 301w, /assets/img/habit-screen.webp 603w" sizes="300px"><img src="/assets/img/habit-screen.jpg" alt="Habit detail: level 85 Mostly, 34 days never missed twice, the month calendar with its legend" width="603" height="985" loading="lazy" decoding="async"></picture></div>
+      </div>
+    </div>
+    <div class="tabpanel" id="habit-limit">
+      <h3 class="panel-title">Limit</h3>
+      <div class="split kind">
+        <p class="lead">Drinks, sugar, screen time. Log the amount in the evening and get a colour calendar: clear days, lighter days, heavier days. Set a goal of clear days a week. No judgement, just the picture.</p>
+        <div class="screen"><picture><source type="image/webp" srcset="/assets/img/limit-screen-dark-301.webp 301w, /assets/img/limit-screen-dark.webp 603w" sizes="300px" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/limit-screen-dark.jpg" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/limit-screen-301.webp 301w, /assets/img/limit-screen.webp 603w" sizes="300px"><img src="/assets/img/limit-screen.jpg" alt="Limit habit: level 78 Mostly, clear days this month, and a colour calendar of clear, lighter and heavier days" width="603" height="910" loading="lazy" decoding="async"></picture></div>
+      </div>
+    </div>
   </div>
 </div></section>
 
 <!-- MOSAIC -->
 <section id="mosaic"><div class="wrap">
   <div class="mosaic-big">
-    <div class="phone" style="max-width:300px;margin:0 auto"><picture><source type="image/webp" srcset="/assets/img/today-all-done-253.webp 253w, /assets/img/today-all-done.webp 506w" sizes="(max-width: 819px) 300px, 300px"><img src="/assets/img/today-all-done.jpg" alt="All done: the day ring in habit colours and the mosaic of check-ins" width="506" height="1100" loading="lazy" decoding="async"></picture></div>
+    <div class="phone" style="max-width:300px;margin:0 auto"><picture><source type="image/webp" srcset="/assets/img/today-all-done-dark-253.webp 253w, /assets/img/today-all-done-dark.webp 506w" sizes="300px" media="(prefers-color-scheme: dark)"><source srcset="/assets/img/today-all-done-dark.jpg" media="(prefers-color-scheme: dark)"><source type="image/webp" srcset="/assets/img/today-all-done-253.webp 253w, /assets/img/today-all-done.webp 506w" sizes="300px"><img src="/assets/img/today-all-done.jpg" alt="All done: the day ring in habit colours and the mosaic of check-ins" width="506" height="1100" loading="lazy" decoding="async"></picture></div>
     <div>
       <p class="eyebrow">Who you're becoming</p>
       <h2>Every check-in is a vote.</h2>
@@ -201,16 +203,6 @@
       <p class="muted" style="margin-top:14px">Each week, Reflect tells you about your week in kind words, habit by habit.</p>
     </div>
   </div>
-</div></section>
-
-<!-- HOW IT WORKS -->
-<section id="how" style="padding-top:0"><div class="wrap">
-  <div class="section-head"><p class="eyebrow">How it works</p><h2>Start small. It mostly runs itself.</h2></div>
-  <ol class="steps">
-    <li><b>Add a habit</b><p>Type a name, or pick one: Read, Move, Meditate, Floss, Alcohol-free days.</p></li>
-    <li><b>Put a widget on your Home Screen</b><p>Check in from there: one tap, done.</p></li>
-    <li><b>Miss a day now and then</b><p>Your level dips a little and comes back. Just don't miss twice.</p></li>
-  </ol>
 </div></section>
 
 <!-- PRIVATE -->
@@ -225,12 +217,14 @@
 <!-- PRICING: no prices on the site (owner, 4 Oct 2026) -->
 <section id="pricing"><div class="wrap">
   <div class="section-head"><p class="eyebrow">Pricing</p><h2>Free that stays free</h2><p class="sub">Start with Free. Try Premium for 14 days when you want more.</p></div>
-  <div class="plans">
-    <div class="card plan"><h3>Free</h3><p class="price">No time limit</p>
+  <div class="tabs plans" data-tabs data-tabs-max="959" data-tabs-start="1">
+    <div class="tablist" data-tablist aria-label="Plans" hidden><button type="button" aria-controls="plan-free">Free</button><button type="button" aria-controls="plan-premium">Premium</button><button type="button" aria-controls="plan-family">Premium Family</button></div>
+    
+    <div class="card plan tabpanel" id="plan-free"><h3 class="panel-title">Free</h3><p class="price">No time limit</p>
       <ul><li>3 habits (one can be a Limit habit)</li><li>Levels, never miss twice, rest days</li><li>Widgets, Lock Screen, Control Center, Siri</li><li>Apple Health and iCloud sync</li><li>This week's reflection</li><li>CSV export</li></ul></div>
-    <div class="card plan plan-premium"><h3>Premium</h3><p class="price">14-day free trial</p>
+    <div class="card plan plan-premium tabpanel" id="plan-premium"><h3 class="panel-title">Premium</h3><p class="price">14-day free trial</p>
       <ul><li>Unlimited habits, 5 in focus at a time</li><li>Every past reflection and recap</li><li>More widgets: Today and week, Month calendar, This week, Who you're becoming</li><li>Evening check-in on the Lock Screen</li><li>Several reminders per habit</li><li>Themes and app icons</li><li>If Premium ends, nothing is deleted</li></ul></div>
-    <div class="card plan"><h3>Premium Family</h3><p class="price">Premium for the whole family</p>
+    <div class="card plan tabpanel" id="plan-family"><h3 class="panel-title">Premium Family</h3><p class="price">Premium for the whole family</p>
       <ul><li>Premium for up to 6 people through Apple Family Sharing</li><li>No accounts, no invites</li><li>Everyone's habits stay private on their own devices</li></ul></div>
   </div>
 </div></section>
@@ -249,18 +243,18 @@
 <!-- GUIDES -->
 <section id="guides" style="padding-top:0"><div class="wrap">
   <div class="section-head"><p class="eyebrow">Guides</p><h2>Short reads on habits that last</h2></div>
-  <div class="grid2">
-    <a class="card link-card" href="/guides/one-missed-day.html"><h3>Why one missed day doesn't break a habit</h3><p class="muted">What matters is the day after.</p><span class="more" aria-hidden="true">Read</span></a>
-    <a class="card link-card" href="/guides/rest-days.html"><h3>Rest days are part of the plan</h3><p class="muted">How planned rest keeps habits going for years.</p><span class="more" aria-hidden="true">Read</span></a>
-    <a class="card link-card" href="/guides/habits-you-want-less-of.html"><h3>Habits you want less of</h3><p class="muted">Why a calendar of clear days works better than a count of days since.</p><span class="more" aria-hidden="true">Read</span></a>
+  <div class="card guide-rows">
+    <a href="/guides/one-missed-day.html"><span><b>Why one missed day doesn't break a habit</b><small>What matters is the day after.</small></span><i aria-hidden="true">→</i></a>
+    <a href="/guides/rest-days.html"><span><b>Rest days are part of the plan</b><small>How planned rest keeps habits going for years.</small></span><i aria-hidden="true">→</i></a>
+    <a href="/guides/habits-you-want-less-of.html"><span><b>Habits you want less of</b><small>Why a calendar of clear days works better than a count of days since.</small></span><i aria-hidden="true">→</i></a>
   </div>
-</div></section>
+  </div></section>
 
 <!-- CLOSING -->
 <section id="get" class="closing"><div class="narrow">
   <span class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
   <h2>Mostly is enough.</h2>
-  <p>Coming to the App Store in November 2026.</p>
+  <ol class="steps-row"><li>Add a habit</li><li>Put a widget on your Home Screen</li><li>Miss a day now and then</li></ol>
   <span class="button soon soon-large">Coming to iPhone in November</span>
   <p class="facts-line">Free to start · No account · No tracking</p>
 </div></section>

@@ -78,6 +78,7 @@
       streak: sim.querySelector("[data-streak]"), note: sim.querySelector("[data-note]")
     };
     var presets = sim.querySelectorAll("[data-preset]");
+    var ladder = sim.querySelectorAll("[data-ladder] li");
     function draw(changed) {
       var r = evaluate(days);
       week.innerHTML = days.map(function (st, i) {
@@ -89,6 +90,7 @@
       out.ring.style.setProperty("--p", r.score);
       out.level.textContent = LEVELS[r.level];
       for (var i = 0; i < 4; i++) out.bars[i].className = i <= r.level ? "on" : "";
+      Array.prototype.forEach.call(ladder, function (li, i) { if (i === r.level) li.setAttribute("aria-current", "true"); else li.removeAttribute("aria-current"); });
       out.run.textContent = r.run + " days";
       out.streak.textContent = r.streak + (r.streak === 1 ? " day" : " days");
       out.note.textContent = message(r);
