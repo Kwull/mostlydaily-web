@@ -78,6 +78,7 @@
       streak: sim.querySelector("[data-streak]"), note: sim.querySelector("[data-note]")
     };
     var presets = sim.querySelectorAll("[data-preset]");
+    var ladder = sim.querySelectorAll("[data-ladder] li");
     function draw(changed) {
       var r = evaluate(days);
       week.innerHTML = days.map(function (st, i) {
@@ -89,6 +90,7 @@
       out.ring.style.setProperty("--p", r.score);
       out.level.textContent = LEVELS[r.level];
       for (var i = 0; i < 4; i++) out.bars[i].className = i <= r.level ? "on" : "";
+      Array.prototype.forEach.call(ladder, function (li, i) { if (i === r.level) li.setAttribute("aria-current", "true"); else li.removeAttribute("aria-current"); });
       out.run.textContent = r.run + " days";
       out.streak.textContent = r.streak + (r.streak === 1 ? " day" : " days");
       out.note.textContent = message(r);
@@ -111,15 +113,15 @@
   }
 
   /* ---------- Home Screen demo: one shared day for every widget on the page, as in the app ----------
-     A ring checks in (a second tap undoes it); Next up walks the open habits in Today's order and shows the mosaic when
+     A ring checks in (a second tap undoes it); Next up walks the open habits (Floss, Read, Alcohol-free, Move) and shows the mosaic when
      all are done; the Limit control logs a clear day (no checkmark); every check-in lands a tile in the mosaic. */
   function setupWidgets() {
     var CLS = { floss: "a", read: "b", alcohol: "c", move: "d", meditate: "e" };
     var COLORS = { floss: "var(--pink)", read: "var(--blue)", alcohol: "var(--purple)", move: "var(--green)", meditate: "var(--orange)" };
-    var NAMES = { floss: "Floss", read: "Read 10 pages", alcohol: "Alcohol-free days" };
-    var ORDER = ["floss", "read", "alcohol"];
-    var START = { floss: false, read: false, alcohol: false, move: true, meditate: true };
-    var LEVEL = { floss: ["Sometimes", 2, 42], read: ["Mostly", 4, 85], alcohol: ["Mostly", 4, 78] };
+    var NAMES = { floss: "Floss", read: "Read 10 pages", alcohol: "Alcohol-free days", move: "Move 20 minutes" };
+    var ORDER = ["floss", "read", "alcohol", "move"];
+    var START = { floss: false, read: false, alcohol: false, move: false, meditate: true };
+    var LEVEL = { floss: ["Sometimes", 2, 42], read: ["Mostly", 4, 85], alcohol: ["Mostly", 4, 78], move: ["Often", 3, 64] };
     var day = Object.assign({}, START);
     var tiles = [];
     var BASE = [], keys = Object.keys(CLS);
@@ -127,7 +129,7 @@
     var mosaics = document.querySelectorAll("[data-mosaic]");
 
     // Static spans become real buttons now that the script is running.
-    Array.prototype.forEach.call(document.querySelectorAll("span.ring[data-tap], span.ring[data-next-ring]"), function (el) {
+    Array.prototype.forEach.call(document.querySelectorAll("span.ring[data-tap], span.ring[data-next-ring], span.lock-tap[data-tap]"), function (el) {
       var b = document.createElement("button");
       b.type = "button";
       Array.prototype.forEach.call(el.attributes, function (a) { b.setAttribute(a.name, a.value); });
@@ -152,8 +154,8 @@
     function render(landedKey) {
       document.querySelectorAll("[data-widget]").forEach(function (w) {
         var kind = w.getAttribute("data-widget");
-        if (kind === "habit" || kind === "floss") {
-          var key = kind === "habit" ? "read" : "floss", done = day[key];
+        if (kind === "habit" || kind === "floss" || kind === "move") {
+          var key = kind === "habit" ? "read" : kind, done = day[key];
           w.classList.toggle("is-done", done);
           var b = w.querySelector("[data-tap]");
           if (b) b.setAttribute("aria-label", (done ? "Undo " : "Check in ") + NAMES[key]);
@@ -187,6 +189,13 @@
           }
         }
       });
+      document.querySelectorAll("[data-lock-open]").forEach(function (l) {
+        var k = l.getAttribute("data-tap"), base = l.getAttribute(day[k] ? "data-lock-done" : "data-lock-open");
+        var img = l.querySelector("img"), src = l.querySelector("source");
+        if (src) src.setAttribute("srcset", base + ".webp");
+        if (img) img.setAttribute("src", base + ".png");
+        l.setAttribute("aria-label", (day[k] ? "Undo " : "Check in ") + NAMES[k]);
+      });
       var changed = JSON.stringify(day) !== JSON.stringify(START);
       document.querySelectorAll("[data-reset]").forEach(function (b) { b.hidden = !changed; });
       var hint = document.querySelector("[data-hero-hint]"); if (hint && tiles.length) hint.hidden = true;
@@ -207,6 +216,83 @@
       b.addEventListener("click", function () { day = Object.assign({}, START); tiles = []; render(null); });
     });
     render(null);
+  }
+
+  /* ---------- Tabs: one component (widgets, Build/Limit, pricing) ----------
+     Markup: <div data-tabs [data-tabs-start="1"] [data-tabs-max="959"]> <div class="tablist" data-tablist hidden><button aria-controls="id">..</button>..</div>
+     <div class="tabpanel" id="id"><h3 class="panel-title">..</h3>..</div>.. </div>
+     Without the script the tablist stays hidden and every panel is stacked with its own heading. With it: ARIA tabs,
+     roving tabindex, Arrow/Home/End, a #hash that names a panel selects it. data-tabs-max: tabs only while the viewport
+     is at most that many px wide; wider, the panels sit side by side as in the HTML. */
+  function setupTabs(box) {
+    var list = box.querySelector("[data-tablist]");
+    if (!list) return;
+    var tabs = Array.prototype.slice.call(list.querySelectorAll("button"));
+    var panels = tabs.map(function (t) { return document.getElementById(t.getAttribute("aria-controls")); });
+    var max = box.getAttribute("data-tabs-max");
+    var mq = max ? window.matchMedia("(max-width: " + max + "px)") : null;
+    var enabled = false, current = +(box.getAttribute("data-tabs-start") || 0);
+    tabs.forEach(function (tab, i) {
+      tab.id = tab.id || "tab-" + panels[i].id;
+      tab.addEventListener("click", function () { if (enabled) select(i, false); });
+      tab.addEventListener("keydown", function (e) {
+        if (!enabled) return;
+        var next = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
+        if (next === undefined) return;
+        e.preventDefault();
+        select((next + tabs.length) % tabs.length, true);
+      });
+    });
+    function select(index, focus) {
+      current = index;
+      tabs.forEach(function (t, i) {
+        var on = i === index;
+        t.setAttribute("aria-selected", String(on));
+        t.tabIndex = on ? 0 : -1;
+        panels[i].hidden = !on;
+      });
+      list.style.setProperty("--tab", index);
+      if (focus) tabs[index].focus();
+    }
+    function enable() {
+      enabled = true;
+      list.setAttribute("role", "tablist");
+      list.hidden = false;
+      box.classList.add("is-tabbed");
+      tabs.forEach(function (t, i) {
+        t.setAttribute("role", "tab");
+        panels[i].setAttribute("role", "tabpanel");
+        panels[i].setAttribute("aria-labelledby", t.id);
+        panels[i].tabIndex = 0;
+      });
+      select(current, false);
+    }
+    function disable() {
+      enabled = false;
+      list.removeAttribute("role");
+      list.hidden = true;
+      box.classList.remove("is-tabbed");
+      tabs.forEach(function (t, i) {
+        ["role", "aria-selected"].forEach(function (a) { t.removeAttribute(a); });
+        t.removeAttribute("tabindex");
+        ["role", "aria-labelledby", "tabindex"].forEach(function (a) { panels[i].removeAttribute(a); });
+        panels[i].hidden = false;
+      });
+    }
+    function fromHash() {
+      var i = panels.findIndex(function (p) { return "#" + p.id === location.hash; });
+      return i < 0 ? null : i;
+    }
+    function apply() { if (!mq || mq.matches) enable(); else disable(); }
+    var h = fromHash();
+    if (h !== null && (!mq || mq.matches)) current = h;
+    apply();
+    if (h !== null && enabled) panels[h].scrollIntoView();
+    if (mq) { if (mq.addEventListener) mq.addEventListener("change", apply); else mq.addListener(apply); }
+    window.addEventListener("hashchange", function () {
+      var i = fromHash();
+      if (i !== null && enabled) { select(i, false); panels[i].scrollIntoView(); }
+    });
   }
 
   /* ---------- Scroll reveal, with a fallback so nothing stays hidden ---------- */
@@ -264,6 +350,7 @@
   function start() {
     var sim = document.querySelector("[data-sim]");
     if (sim) setupSimulator(sim);
+    Array.prototype.forEach.call(document.querySelectorAll("[data-tabs]"), setupTabs);
     if (document.querySelector("[data-widget]")) setupWidgets();
     setupNav();
     setupReveal();

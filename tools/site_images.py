@@ -3,13 +3,14 @@
 
   python3 tools/site_images.py <shots> <export> <app repo>
 
-<shots>   a folder of simulator screenshots (1206 x 2622 PNG): today, today-dark, today-all-done, habit-detail,
-          habit-detail-dark, limit-detail, limit-detail-dark, widgets-lock  (see README, "Pictures")
+<shots>   a folder of simulator screenshots (1206 x 2622 PNG): today, today-dark, today-all-done, today-all-done-dark,
+          habit-detail, habit-detail-dark, limit-detail, limit-detail-dark  (see README, "Pictures")
 <export>  the app's `-screen widgetsExport` folder (Documents/widget-export, 3x PNGs)
 <app repo> the app repository (for AppIcon.png and tools/web/og_image.swift; read only)
 
-Writes assets/img/*.jpg (506 x 1100), assets/img/widgets/gallery-*.png (2x composites of the real widgets),
-the icons (app-icon.png, favicon.png, apple-touch-icon.png) and og-image.jpg.
+Writes assets/img/*.jpg (506 x 1100 Today screens; frameless 603 px crops of the habit and limit detail screens),
+assets/img/widgets/gallery-*.png (2x composites of the real widgets, no baked background), the Lock Screen pieces
+(assets/img/widgets/lock-*.png, 2x) and the icons (app-icon.png, favicon.png, apple-touch-icon.png) and og-image.jpg.
 """
 import os
 import subprocess
@@ -28,14 +29,21 @@ def rgb(path):
 
 
 # --- Screenshots: 506 x 1100 JPEG (quality 80, progressive) ---
-for name in ["today", "today-dark", "today-all-done", "habit-detail", "habit-detail-dark", "limit-detail", "limit-detail-dark"]:
-    rgb(os.path.join(shots, name + ".png")).resize((506, 1100), Image.LANCZOS).save(
-        os.path.join(IMG, name + ".jpg"), quality=80, optimize=True, progressive=True)
+def save_jpg(im, path):
+    im.save(path, quality=80, optimize=True, progressive=True)
 
-# The Lock Screen page of the widget gallery, cropped to the lock area (a bit inside the rounded card).
-lock = rgb(os.path.join(shots, "widgets-lock.png")).crop((95, 220, 1160, 2125))
-lock = lock.resize((lock.width // 2, lock.height // 2), Image.LANCZOS)
-lock.save(os.path.join(IMG, "lock-screen.jpg"), quality=80, optimize=True, progressive=True)
+
+for name in ["today", "today-dark", "today-all-done", "today-all-done-dark"]:
+    save_jpg(rgb(os.path.join(shots, name + ".png")).resize((506, 1100), Image.LANCZOS), os.path.join(IMG, name + ".jpg"))
+
+# Habit and Limit detail: frameless crops of the screen below the title bar (no phone around them), 603 px wide.
+# Habit: the ring card and the whole month calendar with its legend. Limit: the ring card, "Today is open" and the
+# calendar through the row 16-22.
+CROPS = {"habit-screen": ("habit-detail", (0, 330, 1206, 2300)), "limit-screen": ("limit-detail", (0, 330, 1206, 2150))}
+for out, (src, box) in CROPS.items():
+    for suffix in ("", "-dark"):
+        im = rgb(os.path.join(shots, src + suffix + ".png")).crop(box)
+        save_jpg(im.resize((im.width // 2, im.height // 2), Image.LANCZOS), os.path.join(IMG, out + suffix + ".jpg"))
 
 # --- Widget composites: the app's real widget pictures (3x) scaled to 2x, laid out in rows ---
 GAP = 24
@@ -49,15 +57,15 @@ def load(name, scheme):
     return im.resize((round(im.width * 2 / 3), round(im.height * 2 / 3)), Image.LANCZOS)
 
 
-def compose(rows, scheme, out, background=None, pad=0):
+def compose(rows, scheme, out):
     ims = [[load(n, scheme) for n in row] for row in rows]
     width = max(sum(i.width for i in r) + GAP * (len(r) - 1) for r in ims)
     height = sum(max(i.height for i in r) for r in ims) + GAP * (len(ims) - 1)
-    sheet = Image.new("RGBA", (width + 2 * pad, height + 2 * pad), background or (0, 0, 0, 0))
-    y = pad
+    sheet = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+    y = 0
     for r in ims:
         w = sum(i.width for i in r) + GAP * (len(r) - 1)
-        x = pad + (width - w) // 2
+        x = (width - w) // 2
         for i in r:
             sheet.paste(i, (x, y), i)
             x += i.width + GAP
@@ -73,10 +81,14 @@ for scheme in ("light", "dark"):
     compose([["today-week"]], scheme, f"gallery-large-{scheme}.png")
     compose([["calendar-limit"]], scheme, f"gallery-calendar-{scheme}.png")
     compose([["mosaic"], ["mosaic-small"]], scheme, f"gallery-mosaic-{scheme}.png")
-# Accented and always-dark modes: on a dark panel (the real pictures are made for a dark ground).
-panel = (22, 24, 34, 255)
-compose([["tinted-today"], ["clear-today"], ["standby-next-up", "standby-mosaic"]], "dark", "gallery-modes.png", panel, 36)
-compose([["lock-inline"], ["lock-ring", "lock-habit", "lock-next-up"]], "dark", "gallery-lock.png", panel, 36)
+# Accented and always-dark modes: the pictures are made for a dark ground and keep their transparency; the page puts
+# them on a dark panel (.art.dark), in both themes.
+compose([["tinted-today"], ["clear-today"]], "dark", "gallery-tinted.png")
+compose([["standby-next-up", "standby-mosaic"]], "dark", "gallery-standby.png")
+
+# Lock Screen pieces for the CSS Lock Screen (.lockscreen): the real exports at 2x, one picture each.
+for name in ("lock-inline", "lock-ring", "lock-next-up", "lock-habit", "lock-habit-done"):
+    load(name, "dark").save(os.path.join(WID, name + "-dark.png"), optimize=True)
 
 # --- Icons from the app icon ---
 icon = Image.open(os.path.join(app, "App/Assets.xcassets/AppIcon.appiconset/AppIcon.png")).convert("RGBA")
