@@ -67,7 +67,7 @@ the widget export; `tools/images.py` makes the WebP copies.
    `habit-screen` and `limit-screen` (light and dark: the screen below the title bar, no phone), the widget composites
    (`assets/img/widgets/gallery-*.png`, 2x, transparent, from the real widget pictures; `gallery-tinted` and `gallery-standby` sit on
    a dark `.art.dark` panel), the Lock Screen pieces (`lock-inline`, `lock-ring`, `lock-next-up`, `lock-habit`,
-   `lock-habit-done`, all `-dark.png` at 2x, used by the CSS `.lockscreen`), the icons (`app-icon.png`, `favicon.png`,
+   `lock-habit-done`, all `-dark.png` at 2x, used by the CSS `.lockscreen`), the icons (`app-icon.png`, `favicon.ico`/`favicon.svg`/`site.webmanifest` (`tools/favicons.py`),
    `apple-touch-icon.png` from the app icon) and the share image (it runs the app repo's `tools/web/og_image.swift`
    unchanged: it only takes the icon and two screenshots).
 4. `python3 tools/images.py` (needs Pillow with WebP: `pip3 install pillow`) writes, next to each source:

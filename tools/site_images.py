@@ -10,7 +10,7 @@
 
 Writes assets/img/*.jpg (506 x 1100 Today screens; frameless 603 px crops of the habit and limit detail screens),
 assets/img/widgets/gallery-*.png (2x composites of the real widgets, no baked background), the Lock Screen pieces
-(assets/img/widgets/lock-*.png, 2x) and the icons (app-icon.png, favicon.png, apple-touch-icon.png) and og-image.jpg.
+(assets/img/widgets/lock-*.png, 2x) and the icons (app-icon.png, favicon.ico, apple-touch-icon.png) and og-image.jpg.
 """
 import os
 import subprocess
@@ -94,7 +94,7 @@ for name in ("lock-inline", "lock-ring", "lock-next-up", "lock-habit", "lock-hab
 icon = Image.open(os.path.join(app, "App/Assets.xcassets/AppIcon.appiconset/AppIcon.png")).convert("RGBA")
 icon.resize((512, 512), Image.LANCZOS).save(os.path.join(IMG, "app-icon.png"), optimize=True)
 icon.resize((180, 180), Image.LANCZOS).convert("RGB").save(os.path.join(IMG, "apple-touch-icon.png"), optimize=True)
-icon.resize((64, 64), Image.LANCZOS).save(os.path.join(IMG, "favicon.png"), optimize=True)
+subprocess.run(["python3", os.path.join(os.path.dirname(os.path.abspath(__file__)), "favicons.py")], check=True)  # favicon.ico, touch icon, manifest icons
 
 # --- Share image: the app repo's tools/web/og_image.swift draws the icon, the name and two screenshots; it only
 # takes pictures as arguments, so it runs unchanged with the new Today (light and dark). ---
