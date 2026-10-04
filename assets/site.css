@@ -5,7 +5,9 @@
   --link: #0066CC; --accent: #000000; --on-accent: #FFFFFF;
   --blue: #007AFF; --green: #34C759; --orange: #FF9500; --pink: #FF2D55; --purple: #AF52DE; --cyan: #32ADE6;
   --yellow: #FFCC00; --coral: #F2836B;
-  --tint: 16%;
+  --tint: 13%;
+  /* habit-coloured text on a widget's colour field: the colour stepped toward the ink until 4.5:1 (app: HabitPalette.fieldLabel) */
+  --blue-l: #0062CC; --pink-l: #BF2240; --purple-l: #9546BD; --green-l: #1F7735;
   --seg: var(--card2); --seg-on: #FFFFFF; --seg-on-ink: var(--ink);
   --miss: #8A8A8F;
   --shadow: 0 1px 2px rgba(0, 0, 0, .04), 0 10px 30px -12px rgba(0, 0, 0, .14);
@@ -20,7 +22,8 @@
     --link: #409CFF; --accent: #FFFFFF; --on-accent: #000000;
     --blue: #0A84FF; --green: #30D158; --orange: #FF9F0A; --pink: #FF375F; --purple: #BF5AF2; --cyan: #64D2FF;
     --yellow: #FFD60A; --coral: #F58E78;
-    --tint: 24%;
+    --tint: 22%;
+    --blue-l: #3B9DFF; --pink-l: #FF5F7F; --purple-l: #CC7BF5; --green-l: #30D158;
     --seg: var(--card2); --seg-on: #636366; --seg-on-ink: #FFFFFF;
     --miss: #8E8E93;
     --shadow: 0 0 0 1px rgba(255, 255, 255, .04);
@@ -147,7 +150,7 @@ section { padding: clamp(32px, 6.5vw, 88px) 0; scroll-margin-top: 60px; }
 .meter .bars i { width: 11px; height: 4px; border-radius: 2px; background: color-mix(in srgb, var(--c) 28%, transparent); }
 .meter .bars i.on { background: var(--c); }
 .meter .word { font-size: 11.5px; font-weight: 700; line-height: 1; }
-.ring { --p: 85; position: relative; width: 52px; height: 52px; border-radius: 50%; border: 0; padding: 0; background: conic-gradient(var(--c) calc(var(--p) * 1%), color-mix(in srgb, var(--c) 25%, transparent) 0); display: grid; place-items: center; -webkit-tap-highlight-color: transparent; transition: transform .15s var(--ease); font: inherit; color: var(--c); }
+.ring { --p: 85; position: relative; width: 52px; height: 52px; border-radius: 50%; border: 0; padding: 0; background: conic-gradient(var(--c) calc(var(--p) * 1%), color-mix(in srgb, var(--c) 25%, transparent) 0); display: grid; place-items: center; -webkit-tap-highlight-color: transparent; transition: transform .15s var(--ease); font: inherit; color: var(--cl, var(--c)); }
 button.ring { cursor: pointer; }
 .ring::before { content: ""; position: absolute; inset: 5px; border-radius: inherit; background: color-mix(in srgb, var(--c) 18%, var(--card)); }
 .ring svg { position: relative; width: 24px; height: 24px; }
