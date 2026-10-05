@@ -83,7 +83,7 @@ screen has `loading="lazy" decoding="async"`.
 
 ## When the app is live
 
-Before launch the badges are non-link `<span class="store-badge">` elements ("Coming in November") and the header shows a non-link "Coming in November" pill. On launch day replace them with Apple's official "Download on the App Store" badge and link (hero, closing and header), add `<meta
+Before launch the badges are non-link `<span class="store-badge">` elements ("Coming soon") and the header shows a non-link "Coming soon" pill. At launch replace them with Apple's official "Download on the App Store" badge and link (hero, closing and header), add `<meta
 name="apple-itunes-app" content="app-id=…">`, and add the App Store URL to the JSON-LD and `llms.txt`.
 
 Contact: contact@mostlydaily.com
