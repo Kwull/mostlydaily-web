@@ -45,6 +45,16 @@ for out, (src, box) in CROPS.items():
         im = rgb(os.path.join(shots, src + suffix + ".png")).crop(box)
         save_jpg(im.resize((im.width // 2, im.height // 2), Image.LANCZOS), os.path.join(IMG, out + suffix + ".jpg"))
 
+# Habit steps (Today with the step line and the "ready for the next step" card; `-demoHabits 3 -steppedHabit up`) and the
+# theme picker (`-premium -screen themes`): frameless crops like the habit and limit screens.
+EXTRA = {"steps-screen": ("steps", (0, 1180, 1206, 2330)), "themes-screen": ("themes", (0, 330, 1206, 2622))}
+for out, (src, box) in EXTRA.items():
+    for suffix in ("", "-dark"):
+        path = os.path.join(shots, src + suffix + ".png")
+        if os.path.exists(path):
+            im = rgb(path).crop(box)
+            save_jpg(im.resize((im.width // 2, im.height // 2), Image.LANCZOS), os.path.join(IMG, out + suffix + ".jpg"))
+
 # --- Widget composites: the app's real widget pictures (3x) scaled to 2x, laid out in rows ---
 GAP = 24
 
