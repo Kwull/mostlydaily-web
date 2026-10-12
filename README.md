@@ -46,7 +46,7 @@ and run `node tools/sim.test.js`.
 ## Widgets in CSS
 
 The Home Screen widgets are drawn in HTML and CSS (`.wg`) after the app's direction B, "colour field": the habit's
-colour at 16% (light) or 24% (dark) over the card, the name, a seven-slot week track, a four-bar level meter with its
+colour at 16% (light) or 24% (dark) over the card, the name, a four-bar level meter with its
 word, and one control at the bottom right (round for Build, a rounded square for Limit). Done turns the field to the
 full colour and the control white. A clear Limit day turns the inside of the square green with no checkmark. All
 done shows the mosaic. If the app's widgets change, change these rules and compare with the app's `-screen widgets…` pages.

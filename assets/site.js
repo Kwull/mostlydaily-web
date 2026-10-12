@@ -167,9 +167,7 @@
         }
         if (kind === "next") {
           var open = ORDER.filter(function (k) { return !day[k]; });
-          var doneCount = Object.keys(day).filter(function (k) { return day[k]; }).length;
           var all = open.length === 0;
-          w.querySelector("[data-count]").textContent = doneCount + "/5";
           w.classList.toggle("is-alldone", all);
           w.querySelector("[data-next-name]").hidden = all;
           w.querySelector(".foot").hidden = all;

@@ -39,7 +39,7 @@ for name in ["today", "today-dark", "today-all-done", "today-all-done-dark"]:
 # Habit and Limit detail: frameless crops of the screen below the title bar (no phone around them), 603 px wide.
 # Habit: the ring card and the whole month calendar with its legend. Limit: the ring card, "Today is open" and the
 # calendar through the row 16-22.
-CROPS = {"habit-screen": ("habit-detail", (0, 330, 1206, 2300)), "limit-screen": ("limit-detail", (0, 330, 1206, 2150))}
+CROPS = {"habit-screen": ("habit-detail", (0, 330, 1206, 2300)), "limit-screen": ("limit-detail", (0, 330, 1206, 2310))}
 for out, (src, box) in CROPS.items():
     for suffix in ("", "-dark"):
         im = rgb(os.path.join(shots, src + suffix + ".png")).crop(box)
@@ -47,7 +47,7 @@ for out, (src, box) in CROPS.items():
 
 # Habit steps (Today with the step line and the "ready for the next step" card; `-demoHabits 3 -steppedHabit up`) and the
 # theme picker (`-premium -screen themes`): frameless crops like the habit and limit screens.
-EXTRA = {"steps-screen": ("steps", (0, 1180, 1206, 2330)), "themes-screen": ("themes", (0, 330, 1206, 2622))}
+EXTRA = {"steps-screen": ("steps", (0, 1170, 1206, 2330)), "themes-screen": ("themes", (0, 330, 1206, 2622))}
 for out, (src, box) in EXTRA.items():
     for suffix in ("", "-dark"):
         path = os.path.join(shots, src + suffix + ".png")
