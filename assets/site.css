@@ -136,6 +136,7 @@ section { padding: clamp(32px, 6.5vw, 88px) 0; scroll-margin-top: 60px; }
 
 /* Widgets: direction B, colour field, drawn in CSS. Static (open state) without the script. */
 .wg { --c: var(--blue); position: relative; width: 158px; height: 158px; border-radius: 24px; padding: 14px; background: color-mix(in srgb, var(--c) var(--tint), var(--card)); color: var(--ink); display: grid; grid-template-rows: auto auto 1fr; transition: background-color .25s var(--ease); user-select: none; -webkit-user-select: none; }
+.wg .kicker { font-size: 11px; font-weight: 600; color: var(--ink2); line-height: 1.2; margin-bottom: 3px; }
 .wg .name { font-size: 15px; font-weight: 700; line-height: 1.2; letter-spacing: -.01em; }
 .wg .count { font-size: 13px; font-weight: 700; color: var(--ink2); display: flex; align-items: center; gap: 6px; }
 .wg .count .dayring { width: 14px; height: 14px; border-radius: 50%; background: conic-gradient(var(--green) 0 20%, transparent 20% 22%, var(--orange) 22% 40%, transparent 40% 42%, var(--line) 42% 100%); -webkit-mask: radial-gradient(circle, transparent 54%, #000 56%); mask: radial-gradient(circle, transparent 54%, #000 56%); }

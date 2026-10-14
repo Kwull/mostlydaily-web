@@ -170,6 +170,7 @@
           var all = open.length === 0;
           w.classList.toggle("is-alldone", all);
           w.querySelector("[data-next-name]").hidden = all;
+          var lbl = w.querySelector("[data-next-label]"); if (lbl) lbl.hidden = all;
           w.querySelector(".foot").hidden = all;
           w.querySelector(".alldone").hidden = !all;
           w.querySelector("[data-mosaic]").hidden = !all;
