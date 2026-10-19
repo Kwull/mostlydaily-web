@@ -10,14 +10,14 @@ markup; change them everywhere at once.
 
 | Page | Purpose |
 |---|---|
-| `index.html` | Home: hero with a live Habit widget, widgets on tabs (Home Screen demo, a composed Lock Screen, Every widget), "Miss a day" simulator with the level ladder, Build and Limit on tabs, the mosaic, privacy facts, pricing on tabs under 960 px (no prices: owner decision), six questions (also in the JSON-LD FAQPage block, word for word), guides, closing with the three steps |
-| `support.html` | App Store **Support URL** |
+| `index.html` | Home (redesign, 19 Oct 2026): hero with the "Try it: tap a day" week (the Miss a day rules), Why Mostly (three cards), Widgets (App Store Home Screen shot, three widget pictures, Lock Screen strip), Build and Limit colour-field cards, Who you're becoming, one black privacy band, pricing as two cards plus a Family line and "Everything, line by line", six questions (also in the JSON-LD FAQPage block, word for word), guides, closing with the three steps. No tabs, no prices (owner) |
+| `support.html` | App Store **Support URL**; also the other six questions (habit steps, Limit habit, data, themes, challenges, quarterly review) with their own FAQPage JSON-LD |
 | `privacy.html` | App Store **Privacy Policy URL** (effective 4 October 2026) |
 | `terms.html` | Terms of Use (Apple standard EULA + subscription terms), linked from the app's Premium sheet |
 | `guides/` | Short articles on building habits (our own words; no quotes or book titles) |
 | `llms.txt` | Plain-text summary for AI assistants |
 | `404.html`, `CNAME`, `.nojekyll`, `robots.txt`, `sitemap.xml` | Hosting plumbing; add new pages to `sitemap.xml` |
-| `tools/site_images.py`, `tools/images.py`, `tools/sim.test.js` | Pictures from the app, WebP copies, a test of the simulator's rules (see below) |
+| `tools/site_images.py`, `tools/store_images.py`, `tools/images.py`, `tools/sim.test.js` | Pictures from the app, the App Store shots in light and dark, WebP copies, a test of the simulator's rules (see below) |
 
 **Never rename or remove** `support.html`, `privacy.html` or `terms.html`: the app (`AppLinks.swift`) and App Store
 Connect link to them.
@@ -30,26 +30,19 @@ then). It adds `has-js` to `<html>`; anything marked `data-js` is hidden until t
 
 | Part | Without the script | With the script |
 |---|---|---|
-| Widgets (`#widgets`, `.wg`, the hero's widget) | Four CSS widgets in their open state, the mosaic with 60 tiles | The rings become buttons with state-aware labels ("Check in Read 10 pages" / "Undo"); one shared day for every widget on the page |
-| Home Screen demo rules | Static | A ring checks in, a second tap undoes (the Lock Screen's book is the same Read habit: its picture swaps to the done export); Next up moves to the next open habit (Floss, Read, Alcohol-free, Move) and shows the mosaic when all are done; the Limit control logs a clear day (green inside the rounded square, no checkmark); each check-in lands a tile in the big mosaic (0.45 s spring, 1.5 s glow; none under Reduce Motion); "Start over" appears after the first tap |
-| "Miss a day" (`#miss`, `[data-sim]`) | A static week with one miss, its level, run and plain streak | Tap a day for done, missed, rest, or pick one of four patterns; level, run and streak update live (`aria-live` note) |
-| Tabs (`[data-tabs]`: widgets, Build/Limit, pricing) | The tablist is hidden; every panel is shown, stacked, each with its own `<h3 class="panel-title">` | One component, `setupTabs`: ARIA tabs, roving tabindex, Arrow/Home/End, a `#hash` naming a panel selects it (`#home-screen`, `#lock`, `#every-widget`, `#habit-build`, `#habit-limit`, `#plan-free`, `#plan-premium`, `#plan-family`); the panel titles become screen-reader only. `data-tabs-start="1"` picks the first tab; `data-tabs-max="959"` (pricing) enables tabs only below that width, wider the three cards sit in a grid |
+| Hero "Try it: tap a day" (`[data-sim]`) | A static week with one miss, its level, run and plain streak | Each day is a `<button>` ("Thursday, missed. Tap to change."): tap or Enter/Space cycles done, missed, rest; level, run, streak and a kind note (`aria-live="polite"`) update; the ring counts to the new score in 320 ms (none under Reduce Motion); four presets appear on wide screens |
 | Header | All links on wide screens; a `<details>` menu below 960 px | The section in view is highlighted; the menu closes after a tap, on Escape or a tap outside |
-| Sections | Static | Fade in once on scroll; everything is shown 1.5 s after load and when printing |
+| Sections | Static | Fade in once on scroll (`data-reveal`, currently unused); everything is shown 1.5 s after load and when printing |
 
-The simulator uses the app's real rules (`MostlyCore`): the level score is an exponentially weighted average of the
+The week uses the app's real rules (`MostlyCore`): the level score is an exponentially weighted average of the
 last 60 opportunities with a half-life of 10 (Starting 0-24, Sometimes 25-49, Often 50-74, Mostly 75-100); rest days
 are not opportunities; the "never missed twice" run ends only after two misses in a row and counts days, rest
 included. The week follows 60 done days ("two good months"). If the engine changes, update `evaluate()` in `site.js`
 and run `node tools/sim.test.js`.
 
-## Widgets in CSS
+## Widgets
 
-The Home Screen widgets are drawn in HTML and CSS (`.wg`) after the app's direction B, "colour field": the habit's
-colour at 16% (light) or 24% (dark) over the card, the name, a four-bar level meter with its
-word, and one control at the bottom right (round for Build, a rounded square for Limit). Done turns the field to the
-full colour and the control white. A clear Limit day turns the inside of the square green with no checkmark. All
-done shows the mosaic. If the app's widgets change, change these rules and compare with the app's `-screen widgets…` pages.
+The Home Screen is the App Store screenshot (real Home Screen with the app's widgets, with its caption and colour field), in light and dark (`store-widgets*.jpg`); the three widget pictures and the Lock Screen strip come from `-screen widgetsExport` (`assets/img/widgets/`). The old CSS-drawn interactive widget board was removed in the redesign.
 
 ## Pictures
 
@@ -76,6 +69,8 @@ the widget export; `tools/images.py` makes the WebP copies.
 
 The header, footer and closing mark are the logo ("mosaic, one open") drawn in CSS (`.mark`), so it tints with the theme.
 
+Light and dark store shots (`store-*.jpg` / `store-*-dark.jpg`, 900 px, `tools/store_images.py`) get WebP copies at 450 and 900 px from `tools/images.py`.
+
 Markup rules: every picture is a `<picture>` with a `type="image/webp"` source first and the JPEG/PNG in `<img>`;
 light/dark pairs add `media="(prefers-color-scheme: dark)"` sources before the light ones. Screenshots use `srcset` +
 `sizes`. Every `<img>` has `width` and `height`; the hero's phone has `fetchpriority="high"`; everything below the first
@@ -83,7 +78,7 @@ screen has `loading="lazy" decoding="async"`.
 
 ## When the app is live
 
-Before launch the badges are non-link `<span class="store-badge">` elements ("Coming soon") and the header shows a non-link "Coming soon" pill. At launch replace them with Apple's official "Download on the App Store" badge and link (hero, closing and header), add `<meta
+Before launch the hero and closing show a plain "Coming soon for iPhone" status and an "Email me when it's out" mailto button (no Apple badge, no Apple logo), and the header a "Coming soon for iPhone" button to the closing section. An HTML comment marks where the badge goes. At launch replace them with Apple's official "Download on the App Store" badge and link (hero, closing and header), add `<meta
 name="apple-itunes-app" content="app-id=…">`, and add the App Store URL to the JSON-LD and `llms.txt`.
 
 Contact: contact@mostlydaily.com

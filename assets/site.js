@@ -57,7 +57,7 @@
   root.classList.add("has-js");
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-  /* ---------- Miss a day: one week track, four presets ---------- */
+  /* ---------- Hero "Try it: tap a day": one week track, four presets (wide screens), result with aria-live ---------- */
   function setupSimulator(sim) {
     var DAYNAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
     var LABELS = ["M", "T", "W", "T", "F", "S", "S"];
@@ -74,11 +74,26 @@
     var week = sim.querySelector("[data-week]");
     var out = {
       score: sim.querySelector("[data-score]"), ring: sim.querySelector("[data-ring]"), level: sim.querySelector("[data-level]"),
-      bars: sim.querySelector("[data-bars]").children, run: sim.querySelector("[data-run]"),
+      bars: (sim.querySelector("[data-bars]") || { children: [] }).children, run: sim.querySelector("[data-run]"),
       streak: sim.querySelector("[data-streak]"), note: sim.querySelector("[data-note]")
     };
     var presets = sim.querySelectorAll("[data-preset]");
     var ladder = sim.querySelectorAll("[data-ladder] li");
+    var shown = null, tween = null;
+    // The score counts from the old value to the new in 320 ms (none under Reduce Motion).
+    function showScore(to) {
+      if (tween) cancelAnimationFrame(tween);
+      if (shown === null || reduceMotion.matches) { shown = to; paint(to); return; }
+      var from = shown, t0 = null;
+      function step(t) {
+        if (t0 === null) t0 = t;
+        var k = Math.min(1, (t - t0) / 320), v = Math.round(from + (to - from) * (1 - Math.pow(1 - k, 3)));
+        paint(v);
+        if (k < 1) tween = requestAnimationFrame(step); else shown = to;
+      }
+      tween = requestAnimationFrame(step);
+    }
+    function paint(v) { out.score.textContent = v; out.ring.style.setProperty("--p", v); }
     function draw(changed) {
       var r = evaluate(days);
       week.innerHTML = days.map(function (st, i) {
@@ -86,10 +101,9 @@
           '" aria-label="' + DAYNAMES[i] + (i === 6 ? " (today)" : "") + ", " + NAME[st] + '. Tap to change."><span class="d">' + ICON[st] + '</span><span class="lbl" aria-hidden="true">' + LABELS[i] + "</span></button>";
       }).join("");
       if (changed >= 0) { var b = week.querySelector('[data-i="' + changed + '"]'); if (b) b.focus({ preventScroll: true }); }
-      out.score.textContent = r.score;
-      out.ring.style.setProperty("--p", r.score);
+      showScore(r.score);
       out.level.textContent = LEVELS[r.level];
-      for (var i = 0; i < 4; i++) out.bars[i].className = i <= r.level ? "on" : "";
+      for (var i = 0; i < out.bars.length; i++) out.bars[i].className = i <= r.level ? "on" : "";
       Array.prototype.forEach.call(ladder, function (li, i) { if (i === r.level) li.setAttribute("aria-current", "true"); else li.removeAttribute("aria-current"); });
       out.run.textContent = r.run + " days";
       out.streak.textContent = r.streak + (r.streak === 1 ? " day" : " days");
@@ -110,188 +124,6 @@
       });
     });
     draw(-1);
-  }
-
-  /* ---------- Home Screen demo: one shared day for every widget on the page, as in the app ----------
-     A ring checks in (a second tap undoes it); Next up walks the open habits (Floss, Read, Alcohol-free, Move) and shows the mosaic when
-     all are done; the Limit control logs a clear day (no checkmark); every check-in lands a tile in the mosaic. */
-  function setupWidgets() {
-    var CLS = { floss: "a", read: "b", alcohol: "c", move: "d", meditate: "e" };
-    var COLORS = { floss: "var(--pink)", read: "var(--blue)", alcohol: "var(--purple)", move: "var(--green)", meditate: "var(--orange)" };
-    var NAMES = { floss: "Floss", read: "Read 10 pages", alcohol: "Alcohol-free days", move: "Move 20 minutes" };
-    var ORDER = ["floss", "read", "alcohol", "move"];
-    var START = { floss: false, read: false, alcohol: false, move: false, meditate: true };
-    var LEVEL = { floss: ["Sometimes", 2, 42], read: ["Mostly", 4, 85], alcohol: ["Mostly", 4, 78], move: ["Often", 3, 64] };
-    var day = Object.assign({}, START);
-    var tiles = [];
-    var BASE = [], keys = Object.keys(CLS);
-    for (var n = 0; n < 60; n++) BASE.push(keys[(n * 7 + (n >> 2)) % 5]);
-    var mosaics = document.querySelectorAll("[data-mosaic]");
-
-    // Static spans become real buttons now that the script is running.
-    Array.prototype.forEach.call(document.querySelectorAll("span.ring[data-tap], span.ring[data-next-ring], span.lock-tap[data-tap]"), function (el) {
-      var b = document.createElement("button");
-      b.type = "button";
-      Array.prototype.forEach.call(el.attributes, function (a) { b.setAttribute(a.name, a.value); });
-      b.removeAttribute("role");
-      b.innerHTML = el.innerHTML;
-      el.parentNode.replaceChild(b, el);
-    });
-
-    function drawMosaics(landed) {
-      var all = BASE.concat(tiles);
-      mosaics.forEach(function (m) {
-        var html = "";
-        for (var i = 0; i < 100; i++) {
-          var k = all[i];
-          html += k ? '<i class="t ' + CLS[k] + (landed && i === all.length - 1 ? " land glow" : "") + '"></i>' : "<i></i>";
-        }
-        m.innerHTML = html;
-        if (m.getAttribute("data-mosaic") === "big") m.setAttribute("aria-label", "Your mosaic: " + Math.min(all.length, 100) + " tiles");
-      });
-    }
-
-    function render(landedKey) {
-      document.querySelectorAll("[data-widget]").forEach(function (w) {
-        var kind = w.getAttribute("data-widget");
-        if (kind === "habit" || kind === "floss" || kind === "move") {
-          var key = kind === "habit" ? "read" : kind, done = day[key];
-          w.classList.toggle("is-done", done);
-          var b = w.querySelector("[data-tap]");
-          if (b) b.setAttribute("aria-label", (done ? "Undo " : "Check in ") + NAMES[key]);
-        }
-        if (kind === "limit") {
-          w.classList.toggle("is-clear", day.alcohol);
-          var lb = w.querySelector("[data-tap]");
-          if (lb) lb.setAttribute("aria-label", day.alcohol ? "Undo today's clear day" : "Log a clear day for Alcohol-free days");
-        }
-        if (kind === "next") {
-          var open = ORDER.filter(function (k) { return !day[k]; });
-          var all = open.length === 0;
-          w.classList.toggle("is-alldone", all);
-          w.querySelector("[data-next-name]").hidden = all;
-          var lbl = w.querySelector("[data-next-label]"); if (lbl) lbl.hidden = all;
-          w.querySelector(".foot").hidden = all;
-          w.querySelector(".alldone").hidden = !all;
-          w.querySelector("[data-mosaic]").hidden = !all;
-          if (!all) {
-            var k = open[0], r = w.querySelector("[data-next-ring]");
-            w.style.setProperty("--c", COLORS[k]);
-            w.querySelector("[data-next-name]").textContent = NAMES[k];
-            w.querySelector("[data-next-word]").textContent = LEVEL[k][0];
-            var bars = w.querySelector("[data-next-bars]").children;
-            for (var i = 0; i < 4; i++) bars[i].className = i < LEVEL[k][1] ? "on" : "";
-            r.style.setProperty("--p", LEVEL[k][2]);
-            r.className = "ring" + (k === "alcohol" ? " square" : "");
-            r.setAttribute("aria-label", (k === "alcohol" ? "Log a clear day for " : "Check in ") + NAMES[k]);
-            r.setAttribute("data-tap", k);
-          }
-        }
-      });
-      document.querySelectorAll("[data-lock-open]").forEach(function (l) {
-        var k = l.getAttribute("data-tap"), base = l.getAttribute(day[k] ? "data-lock-done" : "data-lock-open");
-        var img = l.querySelector("img"), src = l.querySelector("source");
-        if (src) src.setAttribute("srcset", base + ".webp");
-        if (img) img.setAttribute("src", base + ".png");
-        l.setAttribute("aria-label", (day[k] ? "Undo " : "Check in ") + NAMES[k]);
-      });
-      var changed = JSON.stringify(day) !== JSON.stringify(START);
-      document.querySelectorAll("[data-reset]").forEach(function (b) { b.hidden = !changed; });
-      var hint = document.querySelector("[data-hero-hint]"); if (hint && tiles.length) hint.hidden = true;
-      drawMosaics(!!landedKey);
-    }
-    document.addEventListener("click", function (e) {
-      var b = e.target.closest("button[data-tap]"); if (!b) return;
-      var k = b.getAttribute("data-tap");
-      day[k] = !day[k];
-      if (day[k]) tiles.push(k); else { var i = tiles.lastIndexOf(k); if (i >= 0) tiles.splice(i, 1); }
-      document.querySelectorAll(".is-hinting").forEach(function (x) { x.classList.remove("is-hinting"); });
-      render(day[k] ? k : null);
-      // Next up replaces its button when the habit changes; keep focus on a control.
-      var again = document.querySelector('[data-widget="next"] button[data-tap]');
-      if (again && b.hasAttribute("data-next-ring") && document.activeElement !== again) again.focus({ preventScroll: true });
-    });
-    document.querySelectorAll("[data-reset]").forEach(function (b) {
-      b.addEventListener("click", function () { day = Object.assign({}, START); tiles = []; render(null); });
-    });
-    render(null);
-  }
-
-  /* ---------- Tabs: one component (widgets, Build/Limit, pricing) ----------
-     Markup: <div data-tabs [data-tabs-start="1"] [data-tabs-max="959"]> <div class="tablist" data-tablist hidden><button aria-controls="id">..</button>..</div>
-     <div class="tabpanel" id="id"><h3 class="panel-title">..</h3>..</div>.. </div>
-     Without the script the tablist stays hidden and every panel is stacked with its own heading. With it: ARIA tabs,
-     roving tabindex, Arrow/Home/End, a #hash that names a panel selects it. data-tabs-max: tabs only while the viewport
-     is at most that many px wide; wider, the panels sit side by side as in the HTML. */
-  function setupTabs(box) {
-    var list = box.querySelector("[data-tablist]");
-    if (!list) return;
-    var tabs = Array.prototype.slice.call(list.querySelectorAll("button"));
-    var panels = tabs.map(function (t) { return document.getElementById(t.getAttribute("aria-controls")); });
-    var max = box.getAttribute("data-tabs-max");
-    var mq = max ? window.matchMedia("(max-width: " + max + "px)") : null;
-    var enabled = false, current = +(box.getAttribute("data-tabs-start") || 0);
-    tabs.forEach(function (tab, i) {
-      tab.id = tab.id || "tab-" + panels[i].id;
-      tab.addEventListener("click", function () { if (enabled) select(i, false); });
-      tab.addEventListener("keydown", function (e) {
-        if (!enabled) return;
-        var next = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: tabs.length - 1 }[e.key];
-        if (next === undefined) return;
-        e.preventDefault();
-        select((next + tabs.length) % tabs.length, true);
-      });
-    });
-    function select(index, focus) {
-      current = index;
-      tabs.forEach(function (t, i) {
-        var on = i === index;
-        t.setAttribute("aria-selected", String(on));
-        t.tabIndex = on ? 0 : -1;
-        panels[i].hidden = !on;
-      });
-      list.style.setProperty("--tab", index);
-      if (focus) tabs[index].focus();
-    }
-    function enable() {
-      enabled = true;
-      list.setAttribute("role", "tablist");
-      list.hidden = false;
-      box.classList.add("is-tabbed");
-      tabs.forEach(function (t, i) {
-        t.setAttribute("role", "tab");
-        panels[i].setAttribute("role", "tabpanel");
-        panels[i].setAttribute("aria-labelledby", t.id);
-        panels[i].tabIndex = 0;
-      });
-      select(current, false);
-    }
-    function disable() {
-      enabled = false;
-      list.removeAttribute("role");
-      list.hidden = true;
-      box.classList.remove("is-tabbed");
-      tabs.forEach(function (t, i) {
-        ["role", "aria-selected"].forEach(function (a) { t.removeAttribute(a); });
-        t.removeAttribute("tabindex");
-        ["role", "aria-labelledby", "tabindex"].forEach(function (a) { panels[i].removeAttribute(a); });
-        panels[i].hidden = false;
-      });
-    }
-    function fromHash() {
-      var i = panels.findIndex(function (p) { return "#" + p.id === location.hash; });
-      return i < 0 ? null : i;
-    }
-    function apply() { if (!mq || mq.matches) enable(); else disable(); }
-    var h = fromHash();
-    if (h !== null && (!mq || mq.matches)) current = h;
-    apply();
-    if (h !== null && enabled) panels[h].scrollIntoView();
-    if (mq) { if (mq.addEventListener) mq.addEventListener("change", apply); else mq.addListener(apply); }
-    window.addEventListener("hashchange", function () {
-      var i = fromHash();
-      if (i !== null && enabled) { select(i, false); panels[i].scrollIntoView(); }
-    });
   }
 
   /* ---------- Scroll reveal, with a fallback so nothing stays hidden ---------- */
@@ -349,8 +181,6 @@
   function start() {
     var sim = document.querySelector("[data-sim]");
     if (sim) setupSimulator(sim);
-    Array.prototype.forEach.call(document.querySelectorAll("[data-tabs]"), setupTabs);
-    if (document.querySelector("[data-widget]")) setupWidgets();
     setupNav();
     setupReveal();
   }
