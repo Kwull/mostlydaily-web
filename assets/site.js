@@ -39,7 +39,7 @@
     var level = LEVELS[r.level], t;
     if (r.misses === 0 && r.rests === 0) t = "Every day done. Mostly is the top level; there's nothing above it.";
     else if (r.misses === 0) t = "A rest day isn't a miss: your level and your run carry on as if nothing happened.";
-    else if (r.trailing >= 2) t = "Two misses in a row end the run, gently. A new one starts with your next check-in, and your level is " + (r.level >= 2 ? "still " : "") + level + ".";
+    else if (r.trailing >= 2) t = "Two misses in a row end the run, gently. A new one starts the next day, and your level is " + (r.level >= 2 ? "still " : "") + level + ".";
     else if (r.pairEver) t = "Two misses in a row ended a run and a new one started the next day. Your level is " + level + ".";
     else if (r.misses === 1) t = "One miss, nothing reset. Your level dips a few points and your run keeps going.";
     else t = r.misses + " misses, never two in a row: your run keeps going and your level is " + level + ".";
@@ -94,18 +94,18 @@
       tween = requestAnimationFrame(step);
     }
     function paint(v) { out.score.textContent = v; out.ring.style.setProperty("--p", v); }
-    function draw(changed) {
+    function draw(changed, keyboard) {
       var r = evaluate(days);
       week.innerHTML = days.map(function (st, i) {
         return '<button type="button" class="wk ' + st + (i === 6 ? " today" : "") + (i === changed ? " changed" : "") + '" data-i="' + i +
           '" aria-label="' + DAYNAMES[i] + (i === 6 ? " (today)" : "") + ", " + NAME[st] + '. Tap to change."><span class="d">' + ICON[st] + '</span><span class="lbl" aria-hidden="true">' + LABELS[i] + "</span></button>";
       }).join("");
-      if (changed >= 0) { var b = week.querySelector('[data-i="' + changed + '"]'); if (b) b.focus({ preventScroll: true }); }
+      if (changed >= 0 && keyboard) { var b = week.querySelector('[data-i="' + changed + '"]'); if (b) b.focus({ preventScroll: true }); }
       showScore(r.score);
       out.level.textContent = LEVELS[r.level];
       for (var i = 0; i < out.bars.length; i++) out.bars[i].className = i <= r.level ? "on" : "";
       Array.prototype.forEach.call(ladder, function (li, i) { if (i === r.level) li.setAttribute("aria-current", "true"); else li.removeAttribute("aria-current"); });
-      out.run.textContent = r.run + " days";
+      out.run.textContent = r.run + (r.run === 1 ? " day" : " days");
       out.streak.textContent = r.streak + (r.streak === 1 ? " day" : " days");
       out.note.textContent = message(r);
       var now = days.map(function (s) { return s[0]; }).join("");
@@ -115,7 +115,7 @@
       var b = e.target.closest("button"); if (!b) return;
       var i = +b.getAttribute("data-i");
       days[i] = STATES[(STATES.indexOf(days[i]) + 1) % 3];
-      draw(i);
+      draw(i, e.detail === 0);   // detail 0: Space/Enter, so keep keyboard focus on the day; a pointer tap leaves no focus ring
     });
     Array.prototype.forEach.call(presets, function (b) {
       b.addEventListener("click", function () {
