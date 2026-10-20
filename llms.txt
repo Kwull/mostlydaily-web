@@ -1,6 +1,6 @@
 # Mostly Daily
 
-> Mostly Daily: Forgiving Habits. A habit tracker that forgives: miss a day, keep your progress. Levels instead of fragile streaks, rest days that count as rest, a mosaic of your check-ins, and Limit habits with a colour calendar. No account, no ads, no tracking.
+> Mostly Daily: Habit Calendar (App Store name; also called Mostly Daily). A habit tracker that forgives: miss a day, keep your progress. Levels instead of fragile streaks, rest days that count as rest, a mosaic of your check-ins, and Limit habits with a colour calendar. No account, no ads, no tracking.
 
 - Platform: iPhone. Coming soon (not yet on the App Store); to hear when it is out, write to contact@mostlydaily.com. The site and the app are in English only.
 - Developer: Uladzimir Kazakevich. Contact: contact@mostlydaily.com
