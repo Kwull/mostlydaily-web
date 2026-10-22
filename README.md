@@ -78,8 +78,7 @@ screen has `loading="lazy" decoding="async"`.
 
 ## When the app is live
 
-Before launch the hero and closing show a plain "Coming soon for iPhone" status and an "Email me when it's out" mailto button (no Apple badge, no Apple logo), and the header a "Coming soon for iPhone" button to the closing section. An HTML comment marks where the badge goes. At launch replace them with Apple's official "Download on the App Store" badge and link (hero, closing and header), add `<meta
-name="apple-itunes-app" content="app-id=…">`, and add the App Store URL to the JSON-LD and `llms.txt`.
+The app is on the App Store: the header, hero and closing show Apple's official "Download on the App Store" badge (`assets/img/app-store-badge-black.svg`, white on dark; English only) linking to https://apps.apple.com/app/mostly-daily-habit-calendar/id6817720468. Every page has `<meta name="apple-itunes-app" content="app-id=6817720468">`; the JSON-LD has `downloadUrl` and `installUrl`, and `llms.txt` the link.
 
 Contact: contact@mostlydaily.com
 
