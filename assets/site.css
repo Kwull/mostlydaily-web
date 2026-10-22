@@ -180,8 +180,6 @@ section { padding: clamp(48px, 7vw, 96px) 0; }
 .section-head .sub { margin-top: 14px; }
 .cta-row { display: flex; flex-wrap: wrap; gap: 12px 14px; align-items: center; margin-top: 28px; }
 .button.cta { min-height: 52px; padding: 0 24px; border-radius: var(--r1); font-size: 17px; }
-/* Pre-release status chip: plain text, no Apple badge, no Apple logo (the official badge only at release) */
-.status { display: inline-flex; align-items: center; min-height: 52px; padding: 0 20px; border-radius: var(--r1); border: 1px solid var(--line); color: var(--ink); font-weight: 600; font-size: 17px; }
 
 /* Hero: headline, "try it" week, CTAs, facts; the phone beside it */
 .hero { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); gap: 40px; align-items: center; padding: clamp(36px, 6vw, 84px) 0 clamp(24px, 4vw, 56px); }
@@ -361,3 +359,7 @@ details.more li { break-inside: avoid; margin-bottom: 6px; }
 @media (max-width: 759px) { details.more ul { columns: 1; } }
 .family { margin-top: 16px; }
 .guide-rows { padding: 4px 24px; }
+.appstore { display: inline-block; line-height: 0; border-radius: 8px; }
+.appstore img { display: block; height: auto; }
+.cta-head.appstore { margin-left: 8px; flex: none; }
+@media (max-width: 559px) { .cta-head.appstore { display: none; } }
