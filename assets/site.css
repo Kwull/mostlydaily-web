@@ -363,3 +363,7 @@ details.more li { break-inside: avoid; margin-bottom: 6px; }
 .appstore img { display: block; height: auto; }
 .cta-head.appstore { margin-left: 8px; flex: none; }
 @media (max-width: 559px) { .cta-head.appstore { display: none; } }
+
+/* iPhone Duo picture (Nov 2026) */
+.duo-shot { margin: 0 auto; max-width: 760px; }
+.duo-shot img { display: block; width: 100%; height: auto; border-radius: var(--r, 16px); }
