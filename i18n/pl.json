@@ -1,0 +1,1133 @@
+{
+ "190ab1dde1": {
+  "src": "Mostly Daily: Habit Calendar · the forgiving habit tracker for iPhone",
+  "text": "Mostly Daily: Łagodne nawyki · tracker nawyków na iPhone'a",
+  "status": "reviewed"
+ },
+ "12f89ab9eb": {
+  "src": "A habit tracker for iPhone that forgives. One miss never resets anything, rest is a real day, and Mostly is the top level. No account, no tracking.",
+  "text": "Tracker codziennych nawyków na iPhone'a, który wybacza. Jedno pominięcie niczego nie zeruje, odpoczynek to pełnoprawny dzień, a Przeważnie to najwyższy poziom. Bez konta, bez śledzenia.",
+  "status": "reviewed"
+ },
+ "200de3647e": {
+  "src": "Mostly Daily: Miss a day. Keep your progress. Two screens of the app's Today, in light and dark.",
+  "text": "Mostly Daily: Pomiń dzień. Postęp zostaje. Dwa ekrany Dziś z aplikacji, w trybie jasnym i ciemnym.",
+  "status": "reviewed"
+ },
+ "48ca1b6acc": {
+  "src": "<a class=\"skip\" href=\"#main\">Skip to content</a>",
+  "text": "<a class=\"skip\" href=\"#main\">Przejdź do treści</a>",
+  "status": "reviewed"
+ },
+ "62bce9422f": {
+  "src": "Main",
+  "text": "Nawigacja główna",
+  "status": "reviewed"
+ },
+ "02a9c1a6ee": {
+  "src": "<a href=\"/#why\">Why Mostly</a><a href=\"/#widgets\">Widgets</a><a href=\"/#private\">Privacy</a><a href=\"/#pricing\">Pricing</a><a href=\"/guides/\">Guides</a><a href=\"/support.html\">Support</a>",
+  "text": "<a href=\"/#why\">Dlaczego Mostly Daily</a><a href=\"/#widgets\">Widżety</a><a href=\"/#private\">Prywatność</a><a href=\"/#pricing\">Cennik</a><a href=\"/guides/\">Poradniki</a><a href=\"/support.html\">Pomoc</a>",
+  "status": "reviewed"
+ },
+ "57f5f5efbc": {
+  "src": "Menu",
+  "text": "Menu",
+  "status": "reviewed"
+ },
+ "19a87c6f18": {
+  "src": "<a href=\"/#why\">Why Mostly</a><a href=\"/#widgets\">Widgets</a><a href=\"/#private\">Privacy</a><a href=\"/#pricing\">Pricing</a><a href=\"/#faq\">Questions</a><a href=\"/guides/\">Guides</a><a href=\"/support.html\">Support</a>",
+  "text": "<a href=\"/#why\">Dlaczego Mostly Daily</a><a href=\"/#widgets\">Widżety</a><a href=\"/#private\">Prywatność</a><a href=\"/#pricing\">Cennik</a><a href=\"/#faq\">Pytania</a><a href=\"/guides/\">Poradniki</a><a href=\"/support.html\">Pomoc</a>",
+  "status": "reviewed"
+ },
+ "a9096aaab4": {
+  "src": "Download on the App Store",
+  "text": "Pobierz w App Store",
+  "status": "reviewed"
+ },
+ "fed6a4df0c": {
+  "src": "Habit tracker for iPhone",
+  "text": "Tracker nawyków na iPhone'a",
+  "status": "reviewed"
+ },
+ "b9d829b4f2": {
+  "src": "Miss a day.<br>Keep your progress.",
+  "text": "Pomiń dzień.<br>Postęp zostaje.",
+  "status": "reviewed"
+ },
+ "d9b596e8b7": {
+  "src": "A habit tracker for iPhone that forgives. One miss never resets anything, rest is a real day, and <b>Mostly</b> is the top level.",
+  "text": "Tracker nawyków na iPhone'a, który wybacza. Jedno pominięcie niczego nie zeruje, odpoczynek to pełnoprawny dzień, a <b>Przeważnie</b> to najwyższy poziom.",
+  "status": "reviewed"
+ },
+ "d4741b79a4": {
+  "src": "<b>Try it: tap a day.</b><span>Read 10 pages, after two good months</span>",
+  "text": "<b>Wypróbuj: dotknij dnia.</b><span>Czytać 10 stron, po dwóch dobrych miesiącach</span>",
+  "status": "reviewed"
+ },
+ "d4ddc8176a": {
+  "src": "This week, Monday to Sunday",
+  "text": "Ten tydzień, od poniedziałku do niedzieli",
+  "status": "reviewed"
+ },
+ "397e6c8460": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">M</span><span class=\"sr\">Monday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">P</span><span class=\"sr\">Poniedziałek, zrobione</span>",
+  "status": "reviewed"
+ },
+ "c06165c186": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">T</span><span class=\"sr\">Tuesday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">W</span><span class=\"sr\">Wtorek, zrobione</span>",
+  "status": "reviewed"
+ },
+ "d79260e5a2": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">W</span><span class=\"sr\">Wednesday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">Ś</span><span class=\"sr\">Środa, zrobione</span>",
+  "status": "reviewed"
+ },
+ "078165c73c": {
+  "src": "<span class=\"wk miss\"><span class=\"d\"></span><span class=\"lbl\" aria-hidden=\"true\">T</span><span class=\"sr\">Thursday, missed</span></span>",
+  "text": "<span class=\"wk miss\"><span class=\"d\"></span><span class=\"lbl\" aria-hidden=\"true\">C</span><span class=\"sr\">Czwartek, pominięte</span></span>",
+  "status": "reviewed"
+ },
+ "7e4238dcc6": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">F</span><span class=\"sr\">Friday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">P</span><span class=\"sr\">Piątek, zrobione</span>",
+  "status": "reviewed"
+ },
+ "813fba1414": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">S</span><span class=\"sr\">Saturday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">S</span><span class=\"sr\">Sobota, zrobione</span>",
+  "status": "reviewed"
+ },
+ "283097ab5b": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">S</span><span class=\"sr\">Sunday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">N</span><span class=\"sr\">Niedziela, zrobione</span>",
+  "status": "reviewed"
+ },
+ "4de16ebc41": {
+  "src": "Mostly",
+  "text": "Przeważnie",
+  "status": "reviewed"
+ },
+ "01ccce99c7": {
+  "src": "Never missed twice <b data-run>67 days</b> &middot; a plain streak would say <b data-streak>3 days</b>",
+  "text": "Bez dwóch pominięć z rzędu <b data-run>67 dni</b> &middot; zwykła seria pokazałaby <b data-streak>3 dni</b>",
+  "status": "reviewed"
+ },
+ "29eff42050": {
+  "src": "One miss, nothing reset. Your level dips a few points and your run keeps going.",
+  "text": "Jedno pominięcie, nic się nie zeruje. Poziom spada o kilka punktów, a seria trwa dalej.",
+  "status": "reviewed"
+ },
+ "708c63fcb4": {
+  "src": "Taps cycle done, missed, rest.<span class=\"wide-only\"> Or try a pattern:</span>",
+  "text": "Dotknięcia zmieniają po kolei: zrobione, pominięte, odpoczynek.<span class=\"wide-only\"> Albo wypróbuj wzór:</span>",
+  "status": "reviewed"
+ },
+ "caa7b09e67": {
+  "src": "Try a pattern",
+  "text": "Wypróbuj wzór",
+  "status": "reviewed"
+ },
+ "3b2eb51310": {
+  "src": "Every day",
+  "text": "Codziennie",
+  "status": "reviewed"
+ },
+ "45b7217f21": {
+  "src": "One miss",
+  "text": "Jedno pominięcie",
+  "status": "reviewed"
+ },
+ "8b242ab2a9": {
+  "src": "Two in a row",
+  "text": "Dwa z rzędu",
+  "status": "reviewed"
+ },
+ "2e2a64da6c": {
+  "src": "A rest day",
+  "text": "Dzień odpoczynku",
+  "status": "reviewed"
+ },
+ "fca77b7e3a": {
+  "src": "At a glance",
+  "text": "W skrócie",
+  "status": "reviewed"
+ },
+ "00fb203c00": {
+  "src": "Free to start",
+  "text": "Start za darmo",
+  "status": "reviewed"
+ },
+ "257fa99e08": {
+  "src": "No account",
+  "text": "Bez konta",
+  "status": "reviewed"
+ },
+ "f6ebb9bde3": {
+  "src": "No tracking",
+  "text": "Bez śledzenia",
+  "status": "reviewed"
+ },
+ "1c82d5c8bd": {
+  "src": "For iPhone",
+  "text": "Na iPhone'a",
+  "status": "reviewed"
+ },
+ "71deabb764": {
+  "src": "Today: the day ring, your mosaic of check-ins, and one ring button per habit",
+  "text": "Dziś: pierścień dnia, twoja mozaika wpisów i jeden przycisk-pierścień na nawyk",
+  "status": "reviewed"
+ },
+ "927428b06f": {
+  "src": "A habit tracker without streaks",
+  "text": "Tracker nawyków bez zerowania serii",
+  "status": "reviewed"
+ },
+ "fed841d923": {
+  "src": "Aim for Mostly.",
+  "text": "Celuj w Przeważnie.",
+  "status": "reviewed"
+ },
+ "660abaf4b2": {
+  "src": "Streak apps count days until you miss one. Mostly Daily measures how often you show up, and never asks for 100%.",
+  "text": "Aplikacje z seriami liczą dni, dopóki jednego nie pominiesz. Mostly Daily mierzy, jak często robisz swoje, i nigdy nie wymaga 100%.",
+  "status": "reviewed"
+ },
+ "708afa517d": {
+  "src": "Four levels. Mostly is the top.",
+  "text": "Cztery poziomy. Przeważnie to najwyższy.",
+  "status": "reviewed"
+ },
+ "71d7a8ec96": {
+  "src": "Starting, Sometimes, Often, Mostly. There is nothing above Mostly, so there is nothing to lose.",
+  "text": "Na starcie, Czasami, Często, Przeważnie. Nad Przeważnie nie ma nic, więc nie ma czego stracić.",
+  "status": "reviewed"
+ },
+ "2f4148b1a8": {
+  "src": "Never miss twice.",
+  "text": "Nie pomijaj dwa razy z rzędu.",
+  "status": "reviewed"
+ },
+ "1720657348": {
+  "src": "Your run counts the days you didn't miss twice in a row. One slip changes nothing. The day after is the one that counts.",
+  "text": "Seria liczy dni, w których nie było dwóch pominięć z rzędu. Jedno potknięcie niczego nie zmienia. Liczy się następny dzień.",
+  "status": "reviewed"
+ },
+ "b79e5f4822": {
+  "src": "Rest",
+  "text": "Odpoczynek",
+  "status": "reviewed"
+ },
+ "b0a3c90d0f": {
+  "src": "Rest is a real day.",
+  "text": "Odpoczynek to pełnoprawny dzień.",
+  "status": "reviewed"
+ },
+ "43ff488ffa": {
+  "src": "Rest, low energy and travel days are not misses. Finish a week at Often or Mostly and you earn an extra rest day.",
+  "text": "Dni odpoczynku, małej energii i podróży to nie pominięcia. Zakończ tydzień na poziomie Często albo Przeważnie, a dostaniesz dodatkowy dzień odpoczynku.",
+  "status": "reviewed"
+ },
+ "f72800165b": {
+  "src": "Read more: <a href=\"/guides/habit-tracker-without-streaks.html\">a habit tracker without streaks</a>, <a href=\"/guides/one-missed-day.html\">why one missed day doesn't break a habit</a>, <a href=\"/guides/rest-days.html\">rest days</a> and <a href=\"/guides/sick-and-travel-days.html\">sick days and travel</a>.",
+  "text": "Czytaj więcej: <a href=\"/guides/habit-tracker-without-streaks.html\">tracker nawyków bez zerowania serii</a>, <a href=\"/guides/one-missed-day.html\">dlaczego jeden pominięty dzień nie przekreśla nawyku</a>, <a href=\"/guides/rest-days.html\">dni odpoczynku</a> oraz <a href=\"/guides/sick-and-travel-days.html\">choroba i podróże</a>.",
+  "status": "reviewed"
+ },
+ "0584810926": {
+  "src": "Habit widgets for iPhone",
+  "text": "Widżety nawyków na iPhone'a",
+  "status": "reviewed"
+ },
+ "f3f05bc5c4": {
+  "src": "Tap. Done. No app to open.",
+  "text": "Dotknij. Zrobione. Bez otwierania aplikacji.",
+  "status": "reviewed"
+ },
+ "ba4129ea0a": {
+  "src": "One tap on the ring and the habit is done; a second tap undoes it. Home Screen, Lock Screen, StandBy, Control Center and Siri.",
+  "text": "Jedno dotknięcie pierścienia i nawyk jest odhaczony, drugie to cofa. Ekran główny, ekran blokady, tryb czuwania, Centrum sterowania i Siri.",
+  "status": "reviewed"
+ },
+ "eda5c3809e": {
+  "src": "An iPhone Home Screen with Mostly Daily widgets: the day ring with three habits, Floss, Next up and Read 10 pages",
+  "text": "Ekran główny iPhone'a z widżetami Mostly Daily: pierścień dnia z trzema nawykami, Nitkować zęby, Następne i Czytać 10 stron",
+  "status": "reviewed"
+ },
+ "32afd9e788": {
+  "src": "Widget pictures",
+  "text": "Obrazki widżetów",
+  "status": "reviewed"
+ },
+ "296a5385f1": {
+  "src": "Habit widget: Read 10 pages, level Mostly, with a ring to tap",
+  "text": "Widżet nawyku: Czytać 10 stron, poziom Przeważnie, z pierścieniem do dotknięcia",
+  "status": "reviewed"
+ },
+ "aebbd3ad6d": {
+  "src": "<b>One habit, one ring</b>Open, done, or a new habit",
+  "text": "<b>Jeden nawyk, jeden pierścień</b>Otwarty, zrobiony albo nowy nawyk",
+  "status": "reviewed"
+ },
+ "a656c9711e": {
+  "src": "Next up widgets: Floss, then Read 10 pages, then All done with the mosaic",
+  "text": "Widżety Następne: Nitkować zęby, potem Czytać 10 stron, potem Gotowe z mozaiką",
+  "status": "reviewed"
+ },
+ "08a55d5010": {
+  "src": "<b>Next up, then your mosaic</b>The next open habit; all done shows the mosaic",
+  "text": "<b>Następne, a potem twoja mozaika</b>Następny otwarty nawyk, a gdy wszystko jest zrobione, mozaika",
+  "status": "reviewed"
+ },
+ "149a63619c": {
+  "src": "Today widget with the day ring and open habits, and the This week widget",
+  "text": "Widżet Dziś z pierścieniem dnia i otwartymi nawykami oraz widżet Ten tydzień",
+  "status": "reviewed"
+ },
+ "598c31c035": {
+  "src": "<b>The whole day</b>The day ring and your habits at a glance",
+  "text": "<b>Cały dzień</b>Pierścień dnia i twoje nawyki na jeden rzut oka",
+  "status": "reviewed"
+ },
+ "c33ba5fcb8": {
+  "src": "<b>Lock Screen and StandBy</b>The day above the clock, what's next, and one habit you can tap without unlocking. Tinted and clear widgets stay legible.",
+  "text": "<b>Ekran blokady i tryb czuwania</b>Dzień nad zegarem, co dalej i jeden nawyk, który odhaczysz bez odblokowywania. Widżety barwione i przezroczyste zostają czytelne.",
+  "status": "reviewed"
+ },
+ "2a20218d57": {
+  "src": "Read more: <a href=\"/guides/iphone-habit-widgets.html\">habit widgets on iPhone</a>.",
+  "text": "Czytaj więcej: <a href=\"/guides/iphone-habit-widgets.html\">widżety nawyków na iPhonie</a>.",
+  "status": "reviewed"
+ },
+ "580ed37315": {
+  "src": "More room when you unfold it.",
+  "text": "Więcej miejsca po rozłożeniu.",
+  "status": "reviewed"
+ },
+ "c3747825d7": {
+  "src": "On the inner display of iPhone Duo, Today shows a companion pane beside your list: This week, or the habit you tap. Habit and Limit details, Reflect and Settings open side by side. In portrait, Today and the calendar screens are one column. Fold or unfold and you keep your place. The outer display works like any iPhone.",
+  "text": "Na wewnętrznym ekranie iPhone Duo ekran Dziś pokazuje obok listy drugi panel: Ten tydzień albo nawyk, którego dotkniesz. Szczegóły nawyków i nawyków ograniczania, Podsumowania i Ustawienia otwierają się obok siebie. W pionie Dziś i ekrany z kalendarzem mają jedną kolumnę. Złóż albo rozłóż telefon, a zostaniesz w tym samym miejscu. Zewnętrzny ekran działa jak na każdym iPhonie.",
+  "status": "reviewed"
+ },
+ "08315b4c52": {
+  "src": "Mostly Daily on the unfolded iPhone Duo: the Today list on the left and the This week pane on the right",
+  "text": "Mostly Daily na rozłożonym iPhone Duo: lista Dziś po lewej i panel Ten tydzień po prawej",
+  "status": "reviewed"
+ },
+ "34134a5af5": {
+  "src": "Two kinds of habit",
+  "text": "Dwa rodzaje nawyków",
+  "status": "reviewed"
+ },
+ "2f5a7fa5c2": {
+  "src": "Habits you build.<br>Habits you want less of.",
+  "text": "Nawyki, które budujesz.<br>Nawyki, których chcesz mniej.",
+  "status": "reviewed"
+ },
+ "bbd80cf7e2": {
+  "src": "Build",
+  "text": "Budować",
+  "status": "reviewed"
+ },
+ "d536a16975": {
+  "src": "Start tiny. Step up when it feels easy.",
+  "text": "Zacznij od małego. Krok dalej, gdy zrobi się łatwo.",
+  "status": "reviewed"
+ },
+ "9296e3ffb6": {
+  "src": "Yes or no, a count, or minutes. Keep a two-minute version for busy days; it counts fully. When a step has felt routine for a few weeks, the app offers the next one. Nothing changes by itself.",
+  "text": "Tak albo nie, liczba albo minuty. Na dni, gdy brakuje czasu, miej wersję dwuminutową, liczy się w pełni. Gdy krok od kilku tygodni jest rutyną, aplikacja proponuje następny. Nic nie zmienia się samo.",
+  "status": "reviewed"
+ },
+ "c2c032e641": {
+  "src": "Apple Health can check off steps, workouts, sleep, water and more. Choose what you do, like a run, yoga or a swim, and the habit checks itself off. You can also count distance in km or miles. &quot;Ideas from Apple Health&quot; looks at your last 30 days and suggests habits you already do, and four wellbeing habits check themselves off: Close my rings, Get outside, In bed by 23:00 and Check in with how I feel",
+  "text": "Apple Health może odhaczać kroki, treningi, sen, wodę i więcej. Wybierz, co robisz, na przykład bieg, jogę albo pływanie, a nawyk odhaczy się sam. Możesz też liczyć dystans w km albo milach. &quot;Pomysły z Apple Health&quot; patrzą na twoje ostatnie 30 dni i proponują nawyki, które już masz, a cztery nawyki dla dobrego samopoczucia odhaczają się same: Zamykać pierścienie, Wychodzić na powietrze, W łóżku do 23:00 i Zapisywać, jak się czuję",
+  "status": "reviewed"
+ },
+ "480251f3ef": {
+  "src": "Write when and where: &quot;after dinner, on the sofa&quot;",
+  "text": "Napisz, kiedy i gdzie: &quot;po kolacji, na kanapie&quot;",
+  "status": "reviewed"
+ },
+ "b76403567e": {
+  "src": "<a href=\"/guides/apple-health-habits.html\">Habits that check themselves off from Apple Health</a>",
+  "text": "<a href=\"/guides/apple-health-habits.html\">Nawyki, które odhaczają się same z Apple Health</a>",
+  "status": "reviewed"
+ },
+ "7a12e628c8": {
+  "src": "Habit detail: level 85 Mostly, 34 days never missed twice, the month calendar with its legend",
+  "text": "Szczegóły nawyku: poziom 85 Przeważnie, 34 dni bez dwóch pominięć z rzędu, kalendarz miesiąca z legendą",
+  "status": "reviewed"
+ },
+ "c2ee773999": {
+  "src": "Limit: drinks, sugar, screen time",
+  "text": "Ograniczać: drinki, cukier, czas przed ekranem",
+  "status": "reviewed"
+ },
+ "784a00eeed": {
+  "src": "A calendar of clear days.",
+  "text": "Kalendarz czystych dni.",
+  "status": "reviewed"
+ },
+ "472d65a2e1": {
+  "src": "Drinks, sugar, screen time. Log the amount in the evening and get a colour calendar: clear, light, heavier. Set a goal of clear days a week. No judgement. It only shows the picture.",
+  "text": "Drinki, cukier, czas przed ekranem. Wieczorem wpisz ilość, a dostaniesz kolorowy kalendarz: dni czyste, lekkie, cięższe. Ustaw cel czystych dni w tygodniu. Bez oceniania. Kalendarz tylko pokazuje, jak jest.",
+  "status": "reviewed"
+ },
+ "4f8f184e06": {
+  "src": "Adding one? Pick &quot;Do less&quot; at the top of the new-habit sheet, or start a name with &quot;Less&quot; or &quot;Stop&quot;",
+  "text": "Dodajesz taki nawyk? Wybierz &quot;Robić mniej&quot; u góry arkusza nowego nawyku albo zacznij nazwę od &quot;Mniej&quot; lub &quot;Rzucić&quot;",
+  "status": "reviewed"
+ },
+ "f1d4ff141b": {
+  "src": "Note what a day was about: Social, Unwinding",
+  "text": "Zanotuj, o co chodziło tego dnia: Towarzystwo, Relaks",
+  "status": "reviewed"
+ },
+ "fd793bec13": {
+  "src": "Set up your space with up to three small steps",
+  "text": "Przygotuj otoczenie: do trzech małych kroków",
+  "status": "reviewed"
+ },
+ "af1f727ed8": {
+  "src": "Self-tracking only. It gives no medical advice.",
+  "text": "Tylko do własnych zapisków. Bez porad medycznych.",
+  "status": "reviewed"
+ },
+ "2619303cab": {
+  "src": "<a href=\"/guides/habits-you-want-less-of.html\">Why a calendar of clear days works better</a> · <a href=\"/guides/cut-back-with-a-calendar.html\">How to cut back on drinks, sugar or screen time</a>",
+  "text": "<a href=\"/guides/habits-you-want-less-of.html\">Dlaczego kalendarz czystych dni działa lepiej</a> · <a href=\"/guides/cut-back-with-a-calendar.html\">Jak ograniczyć drinki, cukier albo czas przed ekranem</a>",
+  "status": "reviewed"
+ },
+ "7f0cc430c2": {
+  "src": "Limit habit: level 78 Mostly, clear days this month, and a colour calendar of clear, light and heavier days",
+  "text": "Nawyk ograniczania: poziom 78 Przeważnie, czyste dni w tym miesiącu i kolorowy kalendarz czystych, lekkich i cięższych dni",
+  "status": "reviewed"
+ },
+ "fdc7eb4f86": {
+  "src": "Who you're becoming: four mosaics, A reader, Someone who moves every day, Someone who drinks mindfully, A calm person",
+  "text": "Kim się stajesz: cztery mozaiki, Osoba, która czyta, Osoba, która codziennie się rusza, Osoba, która pije świadomie, Spokojna osoba",
+  "status": "reviewed"
+ },
+ "3f514ef1c9": {
+  "src": "Who you're becoming",
+  "text": "Kim się stajesz",
+  "status": "reviewed"
+ },
+ "db5392a388": {
+  "src": "Every check-in is a vote.",
+  "text": "Każde odhaczenie to głos.",
+  "status": "reviewed"
+ },
+ "d9a6bf5660": {
+  "src": "A reader. Someone who moves. Each check-in lands one tile in the habit's colour. Tiles are never taken away: a miss leaves no hole, because a tile is something you did.",
+  "text": "Osoba, która czyta. Osoba, która się rusza. Każde odhaczenie dokłada jeden kafelek w kolorze nawyku. Kafelki nigdy nie znikają: pominięcie nie zostawia dziury, bo kafelek to coś, co już jest zrobione.",
+  "status": "reviewed"
+ },
+ "2ded02388a": {
+  "src": "<i class=\"dot\" style=\"background:var(--green)\"></i><span><b>Each week, Reflect tells your week in kind words</b>habit by habit, with the next small step.</span>",
+  "text": "<i class=\"dot\" style=\"background:var(--green)\"></i><span><b>Co tydzień Podsumowania opisują twój tydzień życzliwymi słowami</b>nawyk po nawyku, z następnym małym krokiem.</span>",
+  "status": "reviewed"
+ },
+ "94d0f633c8": {
+  "src": "<i class=\"dot\" style=\"background:var(--orange)\"></i><span><b>Once a quarter: still who you want to become?</b>Keep, Adjust or Let go. Letting go only archives.</span>",
+  "text": "<i class=\"dot\" style=\"background:var(--orange)\"></i><span><b>Raz na kwartał: czy to nadal ktoś, kim chcesz się stawać?</b>Zostaw, Dostosuj albo Odpuść. Odpuszczenie tylko przenosi nawyki do archiwum.</span>",
+  "status": "reviewed"
+ },
+ "62369f48d9": {
+  "src": "<i class=\"dot\" style=\"background:var(--pink)\"></i><span><b>Seasonal challenges with a finish line</b>like Clearer January. The goal is most days, never every day.</span>",
+  "text": "<i class=\"dot\" style=\"background:var(--pink)\"></i><span><b>Wyzwania sezonowe z metą</b>na przykład Jaśniejszy styczeń. Cel to większość dni, nigdy każdy dzień.</span>",
+  "status": "reviewed"
+ },
+ "d752eaad54": {
+  "src": "Private: no account, no tracking",
+  "text": "Prywatność: bez konta, bez śledzenia",
+  "status": "reviewed"
+ },
+ "b5656e0afb": {
+  "src": "Nothing leaves your phone unless you say so.",
+  "text": "Nic nie opuszcza twojego telefonu, dopóki o tym nie zdecydujesz.",
+  "status": "reviewed"
+ },
+ "9501454f3b": {
+  "src": "No server, no account, no analytics. Your habits sync through your own iCloud. Export everything as CSV on any plan; delete everything with one tap.",
+  "text": "Bez serwera, bez konta, bez analityki. Nawyki synchronizują się przez twój własny iCloud. Wyeksportujesz wszystko do CSV w każdym planie, a usuniesz wszystko jednym dotknięciem.",
+  "status": "reviewed"
+ },
+ "322aa2366c": {
+  "src": "<a href=\"/guides/private-habit-tracker.html\">Where each thing is kept</a>",
+  "text": "<a href=\"/guides/private-habit-tracker.html\">Gdzie co jest przechowywane</a>",
+  "status": "reviewed"
+ },
+ "7974cb1d1f": {
+  "src": "<b>No account, ever.</b>No sign-in, no e-mail, no ads, no tracking.",
+  "text": "<b>Bez konta, nigdy.</b>Bez logowania, bez e-maila, bez reklam, bez śledzenia.",
+  "status": "reviewed"
+ },
+ "8370881db2": {
+  "src": "<b>Health data stays on the device.</b>Check-ins that come from Apple Health, and the drinks you log, are never put in iCloud.",
+  "text": "<b>Dane zdrowotne zostają na urządzeniu.</b>Wpisy z Apple Health i drinki, które wpisujesz, nigdy nie trafiają do iCloud.",
+  "status": "reviewed"
+ },
+ "8a32797c56": {
+  "src": "<b>Yours to keep.</b>Export as CSV any time, on any plan. Premium never locks your data.",
+  "text": "<b>Twoje na zawsze.</b>Eksport do CSV w dowolnej chwili, w każdym planie. Premium nigdy nie blokuje twoich danych.",
+  "status": "reviewed"
+ },
+ "8c80844792": {
+  "src": "Free habit tracker",
+  "text": "Darmowy tracker nawyków",
+  "status": "reviewed"
+ },
+ "5a6890c897": {
+  "src": "Free that stays free.",
+  "text": "Darmowy plan, który zostaje darmowy.",
+  "status": "reviewed"
+ },
+ "a7ea434cc1": {
+  "src": "Start with Free. Try Premium free for two weeks when you want more. If Premium ends, nothing is deleted.",
+  "text": "Zacznij od planu Za darmo. Gdy zechcesz więcej, wypróbuj Premium za darmo przez dwa tygodnie. Jeśli Premium się skończy, nic nie zostanie usunięte.",
+  "status": "reviewed"
+ },
+ "75f527181b": {
+  "src": "Free",
+  "text": "Za darmo",
+  "status": "reviewed"
+ },
+ "ba3ffdc5c0": {
+  "src": "No time limit",
+  "text": "Bez limitu czasu",
+  "status": "reviewed"
+ },
+ "4dd02d20c9": {
+  "src": "3 habits, one of them can be a Limit habit",
+  "text": "3 nawyki, jeden z nich może być nawykiem ograniczania",
+  "status": "reviewed"
+ },
+ "522e09e8bf": {
+  "src": "Levels, never miss twice, rest and time off",
+  "text": "Poziomy, bez dwóch pominięć z rzędu, odpoczynek i przerwy",
+  "status": "reviewed"
+ },
+ "15c470d321": {
+  "src": "Every widget surface: Home Screen, Lock Screen, StandBy, Control Center, Siri",
+  "text": "Widżety wszędzie: ekran główny, ekran blokady, tryb czuwania, Centrum sterowania, Siri",
+  "status": "reviewed"
+ },
+ "c206624ce8": {
+  "src": "Reminders with a Done button",
+  "text": "Przypomnienia z przyciskiem Zrobione",
+  "status": "reviewed"
+ },
+ "6027207586": {
+  "src": "Apple Health, iCloud sync, CSV export",
+  "text": "Apple Health, synchronizacja przez iCloud, eksport do CSV",
+  "status": "reviewed"
+ },
+ "566574db5c": {
+  "src": "This week's reflection and the season's challenge",
+  "text": "Podsumowanie tego tygodnia i wyzwanie sezonu",
+  "status": "reviewed"
+ },
+ "6c2f2888c5": {
+  "src": "Premium",
+  "text": "Premium",
+  "status": "reviewed"
+ },
+ "28e8110625": {
+  "src": "2-week free trial &middot; yearly, monthly or lifetime",
+  "text": "2 tygodnie bezpłatnego okresu próbnego &middot; rocznie, miesięcznie albo dożywotnio",
+  "status": "reviewed"
+ },
+ "874d78699c": {
+  "src": "Unlimited habits, 5 in focus at a time",
+  "text": "Nielimitowane nawyki, 5 naraz w trybie skupienia",
+  "status": "reviewed"
+ },
+ "9ab4e55fab": {
+  "src": "Every past reflection, recap and identity review",
+  "text": "Wszystkie wcześniejsze podsumowania, zestawienia i przeglądy tożsamości",
+  "status": "reviewed"
+ },
+ "a18e2c90d7": {
+  "src": "Change any earlier day on a habit's calendar",
+  "text": "Zmiana dowolnego wcześniejszego dnia w kalendarzu nawyku",
+  "status": "reviewed"
+ },
+ "39a533dfa4": {
+  "src": "Plan up to 4 steps ahead; the full challenge library",
+  "text": "Planowanie do 4 kroków naprzód; pełna biblioteka wyzwań",
+  "status": "reviewed"
+ },
+ "766221beb1": {
+  "src": "More widgets, including the extra-large Today and week, and two reminder times per habit",
+  "text": "Więcej widżetów, w tym bardzo duży widżet Dziś i tydzień, oraz dwie godziny przypomnień na nawyk",
+  "status": "reviewed"
+ },
+ "936ad5fad8": {
+  "src": "Themes and app icons",
+  "text": "Motywy i ikony aplikacji",
+  "status": "reviewed"
+ },
+ "080f334741": {
+  "src": "<b>Premium Family:</b> Premium for you and up to 5 family members through Apple Family Sharing. No accounts, no invites; everyone's habits stay private on their own devices.",
+  "text": "<b>Premium dla rodziny:</b> Premium dla ciebie i maksymalnie 5 członków rodziny przez Chmurę rodzinną Apple. Bez kont, bez zaproszeń, a nawyki każdej osoby zostają prywatne na jej urządzeniach.",
+  "status": "reviewed"
+ },
+ "879d034c2f": {
+  "src": "Everything, line by line",
+  "text": "Wszystko, punkt po punkcie",
+  "status": "reviewed"
+ },
+ "8a209171f8": {
+  "src": "Free: Your day (list what you do, mark each line, turn one into a habit)",
+  "text": "Za darmo: Twój dzień (wypisz, co robisz, oznacz każdą linijkę, zrób z jednej nawyk)",
+  "status": "reviewed"
+ },
+ "a0bdae3ab8": {
+  "src": "Free: Set up your space, up to 3 small steps per habit, like &quot;Shoes by the door&quot;",
+  "text": "Za darmo: Przygotuj otoczenie, do 3 małych kroków na nawyk, na przykład &quot;Buty przy drzwiach&quot;",
+  "status": "reviewed"
+ },
+ "deb2a3f27b": {
+  "src": "Free: habit steps, one next step at a time, stepping up or back",
+  "text": "Za darmo: kroki nawyku, jeden następny krok naraz, krok dalej albo krok wstecz",
+  "status": "reviewed"
+ },
+ "4ece41843b": {
+  "src": "Free: change the last 7 days on a habit's calendar: today and the six days before",
+  "text": "Za darmo: zmiana ostatnich 7 dni w kalendarzu nawyku: dziś i sześć dni wcześniej",
+  "status": "reviewed"
+ },
+ "e6a702b3a6": {
+  "src": "Free: the last 4 weeks of your line on a habit's detail; Premium: 10 weeks",
+  "text": "Za darmo: ostatnie 4 tygodnie twojej linii w szczegółach nawyku; Premium: 10 tygodni",
+  "status": "reviewed"
+ },
+ "9c33cbb201": {
+  "src": "Free: the season's challenge, when it opens (7 days before the month to the 14th), and its share picture",
+  "text": "Za darmo: wyzwanie sezonu, gdy jest otwarte (od 7 dni przed miesiącem do 14. dnia miesiąca), i jego obrazek do udostępnienia",
+  "status": "reviewed"
+ },
+ "1e6824671f": {
+  "src": "Free: what a Limit day was about, and this month's count; Premium: earlier months",
+  "text": "Za darmo: o co chodziło w dniu nawyku ograniczania i licznik z tego miesiąca; Premium: wcześniejsze miesiące",
+  "status": "reviewed"
+ },
+ "5d0de7d65e": {
+  "src": "Free: price and usual amount on a Limit habit, exported with your data",
+  "text": "Za darmo: cena i zwykła ilość w nawyku ograniczania, eksportowane z twoimi danymi",
+  "status": "reviewed"
+ },
+ "450a1ffe83": {
+  "src": "Premium: what you didn't spend on a Limit habit, against your usual week",
+  "text": "Premium: niewydane pieniądze w nawyku ograniczania, w porównaniu z twoim zwykłym tygodniem",
+  "status": "reviewed"
+ },
+ "9ecc46c3cd": {
+  "src": "Premium: plan your next steps, up to 4 steps ahead on a habit",
+  "text": "Premium: planuj kolejne kroki, do 4 kroków naprzód w nawyku",
+  "status": "reviewed"
+ },
+ "555a389863": {
+  "src": "Premium: the challenge library, 10 challenges, any time, 28 days each",
+  "text": "Premium: biblioteka wyzwań, 10 wyzwań, w dowolnej chwili, każde po 28 dni",
+  "status": "reviewed"
+ },
+ "d9edf58314": {
+  "src": "Premium: widgets Today and week, Month calendar, This week, Who you're becoming",
+  "text": "Premium: widżety Dziś i tydzień, Kalendarz miesięczny, Ten tydzień, Kim się stajesz",
+  "status": "reviewed"
+ },
+ "d022a1a8a4": {
+  "src": "Premium: a suggested better reminder time",
+  "text": "Premium: propozycja lepszej godziny przypomnienia",
+  "status": "reviewed"
+ },
+ "e030ad6544": {
+  "src": "Premium: themes (Graphite is included; Midnight, Ocean, Plum and Glacier are Premium) and app icons",
+  "text": "Premium: motywy (Graphite jest w zestawie; Midnight, Ocean, Plum i Glacier to Premium) i ikony aplikacji",
+  "status": "reviewed"
+ },
+ "9610474470": {
+  "src": "Premium: if Premium ends, nothing is deleted",
+  "text": "Premium: jeśli Premium się skończy, nic nie zostanie usunięte",
+  "status": "reviewed"
+ },
+ "9a1fc1731f": {
+  "src": "Questions",
+  "text": "Pytania",
+  "status": "reviewed"
+ },
+ "73cbebcdbb": {
+  "src": "Honest answers.",
+  "text": "Szczere odpowiedzi.",
+  "status": "reviewed"
+ },
+ "b7db4a76f8": {
+  "src": "What happens when I miss a day?",
+  "text": "Co się dzieje, gdy pominę dzień?",
+  "status": "reviewed"
+ },
+ "bb313fdbee": {
+  "src": "Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of &quot;never missed twice&quot; only ends after two misses in a row.",
+  "text": "Nic się nie zeruje. Poziom trochę spada i równie szybko wraca, gdy znów coś odhaczysz. Twoja seria &quot;Bez dwóch pominięć z rzędu&quot; kończy się dopiero po dwóch pominięciach z rzędu.",
+  "status": "reviewed"
+ },
+ "635bf75b7a": {
+  "src": "Do I need an account?",
+  "text": "Czy potrzebuję konta?",
+  "status": "reviewed"
+ },
+ "667250ec4a": {
+  "src": "No. There is no account and no sign-in. Your habits stay on your devices and sync through your own iCloud.",
+  "text": "Nie. Nie ma konta ani logowania. Nawyki zostają na twoich urządzeniach i synchronizują się przez twój własny iCloud.",
+  "status": "reviewed"
+ },
+ "12934b4f93": {
+  "src": "What if I hit the 3-habit limit on Free?",
+  "text": "Co, jeśli dojdę do limitu 3 nawyków w planie Za darmo?",
+  "status": "reviewed"
+ },
+ "1e37d42e3c": {
+  "src": "Free has 3 habits, and Premium has unlimited habits with Focus mode keeping 5 in focus at a time. When a new habit would go over, a note on the form says so before you add it, and offers &quot;Pause a habit…&quot;. Pick one to pause: its history and level are kept, it waits under Paused, and you can resume it any time. Nothing is deleted.",
+  "text": "Plan Za darmo ma 3 nawyki, a Premium nielimitowane nawyki z trybem skupienia, w którym aktywnych jest naraz 5. Gdy nowy nawyk przekroczyłby limit, notka w formularzu mówi o tym, zanim go dodasz, i proponuje &quot;Wstrzymaj nawyk…&quot;. Wybierz nawyk do wstrzymania: jego historia i poziom zostają, czeka w sekcji Wstrzymane i możesz go wznowić w dowolnej chwili. Nic nie jest usuwane.",
+  "status": "reviewed"
+ },
+ "c852d5c071": {
+  "src": "What happens if Premium ends?",
+  "text": "Co się dzieje, gdy Premium się skończy?",
+  "status": "reviewed"
+ },
+ "49d793a711": {
+  "src": "Nothing is deleted. Habits beyond the Free plan are paused with all their history, and you can export everything at any time.",
+  "text": "Nic nie jest usuwane. Nawyki ponad plan Za darmo są wstrzymywane z całą historią, a wszystko możesz wyeksportować w dowolnej chwili.",
+  "status": "reviewed"
+ },
+ "17580c7f98": {
+  "src": "Can I change an earlier day?",
+  "text": "Czy mogę zmienić wcześniejszy dzień?",
+  "status": "reviewed"
+ },
+ "b960a43ad2": {
+  "src": "Yes. On a habit's calendar you can change today and the six days before it, and every earlier day stays readable. Premium (and the 2-week trial) lets you change any earlier day too. Earlier days look faded with a small lock on Free, and nothing is ever removed.",
+  "text": "Tak. W kalendarzu nawyku możesz zmienić dziś i sześć dni wcześniej, a każdy wcześniejszy dzień da się nadal odczytać. Premium (i 2-tygodniowy okres próbny) pozwala zmienić też dowolny wcześniejszy dzień. W planie Za darmo wcześniejsze dni są wyblakłe i mają małą kłódkę, a nic nigdy nie znika.",
+  "status": "reviewed"
+ },
+ "0297c9f40f": {
+  "src": "Is it a treatment or recovery program?",
+  "text": "Czy to terapia albo program wychodzenia z nałogu?",
+  "status": "reviewed"
+ },
+ "52264cf7f6": {
+  "src": "No. Mostly Daily is for self-tracking and gives no medical advice. If you're worried about your health or drinking, please talk to a professional.",
+  "text": "Nie. Mostly Daily służy do prowadzenia własnych zapisków i nie daje porad medycznych. Jeśli martwisz się o zdrowie albo picie, porozmawiaj ze specjalistą.",
+  "status": "reviewed"
+ },
+ "9d2a1d7543": {
+  "src": "More in <a href=\"/support.html#questions\">Support</a> and the <a href=\"/guides/\">guides</a>: habit steps, Limit habits, themes, challenges and the quarterly review.",
+  "text": "Więcej w <a href=\"/support.html#questions\">Pomocy</a> i <a href=\"/guides/\">poradnikach</a>: kroki nawyku, nawyki ograniczania, motywy, wyzwania i przegląd kwartalny.",
+  "status": "reviewed"
+ },
+ "929a28d261": {
+  "src": "Guides",
+  "text": "Poradniki",
+  "status": "reviewed"
+ },
+ "2b1386cd43": {
+  "src": "Short reads on habits that last",
+  "text": "Krótkie teksty o nawykach, które zostają",
+  "status": "reviewed"
+ },
+ "f336acebcd": {
+  "src": "<a href=\"/guides/one-missed-day.html\"><span><b>Why one missed day doesn't break a habit</b><small>The day after is what counts.</small></span><i aria-hidden=\"true\">&rarr;</i></a>\n    <a href=\"/guides/rest-days.html\"><span><b>Rest days are part of the plan</b><small>How planned rest keeps habits going for years.</small></span><i aria-hidden=\"true\">&rarr;</i></a>\n    <a href=\"/guides/habits-you-want-less-of.html\"><span><b>Habits you want less of</b><small>Why a calendar of clear days works better than a count of days since.</small></span><i aria-hidden=\"true\">&rarr;</i></a>",
+  "text": "<a href=\"/guides/one-missed-day.html\"><span><b>Dlaczego jeden pominięty dzień nie przekreśla nawyku</b><small>Liczy się następny dzień.</small></span><i aria-hidden=\"true\">&rarr;</i></a>\n    <a href=\"/guides/rest-days.html\"><span><b>Dni odpoczynku są częścią planu</b><small>Jak zaplanowany odpoczynek utrzymuje nawyki przez lata.</small></span><i aria-hidden=\"true\">&rarr;</i></a>\n    <a href=\"/guides/habits-you-want-less-of.html\"><span><b>Nawyki, których chcesz mniej</b><small>Dlaczego kalendarz czystych dni działa lepiej niż licznik dni od ostatniego razu.</small></span><i aria-hidden=\"true\">&rarr;</i></a>",
+  "status": "reviewed"
+ },
+ "5c0ad99add": {
+  "src": "Mostly is enough.",
+  "text": "Przeważnie wystarczy.",
+  "status": "reviewed"
+ },
+ "3f95df6153": {
+  "src": "Add a habit",
+  "text": "Dodaj nawyk",
+  "status": "reviewed"
+ },
+ "70282a9141": {
+  "src": "Put a widget on your Home Screen",
+  "text": "Dodaj widżet na ekran główny",
+  "status": "reviewed"
+ },
+ "813d75f562": {
+  "src": "Miss a day now and then",
+  "text": "Pomiń dzień od czasu do czasu",
+  "status": "reviewed"
+ },
+ "07871cd595": {
+  "src": "Free to start &middot; No account &middot; No tracking",
+  "text": "Start za darmo &middot; Bez konta &middot; Bez śledzenia",
+  "status": "reviewed"
+ },
+ "55e5660359": {
+  "src": "<a class=\"brand\" href=\"/\"><span class=\"mark\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>Mostly Daily</a>\n  <span>A forgiving habit tracker for iPhone. &copy; 2026 Mostlydaily</span>",
+  "text": "<a class=\"brand\" href=\"/\"><span class=\"mark\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>Mostly Daily</a>\n  <span>Łagodny tracker nawyków na iPhone'a. &copy; 2026 Mostlydaily</span>",
+  "status": "reviewed"
+ },
+ "26c01e70a3": {
+  "src": "Footer",
+  "text": "Stopka",
+  "status": "reviewed"
+ },
+ "c9b7e8e6ba": {
+  "src": "<a href=\"/guides/\">Guides</a><a href=\"/support.html\">Support</a><a href=\"/privacy.html\">Privacy</a><a href=\"/terms.html\">Terms</a><a href=\"mailto:contact@mostlydaily.com\">contact@mostlydaily.com</a>",
+  "text": "<a href=\"/guides/\">Poradniki</a><a href=\"/support.html\">Pomoc</a><a href=\"/privacy.html\">Prywatność</a><a href=\"/terms.html\">Regulamin</a><a href=\"mailto:contact@mostlydaily.com\">contact@mostlydaily.com</a>",
+  "status": "reviewed"
+ },
+ "1a45573c44": {
+  "src": "Consistency levels instead of streaks: one missed day never resets progress",
+  "text": "Poziomy regularności zamiast zerowania serii: jeden pominięty dzień nigdy nie zeruje postępu",
+  "status": "reviewed"
+ },
+ "49b52e299b": {
+  "src": "Rest, low energy and travel days that are not misses",
+  "text": "Dni odpoczynku, małej energii i podróży, które nie są pominięciami",
+  "status": "reviewed"
+ },
+ "dde5af2f87": {
+  "src": "Limit habits for drinks, sugar and screen time with a calendar of clear days",
+  "text": "Nawyki ograniczania drinków, cukru i czasu przed ekranem z kalendarzem czystych dni",
+  "status": "reviewed"
+ },
+ "10c854931f": {
+  "src": "Home Screen, Lock Screen, StandBy and Control Center widgets that check in with one tap",
+  "text": "Widżety na ekranie głównym, ekranie blokady, w trybie czuwania i w Centrum sterowania, które odhaczają jednym dotknięciem",
+  "status": "reviewed"
+ },
+ "33e6f99b1e": {
+  "src": "Apple Health habits that check themselves off",
+  "text": "Nawyki z Apple Health, które odhaczają się same",
+  "status": "reviewed"
+ },
+ "598ef821a5": {
+  "src": "No account, no ads, no tracking; sync through your own iCloud",
+  "text": "Bez konta, bez reklam, bez śledzenia; synchronizacja przez twój własny iCloud",
+  "status": "reviewed"
+ },
+ "543ef84fcd": {
+  "src": "habit tracker, habit tracker without streaks, habit calendar, habit widget, drink tracker, clear days calendar, iPhone",
+  "text": "tracker nawyków, śledzenie nawyków, aplikacja do nawyków, codzienne nawyki, kalendarz nawyków, widżet nawyków, zdrowe nawyki, mniej pić, iPhone",
+  "status": "reviewed"
+ },
+ "62589643ef": {
+  "src": "Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of \"never missed twice\" only ends after two misses in a row.",
+  "text": "Nic się nie zeruje. Poziom trochę spada i równie szybko wraca, gdy znów coś odhaczysz. Twoja seria \"Bez dwóch pominięć z rzędu\" kończy się dopiero po dwóch pominięciach z rzędu.",
+  "status": "reviewed"
+ },
+ "e214ef1d09": {
+  "src": "Free has 3 habits, and Premium has unlimited habits with Focus mode keeping 5 in focus at a time. When a new habit would go over, a note on the form says so before you add it, and offers \"Pause a habit…\". Pick one to pause: its history and level are kept, it waits under Paused, and you can resume it any time. Nothing is deleted.",
+  "text": "Plan Za darmo ma 3 nawyki, a Premium nielimitowane nawyki z trybem skupienia, w którym aktywnych jest naraz 5. Gdy nowy nawyk przekroczyłby limit, notka w formularzu mówi o tym, zanim go dodasz, i proponuje \"Wstrzymaj nawyk…\". Wybierz nawyk do wstrzymania: jego historia i poziom zostają, czeka w sekcji Wstrzymane i możesz go wznowić w dowolnej chwili. Nic nie jest usuwane.",
+  "status": "reviewed"
+ },
+ "6a34e94fcd": {
+  "src": "Support · Mostly Daily",
+  "text": "Pomoc · Mostly Daily",
+  "status": "reviewed"
+ },
+ "51df25e8ca": {
+  "src": "Help with Mostly Daily: check-ins, habits, widgets, reminders, Apple Health, iCloud, Premium and export.",
+  "text": "Pomoc do Mostly Daily, trackera nawyków na iPhone'a: odhaczanie, nawyki, widżety, przypomnienia, Apple Health, iCloud, Premium i eksport.",
+  "status": "reviewed"
+ },
+ "f32d5a3b17": {
+  "src": "Support",
+  "text": "Pomoc",
+  "status": "reviewed"
+ },
+ "e650ae3a1b": {
+  "src": "Questions or ideas? Write to <a href=\"mailto:contact@mostlydaily.com\">contact@mostlydaily.com</a>. A person reads every message.",
+  "text": "Pytania albo pomysły? Napisz na <a href=\"mailto:contact@mostlydaily.com\">contact@mostlydaily.com</a>. Każdą wiadomość czyta człowiek.",
+  "status": "reviewed"
+ },
+ "ae521bc4d6": {
+  "src": "Check-ins",
+  "text": "Odhaczanie",
+  "status": "reviewed"
+ },
+ "f0890e8dd1": {
+  "src": "Tap the ring on a habit to check in; tap again to undo. Touch and hold the ring for the two-minute version, rest, low energy or travel. For a habit you want less of, tap the square to log a clear day, or tap Log to enter the amount. To change a past day, open the habit and tap the day in its calendar.",
+  "text": "Dotknij pierścienia przy nawyku, żeby go odhaczyć, i jeszcze raz, żeby cofnąć. Dotknij i przytrzymaj pierścień, żeby wybrać wersję dwuminutową, odpoczynek, mało energii albo podróż. Przy nawyku, którego chcesz mniej, dotknij kwadratu, żeby zapisać czysty dzień, albo dotknij Wpisz, żeby podać ilość. Żeby zmienić miniony dzień, otwórz nawyk i dotknij dnia w jego kalendarzu.",
+  "status": "reviewed"
+ },
+ "45ab397be2": {
+  "src": "Habits",
+  "text": "Nawyki",
+  "status": "reviewed"
+ },
+ "83339e5e47": {
+  "src": "Tap Habits on Today to reorder, pause or archive habits. The + button adds a habit: type a name or pick a suggestion, and tap More options for the full form. Today, Reflect and Settings are the three tabs. In the full form you can start a new habit after another habit you already do, and choose the day it starts. To step away, add time off in Settings: for all your habits or only the ones you choose, with a reason (Vacation, Low energy or Other).",
+  "text": "Dotknij Nawyki na ekranie Dziś, żeby zmienić kolejność nawyków, wstrzymać je albo zarchiwizować. Przycisk + dodaje nawyk: wpisz nazwę albo wybierz propozycję, a pełny formularz otworzysz przez Więcej opcji. Dziś, Podsumowania i Ustawienia to trzy karty. W pełnym formularzu możesz zacząć nowy nawyk po innym, który już masz, i wybrać dzień, od którego się zaczyna. Żeby zrobić sobie wolne, dodaj przerwę w Ustawieniach: dla wszystkich nawyków albo tylko wybranych, z powodem (Urlop, Mało energii albo Inne).",
+  "status": "reviewed"
+ },
+ "9eebb65489": {
+  "src": "When does a day end?",
+  "text": "Kiedy kończy się dzień?",
+  "status": "reviewed"
+ },
+ "1ecd5a7ba7": {
+  "src": "At midnight by default. If you often stay up later, set a later hour in Settings &gt; Reminders &gt; Day ends at, so a late night still counts for the day it started. An hour you already set stays as it is.",
+  "text": "Domyślnie o północy. Jeśli często kładziesz się później, ustaw późniejszą godzinę w Ustawienia &gt; Przypomnienia &gt; Dzień kończy się o, żeby późny wieczór nadal liczył się do dnia, w którym się zaczął. Godzina, którą już masz ustawioną, zostaje bez zmian.",
+  "status": "reviewed"
+ },
+ "bf8a6678a1": {
+  "src": "Widgets",
+  "text": "Widżety",
+  "status": "reviewed"
+ },
+ "63a8f8821f": {
+  "src": "Touch and hold the Home Screen, tap Edit &gt; Add Widget and search for Mostly Daily. Tap the ring (or the square, for a habit you want less of) on a widget to check in: it fills right away, without opening the app. When every habit is done, the Next up widget shows your mosaic. Widgets move to the new day on their own when your day ends.",
+  "text": "Dotknij i przytrzymaj ekran główny, dotknij Edytuj &gt; Dodaj widżet i wyszukaj Mostly Daily. Dotknij pierścienia (albo kwadratu, przy nawyku, którego chcesz mniej) na widżecie, żeby odhaczyć: wypełnia się od razu, bez otwierania aplikacji. Gdy wszystkie nawyki są zrobione, widżet Następne pokazuje twoją mozaikę. Widżety same przechodzą na nowy dzień, gdy twój dzień się kończy.",
+  "status": "reviewed"
+ },
+ "8b10ea4a4b": {
+  "src": "Premium's This week widget shows the habits that are due, a Limit habit or done today. To choose the habits yourself, touch and hold the widget, tap Edit Widget and tap Habits: pick up to 3 for the medium widget or 7 for the large one. They stay in the order you picked, every day, even on a day a habit is not due. Remove them all to go back to the automatic list.",
+  "text": "Widżet Ten tydzień z Premium pokazuje nawyki, które przypadają na dziś, są nawykami ograniczania albo są dziś zrobione. Żeby wybrać nawyki samodzielnie, dotknij i przytrzymaj widżet, dotknij Edytuj widżet i dotknij Nawyki: wybierz do 3 dla średniego widżetu albo do 7 dla dużego. Zostają w wybranej kolejności każdego dnia, nawet gdy nawyk na ten dzień nie przypada. Usuń wszystkie, żeby wrócić do listy automatycznej.",
+  "status": "reviewed"
+ },
+ "8d79534ebe": {
+  "src": "Premium also has an extra-large Today and week widget, for devices that offer that size.",
+  "text": "Premium ma też bardzo duży widżet Dziś i tydzień, na urządzeniach, które oferują ten rozmiar.",
+  "status": "reviewed"
+ },
+ "5a668a29ae": {
+  "src": "For the Lock Screen, touch and hold it, tap Customize and add Mostly Daily. For Control Center, open it, tap + and add Check in or Clear day. If a widget ever looks out of date, open the app once.",
+  "text": "Na ekranie blokady: dotknij go i przytrzymaj, dotknij Dostosuj i dodaj Mostly Daily. W Centrum sterowania: otwórz je, dotknij + i dodaj Odhacz albo Czysty dzień. Jeśli widżet kiedyś wygląda na nieaktualny, otwórz raz aplikację.",
+  "status": "reviewed"
+ },
+ "ae8c393938": {
+  "src": "Reminders",
+  "text": "Przypomnienia",
+  "status": "reviewed"
+ },
+ "d34a101389": {
+  "src": "Each habit can have a reminder time (Premium: two, and Today can suggest a better time). Settings &gt; Reminders gives the overview. A &quot;Close the day&quot; reminder in the evening, on by default, opens a sheet from Today where you can finish what is still open with one tap each, or tap Done all to mark every open habit done. The &#10005; at the top closes it without changing anything. If you did not get to it, the next morning the notification offers &quot;Close yesterday&quot;. You get at most two reminders a day. If a habit's reminders are ignored three times in a row, they pause until you check in again.",
+  "text": "Każdy nawyk może mieć godzinę przypomnienia (Premium: dwie, a Dziś może zaproponować lepszą godzinę). Przegląd znajdziesz w Ustawienia &gt; Przypomnienia. Wieczorne przypomnienie &quot;Zamknij dzień&quot;, domyślnie włączone, otwiera na ekranie Dziś arkusz, w którym dokończysz to, co jeszcze otwarte, jednym dotknięciem na nawyk, albo dotkniesz Odhacz wszystko, żeby oznaczyć każdy otwarty nawyk jako zrobiony. &#10005; u góry zamyka arkusz bez żadnych zmian. Jeśli do tego nie doszło, następnego ranka powiadomienie proponuje &quot;Zamknij wczorajszy dzień&quot;. Dostajesz najwyżej dwa przypomnienia dziennie. Jeśli przypomnienia nawyku zostaną zignorowane trzy razy z rzędu, wstrzymują się, aż znów coś odhaczysz.",
+  "status": "reviewed"
+ },
+ "b19b87da82": {
+  "src": "Apple Health",
+  "text": "Apple Health",
+  "status": "reviewed"
+ },
+ "27d1c0c043": {
+  "src": "When you create a habit that can use Apple Health (steps, exercise, mindful minutes, sleep, stand hours, water, workouts, drinks), &quot;Use Apple Health&quot; is on; the system asks once when you save. Check-ins that come from Health stay on this phone. Settings &gt; Apple Health lists what is read and saved; manage access in the Health app &gt; Sharing &gt; Apps &gt; Mostly Daily.",
+  "text": "Gdy tworzysz nawyk, który może korzystać z Apple Health (kroki, ćwiczenia, minuty uważności, sen, godziny stania, woda, treningi, drinki), opcja &quot;Używaj Apple Health&quot; jest włączona, a system pyta raz, przy zapisywaniu. Wpisy z Apple Health zostają na tym telefonie. Ustawienia &gt; Apple Health pokazują, co jest odczytywane i zapisywane, a dostępem zarządzasz w aplikacji Zdrowie &gt; Udostępnianie &gt; Aplikacje &gt; Mostly Daily.",
+  "status": "reviewed"
+ },
+ "2ae54a5895": {
+  "src": "When you create a habit, you choose how it checks itself off by what you do: walk 6,000 steps, move 20 minutes, go for a run, walk or run 3 km (2 miles), do yoga, work out, meditate, sleep, drink water or stand. Typing a name like &quot;Morning run&quot; or &quot;Swim&quot; suggests it, and there are Run, Yoga, Gym, Swim and Cycle templates. It is free. Nothing connects until the Health sheet asks when you save. A workout habit can follow one workout type (Walking, Running, Cycling, Swimming, Yoga, Strength, HIIT, Pilates, Dance, Hiking or Rowing) or any workout. For runs, rides and swims you can count distance, in km or miles. After a workout on your Apple Watch, the habit ticks itself and the widgets update without opening the app. Today's reminder goes once Apple Health has completed the day, so a workout that is still syncing does not get a nudge too early. A day shows what counted. That list is kept only on this phone, and Health data never goes to iCloud.",
+  "text": "Gdy tworzysz nawyk, wybierasz, jak ma się sam odhaczać, według tego, co robisz: robić 6000 kroków, ruszać się 20 minut, biegać, pokonywać 3 km (2 mile) pieszo lub biegiem, robić jogę, trenować, medytować, spać, pić wodę albo stać. Wpisanie nazwy takiej jak &quot;Poranny bieg&quot; albo &quot;Pływanie&quot; podpowiada to ustawienie, są też szablony Biegać, Joga, Siłownia, Pływać i Jeździć na rowerze. Jest za darmo. Nic się nie łączy, dopóki arkusz Zdrowia nie zapyta przy zapisywaniu. Nawyk treningowy może śledzić jeden rodzaj treningu (Spacer, Bieganie, Jazda na rowerze, Pływanie, Joga, Trening siłowy, HIIT, Pilates, Taniec, Wędrówka albo Wioślarstwo) albo dowolny trening. Przy biegach, jazdach i pływaniu możesz liczyć dystans, w km albo milach. Po treningu na Apple Watch nawyk odhacza się sam, a widżety aktualizują się bez otwierania aplikacji. Dzisiejsze przypomnienie znika, gdy Apple Health zaliczy dzień, więc trening, który jeszcze się synchronizuje, nie dostaje przypomnienia za wcześnie. Dzień pokazuje, co się policzyło. Ta lista jest przechowywana tylko na tym telefonie, a dane zdrowotne nigdy nie trafiają do iCloud.",
+  "status": "reviewed"
+ },
+ "793f86be94": {
+  "src": "<b>Ideas from Apple Health.</b> In quick add and in Settings &gt; Apple Health, &quot;Ideas from Apple Health&quot; looks at the last 30 days in Apple Health, on your iPhone only, to suggest up to three habits you already do, each with a starting goal a little below your usual level. It can also offer to let a habit you tick by hand check itself off. It runs only when you tap it, after one short explanation and one Health sheet; nothing is kept, and &quot;Not now&quot; is always fine. It is free. Four wellbeing habits can check themselves off too: <i>Close my rings</i> (all three rings, or just Move), <i>Get outside</i> (time in daylight), <i>In bed by 23:00</i> (the time you go to bed, from sleep; you set the time) and <i>Check in with how I feel</i>. For that last one the app only notices that you logged a mood or emotion that day; what you logged is never read, shown or kept. You can always tick a habit yourself.",
+  "text": "<b>Pomysły z Apple Health.</b> W szybkim dodawaniu i w Ustawienia &gt; Apple Health &quot;Pomysły z Apple Health&quot; patrzą na ostatnie 30 dni w Apple Health, tylko na twoim iPhonie, i proponują do trzech nawyków, które już masz, każdy z celem na start trochę poniżej twojego zwykłego poziomu. Mogą też zaproponować, żeby nawyk, który odhaczasz ręcznie, odhaczał się sam. Działają tylko wtedy, gdy ich dotkniesz, po jednym krótkim wyjaśnieniu i jednym arkuszu Zdrowia. Nic nie jest przechowywane, a &quot;Nie teraz&quot; zawsze jest w porządku. Jest za darmo. Cztery nawyki dla dobrego samopoczucia też mogą odhaczać się same: <i>Zamykać pierścienie</i> (wszystkie trzy pierścienie albo tylko Ruch), <i>Wychodzić na powietrze</i> (czas w świetle dziennym), <i>W łóżku do 23:00</i> (godzina, o której kładziesz się spać, z danych o śnie; godzinę ustawiasz samodzielnie) i <i>Zapisywać, jak się czuję</i>. Przy tym ostatnim aplikacja zauważa tylko, że tego dnia jest zapisany nastrój albo emocja. To, co zostało zapisane, nigdy nie jest odczytywane, pokazywane ani przechowywane. Zawsze możesz odhaczyć nawyk samodzielnie.",
+  "status": "reviewed"
+ },
+ "6ca46df113": {
+  "src": "iCloud",
+  "text": "iCloud",
+  "status": "reviewed"
+ },
+ "c2c62c977d": {
+  "src": "Habits, the check-ins you make yourself and time off sync through your private iCloud. Check-ins from Apple Health and drink logs stay on each phone; a second phone fills those days from its own Apple Health. Drink and cigarette logs never sync. The logs of other Limit habits stay on the phone unless you turn on &quot;Sync logs through iCloud&quot; in that habit's settings (it is off by default). The reason you give for time off stays on the phone. The reason you add to a Limit log stays with that log, on the phone or, if you turned on sync for that habit, in your private iCloud.",
+  "text": "Nawyki, wpisy, które robisz samodzielnie, i przerwy synchronizują się przez twój prywatny iCloud. Wpisy z Apple Health i zapisy drinków zostają na każdym telefonie z osobna, a drugi telefon uzupełnia te dni z własnego Apple Health. Zapisy drinków i papierosów nigdy się nie synchronizują. Zapisy innych nawyków ograniczania zostają na telefonie, chyba że włączysz &quot;Synchronizuj zapisy przez iCloud&quot; w ustawieniach danego nawyku (domyślnie wyłączone). Powód, który podajesz przy przerwie, zostaje na telefonie. Powód dodany do zapisu nawyku ograniczania zostaje z tym zapisem: na telefonie albo, jeśli masz włączoną synchronizację dla tego nawyku, w twoim prywatnym iCloud.",
+  "status": "reviewed"
+ },
+ "95f7ab83e2": {
+  "src": "How the levels work",
+  "text": "Jak działają poziomy",
+  "status": "reviewed"
+ },
+ "396b7985cb": {
+  "src": "Settings &gt; About &gt; How Mostly works explains the levels, never missing twice and rest days in the app's own words.",
+  "text": "Ustawienia &gt; O aplikacji &gt; Jak działa Mostly wyjaśnia poziomy, zasadę bez dwóch pominięć z rzędu i dni odpoczynku słowami samej aplikacji.",
+  "status": "reviewed"
+ },
+ "ac261683e8": {
+  "src": "Restore purchases on the Premium sheet (Settings &gt; Mostly Daily Premium). Manage or cancel a subscription in your iPhone's Settings: tap your name (your Apple Account), then Subscriptions. During a free trial you can still choose Monthly or Lifetime from Other plans on the Premium sheet; Monthly starts when the trial ends, and nothing is charged before then. When Premium ends, habits beyond the Free plan are paused with all their history; nothing is deleted.",
+  "text": "Zakupy przywrócisz na arkuszu Premium (Ustawienia &gt; Mostly Daily Premium). Subskrypcją zarządzasz i anulujesz ją w Ustawieniach iPhone'a: dotknij swojego imienia (twoje konto Apple), potem Subskrypcje. W bezpłatnym okresie próbnym nadal możesz wybrać Miesięcznie albo Dożywotnio w sekcji Inne plany na arkuszu Premium. Plan Miesięcznie zaczyna się, gdy okres próbny się kończy, a wcześniej nic nie jest pobierane. Gdy Premium się kończy, nawyki ponad plan Za darmo są wstrzymywane z całą historią i nic nie jest usuwane.",
+  "status": "reviewed"
+ },
+ "a6147670c3": {
+  "src": "Export and delete",
+  "text": "Eksport i usuwanie",
+  "status": "reviewed"
+ },
+ "e43408f5e6": {
+  "src": "Settings &gt; Export and import saves your habits, check-ins, time off and reviews as CSV files, on any plan. Settings &gt; Delete all data removes everything from the app and your iCloud.",
+  "text": "Ustawienia &gt; Eksport i import zapisuje twoje nawyki, wpisy, przerwy i przeglądy jako pliki CSV, w każdym planie. Ustawienia &gt; Usuń wszystkie dane usuwa wszystko z aplikacji i z twojego iCloud.",
+  "status": "reviewed"
+ },
+ "29d56e8b8c": {
+  "src": "Does it work on iPhone Duo?",
+  "text": "Czy działa na iPhone Duo?",
+  "status": "reviewed"
+ },
+ "3eda3bf54a": {
+  "src": "Yes. On iPhone Duo's inner display, Today shows a companion pane beside your list: This week, or the habit you tap. Habit and Limit details, Reflect and Settings use two panes in landscape. In portrait, Today and the calendar screens are one column. When you fold or unfold, you keep your place. The outer display works like any iPhone. Nothing is different in your habits, plans or prices.",
+  "text": "Tak. Na wewnętrznym ekranie iPhone Duo ekran Dziś pokazuje obok listy drugi panel: Ten tydzień albo nawyk, którego dotkniesz. Szczegóły nawyków i nawyków ograniczania, Podsumowania i Ustawienia mają w poziomie dwa panele. W pionie Dziś i ekrany z kalendarzem mają jedną kolumnę. Gdy składasz albo rozkładasz telefon, zostajesz w tym samym miejscu. Zewnętrzny ekran działa jak na każdym iPhonie. W twoich nawykach, planach i cenach nic się nie zmienia.",
+  "status": "reviewed"
+ },
+ "de27a2c00b": {
+  "src": "What are habit steps?",
+  "text": "Czym są kroki nawyku?",
+  "status": "reviewed"
+ },
+ "03c29b1eb5": {
+  "src": "A Build habit can start with its two-minute version and grow a step at a time. When a step has felt routine for a few weeks, the app offers the next one. Nothing changes by itself, you can go back a step anytime, and past days keep their credit. Free includes one next step at a time; Premium lets you plan up to 4 steps ahead.",
+  "text": "Nawyk do budowania może zacząć od wersji dwuminutowej i rosnąć krok po kroku. Gdy krok od kilku tygodni jest rutyną, aplikacja proponuje następny. Nic nie zmienia się samo, w każdej chwili możesz wrócić o krok, a minione dni zostają zaliczone. Plan Za darmo obejmuje jeden następny krok naraz, a Premium pozwala zaplanować do 4 kroków naprzód.",
+  "status": "reviewed"
+ },
+ "58a7837604": {
+  "src": "What is a Limit habit?",
+  "text": "Czym jest nawyk ograniczania?",
+  "status": "reviewed"
+ },
+ "60d8e238e5": {
+  "src": "A habit you want less of, like drinks, sugar or screen time. You log the amount in the evening and get a colour calendar of clear, light and heavier days, with a goal of clear days per week. When you log an amount you can add one optional word for what it was about, like Social or Unwinding; the habit then shows how often each came up, with no advice. To start one, tap + and pick &quot;Do less&quot; at the top (&quot;Do more&quot; is the default). A name that starts with a word like less, fewer, stop or quit picks it for you, and you can switch back with one tap. If you have not started one yet, Habits also shows a small &quot;Want to do less of something?&quot; note that you can dismiss. Free includes one Limit habit.",
+  "text": "Nawyk, którego chcesz mniej, na przykład drinki, cukier albo czas przed ekranem. Wieczorem wpisujesz ilość i dostajesz kolorowy kalendarz czystych, lekkich i cięższych dni, z celem czystych dni w tygodniu. Wpisując ilość, możesz dodać jedno opcjonalne słowo o tym, o co chodziło, na przykład Towarzystwo albo Relaks. Nawyk pokazuje potem, jak często każde się pojawiało, bez żadnych rad. Żeby zacząć, dotknij + i wybierz &quot;Robić mniej&quot; u góry (domyślnie jest &quot;Robić więcej&quot;). Nazwa zaczynająca się od słowa takiego jak mniej, rzadziej, rzucić albo ograniczyć wybiera to za ciebie, a wrócisz jednym dotknięciem. Jeśli nie masz jeszcze takiego nawyku, Nawyki pokazują też małą notkę &quot;Chcesz robić czegoś mniej?&quot;, którą możesz zamknąć. Plan Za darmo obejmuje jeden nawyk ograniczania.",
+  "status": "reviewed"
+ },
+ "888dc3f5d8": {
+  "src": "Is my data private?",
+  "text": "Czy moje dane są prywatne?",
+  "status": "reviewed"
+ },
+ "6ed4225869": {
+  "src": "Yes. No server, no analytics, no tracking. Check-ins from Apple Health and the drinks you log stay on your phone and are never put in iCloud.",
+  "text": "Tak. Bez serwera, bez analityki, bez śledzenia. Wpisy z Apple Health i drinki, które wpisujesz, zostają na twoim telefonie i nigdy nie trafiają do iCloud.",
+  "status": "reviewed"
+ },
+ "ae2e423f5b": {
+  "src": "What are themes?",
+  "text": "Czym są motywy?",
+  "status": "reviewed"
+ },
+ "1bae0e7c22": {
+  "src": "Five looks for the app and its widgets: Graphite, Midnight, Ocean, Plum and Glacier. A theme changes the background, cards, buttons and tint, never your habit colours. Graphite is included and the other four are part of Premium. If Premium ends, the app uses Graphite and your choice comes back with Premium.",
+  "text": "Pięć wersji wyglądu aplikacji i jej widżetów: Graphite, Midnight, Ocean, Plum i Glacier. Motyw zmienia tło, karty, przyciski i odcień, nigdy kolory twoich nawyków. Graphite jest w zestawie, a pozostałe cztery są częścią Premium. Jeśli Premium się skończy, aplikacja używa motywu Graphite, a twój wybór wraca razem z Premium.",
+  "status": "reviewed"
+ },
+ "09a5b8c4eb": {
+  "src": "What are seasonal challenges?",
+  "text": "Czym są wyzwania sezonowe?",
+  "status": "reviewed"
+ },
+ "2b21c71c12": {
+  "src": "Short, optional challenges with a finish line, like Clearer January. You join with a habit you already have or a new one, and the goal is most days, never every day. Rest and time-off days never count against you, and leaving keeps the habit and its history. The season's challenge is free to join from 7 days before its month until the 14th. Premium adds a library of 10 challenges you can start any time, each for 28 days. If Premium ends, a running challenge runs to its end and finished ones stay readable.",
+  "text": "Krótkie, nieobowiązkowe wyzwania z metą, na przykład Jaśniejszy styczeń. Dołączasz z nawykiem, który już masz, albo z nowym, a cel to większość dni, nigdy każdy dzień. Dni odpoczynku i przerwy nigdy nie liczą się na twoją niekorzyść, a gdy opuścisz wyzwanie, nawyk i jego historia zostają. Do wyzwania sezonu dołączysz za darmo od 7 dni przed jego miesiącem do 14. dnia miesiąca. Premium dodaje bibliotekę 10 wyzwań, które zaczniesz w dowolnej chwili, każde na 28 dni. Jeśli Premium się skończy, trwające wyzwanie trwa do końca, a zakończone da się nadal odczytać.",
+  "status": "reviewed"
+ },
+ "e9fd7ee5e1": {
+  "src": "What is the quarterly identity review?",
+  "text": "Czym jest kwartalny przegląd tożsamości?",
+  "status": "reviewed"
+ },
+ "6e44bdb251": {
+  "src": "At the start of each quarter, Reflect asks whether each identity (a reader, someone who moves) is still who you want to become: Keep, Adjust or Let go, plus an optional one-line note. Letting go archives its habits and keeps all their history. The review of the quarter just ended is free. Opening past reviews is Premium, but your notes always stay readable.",
+  "text": "Na początku każdego kwartału Podsumowania pytają, czy każda tożsamość (osoba, która czyta, osoba, która się rusza) to nadal ktoś, kim chcesz się stawać: Zostaw, Dostosuj albo Odpuść, plus opcjonalna notatka w jednej linijce. Odpuszczenie archiwizuje jej nawyki i zachowuje całą ich historię. Przegląd właśnie zakończonego kwartału jest darmowy. Otwieranie wcześniejszych przeglądów to Premium, ale twoje notatki zawsze da się odczytać.",
+  "status": "reviewed"
+ },
+ "540f355f16": {
+  "src": "More on the <a href=\"/#faq\">home page</a> and in the <a href=\"/guides/\">guides</a>.",
+  "text": "Więcej na <a href=\"/#faq\">stronie głównej</a> i w <a href=\"/guides/\">poradnikach</a>.",
+  "status": "reviewed"
+ },
+ "sim.all_done": {
+  "src": "Every day done. Mostly is the top level; there's nothing above it.",
+  "text": "Każdy dzień zrobiony. Przeważnie to najwyższy poziom, nad nim nie ma nic.",
+  "status": "reviewed"
+ },
+ "sim.rest_only": {
+  "src": "A rest day isn't a miss: your level and your run carry on as if nothing happened.",
+  "text": "Dzień odpoczynku to nie pominięcie: poziom i seria idą dalej, jakby nic się nie stało.",
+  "status": "reviewed"
+ },
+ "sim.two_in_row": {
+  "src": "Two misses in a row end the run, gently. A new one starts the next day, and your level is {level}.",
+  "text": "Dwa pominięcia z rzędu kończą serię, łagodnie. Nowa zaczyna się następnego dnia, a twój poziom to {level}.",
+  "status": "reviewed"
+ },
+ "sim.two_in_row_still": {
+  "src": "Two misses in a row end the run, gently. A new one starts the next day, and your level is still {level}.",
+  "text": "Dwa pominięcia z rzędu kończą serię, łagodnie. Nowa zaczyna się następnego dnia, a twój poziom to nadal {level}.",
+  "status": "reviewed"
+ },
+ "sim.pair_ever": {
+  "src": "Two misses in a row ended a run and a new one started the next day. Your level is {level}.",
+  "text": "Dwa pominięcia z rzędu zakończyły serię, a nowa zaczęła się następnego dnia. Twój poziom to {level}.",
+  "status": "reviewed"
+ },
+ "sim.one_miss": {
+  "src": "One miss, nothing reset. Your level dips a few points and your run keeps going.",
+  "text": "Jedno pominięcie, nic się nie zeruje. Poziom spada o kilka punktów, a seria trwa dalej.",
+  "status": "reviewed"
+ },
+ "sim.misses": {
+  "src": {
+   "one": "{n} miss, never two in a row: your run keeps going and your level is {level}.",
+   "other": "{n} misses, never two in a row: your run keeps going and your level is {level}."
+  },
+  "text": {
+   "one": "{n} pominięcie, nigdy dwa z rzędu: seria trwa dalej, a twój poziom to {level}.",
+   "few": "{n} pominięcia, nigdy dwa z rzędu: seria trwa dalej, a twój poziom to {level}.",
+   "many": "{n} pominięć, nigdy dwa z rzędu: seria trwa dalej, a twój poziom to {level}.",
+   "other": "{n} pominięcia, nigdy dwa z rzędu: seria trwa dalej, a twój poziom to {level}."
+  },
+  "status": "reviewed"
+ },
+ "sim.rest_tail": {
+  "src": "Rest days don't count as misses.",
+  "text": "Dni odpoczynku nie liczą się jako pominięcia.",
+  "status": "reviewed"
+ },
+ "sim.days": {
+  "src": {
+   "one": "{n} day",
+   "other": "{n} days"
+  },
+  "text": {
+   "one": "{n} dzień",
+   "few": "{n} dni",
+   "many": "{n} dni",
+   "other": "{n} dnia"
+  },
+  "status": "reviewed"
+ },
+ "sim.state_done": {
+  "src": "done",
+  "text": "zrobione",
+  "status": "reviewed"
+ },
+ "sim.state_miss": {
+  "src": "missed",
+  "text": "pominięte",
+  "status": "reviewed"
+ },
+ "sim.state_rest": {
+  "src": "rest day",
+  "text": "dzień odpoczynku",
+  "status": "reviewed"
+ },
+ "sim.aria": {
+  "src": "{day}, {state}. Tap to change.",
+  "text": "{day}, {state}. Dotknij, żeby zmienić.",
+  "status": "reviewed"
+ },
+ "sim.aria_today": {
+  "src": "{day} (today), {state}. Tap to change.",
+  "text": "{day} (dziś), {state}. Dotknij, żeby zmienić.",
+  "status": "reviewed"
+ }
+}

@@ -1,0 +1,1133 @@
+{
+ "190ab1dde1": {
+  "src": "Mostly Daily: Habit Calendar · the forgiving habit tracker for iPhone",
+  "text": "Mostly Daily: Лагідні звички · трекер звичок для iPhone, який пробачає",
+  "status": "reviewed"
+ },
+ "12f89ab9eb": {
+  "src": "A habit tracker for iPhone that forgives. One miss never resets anything, rest is a real day, and Mostly is the top level. No account, no tracking.",
+  "text": "Трекер звичок для iPhone, який пробачає пропущений день. Один пропуск нічого не обнуляє, відпочинок - справжній день, а Здебільшого - найвищий рівень. Без облікового запису і без стеження.",
+  "status": "reviewed"
+ },
+ "200de3647e": {
+  "src": "Mostly Daily: Miss a day. Keep your progress. Two screens of the app's Today, in light and dark.",
+  "text": "Mostly Daily: Пропусти день. Прогрес на місці. Два знімки екрана &quot;Сьогодні&quot; у світлому й темному оформленні.",
+  "status": "reviewed"
+ },
+ "48ca1b6acc": {
+  "src": "<a class=\"skip\" href=\"#main\">Skip to content</a>",
+  "text": "<a class=\"skip\" href=\"#main\">Перейти до вмісту</a>",
+  "status": "reviewed"
+ },
+ "62bce9422f": {
+  "src": "Main",
+  "text": "Головна навігація",
+  "status": "reviewed"
+ },
+ "02a9c1a6ee": {
+  "src": "<a href=\"/#why\">Why Mostly</a><a href=\"/#widgets\">Widgets</a><a href=\"/#private\">Privacy</a><a href=\"/#pricing\">Pricing</a><a href=\"/guides/\">Guides</a><a href=\"/support.html\">Support</a>",
+  "text": "<a href=\"/#why\">Чому Mostly</a><a href=\"/#widgets\">Віджети</a><a href=\"/#private\">Приватність</a><a href=\"/#pricing\">Ціни</a><a href=\"/guides/\">Поради</a><a href=\"/support.html\">Підтримка</a>",
+  "status": "reviewed"
+ },
+ "57f5f5efbc": {
+  "src": "Menu",
+  "text": "Меню",
+  "status": "reviewed"
+ },
+ "19a87c6f18": {
+  "src": "<a href=\"/#why\">Why Mostly</a><a href=\"/#widgets\">Widgets</a><a href=\"/#private\">Privacy</a><a href=\"/#pricing\">Pricing</a><a href=\"/#faq\">Questions</a><a href=\"/guides/\">Guides</a><a href=\"/support.html\">Support</a>",
+  "text": "<a href=\"/#why\">Чому Mostly</a><a href=\"/#widgets\">Віджети</a><a href=\"/#private\">Приватність</a><a href=\"/#pricing\">Ціни</a><a href=\"/#faq\">Запитання</a><a href=\"/guides/\">Поради</a><a href=\"/support.html\">Підтримка</a>",
+  "status": "reviewed"
+ },
+ "a9096aaab4": {
+  "src": "Download on the App Store",
+  "text": "Завантажити в App Store",
+  "status": "reviewed"
+ },
+ "fed6a4df0c": {
+  "src": "Habit tracker for iPhone",
+  "text": "Трекер звичок для iPhone",
+  "status": "reviewed"
+ },
+ "b9d829b4f2": {
+  "src": "Miss a day.<br>Keep your progress.",
+  "text": "Пропусти день.<br>Прогрес на місці.",
+  "status": "reviewed"
+ },
+ "d9b596e8b7": {
+  "src": "A habit tracker for iPhone that forgives. One miss never resets anything, rest is a real day, and <b>Mostly</b> is the top level.",
+  "text": "Трекер звичок для iPhone, який пробачає. Один пропуск нічого не обнуляє, відпочинок - справжній день, а <b>Здебільшого</b> - найвищий рівень.",
+  "status": "reviewed"
+ },
+ "d4741b79a4": {
+  "src": "<b>Try it: tap a day.</b><span>Read 10 pages, after two good months</span>",
+  "text": "<b>Спробуй: торкнися дня.</b><span>Читати 10 сторінок, після двох добрих місяців</span>",
+  "status": "reviewed"
+ },
+ "d4ddc8176a": {
+  "src": "This week, Monday to Sunday",
+  "text": "Цей тиждень, з понеділка до неділі",
+  "status": "reviewed"
+ },
+ "397e6c8460": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">M</span><span class=\"sr\">Monday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">П</span><span class=\"sr\">Понеділок, зроблено</span>",
+  "status": "reviewed"
+ },
+ "c06165c186": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">T</span><span class=\"sr\">Tuesday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">В</span><span class=\"sr\">Вівторок, зроблено</span>",
+  "status": "reviewed"
+ },
+ "d79260e5a2": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">W</span><span class=\"sr\">Wednesday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">С</span><span class=\"sr\">Середа, зроблено</span>",
+  "status": "reviewed"
+ },
+ "078165c73c": {
+  "src": "<span class=\"wk miss\"><span class=\"d\"></span><span class=\"lbl\" aria-hidden=\"true\">T</span><span class=\"sr\">Thursday, missed</span></span>",
+  "text": "<span class=\"wk miss\"><span class=\"d\"></span><span class=\"lbl\" aria-hidden=\"true\">Ч</span><span class=\"sr\">Четвер, пропущено</span></span>",
+  "status": "reviewed"
+ },
+ "7e4238dcc6": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">F</span><span class=\"sr\">Friday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">П</span><span class=\"sr\">П'ятниця, зроблено</span>",
+  "status": "reviewed"
+ },
+ "813fba1414": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">S</span><span class=\"sr\">Saturday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">С</span><span class=\"sr\">Субота, зроблено</span>",
+  "status": "reviewed"
+ },
+ "283097ab5b": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">S</span><span class=\"sr\">Sunday, done</span>",
+  "text": "<span class=\"lbl\" aria-hidden=\"true\">Н</span><span class=\"sr\">Неділя, зроблено</span>",
+  "status": "reviewed"
+ },
+ "4de16ebc41": {
+  "src": "Mostly",
+  "text": "Здебільшого",
+  "status": "reviewed"
+ },
+ "01ccce99c7": {
+  "src": "Never missed twice <b data-run>67 days</b> &middot; a plain streak would say <b data-streak>3 days</b>",
+  "text": "Без двох пропусків поспіль <b data-run>67 днів</b> &middot; звичайна серія показала б <b data-streak>3 дні</b>",
+  "status": "reviewed"
+ },
+ "29eff42050": {
+  "src": "One miss, nothing reset. Your level dips a few points and your run keeps going.",
+  "text": "Один пропуск, і нічого не обнулилося. Рівень знижується на кілька пунктів, а серія триває.",
+  "status": "reviewed"
+ },
+ "708c63fcb4": {
+  "src": "Taps cycle done, missed, rest.<span class=\"wide-only\"> Or try a pattern:</span>",
+  "text": "Дотики змінюють день по колу: зроблено, пропущено, відпочинок.<span class=\"wide-only\"> Або спробуй сценарій:</span>",
+  "status": "reviewed"
+ },
+ "caa7b09e67": {
+  "src": "Try a pattern",
+  "text": "Спробуй сценарій",
+  "status": "reviewed"
+ },
+ "3b2eb51310": {
+  "src": "Every day",
+  "text": "Щодня",
+  "status": "reviewed"
+ },
+ "45b7217f21": {
+  "src": "One miss",
+  "text": "Один пропуск",
+  "status": "reviewed"
+ },
+ "8b242ab2a9": {
+  "src": "Two in a row",
+  "text": "Два поспіль",
+  "status": "reviewed"
+ },
+ "2e2a64da6c": {
+  "src": "A rest day",
+  "text": "День відпочинку",
+  "status": "reviewed"
+ },
+ "fca77b7e3a": {
+  "src": "At a glance",
+  "text": "Коротко",
+  "status": "reviewed"
+ },
+ "00fb203c00": {
+  "src": "Free to start",
+  "text": "Безкоштовний старт",
+  "status": "reviewed"
+ },
+ "257fa99e08": {
+  "src": "No account",
+  "text": "Без облікового запису",
+  "status": "reviewed"
+ },
+ "f6ebb9bde3": {
+  "src": "No tracking",
+  "text": "Без стеження",
+  "status": "reviewed"
+ },
+ "1c82d5c8bd": {
+  "src": "For iPhone",
+  "text": "Для iPhone",
+  "status": "reviewed"
+ },
+ "71deabb764": {
+  "src": "Today: the day ring, your mosaic of check-ins, and one ring button per habit",
+  "text": "Сьогодні: кільце дня, твоя мозаїка відміток і одна кнопка-кільце на кожну звичку",
+  "status": "reviewed"
+ },
+ "927428b06f": {
+  "src": "A habit tracker without streaks",
+  "text": "Трекер звичок без суворих серій",
+  "status": "reviewed"
+ },
+ "fed841d923": {
+  "src": "Aim for Mostly.",
+  "text": "Прагни до рівня Здебільшого.",
+  "status": "reviewed"
+ },
+ "660abaf4b2": {
+  "src": "Streak apps count days until you miss one. Mostly Daily measures how often you show up, and never asks for 100%.",
+  "text": "Застосунки із суворими серіями рахують дні до першого пропуску. Mostly Daily показує, як часто ти робиш своє, і ніколи не вимагає 100%.",
+  "status": "reviewed"
+ },
+ "708afa517d": {
+  "src": "Four levels. Mostly is the top.",
+  "text": "Чотири рівні. Здебільшого - найвищий.",
+  "status": "reviewed"
+ },
+ "71d7a8ec96": {
+  "src": "Starting, Sometimes, Often, Mostly. There is nothing above Mostly, so there is nothing to lose.",
+  "text": "Початок, Іноді, Часто, Здебільшого. Вище за Здебільшого нічого немає, тож і втрачати нічого.",
+  "status": "reviewed"
+ },
+ "2f4148b1a8": {
+  "src": "Never miss twice.",
+  "text": "Не пропускай двічі поспіль.",
+  "status": "reviewed"
+ },
+ "1720657348": {
+  "src": "Your run counts the days you didn't miss twice in a row. One slip changes nothing. The day after is the one that counts.",
+  "text": "Серія рахує дні без двох пропусків поспіль. Один пропуск нічого не змінює. Важить наступний день.",
+  "status": "reviewed"
+ },
+ "b79e5f4822": {
+  "src": "Rest",
+  "text": "Відпочинок",
+  "status": "reviewed"
+ },
+ "b0a3c90d0f": {
+  "src": "Rest is a real day.",
+  "text": "Відпочинок - справжній день.",
+  "status": "reviewed"
+ },
+ "43ff488ffa": {
+  "src": "Rest, low energy and travel days are not misses. Finish a week at Often or Mostly and you earn an extra rest day.",
+  "text": "Дні відпочинку, подорожей і дні, коли мало сил, не вважаються пропусками. Заверши тиждень на рівні Часто або Здебільшого, і отримаєш додатковий день відпочинку.",
+  "status": "reviewed"
+ },
+ "f72800165b": {
+  "src": "Read more: <a href=\"/guides/habit-tracker-without-streaks.html\">a habit tracker without streaks</a>, <a href=\"/guides/one-missed-day.html\">why one missed day doesn't break a habit</a>, <a href=\"/guides/rest-days.html\">rest days</a> and <a href=\"/guides/sick-and-travel-days.html\">sick days and travel</a>.",
+  "text": "Читай далі: <a href=\"/guides/habit-tracker-without-streaks.html\">трекер звичок без суворих серій</a>, <a href=\"/guides/one-missed-day.html\">чому один пропущений день не руйнує звичку</a>, <a href=\"/guides/rest-days.html\">дні відпочинку</a> і <a href=\"/guides/sick-and-travel-days.html\">дні хвороби й подорожей</a>.",
+  "status": "reviewed"
+ },
+ "0584810926": {
+  "src": "Habit widgets for iPhone",
+  "text": "Віджети звичок для iPhone",
+  "status": "reviewed"
+ },
+ "f3f05bc5c4": {
+  "src": "Tap. Done. No app to open.",
+  "text": "Дотик. Зроблено. Застосунок відкривати не треба.",
+  "status": "reviewed"
+ },
+ "ba4129ea0a": {
+  "src": "One tap on the ring and the habit is done; a second tap undoes it. Home Screen, Lock Screen, StandBy, Control Center and Siri.",
+  "text": "Один дотик до кільця, і звичку відмічено; другий дотик скасовує відмітку. Початковий екран, замкнений екран, режим Очікування, Центр керування і Siri.",
+  "status": "reviewed"
+ },
+ "eda5c3809e": {
+  "src": "An iPhone Home Screen with Mostly Daily widgets: the day ring with three habits, Floss, Next up and Read 10 pages",
+  "text": "Початковий екран iPhone з віджетами Mostly Daily: кільце дня з трьома звичками, Чистити зуби ниткою, Далі і Читати 10 сторінок",
+  "status": "reviewed"
+ },
+ "32afd9e788": {
+  "src": "Widget pictures",
+  "text": "Зображення віджетів",
+  "status": "reviewed"
+ },
+ "296a5385f1": {
+  "src": "Habit widget: Read 10 pages, level Mostly, with a ring to tap",
+  "text": "Віджет звички: Читати 10 сторінок, рівень Здебільшого, з кільцем для дотику",
+  "status": "reviewed"
+ },
+ "aebbd3ad6d": {
+  "src": "<b>One habit, one ring</b>Open, done, or a new habit",
+  "text": "<b>Одна звичка, одне кільце</b>Відкрита, зроблена або нова звичка",
+  "status": "reviewed"
+ },
+ "a656c9711e": {
+  "src": "Next up widgets: Floss, then Read 10 pages, then All done with the mosaic",
+  "text": "Віджети Далі: Чистити зуби ниткою, потім Читати 10 сторінок, потім Готово з мозаїкою",
+  "status": "reviewed"
+ },
+ "08a55d5010": {
+  "src": "<b>Next up, then your mosaic</b>The next open habit; all done shows the mosaic",
+  "text": "<b>Далі, а потім твоя мозаїка</b>Наступна відкрита звичка, а коли все зроблено, мозаїка",
+  "status": "reviewed"
+ },
+ "149a63619c": {
+  "src": "Today widget with the day ring and open habits, and the This week widget",
+  "text": "Віджет Сьогодні з кільцем дня і відкритими звичками та віджет Цей тиждень",
+  "status": "reviewed"
+ },
+ "598c31c035": {
+  "src": "<b>The whole day</b>The day ring and your habits at a glance",
+  "text": "<b>Увесь день</b>Кільце дня і твої звички з одного погляду",
+  "status": "reviewed"
+ },
+ "c33ba5fcb8": {
+  "src": "<b>Lock Screen and StandBy</b>The day above the clock, what's next, and one habit you can tap without unlocking. Tinted and clear widgets stay legible.",
+  "text": "<b>Замкнений екран і режим Очікування</b>День над годинником, що далі, і одна звичка, яку можна відмітити без розблокування. Віджети з відтінком і прозорі віджети лишаються розбірливими.",
+  "status": "reviewed"
+ },
+ "2a20218d57": {
+  "src": "Read more: <a href=\"/guides/iphone-habit-widgets.html\">habit widgets on iPhone</a>.",
+  "text": "Читай далі: <a href=\"/guides/iphone-habit-widgets.html\">віджети звичок на iPhone</a>.",
+  "status": "reviewed"
+ },
+ "580ed37315": {
+  "src": "More room when you unfold it.",
+  "text": "Більше місця, коли розкладеш iPhone.",
+  "status": "reviewed"
+ },
+ "c3747825d7": {
+  "src": "On the inner display of iPhone Duo, Today shows a companion pane beside your list: This week, or the habit you tap. Habit and Limit details, Reflect and Settings open side by side. In portrait, Today and the calendar screens are one column. Fold or unfold and you keep your place. The outer display works like any iPhone.",
+  "text": "На внутрішньому дисплеї iPhone Duo екран &quot;Сьогодні&quot; показує поруч зі списком додаткову панель: &quot;Цей тиждень&quot; або звичку, якої ти торкнешся. Деталі звичок і звичок-обмежень, &quot;Підсумки&quot; і &quot;Налаштування&quot; відкриваються поруч. У книжковій орієнтації &quot;Сьогодні&quot; і екрани з календарем мають одну колонку. Складаєш чи розкладаєш iPhone, а застосунок лишається на тому самому місці. Зовнішній дисплей працює як звичайний iPhone.",
+  "status": "reviewed"
+ },
+ "08315b4c52": {
+  "src": "Mostly Daily on the unfolded iPhone Duo: the Today list on the left and the This week pane on the right",
+  "text": "Mostly Daily на розкладеному iPhone Duo: список Сьогодні ліворуч і панель Цей тиждень праворуч",
+  "status": "reviewed"
+ },
+ "34134a5af5": {
+  "src": "Two kinds of habit",
+  "text": "Два види звичок",
+  "status": "reviewed"
+ },
+ "2f5a7fa5c2": {
+  "src": "Habits you build.<br>Habits you want less of.",
+  "text": "Звички, які формуєш.<br>Звички, яких хочеш менше.",
+  "status": "reviewed"
+ },
+ "bbd80cf7e2": {
+  "src": "Build",
+  "text": "Формувати",
+  "status": "reviewed"
+ },
+ "d536a16975": {
+  "src": "Start tiny. Step up when it feels easy.",
+  "text": "Почни з малого. Додавай, коли стане легко.",
+  "status": "reviewed"
+ },
+ "9296e3ffb6": {
+  "src": "Yes or no, a count, or minutes. Keep a two-minute version for busy days; it counts fully. When a step has felt routine for a few weeks, the app offers the next one. Nothing changes by itself.",
+  "text": "Так чи ні, кількість або хвилини. Залиш двохвилинну версію для зайнятих днів: вона зараховується повністю. Коли крок кілька тижнів здається звичним, застосунок пропонує наступний. Саме собою нічого не змінюється.",
+  "status": "reviewed"
+ },
+ "c2c032e641": {
+  "src": "Apple Health can check off steps, workouts, sleep, water and more. Choose what you do, like a run, yoga or a swim, and the habit checks itself off. You can also count distance in km or miles. &quot;Ideas from Apple Health&quot; looks at your last 30 days and suggests habits you already do, and four wellbeing habits check themselves off: Close my rings, Get outside, In bed by 23:00 and Check in with how I feel",
+  "text": "Apple Health може відмічати кроки, тренування, сон, воду та інше. Вибери, що ти робиш, наприклад біг, йогу чи плавання, і звичка відмічатиметься сама. Відстань можна рахувати в кілометрах або милях. &quot;Ідеї з Apple Health&quot; переглядають твої останні 30 днів і пропонують звички, які ти вже маєш, а чотири звички для самопочуття відмічаються самі: Змикати кільця, Виходити на вулицю, У ліжку до 23:00 і Записувати, як я почуваюся",
+  "status": "reviewed"
+ },
+ "480251f3ef": {
+  "src": "Write when and where: &quot;after dinner, on the sofa&quot;",
+  "text": "Запиши, коли і де: &quot;після вечері, на дивані&quot;",
+  "status": "reviewed"
+ },
+ "b76403567e": {
+  "src": "<a href=\"/guides/apple-health-habits.html\">Habits that check themselves off from Apple Health</a>",
+  "text": "<a href=\"/guides/apple-health-habits.html\">Звички, які відмічаються самі з Apple Health</a>",
+  "status": "reviewed"
+ },
+ "7a12e628c8": {
+  "src": "Habit detail: level 85 Mostly, 34 days never missed twice, the month calendar with its legend",
+  "text": "Деталі звички: рівень 85 Здебільшого, 34 дні без двох пропусків поспіль, календар місяця з легендою",
+  "status": "reviewed"
+ },
+ "c2ee773999": {
+  "src": "Limit: drinks, sugar, screen time",
+  "text": "Обмежувати: напої, цукор, час перед екраном",
+  "status": "reviewed"
+ },
+ "784a00eeed": {
+  "src": "A calendar of clear days.",
+  "text": "Календар чистих днів.",
+  "status": "reviewed"
+ },
+ "472d65a2e1": {
+  "src": "Drinks, sugar, screen time. Log the amount in the evening and get a colour calendar: clear, light, heavier. Set a goal of clear days a week. No judgement. It only shows the picture.",
+  "text": "Напої, цукор, час перед екраном. Увечері запиши кількість і отримай кольоровий календар: чисті, легкі й важчі дні. Постав ціль чистих днів на тиждень. Жодних оцінок. Календар лише показує картину.",
+  "status": "reviewed"
+ },
+ "4f8f184e06": {
+  "src": "Adding one? Pick &quot;Do less&quot; at the top of the new-habit sheet, or start a name with &quot;Less&quot; or &quot;Stop&quot;",
+  "text": "Додаєш таку звичку? Вибери &quot;Менше&quot; вгорі аркуша нової звички або почни назву зі слова &quot;Менше&quot; чи &quot;Кинути&quot;",
+  "status": "reviewed"
+ },
+ "f1d4ff141b": {
+  "src": "Note what a day was about: Social, Unwinding",
+  "text": "Познач, про що був день: Компанія, Розслаблення",
+  "status": "reviewed"
+ },
+ "fd793bec13": {
+  "src": "Set up your space with up to three small steps",
+  "text": "Налаштуй свій простір: до трьох маленьких кроків",
+  "status": "reviewed"
+ },
+ "af1f727ed8": {
+  "src": "Self-tracking only. It gives no medical advice.",
+  "text": "Лише самостійне відстеження. Медичних порад застосунок не дає.",
+  "status": "reviewed"
+ },
+ "2619303cab": {
+  "src": "<a href=\"/guides/habits-you-want-less-of.html\">Why a calendar of clear days works better</a> · <a href=\"/guides/cut-back-with-a-calendar.html\">How to cut back on drinks, sugar or screen time</a>",
+  "text": "<a href=\"/guides/habits-you-want-less-of.html\">Чому календар чистих днів працює краще</a> · <a href=\"/guides/cut-back-with-a-calendar.html\">Як зменшити напої, цукор чи час перед екраном</a>",
+  "status": "reviewed"
+ },
+ "7f0cc430c2": {
+  "src": "Limit habit: level 78 Mostly, clear days this month, and a colour calendar of clear, light and heavier days",
+  "text": "Звичка-обмеження: рівень 78 Здебільшого, чисті дні цього місяця і кольоровий календар чистих, легких і важчих днів",
+  "status": "reviewed"
+ },
+ "fdc7eb4f86": {
+  "src": "Who you're becoming: four mosaics, A reader, Someone who moves every day, Someone who drinks mindfully, A calm person",
+  "text": "Ким ти стаєш: чотири мозаїки, Людина, яка читає, Людина, яка щодня рухається, Людина, яка п'є свідомо, Спокійна людина",
+  "status": "reviewed"
+ },
+ "3f514ef1c9": {
+  "src": "Who you're becoming",
+  "text": "Ким ти стаєш",
+  "status": "reviewed"
+ },
+ "db5392a388": {
+  "src": "Every check-in is a vote.",
+  "text": "Кожна відмітка - це голос.",
+  "status": "reviewed"
+ },
+ "d9a6bf5660": {
+  "src": "A reader. Someone who moves. Each check-in lands one tile in the habit's colour. Tiles are never taken away: a miss leaves no hole, because a tile is something you did.",
+  "text": "Людина, яка читає. Людина, яка рухається. Кожна відмітка кладе одну плитку кольору звички. Плитки ніколи не забирають: пропуск не лишає дірки, бо плитка - це те, що вже зроблено.",
+  "status": "reviewed"
+ },
+ "2ded02388a": {
+  "src": "<i class=\"dot\" style=\"background:var(--green)\"></i><span><b>Each week, Reflect tells your week in kind words</b>habit by habit, with the next small step.</span>",
+  "text": "<i class=\"dot\" style=\"background:var(--green)\"></i><span><b>Щотижня &quot;Підсумки&quot; розповідають про твій тиждень добрими словами</b>звичка за звичкою, з наступним маленьким кроком.</span>",
+  "status": "reviewed"
+ },
+ "94d0f633c8": {
+  "src": "<i class=\"dot\" style=\"background:var(--orange)\"></i><span><b>Once a quarter: still who you want to become?</b>Keep, Adjust or Let go. Letting go only archives.</span>",
+  "text": "<i class=\"dot\" style=\"background:var(--orange)\"></i><span><b>Раз на квартал: це досі те, ким ти хочеш стати?</b>Залишити, Змінити або Відпустити. Відпустити означає лише заархівувати.</span>",
+  "status": "reviewed"
+ },
+ "62369f48d9": {
+  "src": "<i class=\"dot\" style=\"background:var(--pink)\"></i><span><b>Seasonal challenges with a finish line</b>like Clearer January. The goal is most days, never every day.</span>",
+  "text": "<i class=\"dot\" style=\"background:var(--pink)\"></i><span><b>Сезонні челенджі з фінішем</b>як-от Ясніший січень. Ціль - більшість днів, ніколи не кожен день.</span>",
+  "status": "reviewed"
+ },
+ "d752eaad54": {
+  "src": "Private: no account, no tracking",
+  "text": "Приватно: без облікового запису і стеження",
+  "status": "reviewed"
+ },
+ "b5656e0afb": {
+  "src": "Nothing leaves your phone unless you say so.",
+  "text": "Ніщо не залишає твій телефон, доки ти не скажеш.",
+  "status": "reviewed"
+ },
+ "9501454f3b": {
+  "src": "No server, no account, no analytics. Your habits sync through your own iCloud. Export everything as CSV on any plan; delete everything with one tap.",
+  "text": "Немає сервера, облікового запису й аналітики. Звички синхронізуються через твій власний iCloud. Експортуй усе в CSV на будь-якому плані; видаляй усе одним дотиком.",
+  "status": "reviewed"
+ },
+ "322aa2366c": {
+  "src": "<a href=\"/guides/private-habit-tracker.html\">Where each thing is kept</a>",
+  "text": "<a href=\"/guides/private-habit-tracker.html\">Де що зберігається</a>",
+  "status": "reviewed"
+ },
+ "7974cb1d1f": {
+  "src": "<b>No account, ever.</b>No sign-in, no e-mail, no ads, no tracking.",
+  "text": "<b>Жодного облікового запису.</b>Без входу, електронної пошти, реклами і стеження.",
+  "status": "reviewed"
+ },
+ "8370881db2": {
+  "src": "<b>Health data stays on the device.</b>Check-ins that come from Apple Health, and the drinks you log, are never put in iCloud.",
+  "text": "<b>Дані про здоров'я лишаються на пристрої.</b>Відмітки з Apple Health і напої, які ти записуєш, ніколи не потрапляють в iCloud.",
+  "status": "reviewed"
+ },
+ "8a32797c56": {
+  "src": "<b>Yours to keep.</b>Export as CSV any time, on any plan. Premium never locks your data.",
+  "text": "<b>Дані лишаються твоїми.</b>Експорт у CSV будь-коли, на будь-якому плані. Premium ніколи не блокує твої дані.",
+  "status": "reviewed"
+ },
+ "8c80844792": {
+  "src": "Free habit tracker",
+  "text": "Безкоштовний трекер звичок",
+  "status": "reviewed"
+ },
+ "5a6890c897": {
+  "src": "Free that stays free.",
+  "text": "Безкоштовно, і так залишиться.",
+  "status": "reviewed"
+ },
+ "a7ea434cc1": {
+  "src": "Start with Free. Try Premium free for two weeks when you want more. If Premium ends, nothing is deleted.",
+  "text": "Почни безкоштовно. Коли захочеш більшого, спробуй Premium безкоштовно два тижні. Якщо Premium закінчиться, нічого не видаляється.",
+  "status": "reviewed"
+ },
+ "75f527181b": {
+  "src": "Free",
+  "text": "Безкоштовно",
+  "status": "reviewed"
+ },
+ "ba3ffdc5c0": {
+  "src": "No time limit",
+  "text": "Без обмеження в часі",
+  "status": "reviewed"
+ },
+ "4dd02d20c9": {
+  "src": "3 habits, one of them can be a Limit habit",
+  "text": "3 звички, одна з них може бути звичкою-обмеженням",
+  "status": "reviewed"
+ },
+ "522e09e8bf": {
+  "src": "Levels, never miss twice, rest and time off",
+  "text": "Рівні, правило &quot;Без двох пропусків поспіль&quot;, відпочинок і перерви",
+  "status": "reviewed"
+ },
+ "15c470d321": {
+  "src": "Every widget surface: Home Screen, Lock Screen, StandBy, Control Center, Siri",
+  "text": "Віджети всюди: Початковий екран, замкнений екран, режим Очікування, Центр керування, Siri",
+  "status": "reviewed"
+ },
+ "c206624ce8": {
+  "src": "Reminders with a Done button",
+  "text": "Нагадування з кнопкою &quot;Зроблено&quot;",
+  "status": "reviewed"
+ },
+ "6027207586": {
+  "src": "Apple Health, iCloud sync, CSV export",
+  "text": "Apple Health, синхронізація з iCloud, експорт у CSV",
+  "status": "reviewed"
+ },
+ "566574db5c": {
+  "src": "This week's reflection and the season's challenge",
+  "text": "Підсумок цього тижня і челендж сезону",
+  "status": "reviewed"
+ },
+ "6c2f2888c5": {
+  "src": "Premium",
+  "text": "Premium",
+  "status": "reviewed"
+ },
+ "28e8110625": {
+  "src": "2-week free trial &middot; yearly, monthly or lifetime",
+  "text": "2 тижні безкоштовно &middot; щороку, щомісяця або назавжди",
+  "status": "reviewed"
+ },
+ "874d78699c": {
+  "src": "Unlimited habits, 5 in focus at a time",
+  "text": "Необмежено звичок, 5 у фокусі одночасно",
+  "status": "reviewed"
+ },
+ "9ab4e55fab": {
+  "src": "Every past reflection, recap and identity review",
+  "text": "Усі минулі підсумки тижнів, місяців і років та огляди ідентичності",
+  "status": "reviewed"
+ },
+ "a18e2c90d7": {
+  "src": "Change any earlier day on a habit's calendar",
+  "text": "Змінюй будь-який попередній день у календарі звички",
+  "status": "reviewed"
+ },
+ "39a533dfa4": {
+  "src": "Plan up to 4 steps ahead; the full challenge library",
+  "text": "Плануй до 4 кроків наперед; уся бібліотека челенджів",
+  "status": "reviewed"
+ },
+ "766221beb1": {
+  "src": "More widgets, including the extra-large Today and week, and two reminder times per habit",
+  "text": "Більше віджетів, зокрема дуже великий &quot;Сьогодні і тиждень&quot;, і два нагадування для кожної звички",
+  "status": "reviewed"
+ },
+ "936ad5fad8": {
+  "src": "Themes and app icons",
+  "text": "Теми й іконки застосунку",
+  "status": "reviewed"
+ },
+ "080f334741": {
+  "src": "<b>Premium Family:</b> Premium for you and up to 5 family members through Apple Family Sharing. No accounts, no invites; everyone's habits stay private on their own devices.",
+  "text": "<b>Premium для сім'ї:</b> Premium для тебе і ще до 5 членів родини через Сімейний доступ Apple. Без облікових записів і запрошень; звички кожного лишаються приватними на власних пристроях.",
+  "status": "reviewed"
+ },
+ "879d034c2f": {
+  "src": "Everything, line by line",
+  "text": "Усе, рядок за рядком",
+  "status": "reviewed"
+ },
+ "8a209171f8": {
+  "src": "Free: Your day (list what you do, mark each line, turn one into a habit)",
+  "text": "Безкоштовно: &quot;Твій день&quot; (випиши, що ти робиш, познач кожен рядок, зроби з одного звичку)",
+  "status": "reviewed"
+ },
+ "a0bdae3ab8": {
+  "src": "Free: Set up your space, up to 3 small steps per habit, like &quot;Shoes by the door&quot;",
+  "text": "Безкоштовно: &quot;Налаштуй свій простір&quot;, до 3 маленьких кроків на звичку, як-от &quot;Взуття біля дверей&quot;",
+  "status": "reviewed"
+ },
+ "deb2a3f27b": {
+  "src": "Free: habit steps, one next step at a time, stepping up or back",
+  "text": "Безкоштовно: кроки звички, один наступний крок за раз, уперед або назад",
+  "status": "reviewed"
+ },
+ "4ece41843b": {
+  "src": "Free: change the last 7 days on a habit's calendar: today and the six days before",
+  "text": "Безкоштовно: зміна останніх 7 днів у календарі звички: сьогодні і шість днів перед ним",
+  "status": "reviewed"
+ },
+ "e6a702b3a6": {
+  "src": "Free: the last 4 weeks of your line on a habit's detail; Premium: 10 weeks",
+  "text": "Безкоштовно: останні 4 тижні твоєї лінії в деталях звички; Premium: 10 тижнів",
+  "status": "reviewed"
+ },
+ "9c33cbb201": {
+  "src": "Free: the season's challenge, when it opens (7 days before the month to the 14th), and its share picture",
+  "text": "Безкоштовно: челендж сезону, поки він відкритий (від 7 днів до початку місяця до 14-го числа), і його картинка для поширення",
+  "status": "reviewed"
+ },
+ "1e6824671f": {
+  "src": "Free: what a Limit day was about, and this month's count; Premium: earlier months",
+  "text": "Безкоштовно: про що був день звички-обмеження і підрахунок за цей місяць; Premium: попередні місяці",
+  "status": "reviewed"
+ },
+ "5d0de7d65e": {
+  "src": "Free: price and usual amount on a Limit habit, exported with your data",
+  "text": "Безкоштовно: ціна і звична кількість для звички-обмеження, експортуються разом із твоїми даними",
+  "status": "reviewed"
+ },
+ "450a1ffe83": {
+  "src": "Premium: what you didn't spend on a Limit habit, against your usual week",
+  "text": "Premium: невитрачені гроші за звичкою-обмеженням порівняно з твоїм звичним тижнем",
+  "status": "reviewed"
+ },
+ "9ecc46c3cd": {
+  "src": "Premium: plan your next steps, up to 4 steps ahead on a habit",
+  "text": "Premium: плануй наступні кроки, до 4 кроків наперед для звички",
+  "status": "reviewed"
+ },
+ "555a389863": {
+  "src": "Premium: the challenge library, 10 challenges, any time, 28 days each",
+  "text": "Premium: бібліотека челенджів, 10 челенджів, будь-коли, кожен на 28 днів",
+  "status": "reviewed"
+ },
+ "d9edf58314": {
+  "src": "Premium: widgets Today and week, Month calendar, This week, Who you're becoming",
+  "text": "Premium: віджети &quot;Сьогодні і тиждень&quot;, &quot;Календар місяця&quot;, &quot;Цей тиждень&quot;, &quot;Ким ти стаєш&quot;",
+  "status": "reviewed"
+ },
+ "d022a1a8a4": {
+  "src": "Premium: a suggested better reminder time",
+  "text": "Premium: підказка кращого часу для нагадування",
+  "status": "reviewed"
+ },
+ "e030ad6544": {
+  "src": "Premium: themes (Graphite is included; Midnight, Ocean, Plum and Glacier are Premium) and app icons",
+  "text": "Premium: теми (Графіт доступний завжди; Ніч, Океан, Слива і Льодовик входять у Premium) та іконки застосунку",
+  "status": "reviewed"
+ },
+ "9610474470": {
+  "src": "Premium: if Premium ends, nothing is deleted",
+  "text": "Premium: якщо Premium закінчиться, нічого не видаляється",
+  "status": "reviewed"
+ },
+ "9a1fc1731f": {
+  "src": "Questions",
+  "text": "Запитання",
+  "status": "reviewed"
+ },
+ "73cbebcdbb": {
+  "src": "Honest answers.",
+  "text": "Чесні відповіді.",
+  "status": "reviewed"
+ },
+ "b7db4a76f8": {
+  "src": "What happens when I miss a day?",
+  "text": "Що буде, якщо я пропущу день?",
+  "status": "reviewed"
+ },
+ "bb313fdbee": {
+  "src": "Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of &quot;never missed twice&quot; only ends after two misses in a row.",
+  "text": "Нічого не обнуляється. Рівень трохи знижується і так само швидко повертається, коли ти знову відмічаєш. Серія &quot;Без двох пропусків поспіль&quot; завершується лише після двох пропусків поспіль.",
+  "status": "reviewed"
+ },
+ "635bf75b7a": {
+  "src": "Do I need an account?",
+  "text": "Чи потрібен обліковий запис?",
+  "status": "reviewed"
+ },
+ "667250ec4a": {
+  "src": "No. There is no account and no sign-in. Your habits stay on your devices and sync through your own iCloud.",
+  "text": "Ні. Немає ні облікового запису, ні входу. Звички лишаються на твоїх пристроях і синхронізуються через твій власний iCloud.",
+  "status": "reviewed"
+ },
+ "12934b4f93": {
+  "src": "What if I hit the 3-habit limit on Free?",
+  "text": "Що, якщо я дійду до ліміту в 3 звички в безкоштовному плані?",
+  "status": "reviewed"
+ },
+ "1e37d42e3c": {
+  "src": "Free has 3 habits, and Premium has unlimited habits with Focus mode keeping 5 in focus at a time. When a new habit would go over, a note on the form says so before you add it, and offers &quot;Pause a habit…&quot;. Pick one to pause: its history and level are kept, it waits under Paused, and you can resume it any time. Nothing is deleted.",
+  "text": "У безкоштовному плані є 3 звички, а в Premium звичок необмежено, і режим фокусу тримає 5 у фокусі одночасно. Коли нова звичка перевищить ліміт, примітка у формі скаже про це ще до додавання і запропонує &quot;Поставити звичку на паузу…&quot;. Вибери, яку поставити на паузу: її історія і рівень зберігаються, вона чекає в розділі &quot;На паузі&quot;, і її можна поновити будь-коли. Нічого не видаляється.",
+  "status": "reviewed"
+ },
+ "c852d5c071": {
+  "src": "What happens if Premium ends?",
+  "text": "Що буде, якщо Premium закінчиться?",
+  "status": "reviewed"
+ },
+ "49d793a711": {
+  "src": "Nothing is deleted. Habits beyond the Free plan are paused with all their history, and you can export everything at any time.",
+  "text": "Нічого не видаляється. Звички понад безкоштовний план стають на паузу з усією історією, а експортувати все можна будь-коли.",
+  "status": "reviewed"
+ },
+ "17580c7f98": {
+  "src": "Can I change an earlier day?",
+  "text": "Чи можна змінити попередній день?",
+  "status": "reviewed"
+ },
+ "b960a43ad2": {
+  "src": "Yes. On a habit's calendar you can change today and the six days before it, and every earlier day stays readable. Premium (and the 2-week trial) lets you change any earlier day too. Earlier days look faded with a small lock on Free, and nothing is ever removed.",
+  "text": "Так. У календарі звички можна змінити сьогодні і шість днів перед ним, а всі раніші дні можна переглядати. Premium (і 2-тижневий пробний період) дає змінювати й будь-який раніший день. У безкоштовному плані раніші дні виглядають блідішими й мають маленький замок, і ніщо ніколи не видаляється.",
+  "status": "reviewed"
+ },
+ "0297c9f40f": {
+  "src": "Is it a treatment or recovery program?",
+  "text": "Це лікування чи програма одужання?",
+  "status": "reviewed"
+ },
+ "52264cf7f6": {
+  "src": "No. Mostly Daily is for self-tracking and gives no medical advice. If you're worried about your health or drinking, please talk to a professional.",
+  "text": "Ні. Mostly Daily призначений для самостійного відстеження і не дає медичних порад. Якщо тебе турбує здоров'я або вживання алкоголю, поговори з фахівцем.",
+  "status": "reviewed"
+ },
+ "9d2a1d7543": {
+  "src": "More in <a href=\"/support.html#questions\">Support</a> and the <a href=\"/guides/\">guides</a>: habit steps, Limit habits, themes, challenges and the quarterly review.",
+  "text": "Більше в розділі <a href=\"/support.html#questions\">Підтримка</a> і в <a href=\"/guides/\">порадах</a>: кроки звички, звички-обмеження, теми, челенджі й щоквартальний огляд.",
+  "status": "reviewed"
+ },
+ "929a28d261": {
+  "src": "Guides",
+  "text": "Поради",
+  "status": "reviewed"
+ },
+ "2b1386cd43": {
+  "src": "Short reads on habits that last",
+  "text": "Короткі тексти про звички, що тримаються довго",
+  "status": "reviewed"
+ },
+ "f336acebcd": {
+  "src": "<a href=\"/guides/one-missed-day.html\"><span><b>Why one missed day doesn't break a habit</b><small>The day after is what counts.</small></span><i aria-hidden=\"true\">&rarr;</i></a>\n    <a href=\"/guides/rest-days.html\"><span><b>Rest days are part of the plan</b><small>How planned rest keeps habits going for years.</small></span><i aria-hidden=\"true\">&rarr;</i></a>\n    <a href=\"/guides/habits-you-want-less-of.html\"><span><b>Habits you want less of</b><small>Why a calendar of clear days works better than a count of days since.</small></span><i aria-hidden=\"true\">&rarr;</i></a>",
+  "text": "<a href=\"/guides/one-missed-day.html\"><span><b>Чому один пропущений день не руйнує звичку</b><small>Важить наступний день.</small></span><i aria-hidden=\"true\">&rarr;</i></a>\n    <a href=\"/guides/rest-days.html\"><span><b>Дні відпочинку - частина плану</b><small>Як запланований відпочинок тримає звички роками.</small></span><i aria-hidden=\"true\">&rarr;</i></a>\n    <a href=\"/guides/habits-you-want-less-of.html\"><span><b>Звички, яких хочеш менше</b><small>Чому календар чистих днів працює краще, ніж лічильник днів від останнього разу.</small></span><i aria-hidden=\"true\">&rarr;</i></a>",
+  "status": "reviewed"
+ },
+ "5c0ad99add": {
+  "src": "Mostly is enough.",
+  "text": "Здебільшого - цього досить.",
+  "status": "reviewed"
+ },
+ "3f95df6153": {
+  "src": "Add a habit",
+  "text": "Додай звичку",
+  "status": "reviewed"
+ },
+ "70282a9141": {
+  "src": "Put a widget on your Home Screen",
+  "text": "Постав віджет на Початковий екран",
+  "status": "reviewed"
+ },
+ "813d75f562": {
+  "src": "Miss a day now and then",
+  "text": "Час від часу пропускай день",
+  "status": "reviewed"
+ },
+ "07871cd595": {
+  "src": "Free to start &middot; No account &middot; No tracking",
+  "text": "Безкоштовний старт &middot; Без облікового запису &middot; Без стеження",
+  "status": "reviewed"
+ },
+ "55e5660359": {
+  "src": "<a class=\"brand\" href=\"/\"><span class=\"mark\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>Mostly Daily</a>\n  <span>A forgiving habit tracker for iPhone. &copy; 2026 Mostlydaily</span>",
+  "text": "<a class=\"brand\" href=\"/\"><span class=\"mark\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>Mostly Daily</a>\n  <span>Трекер звичок для iPhone, який пробачає. &copy; 2026 Mostlydaily</span>",
+  "status": "reviewed"
+ },
+ "26c01e70a3": {
+  "src": "Footer",
+  "text": "Нижня навігація",
+  "status": "reviewed"
+ },
+ "c9b7e8e6ba": {
+  "src": "<a href=\"/guides/\">Guides</a><a href=\"/support.html\">Support</a><a href=\"/privacy.html\">Privacy</a><a href=\"/terms.html\">Terms</a><a href=\"mailto:contact@mostlydaily.com\">contact@mostlydaily.com</a>",
+  "text": "<a href=\"/guides/\">Поради</a><a href=\"/support.html\">Підтримка</a><a href=\"/privacy.html\">Конфіденційність</a><a href=\"/terms.html\">Умови</a><a href=\"mailto:contact@mostlydaily.com\">contact@mostlydaily.com</a>",
+  "status": "reviewed"
+ },
+ "1a45573c44": {
+  "src": "Consistency levels instead of streaks: one missed day never resets progress",
+  "text": "Рівні постійності замість суворих серій: один пропущений день ніколи не обнуляє прогрес",
+  "status": "reviewed"
+ },
+ "49b52e299b": {
+  "src": "Rest, low energy and travel days that are not misses",
+  "text": "Дні відпочинку, подорожей і дні, коли мало сил, не вважаються пропусками",
+  "status": "reviewed"
+ },
+ "dde5af2f87": {
+  "src": "Limit habits for drinks, sugar and screen time with a calendar of clear days",
+  "text": "Звички-обмеження для напоїв, цукру і часу перед екраном із календарем чистих днів",
+  "status": "reviewed"
+ },
+ "10c854931f": {
+  "src": "Home Screen, Lock Screen, StandBy and Control Center widgets that check in with one tap",
+  "text": "Віджети для Початкового екрана, замкненого екрана, режиму Очікування і Центру керування, що відмічають одним дотиком",
+  "status": "reviewed"
+ },
+ "33e6f99b1e": {
+  "src": "Apple Health habits that check themselves off",
+  "text": "Звички з Apple Health, які відмічаються самі",
+  "status": "reviewed"
+ },
+ "598ef821a5": {
+  "src": "No account, no ads, no tracking; sync through your own iCloud",
+  "text": "Без облікового запису, реклами і стеження; синхронізація через твій власний iCloud",
+  "status": "reviewed"
+ },
+ "543ef84fcd": {
+  "src": "habit tracker, habit tracker without streaks, habit calendar, habit widget, drink tracker, clear days calendar, iPhone",
+  "text": "трекер звичок, habit tracker, щоденні звички, корисні звички, календар звичок, щоденник звичок, віджет звичок, трекер алкоголю",
+  "status": "reviewed"
+ },
+ "62589643ef": {
+  "src": "Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of \"never missed twice\" only ends after two misses in a row.",
+  "text": "Нічого не обнуляється. Рівень трохи знижується і так само швидко повертається, коли ти знову відмічаєш. Серія \"Без двох пропусків поспіль\" завершується лише після двох пропусків поспіль.",
+  "status": "reviewed"
+ },
+ "e214ef1d09": {
+  "src": "Free has 3 habits, and Premium has unlimited habits with Focus mode keeping 5 in focus at a time. When a new habit would go over, a note on the form says so before you add it, and offers \"Pause a habit…\". Pick one to pause: its history and level are kept, it waits under Paused, and you can resume it any time. Nothing is deleted.",
+  "text": "У безкоштовному плані є 3 звички, а в Premium звичок необмежено, і режим фокусу тримає 5 у фокусі одночасно. Коли нова звичка перевищить ліміт, примітка у формі скаже про це ще до додавання і запропонує \"Поставити звичку на паузу…\". Вибери, яку поставити на паузу: її історія і рівень зберігаються, вона чекає в розділі \"На паузі\", і її можна поновити будь-коли. Нічого не видаляється.",
+  "status": "reviewed"
+ },
+ "6a34e94fcd": {
+  "src": "Support · Mostly Daily",
+  "text": "Підтримка · Mostly Daily",
+  "status": "reviewed"
+ },
+ "51df25e8ca": {
+  "src": "Help with Mostly Daily: check-ins, habits, widgets, reminders, Apple Health, iCloud, Premium and export.",
+  "text": "Допомога з трекером звичок Mostly Daily: відмітки, звички, віджети, нагадування, Apple Health, iCloud, Premium і експорт.",
+  "status": "reviewed"
+ },
+ "f32d5a3b17": {
+  "src": "Support",
+  "text": "Підтримка",
+  "status": "reviewed"
+ },
+ "e650ae3a1b": {
+  "src": "Questions or ideas? Write to <a href=\"mailto:contact@mostlydaily.com\">contact@mostlydaily.com</a>. A person reads every message.",
+  "text": "Маєш запитання чи ідеї? Пиши на <a href=\"mailto:contact@mostlydaily.com\">contact@mostlydaily.com</a>. Кожне повідомлення читає людина.",
+  "status": "reviewed"
+ },
+ "ae521bc4d6": {
+  "src": "Check-ins",
+  "text": "Відмітки",
+  "status": "reviewed"
+ },
+ "f0890e8dd1": {
+  "src": "Tap the ring on a habit to check in; tap again to undo. Touch and hold the ring for the two-minute version, rest, low energy or travel. For a habit you want less of, tap the square to log a clear day, or tap Log to enter the amount. To change a past day, open the habit and tap the day in its calendar.",
+  "text": "Торкнися кільця на звичці, щоб відмітити, і ще раз, щоб скасувати. Торкнися й утримуй кільце, щоб вибрати двохвилинну версію, відпочинок, мало сил або подорож. Для звички, якої хочеш менше, торкнися квадрата, щоб записати чистий день, або торкнися &quot;Записати&quot;, щоб ввести кількість. Щоб змінити минулий день, відкрий звичку і торкнися дня в її календарі.",
+  "status": "reviewed"
+ },
+ "45ab397be2": {
+  "src": "Habits",
+  "text": "Звички",
+  "status": "reviewed"
+ },
+ "83339e5e47": {
+  "src": "Tap Habits on Today to reorder, pause or archive habits. The + button adds a habit: type a name or pick a suggestion, and tap More options for the full form. Today, Reflect and Settings are the three tabs. In the full form you can start a new habit after another habit you already do, and choose the day it starts. To step away, add time off in Settings: for all your habits or only the ones you choose, with a reason (Vacation, Low energy or Other).",
+  "text": "Торкнися &quot;Звички&quot; на екрані &quot;Сьогодні&quot;, щоб змінити порядок звичок, поставити їх на паузу чи заархівувати. Кнопка + додає звичку: введи назву або вибери пропозицію, а для повної форми торкнися &quot;Більше параметрів&quot;. &quot;Сьогодні&quot;, &quot;Підсумки&quot; і &quot;Налаштування&quot; - це три вкладки. У повній формі можна почати нову звичку після іншої, яку ти вже маєш, і вибрати день початку. Щоб зробити паузу, додай перерву в Налаштуваннях: для всіх звичок або лише для вибраних, із причиною (Відпустка, Мало сил або Інше).",
+  "status": "reviewed"
+ },
+ "9eebb65489": {
+  "src": "When does a day end?",
+  "text": "Коли закінчується день?",
+  "status": "reviewed"
+ },
+ "1ecd5a7ba7": {
+  "src": "At midnight by default. If you often stay up later, set a later hour in Settings &gt; Reminders &gt; Day ends at, so a late night still counts for the day it started. An hour you already set stays as it is.",
+  "text": "Типово опівночі. Якщо часто лягаєш пізніше, постав пізнішу годину в Налаштування &gt; Нагадування &gt; День закінчується о, щоб пізній вечір зараховувався до дня, в який він почався. Уже встановлена година лишається без змін.",
+  "status": "reviewed"
+ },
+ "bf8a6678a1": {
+  "src": "Widgets",
+  "text": "Віджети",
+  "status": "reviewed"
+ },
+ "63a8f8821f": {
+  "src": "Touch and hold the Home Screen, tap Edit &gt; Add Widget and search for Mostly Daily. Tap the ring (or the square, for a habit you want less of) on a widget to check in: it fills right away, without opening the app. When every habit is done, the Next up widget shows your mosaic. Widgets move to the new day on their own when your day ends.",
+  "text": "Торкнися й утримуй Початковий екран, торкнися Редагувати &gt; Додати віджет і знайди Mostly Daily. Торкнися кільця (або квадрата, якщо це звичка, якої хочеш менше) на віджеті, щоб відмітити: воно заповнюється одразу, застосунок відкривати не треба. Коли всі звички зроблено, віджет &quot;Далі&quot; показує твою мозаїку. Коли твій день закінчується, віджети самі переходять на новий.",
+  "status": "reviewed"
+ },
+ "8b10ea4a4b": {
+  "src": "Premium's This week widget shows the habits that are due, a Limit habit or done today. To choose the habits yourself, touch and hold the widget, tap Edit Widget and tap Habits: pick up to 3 for the medium widget or 7 for the large one. They stay in the order you picked, every day, even on a day a habit is not due. Remove them all to go back to the automatic list.",
+  "text": "Віджет Premium &quot;Цей тиждень&quot; показує звички, які заплановані на сьогодні, є звичками-обмеженнями або сьогодні вже зроблені. Щоб вибрати звички самостійно, торкнися й утримуй віджет, торкнися &quot;Редагувати віджет&quot;, а потім &quot;Звички&quot;: вибери до 3 для середнього віджета або до 7 для великого. Вони лишаються у вибраному порядку щодня, навіть у день, на який звичка не запланована. Прибери їх усі, щоб повернутися до автоматичного списку.",
+  "status": "reviewed"
+ },
+ "8d79534ebe": {
+  "src": "Premium also has an extra-large Today and week widget, for devices that offer that size.",
+  "text": "У Premium також є дуже великий віджет &quot;Сьогодні і тиждень&quot; для пристроїв, які підтримують цей розмір.",
+  "status": "reviewed"
+ },
+ "5a668a29ae": {
+  "src": "For the Lock Screen, touch and hold it, tap Customize and add Mostly Daily. For Control Center, open it, tap + and add Check in or Clear day. If a widget ever looks out of date, open the app once.",
+  "text": "Для замкненого екрана: торкнися й утримуй його, торкнися &quot;Налаштувати&quot; і додай Mostly Daily. Для Центру керування: відкрий його, торкнися + і додай &quot;Відмітити&quot; або &quot;Чистий день&quot;. Якщо віджет колись виглядає застарілим, відкрий застосунок один раз.",
+  "status": "reviewed"
+ },
+ "ae8c393938": {
+  "src": "Reminders",
+  "text": "Нагадування",
+  "status": "reviewed"
+ },
+ "d34a101389": {
+  "src": "Each habit can have a reminder time (Premium: two, and Today can suggest a better time). Settings &gt; Reminders gives the overview. A &quot;Close the day&quot; reminder in the evening, on by default, opens a sheet from Today where you can finish what is still open with one tap each, or tap Done all to mark every open habit done. The &#10005; at the top closes it without changing anything. If you did not get to it, the next morning the notification offers &quot;Close yesterday&quot;. You get at most two reminders a day. If a habit's reminders are ignored three times in a row, they pause until you check in again.",
+  "text": "Кожна звичка може мати час нагадування (Premium: два, а екран &quot;Сьогодні&quot; може підказати кращий час). Налаштування &gt; Нагадування показує їх усі разом. Вечірнє нагадування &quot;Закрити день&quot;, типово ввімкнене, відкриває з екрана &quot;Сьогодні&quot; аркуш, де можна завершити все, що ще відкрите, одним дотиком на кожну звичку або торкнутися &quot;Відмітити все&quot;, щоб позначити всі відкриті звички зробленими. Кнопка &#10005; вгорі закриває його без змін. Якщо до нього не дійшли руки, наступного ранку сповіщення запропонує &quot;Закрити вчорашній день&quot;. Ти отримуєш не більше двох нагадувань на день. Якщо нагадування звички тричі поспіль лишилися без відповіді, вони стають на паузу, доки ти знову не відмітиш.",
+  "status": "reviewed"
+ },
+ "b19b87da82": {
+  "src": "Apple Health",
+  "text": "Apple Health",
+  "status": "reviewed"
+ },
+ "27d1c0c043": {
+  "src": "When you create a habit that can use Apple Health (steps, exercise, mindful minutes, sleep, stand hours, water, workouts, drinks), &quot;Use Apple Health&quot; is on; the system asks once when you save. Check-ins that come from Health stay on this phone. Settings &gt; Apple Health lists what is read and saved; manage access in the Health app &gt; Sharing &gt; Apps &gt; Mostly Daily.",
+  "text": "Коли ти створюєш звичку, яка може використовувати Apple Health (кроки, хвилини вправ, хвилини усвідомленості, сон, години стояння, вода, тренування, напої), параметр &quot;Використовувати Apple Health&quot; увімкнено; система питає дозвіл один раз під час збереження. Відмітки з Apple Health лишаються на цьому телефоні. Налаштування &gt; Apple Health показує, що читається і зберігається; керувати доступом можна в програмі Здоров'я &gt; Поширення &gt; Програми &gt; Mostly Daily.",
+  "status": "reviewed"
+ },
+ "2ae54a5895": {
+  "src": "When you create a habit, you choose how it checks itself off by what you do: walk 6,000 steps, move 20 minutes, go for a run, walk or run 3 km (2 miles), do yoga, work out, meditate, sleep, drink water or stand. Typing a name like &quot;Morning run&quot; or &quot;Swim&quot; suggests it, and there are Run, Yoga, Gym, Swim and Cycle templates. It is free. Nothing connects until the Health sheet asks when you save. A workout habit can follow one workout type (Walking, Running, Cycling, Swimming, Yoga, Strength, HIIT, Pilates, Dance, Hiking or Rowing) or any workout. For runs, rides and swims you can count distance, in km or miles. After a workout on your Apple Watch, the habit ticks itself and the widgets update without opening the app. Today's reminder goes once Apple Health has completed the day, so a workout that is still syncing does not get a nudge too early. A day shows what counted. That list is kept only on this phone, and Health data never goes to iCloud.",
+  "text": "Коли ти створюєш звичку, ти вибираєш, як вона відмічатиметься сама, за тим, що ти робиш: проходити 6000 кроків, рухатися 20 хвилин, бігати, проходити чи пробігати 3 км (2 милі), займатися йогою, тренуватися, медитувати, спати, пити воду або стояти. Якщо ввести назву на кшталт &quot;Ранкова пробіжка&quot; чи &quot;Плавати&quot;, застосунок запропонує це сам, а ще є шаблони Бігати, Йога, Спортзал, Плавати і Їздити на велосипеді. Це безкоштовно. Ніщо не під'єднується, доки аркуш Здоров'я не спитає дозвіл під час збереження. Звичка з тренуванням може стежити за одним типом тренування (Ходьба, Біг, Велосипед, Плавання, Йога, Силові тренування, HIIT, Пілатес, Танці, Піший туризм або Веслування) або за будь-яким тренуванням. Для пробіжок, заїздів і запливів можна рахувати відстань у кілометрах або милях. Після тренування на Apple Watch звичка відмічається сама, а віджети оновлюються без відкриття застосунку. Сьогоднішнє нагадування надходить, коли Apple Health завершить день, тож тренування, яке ще синхронізується, не отримає нагадування зарано. День показує, що зарахувалося. Цей список зберігається лише на цьому телефоні, а дані про здоров'я ніколи не потрапляють в iCloud.",
+  "status": "reviewed"
+ },
+ "793f86be94": {
+  "src": "<b>Ideas from Apple Health.</b> In quick add and in Settings &gt; Apple Health, &quot;Ideas from Apple Health&quot; looks at the last 30 days in Apple Health, on your iPhone only, to suggest up to three habits you already do, each with a starting goal a little below your usual level. It can also offer to let a habit you tick by hand check itself off. It runs only when you tap it, after one short explanation and one Health sheet; nothing is kept, and &quot;Not now&quot; is always fine. It is free. Four wellbeing habits can check themselves off too: <i>Close my rings</i> (all three rings, or just Move), <i>Get outside</i> (time in daylight), <i>In bed by 23:00</i> (the time you go to bed, from sleep; you set the time) and <i>Check in with how I feel</i>. For that last one the app only notices that you logged a mood or emotion that day; what you logged is never read, shown or kept. You can always tick a habit yourself.",
+  "text": "<b>Ідеї з Apple Health.</b> У швидкому додаванні і в Налаштування &gt; Apple Health функція &quot;Ідеї з Apple Health&quot; переглядає останні 30 днів в Apple Health, лише на твоєму iPhone, щоб запропонувати до трьох звичок, які ти вже маєш, кожну з початковою ціллю трохи нижче твого звичного рівня. Вона також може запропонувати, щоб звичка, яку ти відмічаєш вручну, відмічалася сама. Вона запускається лише після твого дотику, після одного короткого пояснення й одного аркуша Здоров'я; нічого не зберігається, і &quot;Не зараз&quot; завжди підходить. Це безкоштовно. Чотири звички для самопочуття теж можуть відмічатися самі: <i>Змикати кільця</i> (усі три кільця або лише Рух), <i>Виходити на вулицю</i> (час надворі вдень), <i>У ліжку до 23:00</i> (час, коли ти лягаєш, за даними сну; час задаєш ти) і <i>Записувати, як я почуваюся</i>. Для останньої застосунок лише бачить, що того дня є запис настрою чи емоції; сам запис ніколи не читається, не показується і не зберігається. Відмітити звичку вручну можна завжди.",
+  "status": "reviewed"
+ },
+ "6ca46df113": {
+  "src": "iCloud",
+  "text": "iCloud",
+  "status": "reviewed"
+ },
+ "c2c62c977d": {
+  "src": "Habits, the check-ins you make yourself and time off sync through your private iCloud. Check-ins from Apple Health and drink logs stay on each phone; a second phone fills those days from its own Apple Health. Drink and cigarette logs never sync. The logs of other Limit habits stay on the phone unless you turn on &quot;Sync logs through iCloud&quot; in that habit's settings (it is off by default). The reason you give for time off stays on the phone. The reason you add to a Limit log stays with that log, on the phone or, if you turned on sync for that habit, in your private iCloud.",
+  "text": "Звички, відмітки, зроблені вручну, і перерви синхронізуються через твій приватний iCloud. Відмітки з Apple Health і записи напоїв лишаються на кожному телефоні; другий телефон заповнює ці дні зі свого Apple Health. Записи напоїв і сигарет ніколи не синхронізуються. Записи інших звичок-обмежень лишаються на телефоні, якщо не ввімкнути &quot;Синхронізувати записи через iCloud&quot; у налаштуваннях цієї звички (типово вимкнено). Причина перерви лишається на телефоні. Причина, додана до запису звички-обмеження, лишається з цим записом: на телефоні або, якщо для цієї звички ввімкнено синхронізацію, у твоєму приватному iCloud.",
+  "status": "reviewed"
+ },
+ "95f7ab83e2": {
+  "src": "How the levels work",
+  "text": "Як працюють рівні",
+  "status": "reviewed"
+ },
+ "396b7985cb": {
+  "src": "Settings &gt; About &gt; How Mostly works explains the levels, never missing twice and rest days in the app's own words.",
+  "text": "Налаштування &gt; Про застосунок &gt; Як працює Mostly пояснює рівні, правило без двох пропусків поспіль і дні відпочинку словами самого застосунку.",
+  "status": "reviewed"
+ },
+ "ac261683e8": {
+  "src": "Restore purchases on the Premium sheet (Settings &gt; Mostly Daily Premium). Manage or cancel a subscription in your iPhone's Settings: tap your name (your Apple Account), then Subscriptions. During a free trial you can still choose Monthly or Lifetime from Other plans on the Premium sheet; Monthly starts when the trial ends, and nothing is charged before then. When Premium ends, habits beyond the Free plan are paused with all their history; nothing is deleted.",
+  "text": "Відновити покупки можна на аркуші Premium (Налаштування &gt; Mostly Daily Premium). Керувати підпискою або скасувати її можна в Параметрах iPhone: торкнися свого імені (твій обліковий запис Apple), потім Підписки. Під час безкоштовного пробного періоду можна вибрати &quot;Щомісяця&quot; або &quot;Назавжди&quot; в розділі &quot;Інші плани&quot; на аркуші Premium; план &quot;Щомісяця&quot; починається, коли закінчується пробний період, і до того нічого не списується. Коли Premium закінчується, звички понад безкоштовний план стають на паузу з усією історією; нічого не видаляється.",
+  "status": "reviewed"
+ },
+ "a6147670c3": {
+  "src": "Export and delete",
+  "text": "Експорт і видалення",
+  "status": "reviewed"
+ },
+ "e43408f5e6": {
+  "src": "Settings &gt; Export and import saves your habits, check-ins, time off and reviews as CSV files, on any plan. Settings &gt; Delete all data removes everything from the app and your iCloud.",
+  "text": "Налаштування &gt; Експорт та імпорт зберігає твої звички, відмітки, перерви й огляди як файли CSV, на будь-якому плані. Налаштування &gt; Видалити всі дані прибирає все із застосунку і з твого iCloud.",
+  "status": "reviewed"
+ },
+ "29d56e8b8c": {
+  "src": "Does it work on iPhone Duo?",
+  "text": "Чи працює застосунок на iPhone Duo?",
+  "status": "reviewed"
+ },
+ "3eda3bf54a": {
+  "src": "Yes. On iPhone Duo's inner display, Today shows a companion pane beside your list: This week, or the habit you tap. Habit and Limit details, Reflect and Settings use two panes in landscape. In portrait, Today and the calendar screens are one column. When you fold or unfold, you keep your place. The outer display works like any iPhone. Nothing is different in your habits, plans or prices.",
+  "text": "Так. На внутрішньому дисплеї iPhone Duo екран &quot;Сьогодні&quot; показує поруч зі списком додаткову панель: &quot;Цей тиждень&quot; або звичку, якої ти торкнешся. Деталі звичок і звичок-обмежень, &quot;Підсумки&quot; і &quot;Налаштування&quot; використовують дві панелі в альбомній орієнтації. У книжковій орієнтації &quot;Сьогодні&quot; і екрани з календарем мають одну колонку. Коли складаєш чи розкладаєш iPhone, застосунок лишається на тому самому місці. Зовнішній дисплей працює як звичайний iPhone. У звичках, планах і цінах нічого не відрізняється.",
+  "status": "reviewed"
+ },
+ "de27a2c00b": {
+  "src": "What are habit steps?",
+  "text": "Що таке кроки звички?",
+  "status": "reviewed"
+ },
+ "03c29b1eb5": {
+  "src": "A Build habit can start with its two-minute version and grow a step at a time. When a step has felt routine for a few weeks, the app offers the next one. Nothing changes by itself, you can go back a step anytime, and past days keep their credit. Free includes one next step at a time; Premium lets you plan up to 4 steps ahead.",
+  "text": "Звичка для формування може початися з двохвилинної версії і рости крок за кроком. Коли крок кілька тижнів здається звичним, застосунок пропонує наступний. Саме собою нічого не змінюється, повернутися на крок назад можна будь-коли, а минулі дні лишаються зарахованими. Безкоштовно доступний один наступний крок за раз; Premium дає планувати до 4 кроків наперед.",
+  "status": "reviewed"
+ },
+ "58a7837604": {
+  "src": "What is a Limit habit?",
+  "text": "Що таке звичка-обмеження?",
+  "status": "reviewed"
+ },
+ "60d8e238e5": {
+  "src": "A habit you want less of, like drinks, sugar or screen time. You log the amount in the evening and get a colour calendar of clear, light and heavier days, with a goal of clear days per week. When you log an amount you can add one optional word for what it was about, like Social or Unwinding; the habit then shows how often each came up, with no advice. To start one, tap + and pick &quot;Do less&quot; at the top (&quot;Do more&quot; is the default). A name that starts with a word like less, fewer, stop or quit picks it for you, and you can switch back with one tap. If you have not started one yet, Habits also shows a small &quot;Want to do less of something?&quot; note that you can dismiss. Free includes one Limit habit.",
+  "text": "Звичка, якої хочеш менше, як-от напої, цукор чи час перед екраном. Увечері ти записуєш кількість і отримуєш кольоровий календар чистих, легких і важчих днів із ціллю чистих днів на тиждень. Записуючи кількість, можна додати одне необов'язкове слово про те, з чим це було пов'язано, як-от Компанія чи Розслаблення; тоді звичка показує, як часто траплялося кожне, без порад. Щоб почати, торкнися + і вибери &quot;Менше&quot; вгорі (типово вибрано &quot;Більше&quot;). Назва, що починається зі слова на кшталт менше, рідше, без чи кинути, вибере це за тебе, а повернути назад можна одним дотиком. Якщо такої звички ще немає, екран &quot;Звички&quot; також показує маленьку примітку &quot;Хочеш чогось менше?&quot;, яку можна закрити. Безкоштовно доступна одна звичка-обмеження.",
+  "status": "reviewed"
+ },
+ "888dc3f5d8": {
+  "src": "Is my data private?",
+  "text": "Чи приватні мої дані?",
+  "status": "reviewed"
+ },
+ "6ed4225869": {
+  "src": "Yes. No server, no analytics, no tracking. Check-ins from Apple Health and the drinks you log stay on your phone and are never put in iCloud.",
+  "text": "Так. Немає сервера, аналітики і стеження. Відмітки з Apple Health і напої, які ти записуєш, лишаються на твоєму телефоні й ніколи не потрапляють в iCloud.",
+  "status": "reviewed"
+ },
+ "ae2e423f5b": {
+  "src": "What are themes?",
+  "text": "Що таке теми?",
+  "status": "reviewed"
+ },
+ "1bae0e7c22": {
+  "src": "Five looks for the app and its widgets: Graphite, Midnight, Ocean, Plum and Glacier. A theme changes the background, cards, buttons and tint, never your habit colours. Graphite is included and the other four are part of Premium. If Premium ends, the app uses Graphite and your choice comes back with Premium.",
+  "text": "П'ять виглядів для застосунку і його віджетів: Графіт, Ніч, Океан, Слива і Льодовик. Тема змінює тло, картки, кнопки й відтінок, але ніколи не кольори твоїх звичок. Графіт доступний завжди, а інші чотири входять у Premium. Якщо Premium закінчиться, застосунок використовує Графіт, а твій вибір повернеться разом із Premium.",
+  "status": "reviewed"
+ },
+ "09a5b8c4eb": {
+  "src": "What are seasonal challenges?",
+  "text": "Що таке сезонні челенджі?",
+  "status": "reviewed"
+ },
+ "2b21c71c12": {
+  "src": "Short, optional challenges with a finish line, like Clearer January. You join with a habit you already have or a new one, and the goal is most days, never every day. Rest and time-off days never count against you, and leaving keeps the habit and its history. The season's challenge is free to join from 7 days before its month until the 14th. Premium adds a library of 10 challenges you can start any time, each for 28 days. If Premium ends, a running challenge runs to its end and finished ones stay readable.",
+  "text": "Короткі необов'язкові челенджі з фінішем, як-от Ясніший січень. Приєднуєшся зі звичкою, яку вже маєш, або з новою, а ціль - більшість днів, ніколи не кожен день. Дні відпочинку і перерв ніколи не йдуть тобі в мінус, а якщо вийти, звичка та її історія залишаться. До челенджу сезону можна приєднатися безкоштовно від 7 днів до початку його місяця до 14-го числа. Premium додає бібліотеку з 10 челенджів, які можна почати будь-коли, кожен на 28 днів. Якщо Premium закінчиться, поточний челендж триває до кінця, а завершені можна переглядати.",
+  "status": "reviewed"
+ },
+ "e9fd7ee5e1": {
+  "src": "What is the quarterly identity review?",
+  "text": "Що таке щоквартальний огляд ідентичності?",
+  "status": "reviewed"
+ },
+ "6e44bdb251": {
+  "src": "At the start of each quarter, Reflect asks whether each identity (a reader, someone who moves) is still who you want to become: Keep, Adjust or Let go, plus an optional one-line note. Letting go archives its habits and keeps all their history. The review of the quarter just ended is free. Opening past reviews is Premium, but your notes always stay readable.",
+  "text": "На початку кожного кварталу &quot;Підсумки&quot; питають, чи кожна ідентичність (людина, яка читає; людина, яка рухається) досі та, ким ти хочеш стати: Залишити, Змінити або Відпустити, плюс необов'язкова нотатка в один рядок. Якщо відпустити, її звички архівуються з усією історією. Огляд щойно завершеного кварталу безкоштовний. Відкривати минулі огляди можна в Premium, але твої нотатки завжди можна прочитати.",
+  "status": "reviewed"
+ },
+ "540f355f16": {
+  "src": "More on the <a href=\"/#faq\">home page</a> and in the <a href=\"/guides/\">guides</a>.",
+  "text": "Більше на <a href=\"/#faq\">головній сторінці</a> і в <a href=\"/guides/\">порадах</a>.",
+  "status": "reviewed"
+ },
+ "sim.all_done": {
+  "src": "Every day done. Mostly is the top level; there's nothing above it.",
+  "text": "Усі дні зроблено. Здебільшого - найвищий рівень, вище нічого немає.",
+  "status": "reviewed"
+ },
+ "sim.rest_only": {
+  "src": "A rest day isn't a miss: your level and your run carry on as if nothing happened.",
+  "text": "День відпочинку - не пропуск: рівень і серія тривають, ніби нічого не сталося.",
+  "status": "reviewed"
+ },
+ "sim.two_in_row": {
+  "src": "Two misses in a row end the run, gently. A new one starts the next day, and your level is {level}.",
+  "text": "Два пропуски поспіль м'яко завершують серію. Наступного дня починається нова, а твій рівень: {level}.",
+  "status": "reviewed"
+ },
+ "sim.two_in_row_still": {
+  "src": "Two misses in a row end the run, gently. A new one starts the next day, and your level is still {level}.",
+  "text": "Два пропуски поспіль м'яко завершують серію. Наступного дня починається нова, а твій рівень той самий: {level}.",
+  "status": "reviewed"
+ },
+ "sim.pair_ever": {
+  "src": "Two misses in a row ended a run and a new one started the next day. Your level is {level}.",
+  "text": "Два пропуски поспіль завершили серію, і наступного дня почалася нова. Твій рівень: {level}.",
+  "status": "reviewed"
+ },
+ "sim.one_miss": {
+  "src": "One miss, nothing reset. Your level dips a few points and your run keeps going.",
+  "text": "Один пропуск, і нічого не обнулилося. Рівень знижується на кілька пунктів, а серія триває.",
+  "status": "reviewed"
+ },
+ "sim.misses": {
+  "src": {
+   "one": "{n} miss, never two in a row: your run keeps going and your level is {level}.",
+   "other": "{n} misses, never two in a row: your run keeps going and your level is {level}."
+  },
+  "text": {
+   "one": "{n} пропуск, жодного разу два поспіль: серія триває, а твій рівень: {level}.",
+   "few": "{n} пропуски, жодного разу два поспіль: серія триває, а твій рівень: {level}.",
+   "many": "{n} пропусків, жодного разу два поспіль: серія триває, а твій рівень: {level}.",
+   "other": "{n} пропуску, жодного разу два поспіль: серія триває, а твій рівень: {level}."
+  },
+  "status": "reviewed"
+ },
+ "sim.rest_tail": {
+  "src": "Rest days don't count as misses.",
+  "text": "Дні відпочинку не вважаються пропусками.",
+  "status": "reviewed"
+ },
+ "sim.days": {
+  "src": {
+   "one": "{n} day",
+   "other": "{n} days"
+  },
+  "text": {
+   "one": "{n} день",
+   "few": "{n} дні",
+   "many": "{n} днів",
+   "other": "{n} дня"
+  },
+  "status": "reviewed"
+ },
+ "sim.state_done": {
+  "src": "done",
+  "text": "зроблено",
+  "status": "reviewed"
+ },
+ "sim.state_miss": {
+  "src": "missed",
+  "text": "пропущено",
+  "status": "reviewed"
+ },
+ "sim.state_rest": {
+  "src": "rest day",
+  "text": "день відпочинку",
+  "status": "reviewed"
+ },
+ "sim.aria": {
+  "src": "{day}, {state}. Tap to change.",
+  "text": "{day}, {state}. Торкнися, щоб змінити.",
+  "status": "reviewed"
+ },
+ "sim.aria_today": {
+  "src": "{day} (today), {state}. Tap to change.",
+  "text": "{day} (сьогодні), {state}. Торкнися, щоб змінити.",
+  "status": "reviewed"
+ }
+}

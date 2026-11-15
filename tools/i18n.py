@@ -22,6 +22,8 @@ LANGS = ["de", "es", "pl", "uk", "ru"]
 NAMES = {"en": "English", "de": "Deutsch", "es": "Español", "pl": "Polski", "uk": "Українська", "ru": "Русский"}
 OG_LOCALE = {"en": "en_US", "de": "de_DE", "es": "es_ES", "pl": "pl_PL", "uk": "uk_UA", "ru": "ru_RU"}
 I18N = ROOT / "i18n"
+STORE_NAME = {"de": "Mostly Daily: Sanfte Routinen", "es": "Mostly Daily: Hábitos amables", "pl": "Mostly Daily: Łagodne nawyki",
+              "uk": "Mostly Daily: Лагідні звички", "ru": "Mostly Daily: Мягкие привычки"}  # App Store names per locale
 # The app's level names (the app's string catalog; never translated here).
 LEVELS = {
     "en": ["Starting", "Sometimes", "Often", "Mostly"],
@@ -409,6 +411,7 @@ def build(langs):
                 obj = walk(obj)
                 if obj.get("@type") == "SoftwareApplication":
                     obj["inLanguage"] = lang
+                    obj["alternateName"] = [STORE_NAME[lang], "Mostly Daily"]
                     obj["url"] = url(lang, page)
                 return m.group(1) + json.dumps(obj, ensure_ascii=False) + m.group(3)
 
