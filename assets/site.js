@@ -9,7 +9,37 @@
      Often 50–74, Mostly 75–100; Starting until 7 opportunities exist (always met here: the week follows 60 done days).
      Run (RunCalculator): "never missed twice" ends only after two missed opportunities in a row and starts again
      the next day; it counts days, rest days included. */
-  var LEVELS = ["Starting", "Sometimes", "Often", "Mostly"];
+  // Strings: English here; a translated page (/de/ and so on, built by tools/i18n.py) carries its own in
+  // <script type="application/json" id="i18n">, with plural forms per Intl.PluralRules category.
+  var T = {
+    "sim.all_done": "Every day done. Mostly is the top level; there's nothing above it.",
+    "sim.rest_only": "A rest day isn't a miss: your level and your run carry on as if nothing happened.",
+    "sim.two_in_row": "Two misses in a row end the run, gently. A new one starts the next day, and your level is {level}.",
+    "sim.two_in_row_still": "Two misses in a row end the run, gently. A new one starts the next day, and your level is still {level}.",
+    "sim.pair_ever": "Two misses in a row ended a run and a new one started the next day. Your level is {level}.",
+    "sim.one_miss": "One miss, nothing reset. Your level dips a few points and your run keeps going.",
+    "sim.misses": { one: "{n} miss, never two in a row: your run keeps going and your level is {level}.",
+                    other: "{n} misses, never two in a row: your run keeps going and your level is {level}." },
+    "sim.rest_tail": "Rest days don't count as misses.",
+    "sim.days": { one: "{n} day", other: "{n} days" },
+    "sim.state_done": "done", "sim.state_miss": "missed", "sim.state_rest": "rest day",
+    "sim.aria": "{day}, {state}. Tap to change.",
+    "sim.aria_today": "{day} (today), {state}. Tap to change.",
+    levels: ["Starting", "Sometimes", "Often", "Mostly"]
+  };
+  var LANG = "en";
+  if (typeof document !== "undefined") {
+    LANG = document.documentElement.lang || "en";
+    var data = document.getElementById("i18n");
+    if (data) { try { var own = JSON.parse(data.textContent); for (var key in own) T[key] = own[key]; } catch (e) { /* keep English */ } }
+  }
+  var LEVELS = T.levels;
+  var plural = (typeof Intl !== "undefined" && Intl.PluralRules) ? new Intl.PluralRules(LANG) : null;
+  function t(key, vars) {
+    var s = T[key];
+    if (typeof s === "object") s = s[plural ? plural.select(vars.n) : (vars.n === 1 ? "one" : "other")] || s.other;
+    return s.replace(/\{(\w+)\}/g, function (m, k) { return vars && k in vars ? vars[k] : m; });
+  }
   var PREFIX = 60;                       // two good months before the week shown
 
   function evaluate(days) {
@@ -36,15 +66,15 @@
   }
 
   function message(r) {
-    var level = LEVELS[r.level], t;
-    if (r.misses === 0 && r.rests === 0) t = "Every day done. Mostly is the top level; there's nothing above it.";
-    else if (r.misses === 0) t = "A rest day isn't a miss: your level and your run carry on as if nothing happened.";
-    else if (r.trailing >= 2) t = "Two misses in a row end the run, gently. A new one starts the next day, and your level is " + (r.level >= 2 ? "still " : "") + level + ".";
-    else if (r.pairEver) t = "Two misses in a row ended a run and a new one started the next day. Your level is " + level + ".";
-    else if (r.misses === 1) t = "One miss, nothing reset. Your level dips a few points and your run keeps going.";
-    else t = r.misses + " misses, never two in a row: your run keeps going and your level is " + level + ".";
-    if (r.misses > 0 && r.rests > 0) t += " Rest days don't count as misses.";
-    return t;
+    var v = { level: LEVELS[r.level], n: r.misses }, s;
+    if (r.misses === 0 && r.rests === 0) s = t("sim.all_done");
+    else if (r.misses === 0) s = t("sim.rest_only");
+    else if (r.trailing >= 2) s = t(r.level >= 2 ? "sim.two_in_row_still" : "sim.two_in_row", v);
+    else if (r.pairEver) s = t("sim.pair_ever", v);
+    else if (r.misses === 1) s = t("sim.one_miss");
+    else s = t("sim.misses", v);
+    if (r.misses > 0 && r.rests > 0) s += " " + t("sim.rest_tail");
+    return s;
   }
 
   if (typeof document === "undefined") {
@@ -59,10 +89,15 @@
 
   /* ---------- Hero "Try it: tap a day": one week track, four presets (wide screens), result with aria-live ---------- */
   function setupSimulator(sim) {
-    var DAYNAMES = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
-    var LABELS = ["M", "T", "W", "T", "F", "S", "S"];
+    // Weekday names in the page's language: 5 Jan 2026 was a Monday.
+    var DAYNAMES = [], LABELS = [];
+    for (var di = 0; di < 7; di++) {
+      var day = new Date(Date.UTC(2026, 0, 5 + di));
+      DAYNAMES.push(day.toLocaleDateString(LANG, { weekday: "long", timeZone: "UTC" }));
+      LABELS.push(day.toLocaleDateString(LANG, { weekday: "narrow", timeZone: "UTC" }));
+    }
     var STATES = ["done", "miss", "rest"];
-    var NAME = { done: "done", miss: "missed", rest: "rest day" };
+    var NAME = { done: t("sim.state_done"), miss: t("sim.state_miss"), rest: t("sim.state_rest") };
     var CODE = { d: "done", m: "miss", r: "rest" };
     var PRESETS = { perfect: "ddddddd", one: "dddmddd", two: "ddmmddd", rest: "dddrddd" };
     var ICON = {
@@ -98,15 +133,15 @@
       var r = evaluate(days);
       week.innerHTML = days.map(function (st, i) {
         return '<button type="button" class="wk ' + st + (i === 6 ? " today" : "") + (i === changed ? " changed" : "") + '" data-i="' + i +
-          '" aria-label="' + DAYNAMES[i] + (i === 6 ? " (today)" : "") + ", " + NAME[st] + '. Tap to change."><span class="d">' + ICON[st] + '</span><span class="lbl" aria-hidden="true">' + LABELS[i] + "</span></button>";
+          '" aria-label="' + t(i === 6 ? "sim.aria_today" : "sim.aria", { day: DAYNAMES[i], state: NAME[st] }) + '"><span class="d">' + ICON[st] + '</span><span class="lbl" aria-hidden="true">' + LABELS[i] + "</span></button>";
       }).join("");
       if (changed >= 0 && keyboard) { var b = week.querySelector('[data-i="' + changed + '"]'); if (b) b.focus({ preventScroll: true }); }
       showScore(r.score);
       out.level.textContent = LEVELS[r.level];
       for (var i = 0; i < out.bars.length; i++) out.bars[i].className = i <= r.level ? "on" : "";
       Array.prototype.forEach.call(ladder, function (li, i) { if (i === r.level) li.setAttribute("aria-current", "true"); else li.removeAttribute("aria-current"); });
-      out.run.textContent = r.run + (r.run === 1 ? " day" : " days");
-      out.streak.textContent = r.streak + (r.streak === 1 ? " day" : " days");
+      out.run.textContent = t("sim.days", { n: r.run });
+      out.streak.textContent = t("sim.days", { n: r.streak });
       out.note.textContent = message(r);
       var now = days.map(function (s) { return s[0]; }).join("");
       Array.prototype.forEach.call(presets, function (b) { b.setAttribute("aria-pressed", String(PRESETS[b.getAttribute("data-preset")] === now)); });

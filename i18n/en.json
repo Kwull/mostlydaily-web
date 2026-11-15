@@ -1,0 +1,1123 @@
+{
+ "190ab1dde1": {
+  "src": "Mostly Daily: Habit Calendar · the forgiving habit tracker for iPhone",
+  "page": "index.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "12f89ab9eb": {
+  "src": "A habit tracker for iPhone that forgives. One miss never resets anything, rest is a real day, and Mostly is the top level. No account, no tracking.",
+  "page": "index.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "200de3647e": {
+  "src": "Mostly Daily: Miss a day. Keep your progress. Two screens of the app's Today, in light and dark.",
+  "page": "index.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "48ca1b6acc": {
+  "src": "<a class=\"skip\" href=\"#main\">Skip to content</a>",
+  "page": "index.html",
+  "where": "after heading '' <body>"
+ },
+ "62bce9422f": {
+  "src": "Main",
+  "page": "index.html",
+  "where": "after heading '' attribute aria-label"
+ },
+ "02a9c1a6ee": {
+  "src": "<a href=\"/#why\">Why Mostly</a><a href=\"/#widgets\">Widgets</a><a href=\"/#private\">Privacy</a><a href=\"/#pricing\">Pricing</a><a href=\"/guides/\">Guides</a><a href=\"/support.html\">Support</a>",
+  "page": "index.html",
+  "where": "after heading '' <nav.nav>"
+ },
+ "57f5f5efbc": {
+  "src": "Menu",
+  "page": "index.html",
+  "where": "after heading '' attribute aria-label"
+ },
+ "19a87c6f18": {
+  "src": "<a href=\"/#why\">Why Mostly</a><a href=\"/#widgets\">Widgets</a><a href=\"/#private\">Privacy</a><a href=\"/#pricing\">Pricing</a><a href=\"/#faq\">Questions</a><a href=\"/guides/\">Guides</a><a href=\"/support.html\">Support</a>",
+  "page": "index.html",
+  "where": "after heading '' <nav>"
+ },
+ "a9096aaab4": {
+  "src": "Download on the App Store",
+  "page": "index.html",
+  "where": "after heading '' attribute alt"
+ },
+ "fed6a4df0c": {
+  "src": "Habit tracker for iPhone",
+  "page": "index.html",
+  "where": "after heading '' <p.eyebrow>"
+ },
+ "b9d829b4f2": {
+  "src": "Miss a day.<br>Keep your progress.",
+  "page": "index.html",
+  "where": "after heading '' <h1>"
+ },
+ "d9b596e8b7": {
+  "src": "A habit tracker for iPhone that forgives. One miss never resets anything, rest is a real day, and <b>Mostly</b> is the top level.",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <p.lead>"
+ },
+ "d4741b79a4": {
+  "src": "<b>Try it: tap a day.</b><span>Read 10 pages, after two good months</span>",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <div.try-top>"
+ },
+ "d4ddc8176a": {
+  "src": "This week, Monday to Sunday",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' attribute aria-label"
+ },
+ "397e6c8460": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">M</span><span class=\"sr\">Monday, done</span>",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <path>"
+ },
+ "c06165c186": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">T</span><span class=\"sr\">Tuesday, done</span>",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <path>"
+ },
+ "d79260e5a2": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">W</span><span class=\"sr\">Wednesday, done</span>",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <path>"
+ },
+ "078165c73c": {
+  "src": "<span class=\"wk miss\"><span class=\"d\"></span><span class=\"lbl\" aria-hidden=\"true\">T</span><span class=\"sr\">Thursday, missed</span></span>",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <span.sr>"
+ },
+ "7e4238dcc6": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">F</span><span class=\"sr\">Friday, done</span>",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <path>"
+ },
+ "813fba1414": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">S</span><span class=\"sr\">Saturday, done</span>",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <path>"
+ },
+ "283097ab5b": {
+  "src": "<span class=\"lbl\" aria-hidden=\"true\">S</span><span class=\"sr\">Sunday, done</span>",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <path>"
+ },
+ "4de16ebc41": {
+  "src": "Mostly",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <div.lvl>"
+ },
+ "01ccce99c7": {
+  "src": "Never missed twice <b data-run>67 days</b> &middot; a plain streak would say <b data-streak>3 days</b>",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <div.run>"
+ },
+ "29eff42050": {
+  "src": "One miss, nothing reset. Your level dips a few points and your run keeps going.",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <p.try-note>"
+ },
+ "708c63fcb4": {
+  "src": "Taps cycle done, missed, rest.<span class=\"wide-only\"> Or try a pattern:</span>",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <p.try-hint>"
+ },
+ "caa7b09e67": {
+  "src": "Try a pattern",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' attribute aria-label"
+ },
+ "3b2eb51310": {
+  "src": "Every day",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <button>"
+ },
+ "45b7217f21": {
+  "src": "One miss",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <button>"
+ },
+ "8b242ab2a9": {
+  "src": "Two in a row",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <button>"
+ },
+ "2e2a64da6c": {
+  "src": "A rest day",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <button>"
+ },
+ "fca77b7e3a": {
+  "src": "At a glance",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' attribute aria-label"
+ },
+ "00fb203c00": {
+  "src": "Free to start",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <li>"
+ },
+ "257fa99e08": {
+  "src": "No account",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <li>"
+ },
+ "f6ebb9bde3": {
+  "src": "No tracking",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <li>"
+ },
+ "1c82d5c8bd": {
+  "src": "For iPhone",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' <li>"
+ },
+ "71deabb764": {
+  "src": "Today: the day ring, your mosaic of check-ins, and one ring button per habit",
+  "page": "index.html",
+  "where": "after heading 'Miss a day.Keep your progress.' attribute alt"
+ },
+ "927428b06f": {
+  "src": "A habit tracker without streaks",
+  "page": "index.html",
+  "where": "#why after heading 'Miss a day.Keep your progress.' <p.eyebrow>"
+ },
+ "fed841d923": {
+  "src": "Aim for Mostly.",
+  "page": "index.html",
+  "where": "#why after heading 'Miss a day.Keep your progress.' <h2>"
+ },
+ "660abaf4b2": {
+  "src": "Streak apps count days until you miss one. Mostly Daily measures how often you show up, and never asks for 100%.",
+  "page": "index.html",
+  "where": "#why after heading 'Aim for Mostly.' <p.sub>"
+ },
+ "708afa517d": {
+  "src": "Four levels. Mostly is the top.",
+  "page": "index.html",
+  "where": "#why after heading 'Aim for Mostly.' <h3>"
+ },
+ "71d7a8ec96": {
+  "src": "Starting, Sometimes, Often, Mostly. There is nothing above Mostly, so there is nothing to lose.",
+  "page": "index.html",
+  "where": "#why after heading 'Four levels. Mostly is the top.' <p>"
+ },
+ "2f4148b1a8": {
+  "src": "Never miss twice.",
+  "page": "index.html",
+  "where": "#why after heading 'Four levels. Mostly is the top.' <h3>"
+ },
+ "1720657348": {
+  "src": "Your run counts the days you didn't miss twice in a row. One slip changes nothing. The day after is the one that counts.",
+  "page": "index.html",
+  "where": "#why after heading 'Never miss twice.' <p>"
+ },
+ "b79e5f4822": {
+  "src": "Rest",
+  "page": "index.html",
+  "where": "#why after heading 'Never miss twice.' <div.big>"
+ },
+ "b0a3c90d0f": {
+  "src": "Rest is a real day.",
+  "page": "index.html",
+  "where": "#why after heading 'Never miss twice.' <h3>"
+ },
+ "43ff488ffa": {
+  "src": "Rest, low energy and travel days are not misses. Finish a week at Often or Mostly and you earn an extra rest day.",
+  "page": "index.html",
+  "where": "#why after heading 'Rest is a real day.' <p>"
+ },
+ "f72800165b": {
+  "src": "Read more: <a href=\"/guides/habit-tracker-without-streaks.html\">a habit tracker without streaks</a>, <a href=\"/guides/one-missed-day.html\">why one missed day doesn't break a habit</a>, <a href=\"/guides/rest-days.html\">rest days</a> and <a href=\"/guides/sick-and-travel-days.html\">sick days and travel</a>.",
+  "page": "index.html",
+  "where": "#why after heading 'Rest is a real day.' <p.muted>"
+ },
+ "0584810926": {
+  "src": "Habit widgets for iPhone",
+  "page": "index.html",
+  "where": "#widgets after heading 'Rest is a real day.' <p.eyebrow>"
+ },
+ "f3f05bc5c4": {
+  "src": "Tap. Done. No app to open.",
+  "page": "index.html",
+  "where": "#widgets after heading 'Rest is a real day.' <h2>"
+ },
+ "ba4129ea0a": {
+  "src": "One tap on the ring and the habit is done; a second tap undoes it. Home Screen, Lock Screen, StandBy, Control Center and Siri.",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' <p.sub>"
+ },
+ "eda5c3809e": {
+  "src": "An iPhone Home Screen with Mostly Daily widgets: the day ring with three habits, Floss, Next up and Read 10 pages",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' attribute alt"
+ },
+ "32afd9e788": {
+  "src": "Widget pictures",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' attribute aria-label"
+ },
+ "296a5385f1": {
+  "src": "Habit widget: Read 10 pages, level Mostly, with a ring to tap",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' attribute alt"
+ },
+ "aebbd3ad6d": {
+  "src": "<b>One habit, one ring</b>Open, done, or a new habit",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' <figcaption>"
+ },
+ "a656c9711e": {
+  "src": "Next up widgets: Floss, then Read 10 pages, then All done with the mosaic",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' attribute alt"
+ },
+ "08a55d5010": {
+  "src": "<b>Next up, then your mosaic</b>The next open habit; all done shows the mosaic",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' <figcaption>"
+ },
+ "149a63619c": {
+  "src": "Today widget with the day ring and open habits, and the This week widget",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' attribute alt"
+ },
+ "598c31c035": {
+  "src": "<b>The whole day</b>The day ring and your habits at a glance",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' <figcaption>"
+ },
+ "c33ba5fcb8": {
+  "src": "<b>Lock Screen and StandBy</b>The day above the clock, what's next, and one habit you can tap without unlocking. Tinted and clear widgets stay legible.",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' <p>"
+ },
+ "2a20218d57": {
+  "src": "Read more: <a href=\"/guides/iphone-habit-widgets.html\">habit widgets on iPhone</a>.",
+  "page": "index.html",
+  "where": "#widgets after heading 'Tap. Done. No app to open.' <p.muted>"
+ },
+ "580ed37315": {
+  "src": "More room when you unfold it.",
+  "page": "index.html",
+  "where": "#duo after heading 'Tap. Done. No app to open.' <h2>"
+ },
+ "c3747825d7": {
+  "src": "On the inner display of iPhone Duo, Today shows a companion pane beside your list: This week, or the habit you tap. Habit and Limit details, Reflect and Settings open side by side. In portrait, Today and the calendar screens are one column. Fold or unfold and you keep your place. The outer display works like any iPhone.",
+  "page": "index.html",
+  "where": "#duo after heading 'More room when you unfold it.' <p.sub>"
+ },
+ "08315b4c52": {
+  "src": "Mostly Daily on the unfolded iPhone Duo: the Today list on the left and the This week pane on the right",
+  "page": "index.html",
+  "where": "#duo after heading 'More room when you unfold it.' attribute alt"
+ },
+ "34134a5af5": {
+  "src": "Two kinds of habit",
+  "page": "index.html",
+  "where": "#habits after heading 'More room when you unfold it.' <p.eyebrow>"
+ },
+ "2f5a7fa5c2": {
+  "src": "Habits you build.<br>Habits you want less of.",
+  "page": "index.html",
+  "where": "#habits after heading 'More room when you unfold it.' <h2>"
+ },
+ "bbd80cf7e2": {
+  "src": "Build",
+  "page": "index.html",
+  "where": "#habits after heading 'Habits you build.Habits you want less of.' <p.eyebrow>"
+ },
+ "d536a16975": {
+  "src": "Start tiny. Step up when it feels easy.",
+  "page": "index.html",
+  "where": "#habits after heading 'Habits you build.Habits you want less of.' <h3>"
+ },
+ "9296e3ffb6": {
+  "src": "Yes or no, a count, or minutes. Keep a two-minute version for busy days; it counts fully. When a step has felt routine for a few weeks, the app offers the next one. Nothing changes by itself.",
+  "page": "index.html",
+  "where": "#habits after heading 'Start tiny. Step up when it feels easy.' <p>"
+ },
+ "c2c032e641": {
+  "src": "Apple Health can check off steps, workouts, sleep, water and more. Choose what you do, like a run, yoga or a swim, and the habit checks itself off. You can also count distance in km or miles. &quot;Ideas from Apple Health&quot; looks at your last 30 days and suggests habits you already do, and four wellbeing habits check themselves off: Close my rings, Get outside, In bed by 23:00 and Check in with how I feel",
+  "page": "index.html",
+  "where": "#habits after heading 'Start tiny. Step up when it feels easy.' <li>"
+ },
+ "480251f3ef": {
+  "src": "Write when and where: &quot;after dinner, on the sofa&quot;",
+  "page": "index.html",
+  "where": "#habits after heading 'Start tiny. Step up when it feels easy.' <li>"
+ },
+ "b76403567e": {
+  "src": "<a href=\"/guides/apple-health-habits.html\">Habits that check themselves off from Apple Health</a>",
+  "page": "index.html",
+  "where": "#habits after heading 'Start tiny. Step up when it feels easy.' <p.more-link>"
+ },
+ "7a12e628c8": {
+  "src": "Habit detail: level 85 Mostly, 34 days never missed twice, the month calendar with its legend",
+  "page": "index.html",
+  "where": "#habits after heading 'Start tiny. Step up when it feels easy.' attribute alt"
+ },
+ "c2ee773999": {
+  "src": "Limit: drinks, sugar, screen time",
+  "page": "index.html",
+  "where": "#habits after heading 'Start tiny. Step up when it feels easy.' <p.eyebrow>"
+ },
+ "784a00eeed": {
+  "src": "A calendar of clear days.",
+  "page": "index.html",
+  "where": "#habits after heading 'Start tiny. Step up when it feels easy.' <h3>"
+ },
+ "472d65a2e1": {
+  "src": "Drinks, sugar, screen time. Log the amount in the evening and get a colour calendar: clear, light, heavier. Set a goal of clear days a week. No judgement. It only shows the picture.",
+  "page": "index.html",
+  "where": "#habits after heading 'A calendar of clear days.' <p>"
+ },
+ "4f8f184e06": {
+  "src": "Adding one? Pick &quot;Do less&quot; at the top of the new-habit sheet, or start a name with &quot;Less&quot; or &quot;Stop&quot;",
+  "page": "index.html",
+  "where": "#habits after heading 'A calendar of clear days.' <li>"
+ },
+ "f1d4ff141b": {
+  "src": "Note what a day was about: Social, Unwinding",
+  "page": "index.html",
+  "where": "#habits after heading 'A calendar of clear days.' <li>"
+ },
+ "fd793bec13": {
+  "src": "Set up your space with up to three small steps",
+  "page": "index.html",
+  "where": "#habits after heading 'A calendar of clear days.' <li>"
+ },
+ "af1f727ed8": {
+  "src": "Self-tracking only. It gives no medical advice.",
+  "page": "index.html",
+  "where": "#habits after heading 'A calendar of clear days.' <li>"
+ },
+ "2619303cab": {
+  "src": "<a href=\"/guides/habits-you-want-less-of.html\">Why a calendar of clear days works better</a> · <a href=\"/guides/cut-back-with-a-calendar.html\">How to cut back on drinks, sugar or screen time</a>",
+  "page": "index.html",
+  "where": "#habits after heading 'A calendar of clear days.' <p.more-link>"
+ },
+ "7f0cc430c2": {
+  "src": "Limit habit: level 78 Mostly, clear days this month, and a colour calendar of clear, light and heavier days",
+  "page": "index.html",
+  "where": "#habits after heading 'A calendar of clear days.' attribute alt"
+ },
+ "fdc7eb4f86": {
+  "src": "Who you're becoming: four mosaics, A reader, Someone who moves every day, Someone who drinks mindfully, A calm person",
+  "page": "index.html",
+  "where": "#who after heading 'A calendar of clear days.' attribute alt"
+ },
+ "3f514ef1c9": {
+  "src": "Who you're becoming",
+  "page": "index.html",
+  "where": "#who after heading 'A calendar of clear days.' <p.eyebrow>"
+ },
+ "db5392a388": {
+  "src": "Every check-in is a vote.",
+  "page": "index.html",
+  "where": "#who after heading 'A calendar of clear days.' <h2>"
+ },
+ "d9a6bf5660": {
+  "src": "A reader. Someone who moves. Each check-in lands one tile in the habit's colour. Tiles are never taken away: a miss leaves no hole, because a tile is something you did.",
+  "page": "index.html",
+  "where": "#who after heading 'Every check-in is a vote.' <p.lead>"
+ },
+ "2ded02388a": {
+  "src": "<i class=\"dot\" style=\"background:var(--green)\"></i><span><b>Each week, Reflect tells your week in kind words</b>habit by habit, with the next small step.</span>",
+  "page": "index.html",
+  "where": "#who after heading 'Every check-in is a vote.' <li>"
+ },
+ "94d0f633c8": {
+  "src": "<i class=\"dot\" style=\"background:var(--orange)\"></i><span><b>Once a quarter: still who you want to become?</b>Keep, Adjust or Let go. Letting go only archives.</span>",
+  "page": "index.html",
+  "where": "#who after heading 'Every check-in is a vote.' <li>"
+ },
+ "62369f48d9": {
+  "src": "<i class=\"dot\" style=\"background:var(--pink)\"></i><span><b>Seasonal challenges with a finish line</b>like Clearer January. The goal is most days, never every day.</span>",
+  "page": "index.html",
+  "where": "#who after heading 'Every check-in is a vote.' <li>"
+ },
+ "d752eaad54": {
+  "src": "Private: no account, no tracking",
+  "page": "index.html",
+  "where": "#private after heading 'Every check-in is a vote.' <p.eyebrow>"
+ },
+ "b5656e0afb": {
+  "src": "Nothing leaves your phone unless you say so.",
+  "page": "index.html",
+  "where": "#private after heading 'Every check-in is a vote.' <h2>"
+ },
+ "9501454f3b": {
+  "src": "No server, no account, no analytics. Your habits sync through your own iCloud. Export everything as CSV on any plan; delete everything with one tap.",
+  "page": "index.html",
+  "where": "#private after heading 'Nothing leaves your phone unless you say so.' <p.lede>"
+ },
+ "322aa2366c": {
+  "src": "<a href=\"/guides/private-habit-tracker.html\">Where each thing is kept</a>",
+  "page": "index.html",
+  "where": "#private after heading 'Nothing leaves your phone unless you say so.' <p.more-link>"
+ },
+ "7974cb1d1f": {
+  "src": "<b>No account, ever.</b>No sign-in, no e-mail, no ads, no tracking.",
+  "page": "index.html",
+  "where": "#private after heading 'Nothing leaves your phone unless you say so.' <li>"
+ },
+ "8370881db2": {
+  "src": "<b>Health data stays on the device.</b>Check-ins that come from Apple Health, and the drinks you log, are never put in iCloud.",
+  "page": "index.html",
+  "where": "#private after heading 'Nothing leaves your phone unless you say so.' <li>"
+ },
+ "8a32797c56": {
+  "src": "<b>Yours to keep.</b>Export as CSV any time, on any plan. Premium never locks your data.",
+  "page": "index.html",
+  "where": "#private after heading 'Nothing leaves your phone unless you say so.' <li>"
+ },
+ "8c80844792": {
+  "src": "Free habit tracker",
+  "page": "index.html",
+  "where": "#pricing after heading 'Nothing leaves your phone unless you say so.' <p.eyebrow>"
+ },
+ "5a6890c897": {
+  "src": "Free that stays free.",
+  "page": "index.html",
+  "where": "#pricing after heading 'Nothing leaves your phone unless you say so.' <h2>"
+ },
+ "a7ea434cc1": {
+  "src": "Start with Free. Try Premium free for two weeks when you want more. If Premium ends, nothing is deleted.",
+  "page": "index.html",
+  "where": "#pricing after heading 'Free that stays free.' <p.sub>"
+ },
+ "75f527181b": {
+  "src": "Free",
+  "page": "index.html",
+  "where": "#pricing after heading 'Free that stays free.' <h3>"
+ },
+ "ba3ffdc5c0": {
+  "src": "No time limit",
+  "page": "index.html",
+  "where": "#pricing after heading 'Free' <p.price>"
+ },
+ "4dd02d20c9": {
+  "src": "3 habits, one of them can be a Limit habit",
+  "page": "index.html",
+  "where": "#pricing after heading 'Free' <li>"
+ },
+ "522e09e8bf": {
+  "src": "Levels, never miss twice, rest and time off",
+  "page": "index.html",
+  "where": "#pricing after heading 'Free' <li>"
+ },
+ "15c470d321": {
+  "src": "Every widget surface: Home Screen, Lock Screen, StandBy, Control Center, Siri",
+  "page": "index.html",
+  "where": "#pricing after heading 'Free' <li>"
+ },
+ "c206624ce8": {
+  "src": "Reminders with a Done button",
+  "page": "index.html",
+  "where": "#pricing after heading 'Free' <li>"
+ },
+ "6027207586": {
+  "src": "Apple Health, iCloud sync, CSV export",
+  "page": "index.html",
+  "where": "#pricing after heading 'Free' <li>"
+ },
+ "566574db5c": {
+  "src": "This week's reflection and the season's challenge",
+  "page": "index.html",
+  "where": "#pricing after heading 'Free' <li>"
+ },
+ "6c2f2888c5": {
+  "src": "Premium",
+  "page": "index.html",
+  "where": "#pricing after heading 'Free' <h3>"
+ },
+ "28e8110625": {
+  "src": "2-week free trial &middot; yearly, monthly or lifetime",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <p.price>"
+ },
+ "874d78699c": {
+  "src": "Unlimited habits, 5 in focus at a time",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "9ab4e55fab": {
+  "src": "Every past reflection, recap and identity review",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "a18e2c90d7": {
+  "src": "Change any earlier day on a habit's calendar",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "39a533dfa4": {
+  "src": "Plan up to 4 steps ahead; the full challenge library",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "766221beb1": {
+  "src": "More widgets, including the extra-large Today and week, and two reminder times per habit",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "936ad5fad8": {
+  "src": "Themes and app icons",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "080f334741": {
+  "src": "<b>Premium Family:</b> Premium for you and up to 5 family members through Apple Family Sharing. No accounts, no invites; everyone's habits stay private on their own devices.",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <p.family>"
+ },
+ "879d034c2f": {
+  "src": "Everything, line by line",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <summary>"
+ },
+ "8a209171f8": {
+  "src": "Free: Your day (list what you do, mark each line, turn one into a habit)",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "a0bdae3ab8": {
+  "src": "Free: Set up your space, up to 3 small steps per habit, like &quot;Shoes by the door&quot;",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "deb2a3f27b": {
+  "src": "Free: habit steps, one next step at a time, stepping up or back",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "4ece41843b": {
+  "src": "Free: change the last 7 days on a habit's calendar: today and the six days before",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "e6a702b3a6": {
+  "src": "Free: the last 4 weeks of your line on a habit's detail; Premium: 10 weeks",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "9c33cbb201": {
+  "src": "Free: the season's challenge, when it opens (7 days before the month to the 14th), and its share picture",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "1e6824671f": {
+  "src": "Free: what a Limit day was about, and this month's count; Premium: earlier months",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "5d0de7d65e": {
+  "src": "Free: price and usual amount on a Limit habit, exported with your data",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "450a1ffe83": {
+  "src": "Premium: what you didn't spend on a Limit habit, against your usual week",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "9ecc46c3cd": {
+  "src": "Premium: plan your next steps, up to 4 steps ahead on a habit",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "555a389863": {
+  "src": "Premium: the challenge library, 10 challenges, any time, 28 days each",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "d9edf58314": {
+  "src": "Premium: widgets Today and week, Month calendar, This week, Who you're becoming",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "d022a1a8a4": {
+  "src": "Premium: a suggested better reminder time",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "e030ad6544": {
+  "src": "Premium: themes (Graphite is included; Midnight, Ocean, Plum and Glacier are Premium) and app icons",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "9610474470": {
+  "src": "Premium: if Premium ends, nothing is deleted",
+  "page": "index.html",
+  "where": "#pricing after heading 'Premium' <li>"
+ },
+ "9a1fc1731f": {
+  "src": "Questions",
+  "page": "index.html",
+  "where": "#faq after heading 'Premium' <p.eyebrow>"
+ },
+ "73cbebcdbb": {
+  "src": "Honest answers.",
+  "page": "index.html",
+  "where": "#faq after heading 'Premium' <h2>"
+ },
+ "b7db4a76f8": {
+  "src": "What happens when I miss a day?",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <summary>"
+ },
+ "bb313fdbee": {
+  "src": "Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of &quot;never missed twice&quot; only ends after two misses in a row.",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <p>"
+ },
+ "635bf75b7a": {
+  "src": "Do I need an account?",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <summary>"
+ },
+ "667250ec4a": {
+  "src": "No. There is no account and no sign-in. Your habits stay on your devices and sync through your own iCloud.",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <p>"
+ },
+ "12934b4f93": {
+  "src": "What if I hit the 3-habit limit on Free?",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <summary>"
+ },
+ "1e37d42e3c": {
+  "src": "Free has 3 habits, and Premium has unlimited habits with Focus mode keeping 5 in focus at a time. When a new habit would go over, a note on the form says so before you add it, and offers &quot;Pause a habit…&quot;. Pick one to pause: its history and level are kept, it waits under Paused, and you can resume it any time. Nothing is deleted.",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <p>"
+ },
+ "c852d5c071": {
+  "src": "What happens if Premium ends?",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <summary>"
+ },
+ "49d793a711": {
+  "src": "Nothing is deleted. Habits beyond the Free plan are paused with all their history, and you can export everything at any time.",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <p>"
+ },
+ "17580c7f98": {
+  "src": "Can I change an earlier day?",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <summary>"
+ },
+ "b960a43ad2": {
+  "src": "Yes. On a habit's calendar you can change today and the six days before it, and every earlier day stays readable. Premium (and the 2-week trial) lets you change any earlier day too. Earlier days look faded with a small lock on Free, and nothing is ever removed.",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <p>"
+ },
+ "0297c9f40f": {
+  "src": "Is it a treatment or recovery program?",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <summary>"
+ },
+ "52264cf7f6": {
+  "src": "No. Mostly Daily is for self-tracking and gives no medical advice. If you're worried about your health or drinking, please talk to a professional.",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <p>"
+ },
+ "9d2a1d7543": {
+  "src": "More in <a href=\"/support.html#questions\">Support</a> and the <a href=\"/guides/\">guides</a>: habit steps, Limit habits, themes, challenges and the quarterly review.",
+  "page": "index.html",
+  "where": "#faq after heading 'Honest answers.' <p.muted.faq-more>"
+ },
+ "929a28d261": {
+  "src": "Guides",
+  "page": "index.html",
+  "where": "#guides after heading 'Honest answers.' <p.eyebrow>"
+ },
+ "2b1386cd43": {
+  "src": "Short reads on habits that last",
+  "page": "index.html",
+  "where": "#guides after heading 'Honest answers.' <h2>"
+ },
+ "f336acebcd": {
+  "src": "<a href=\"/guides/one-missed-day.html\"><span><b>Why one missed day doesn't break a habit</b><small>The day after is what counts.</small></span><i aria-hidden=\"true\">&rarr;</i></a>\n    <a href=\"/guides/rest-days.html\"><span><b>Rest days are part of the plan</b><small>How planned rest keeps habits going for years.</small></span><i aria-hidden=\"true\">&rarr;</i></a>\n    <a href=\"/guides/habits-you-want-less-of.html\"><span><b>Habits you want less of</b><small>Why a calendar of clear days works better than a count of days since.</small></span><i aria-hidden=\"true\">&rarr;</i></a>",
+  "page": "index.html",
+  "where": "#guides after heading 'Short reads on habits that last' <div.card.guide-rows>"
+ },
+ "5c0ad99add": {
+  "src": "Mostly is enough.",
+  "page": "index.html",
+  "where": "#get after heading 'Short reads on habits that last' <h2>"
+ },
+ "3f95df6153": {
+  "src": "Add a habit",
+  "page": "index.html",
+  "where": "#get after heading 'Mostly is enough.' <li>"
+ },
+ "70282a9141": {
+  "src": "Put a widget on your Home Screen",
+  "page": "index.html",
+  "where": "#get after heading 'Mostly is enough.' <li>"
+ },
+ "813d75f562": {
+  "src": "Miss a day now and then",
+  "page": "index.html",
+  "where": "#get after heading 'Mostly is enough.' <li>"
+ },
+ "07871cd595": {
+  "src": "Free to start &middot; No account &middot; No tracking",
+  "page": "index.html",
+  "where": "#get after heading 'Mostly is enough.' <p.facts-line>"
+ },
+ "55e5660359": {
+  "src": "<a class=\"brand\" href=\"/\"><span class=\"mark\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>Mostly Daily</a>\n  <span>A forgiving habit tracker for iPhone. &copy; 2026 Mostlydaily</span>",
+  "page": "index.html",
+  "where": "#get after heading 'Mostly is enough.' <div.wrap.row>"
+ },
+ "26c01e70a3": {
+  "src": "Footer",
+  "page": "index.html",
+  "where": "#get after heading 'Mostly is enough.' attribute aria-label"
+ },
+ "c9b7e8e6ba": {
+  "src": "<a href=\"/guides/\">Guides</a><a href=\"/support.html\">Support</a><a href=\"/privacy.html\">Privacy</a><a href=\"/terms.html\">Terms</a><a href=\"mailto:contact@mostlydaily.com\">contact@mostlydaily.com</a>",
+  "page": "index.html",
+  "where": "#get after heading 'Mostly is enough.' <nav.links>"
+ },
+ "1a45573c44": {
+  "src": "Consistency levels instead of streaks: one missed day never resets progress",
+  "page": "index.html",
+  "where": "JSON-LD (search engines; plain text, no HTML)"
+ },
+ "49b52e299b": {
+  "src": "Rest, low energy and travel days that are not misses",
+  "page": "index.html",
+  "where": "JSON-LD (search engines; plain text, no HTML)"
+ },
+ "dde5af2f87": {
+  "src": "Limit habits for drinks, sugar and screen time with a calendar of clear days",
+  "page": "index.html",
+  "where": "JSON-LD (search engines; plain text, no HTML)"
+ },
+ "10c854931f": {
+  "src": "Home Screen, Lock Screen, StandBy and Control Center widgets that check in with one tap",
+  "page": "index.html",
+  "where": "JSON-LD (search engines; plain text, no HTML)"
+ },
+ "33e6f99b1e": {
+  "src": "Apple Health habits that check themselves off",
+  "page": "index.html",
+  "where": "JSON-LD (search engines; plain text, no HTML)"
+ },
+ "598ef821a5": {
+  "src": "No account, no ads, no tracking; sync through your own iCloud",
+  "page": "index.html",
+  "where": "JSON-LD (search engines; plain text, no HTML)"
+ },
+ "543ef84fcd": {
+  "src": "habit tracker, habit tracker without streaks, habit calendar, habit widget, drink tracker, clear days calendar, iPhone",
+  "page": "index.html",
+  "where": "JSON-LD (search engines; plain text, no HTML)"
+ },
+ "62589643ef": {
+  "src": "Nothing is reset. Your level dips a little and comes back just as fast when you check in again. Your run of \"never missed twice\" only ends after two misses in a row.",
+  "page": "index.html",
+  "where": "JSON-LD (search engines; plain text, no HTML)"
+ },
+ "e214ef1d09": {
+  "src": "Free has 3 habits, and Premium has unlimited habits with Focus mode keeping 5 in focus at a time. When a new habit would go over, a note on the form says so before you add it, and offers \"Pause a habit…\". Pick one to pause: its history and level are kept, it waits under Paused, and you can resume it any time. Nothing is deleted.",
+  "page": "index.html",
+  "where": "JSON-LD (search engines; plain text, no HTML)"
+ },
+ "6a34e94fcd": {
+  "src": "Support · Mostly Daily",
+  "page": "support.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "51df25e8ca": {
+  "src": "Help with Mostly Daily: check-ins, habits, widgets, reminders, Apple Health, iCloud, Premium and export.",
+  "page": "support.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "f32d5a3b17": {
+  "src": "Support",
+  "page": "support.html",
+  "where": "after heading '' <h1>"
+ },
+ "e650ae3a1b": {
+  "src": "Questions or ideas? Write to <a href=\"mailto:contact@mostlydaily.com\">contact@mostlydaily.com</a>. A person reads every message.",
+  "page": "support.html",
+  "where": "after heading 'Support' <p.lead>"
+ },
+ "ae521bc4d6": {
+  "src": "Check-ins",
+  "page": "support.html",
+  "where": "after heading 'Support' <h2>"
+ },
+ "f0890e8dd1": {
+  "src": "Tap the ring on a habit to check in; tap again to undo. Touch and hold the ring for the two-minute version, rest, low energy or travel. For a habit you want less of, tap the square to log a clear day, or tap Log to enter the amount. To change a past day, open the habit and tap the day in its calendar.",
+  "page": "support.html",
+  "where": "after heading 'Check-ins' <p>"
+ },
+ "45ab397be2": {
+  "src": "Habits",
+  "page": "support.html",
+  "where": "after heading 'Check-ins' <h2>"
+ },
+ "83339e5e47": {
+  "src": "Tap Habits on Today to reorder, pause or archive habits. The + button adds a habit: type a name or pick a suggestion, and tap More options for the full form. Today, Reflect and Settings are the three tabs. In the full form you can start a new habit after another habit you already do, and choose the day it starts. To step away, add time off in Settings: for all your habits or only the ones you choose, with a reason (Vacation, Low energy or Other).",
+  "page": "support.html",
+  "where": "after heading 'Habits' <p>"
+ },
+ "9eebb65489": {
+  "src": "When does a day end?",
+  "page": "support.html",
+  "where": "after heading 'Habits' <h2>"
+ },
+ "1ecd5a7ba7": {
+  "src": "At midnight by default. If you often stay up later, set a later hour in Settings &gt; Reminders &gt; Day ends at, so a late night still counts for the day it started. An hour you already set stays as it is.",
+  "page": "support.html",
+  "where": "after heading 'When does a day end?' <p>"
+ },
+ "bf8a6678a1": {
+  "src": "Widgets",
+  "page": "support.html",
+  "where": "after heading 'When does a day end?' <h2>"
+ },
+ "63a8f8821f": {
+  "src": "Touch and hold the Home Screen, tap Edit &gt; Add Widget and search for Mostly Daily. Tap the ring (or the square, for a habit you want less of) on a widget to check in: it fills right away, without opening the app. When every habit is done, the Next up widget shows your mosaic. Widgets move to the new day on their own when your day ends.",
+  "page": "support.html",
+  "where": "after heading 'Widgets' <p>"
+ },
+ "8b10ea4a4b": {
+  "src": "Premium's This week widget shows the habits that are due, a Limit habit or done today. To choose the habits yourself, touch and hold the widget, tap Edit Widget and tap Habits: pick up to 3 for the medium widget or 7 for the large one. They stay in the order you picked, every day, even on a day a habit is not due. Remove them all to go back to the automatic list.",
+  "page": "support.html",
+  "where": "after heading 'Widgets' <p>"
+ },
+ "8d79534ebe": {
+  "src": "Premium also has an extra-large Today and week widget, for devices that offer that size.",
+  "page": "support.html",
+  "where": "after heading 'Widgets' <p>"
+ },
+ "5a668a29ae": {
+  "src": "For the Lock Screen, touch and hold it, tap Customize and add Mostly Daily. For Control Center, open it, tap + and add Check in or Clear day. If a widget ever looks out of date, open the app once.",
+  "page": "support.html",
+  "where": "after heading 'Widgets' <p>"
+ },
+ "ae8c393938": {
+  "src": "Reminders",
+  "page": "support.html",
+  "where": "after heading 'Widgets' <h2>"
+ },
+ "d34a101389": {
+  "src": "Each habit can have a reminder time (Premium: two, and Today can suggest a better time). Settings &gt; Reminders gives the overview. A &quot;Close the day&quot; reminder in the evening, on by default, opens a sheet from Today where you can finish what is still open with one tap each, or tap Done all to mark every open habit done. The &#10005; at the top closes it without changing anything. If you did not get to it, the next morning the notification offers &quot;Close yesterday&quot;. You get at most two reminders a day. If a habit's reminders are ignored three times in a row, they pause until you check in again.",
+  "page": "support.html",
+  "where": "after heading 'Reminders' <p>"
+ },
+ "b19b87da82": {
+  "src": "Apple Health",
+  "page": "support.html",
+  "where": "after heading 'Reminders' <h2>"
+ },
+ "27d1c0c043": {
+  "src": "When you create a habit that can use Apple Health (steps, exercise, mindful minutes, sleep, stand hours, water, workouts, drinks), &quot;Use Apple Health&quot; is on; the system asks once when you save. Check-ins that come from Health stay on this phone. Settings &gt; Apple Health lists what is read and saved; manage access in the Health app &gt; Sharing &gt; Apps &gt; Mostly Daily.",
+  "page": "support.html",
+  "where": "after heading 'Apple Health' <p>"
+ },
+ "2ae54a5895": {
+  "src": "When you create a habit, you choose how it checks itself off by what you do: walk 6,000 steps, move 20 minutes, go for a run, walk or run 3 km (2 miles), do yoga, work out, meditate, sleep, drink water or stand. Typing a name like &quot;Morning run&quot; or &quot;Swim&quot; suggests it, and there are Run, Yoga, Gym, Swim and Cycle templates. It is free. Nothing connects until the Health sheet asks when you save. A workout habit can follow one workout type (Walking, Running, Cycling, Swimming, Yoga, Strength, HIIT, Pilates, Dance, Hiking or Rowing) or any workout. For runs, rides and swims you can count distance, in km or miles. After a workout on your Apple Watch, the habit ticks itself and the widgets update without opening the app. Today's reminder goes once Apple Health has completed the day, so a workout that is still syncing does not get a nudge too early. A day shows what counted. That list is kept only on this phone, and Health data never goes to iCloud.",
+  "page": "support.html",
+  "where": "after heading 'Apple Health' <p>"
+ },
+ "793f86be94": {
+  "src": "<b>Ideas from Apple Health.</b> In quick add and in Settings &gt; Apple Health, &quot;Ideas from Apple Health&quot; looks at the last 30 days in Apple Health, on your iPhone only, to suggest up to three habits you already do, each with a starting goal a little below your usual level. It can also offer to let a habit you tick by hand check itself off. It runs only when you tap it, after one short explanation and one Health sheet; nothing is kept, and &quot;Not now&quot; is always fine. It is free. Four wellbeing habits can check themselves off too: <i>Close my rings</i> (all three rings, or just Move), <i>Get outside</i> (time in daylight), <i>In bed by 23:00</i> (the time you go to bed, from sleep; you set the time) and <i>Check in with how I feel</i>. For that last one the app only notices that you logged a mood or emotion that day; what you logged is never read, shown or kept. You can always tick a habit yourself.",
+  "page": "support.html",
+  "where": "after heading 'Apple Health' <p>"
+ },
+ "6ca46df113": {
+  "src": "iCloud",
+  "page": "support.html",
+  "where": "after heading 'Apple Health' <h2>"
+ },
+ "c2c62c977d": {
+  "src": "Habits, the check-ins you make yourself and time off sync through your private iCloud. Check-ins from Apple Health and drink logs stay on each phone; a second phone fills those days from its own Apple Health. Drink and cigarette logs never sync. The logs of other Limit habits stay on the phone unless you turn on &quot;Sync logs through iCloud&quot; in that habit's settings (it is off by default). The reason you give for time off stays on the phone. The reason you add to a Limit log stays with that log, on the phone or, if you turned on sync for that habit, in your private iCloud.",
+  "page": "support.html",
+  "where": "after heading 'iCloud' <p>"
+ },
+ "95f7ab83e2": {
+  "src": "How the levels work",
+  "page": "support.html",
+  "where": "after heading 'iCloud' <h2>"
+ },
+ "396b7985cb": {
+  "src": "Settings &gt; About &gt; How Mostly works explains the levels, never missing twice and rest days in the app's own words.",
+  "page": "support.html",
+  "where": "after heading 'How the levels work' <p>"
+ },
+ "ac261683e8": {
+  "src": "Restore purchases on the Premium sheet (Settings &gt; Mostly Daily Premium). Manage or cancel a subscription in your iPhone's Settings: tap your name (your Apple Account), then Subscriptions. During a free trial you can still choose Monthly or Lifetime from Other plans on the Premium sheet; Monthly starts when the trial ends, and nothing is charged before then. When Premium ends, habits beyond the Free plan are paused with all their history; nothing is deleted.",
+  "page": "support.html",
+  "where": "after heading 'Premium' <p>"
+ },
+ "a6147670c3": {
+  "src": "Export and delete",
+  "page": "support.html",
+  "where": "after heading 'Premium' <h2>"
+ },
+ "e43408f5e6": {
+  "src": "Settings &gt; Export and import saves your habits, check-ins, time off and reviews as CSV files, on any plan. Settings &gt; Delete all data removes everything from the app and your iCloud.",
+  "page": "support.html",
+  "where": "after heading 'Export and delete' <p>"
+ },
+ "29d56e8b8c": {
+  "src": "Does it work on iPhone Duo?",
+  "page": "support.html",
+  "where": "after heading 'Questions' <summary>"
+ },
+ "3eda3bf54a": {
+  "src": "Yes. On iPhone Duo's inner display, Today shows a companion pane beside your list: This week, or the habit you tap. Habit and Limit details, Reflect and Settings use two panes in landscape. In portrait, Today and the calendar screens are one column. When you fold or unfold, you keep your place. The outer display works like any iPhone. Nothing is different in your habits, plans or prices.",
+  "page": "support.html",
+  "where": "after heading 'Questions' <p>"
+ },
+ "de27a2c00b": {
+  "src": "What are habit steps?",
+  "page": "support.html",
+  "where": "after heading 'Questions' <summary>"
+ },
+ "03c29b1eb5": {
+  "src": "A Build habit can start with its two-minute version and grow a step at a time. When a step has felt routine for a few weeks, the app offers the next one. Nothing changes by itself, you can go back a step anytime, and past days keep their credit. Free includes one next step at a time; Premium lets you plan up to 4 steps ahead.",
+  "page": "support.html",
+  "where": "after heading 'Questions' <p>"
+ },
+ "58a7837604": {
+  "src": "What is a Limit habit?",
+  "page": "support.html",
+  "where": "after heading 'Questions' <summary>"
+ },
+ "60d8e238e5": {
+  "src": "A habit you want less of, like drinks, sugar or screen time. You log the amount in the evening and get a colour calendar of clear, light and heavier days, with a goal of clear days per week. When you log an amount you can add one optional word for what it was about, like Social or Unwinding; the habit then shows how often each came up, with no advice. To start one, tap + and pick &quot;Do less&quot; at the top (&quot;Do more&quot; is the default). A name that starts with a word like less, fewer, stop or quit picks it for you, and you can switch back with one tap. If you have not started one yet, Habits also shows a small &quot;Want to do less of something?&quot; note that you can dismiss. Free includes one Limit habit.",
+  "page": "support.html",
+  "where": "after heading 'Questions' <p>"
+ },
+ "888dc3f5d8": {
+  "src": "Is my data private?",
+  "page": "support.html",
+  "where": "after heading 'Questions' <summary>"
+ },
+ "6ed4225869": {
+  "src": "Yes. No server, no analytics, no tracking. Check-ins from Apple Health and the drinks you log stay on your phone and are never put in iCloud.",
+  "page": "support.html",
+  "where": "after heading 'Questions' <p>"
+ },
+ "ae2e423f5b": {
+  "src": "What are themes?",
+  "page": "support.html",
+  "where": "after heading 'Questions' <summary>"
+ },
+ "1bae0e7c22": {
+  "src": "Five looks for the app and its widgets: Graphite, Midnight, Ocean, Plum and Glacier. A theme changes the background, cards, buttons and tint, never your habit colours. Graphite is included and the other four are part of Premium. If Premium ends, the app uses Graphite and your choice comes back with Premium.",
+  "page": "support.html",
+  "where": "after heading 'Questions' <p>"
+ },
+ "09a5b8c4eb": {
+  "src": "What are seasonal challenges?",
+  "page": "support.html",
+  "where": "after heading 'Questions' <summary>"
+ },
+ "2b21c71c12": {
+  "src": "Short, optional challenges with a finish line, like Clearer January. You join with a habit you already have or a new one, and the goal is most days, never every day. Rest and time-off days never count against you, and leaving keeps the habit and its history. The season's challenge is free to join from 7 days before its month until the 14th. Premium adds a library of 10 challenges you can start any time, each for 28 days. If Premium ends, a running challenge runs to its end and finished ones stay readable.",
+  "page": "support.html",
+  "where": "after heading 'Questions' <p>"
+ },
+ "e9fd7ee5e1": {
+  "src": "What is the quarterly identity review?",
+  "page": "support.html",
+  "where": "after heading 'Questions' <summary>"
+ },
+ "6e44bdb251": {
+  "src": "At the start of each quarter, Reflect asks whether each identity (a reader, someone who moves) is still who you want to become: Keep, Adjust or Let go, plus an optional one-line note. Letting go archives its habits and keeps all their history. The review of the quarter just ended is free. Opening past reviews is Premium, but your notes always stay readable.",
+  "page": "support.html",
+  "where": "after heading 'Questions' <p>"
+ },
+ "540f355f16": {
+  "src": "More on the <a href=\"/#faq\">home page</a> and in the <a href=\"/guides/\">guides</a>.",
+  "page": "support.html",
+  "where": "after heading 'Questions' <p.muted>"
+ },
+ "sim.all_done": {
+  "src": "Every day done. Mostly is the top level; there's nothing above it.",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.rest_only": {
+  "src": "A rest day isn't a miss: your level and your run carry on as if nothing happened.",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.two_in_row": {
+  "src": "Two misses in a row end the run, gently. A new one starts the next day, and your level is {level}.",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.two_in_row_still": {
+  "src": "Two misses in a row end the run, gently. A new one starts the next day, and your level is still {level}.",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.pair_ever": {
+  "src": "Two misses in a row ended a run and a new one started the next day. Your level is {level}.",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.one_miss": {
+  "src": "One miss, nothing reset. Your level dips a few points and your run keeps going.",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.misses": {
+  "src": {
+   "one": "{n} miss, never two in a row: your run keeps going and your level is {level}.",
+   "other": "{n} misses, never two in a row: your run keeps going and your level is {level}."
+  },
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.rest_tail": {
+  "src": "Rest days don't count as misses.",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.days": {
+  "src": {
+   "one": "{n} day",
+   "other": "{n} days"
+  },
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.state_done": {
+  "src": "done",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.state_miss": {
+  "src": "missed",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.state_rest": {
+  "src": "rest day",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.aria": {
+  "src": "{day}, {state}. Tap to change.",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ },
+ "sim.aria_today": {
+  "src": "{day} (today), {state}. Tap to change.",
+  "page": "assets/site.js",
+  "where": "Try it week (hero), {placeholders} stay; plural keys need one form per category: {'en': ['one', 'other'], 'de': ['one', 'other'], 'es': ['one', 'other'], 'pl': ['one', 'few', 'many', 'other'], 'uk': ['one', 'few', 'many', 'other'], 'ru': ['one', 'few', 'many', 'other']}"
+ }
+}
