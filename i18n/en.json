@@ -1044,6 +1044,686 @@
   "page": "support.html",
   "where": "after heading 'Questions' <p.muted>"
  },
+ "2ffd964908": {
+  "src": "Habits that check themselves off from Apple Health · Mostly Daily",
+  "page": "guides/apple-health-habits.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "d5ce9953a7": {
+  "src": "Link a habit to Apple Health and Mostly Daily checks it off when the day reaches your goal: steps, workouts, sleep, water and more.",
+  "page": "guides/apple-health-habits.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "f10bfbe8ca": {
+  "src": "Habits that check themselves off from Apple Health",
+  "page": "guides/apple-health-habits.html",
+  "where": "H1 of the guide (also its JSON-LD headline)"
+ },
+ "edad9b1640": {
+  "src": "Link a habit to Apple Health and Mostly Daily checks it off when the day reaches your goal: 8,000 steps, 30 minutes of exercise, a run, 7 hours of sleep, 2 litres of water.",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'Habits that check themselves off from Apple Health' <p.lead>"
+ },
+ "2e981bc326": {
+  "src": "Your iPhone and Apple Watch already count a lot of what you do. Ticking the same thing off by hand is one more chore.",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'Habits that check themselves off from Apple Health' <p>"
+ },
+ "7cf36673f7": {
+  "src": "What a habit can follow",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'Habits that check themselves off from Apple Health' <h2>"
+ },
+ "6a99b30c40": {
+  "src": "A habit you build can follow steps, exercise minutes, mindful minutes, workouts, walking and running distance, cycling, swimming, sleep hours, stand hours or water. For workouts you choose the kind, like a run, yoga or a swim, or any workout. The app shows only sources that fit the goal: a habit in minutes can follow exercise or a workout, and a habit in steps can follow steps.",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'What a habit can follow' <p>"
+ },
+ "9382de0459": {
+  "src": "Four more check off wellbeing habits: Close my rings (or just the Move ring), Get outside (time in daylight), In bed by 23:00 (from your sleep) and Check in with how I feel (a State of Mind entry). The app only sees whether the day counted. It never shows calories, ring amounts or what you logged as a mood.",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'What a habit can follow' <p>"
+ },
+ "89ac3d7626": {
+  "src": "How the check-in happens",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'What a habit can follow' <h2>"
+ },
+ "93b214a418": {
+  "src": "When you open the app, and in the background when Health has new data, Mostly Daily reads the last week for each linked habit and checks off the days that reached the goal. Part of a count or timed goal still counts as showing up. Anything you log by hand wins: a rest day you set stays a rest day.",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'How the check-in happens' <p>"
+ },
+ "309632f56d": {
+  "src": "Ideas from Apple Health",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'How the check-in happens' <h2>"
+ },
+ "5a8c4c5054": {
+  "src": "Not sure what to track? Tap Ideas from Apple Health when you add a habit. The app looks at your last 30 days on the iPhone, suggests habits you already do, and keeps nothing from the scan.",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'Ideas from Apple Health' <p>"
+ },
+ "53c9dbba22": {
+  "src": "Your Health data stays on the iPhone",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'Ideas from Apple Health' <h2>"
+ },
+ "e168af1557": {
+  "src": "Access is optional and asked per habit. Check-ins that come from Apple Health stay on the iPhone and never go to iCloud, and each device fills them in from its own Health. Apple Health works on the Free plan. For drinks, see <a href=\"/guides/cut-back-with-a-calendar.html\">how to cut back on drinks, sugar or screen time</a>.",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'Your Health data stays on the iPhone' <p>"
+ },
+ "b3d853b751": {
+  "src": "<a href=\"/\">Learn more about Mostly Daily</a>",
+  "page": "guides/apple-health-habits.html",
+  "where": "after heading 'Your Health data stays on the iPhone' <p>"
+ },
+ "3cfc73e20d": {
+  "src": "How to cut back on drinks, sugar or screen time · Mostly Daily",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "6e271beca6": {
+  "src": "Count clear days. Set a goal like 4 clear days a week, log the amount each evening, and see the month as a colour calendar.",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "6dea275973": {
+  "src": "How to cut back on drinks, sugar or screen time",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "H1 of the guide (also its JSON-LD headline)"
+ },
+ "3805835023": {
+  "src": "Count clear days. Set a goal like 4 clear days a week, log the amount each evening, and look at the month as a colour calendar.",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'How to cut back on drinks, sugar or screen time' <p.lead>"
+ },
+ "5335acb957": {
+  "src": "A clear day is a day with none. Four of them a week is a real change, and over a month you can see it on the calendar. A week with three clear days still counts for three.",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'How to cut back on drinks, sugar or screen time' <p>"
+ },
+ "dabba3f4e9": {
+  "src": "Set it up as a Limit habit",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'How to cut back on drinks, sugar or screen time' <h2>"
+ },
+ "311a34cf50": {
+  "src": "In Mostly Daily, add a habit and pick \"Do less\" at the top, or start the name with \"Less\" or \"Stop\". Choose a unit (drinks, treats, minutes, or your own word), how much still counts as a light day (2 by default) and how many clear days a week you aim for (4 by default). For screen time, use minutes for one app or one kind of use, such as social media, and log the minutes yourself.",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'Set it up as a Limit habit' <p>"
+ },
+ "67853cfed8": {
+  "src": "Log it once, in the evening",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'Set it up as a Limit habit' <h2>"
+ },
+ "d02827c086": {
+  "src": "When the day is nearly over, one tap on the square button logs a clear day, or you enter the amount. The Habit widget and the Clear day control in Control Center do the same without opening the app. You can add one reason to a day, like Social or Unwinding, and the habit shows a count per reason. It describes what happened and gives no advice.",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'Log it once, in the evening' <p>"
+ },
+ "3cb4356ca5": {
+  "src": "Read the calendar",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'Log it once, in the evening' <h2>"
+ },
+ "f57532a7ab": {
+  "src": "Each day gets a tile: green for clear, amber with one dot for light, coral with two dots for heavier, and a moon for a rest day. Days with nothing logged stay empty and are never counted as a slip. The card on Today says how the week is going, for example \"3 of 4 clear days this week\". A light day only means it wasn't a clear day, and after a heavier day the app says \"Tomorrow is a fresh day.\"",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'Read the calendar' <p>"
+ },
+ "8a85750df2": {
+  "src": "Drinks and Apple Health",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'Read the calendar' <h2>"
+ },
+ "59cbdd5af0": {
+  "src": "Drinks can be kept in Apple Health. The app reads drinks other apps logged and saves the ones you log there. Drink logs stay in Apple Health and on your iPhone, never in iCloud. Read more in <a href=\"/guides/habits-you-want-less-of.html\">habits you want less of</a>.",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'Drinks and Apple Health' <p>"
+ },
+ "08f9b1f034": {
+  "src": "Mostly Daily is for self-tracking. It gives no medical advice and is not a treatment or recovery program. If you are worried about your health or your drinking, please talk to a professional.",
+  "page": "guides/cut-back-with-a-calendar.html",
+  "where": "after heading 'Drinks and Apple Health' <p>"
+ },
+ "50dff26f05": {
+  "src": "A habit tracker without streaks · Mostly Daily",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "7029e1b514": {
+  "src": "Mostly Daily has no streak counter. Each habit has a level from Starting to Mostly, and one missed day never resets anything.",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "0128196494": {
+  "src": "A habit tracker without streaks",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "H1 of the guide (also its JSON-LD headline)"
+ },
+ "d576b900f6": {
+  "src": "A streak counts days in a row, so one missed day sends it back to zero. That day usually comes when life is already hard, like a cold or a child up all night. The next morning the app says you are starting over, and for a lot of people that is the day they stop.",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "after heading 'A habit tracker without streaks' <p>"
+ },
+ "6715b8f0fb": {
+  "src": "Why streaks backfire",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "after heading 'A habit tracker without streaks' <h2>"
+ },
+ "1569756f9b": {
+  "src": "After a few weeks the goal moves from doing the habit to protecting the number. People do a rushed version at midnight just to keep it alive, or tick it off when they didn't do it. When the streak breaks, the drop from 120 to 0 says those 120 days didn't count. They did, and the habit is still mostly there.",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "after heading 'Why streaks backfire' <p>"
+ },
+ "6fc2773e65": {
+  "src": "What Mostly Daily counts instead",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "after heading 'Why streaks backfire' <h2>"
+ },
+ "13f3db0404": {
+  "src": "Each habit has a consistency level based on how often you showed up over the last couple of months: Starting, Sometimes, Often and Mostly. Mostly is the top level and you never need 100%. A miss after a good month costs a few points, and they come back as fast as they went.",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "after heading 'What Mostly Daily counts instead' <p>"
+ },
+ "3b6ffaf33c": {
+  "src": "Next to the level is a run: the days since you last missed twice in a row. One miss keeps the run going. Two misses in a row end it, and a new run starts with your next check-in. More on that in <a href=\"/guides/one-missed-day.html\">why one missed day doesn't break a habit</a>.",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "after heading 'What Mostly Daily counts instead' <p>"
+ },
+ "c83bd1b06e": {
+  "src": "Days that don't count either way",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "after heading 'What Mostly Daily counts instead' <h2>"
+ },
+ "2f01f6f64e": {
+  "src": "Rest, low energy and travel days are not misses. They don't help the level and they don't hurt it. If you are ill or away, see <a href=\"/guides/sick-and-travel-days.html\">sick days, travel and holidays</a>.",
+  "page": "guides/habit-tracker-without-streaks.html",
+  "where": "after heading 'Days that don't count either way' <p>"
+ },
+ "e11835ca92": {
+  "src": "Habits you want less of · Mostly Daily",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "7a7496a6c5": {
+  "src": "Why a calendar of clear days works better than a count of days since.",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "bfe51b2bdf": {
+  "src": "Habits you want less of",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "H1 of the guide (also its JSON-LD headline)"
+ },
+ "993e0898b8": {
+  "src": "Drinks, sugar, screen time. A \"days since\" counter makes one slip look like losing everything. A calendar of clear days tells the truth.",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "after heading 'Habits you want less of' <p.lead>"
+ },
+ "1d4ec38aea": {
+  "src": "When you want less of something, the useful thing to look at is how the weeks look. How long you have gone without it tells you less. A counter that jumps back to zero hides everything that came before the slip: the clear evenings, the light days, the weeks that went well.",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "after heading 'Habits you want less of' <p>"
+ },
+ "73c03ec065": {
+  "src": "A picture of the month",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "after heading 'Habits you want less of' <h2>"
+ },
+ "948ae017e3": {
+  "src": "In Mostly Daily a Limit habit gets a colour calendar. A clear day is green. A light day is amber, a heavier day is coral, and each one has a small mark so you can read it without relying on colour. You choose a goal of clear days a week, and the calendar shows how the month is going. There is no red and no judgement: heavier days are part of the picture.",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "after heading 'A picture of the month' <p>"
+ },
+ "f0663ae9d7": {
+  "src": "Log it in the evening, and keep it quick",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "after heading 'A picture of the month' <h2>"
+ },
+ "a19cdbc718": {
+  "src": "Once the day is nearly over, one tap logs a clear day, or you enter the amount if it was not. The widget does the same from the Home Screen. That keeps the habit light enough to keep up on the days that are not going well, which are the days a record is most useful.",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "after heading 'Log it in the evening, and keep it quick' <p>"
+ },
+ "c8fbe64cd3": {
+  "src": "A slip is information",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "after heading 'Log it in the evening, and keep it quick' <h2>"
+ },
+ "046e668b21": {
+  "src": "A heavier day does not undo the clear days around it. Look at the calendar: what was different? Where were you, and who with? The pattern helps you choose the next small change.",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "after heading 'A slip is information' <p>"
+ },
+ "c73c4e9062": {
+  "src": "Your data stays yours",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "after heading 'A slip is information' <h2>"
+ },
+ "6a5d9609db": {
+  "src": "If you track drinks with Apple Health, they stay in Apple Health and on your phone, never in iCloud. Mostly Daily is for self-tracking. It does not give medical advice and is not a treatment or recovery program. If you are worried about your health or drinking, please talk to a professional.",
+  "page": "guides/habits-you-want-less-of.html",
+  "where": "after heading 'Your data stays yours' <p>"
+ },
+ "21b7613830": {
+  "src": "Guides · Mostly Daily",
+  "page": "guides/index.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "54f0c2829f": {
+  "src": "Short reads on building habits that last, from the makers of Mostly Daily.",
+  "page": "guides/index.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "f14536e1c2": {
+  "src": "Guides",
+  "page": "guides/index.html",
+  "where": "after heading '' <h1>"
+ },
+ "76b717a632": {
+  "src": "Short reads on building habits that last.",
+  "page": "guides/index.html",
+  "where": "after heading 'Guides' <p.lead>"
+ },
+ "49ec981503": {
+  "src": "<a href=\"/guides/one-missed-day.html\">Why one missed day doesn't break a habit</a>",
+  "page": "guides/index.html",
+  "where": "after heading 'Guides' <h3>"
+ },
+ "aedfcc1ac4": {
+  "src": "What counts is what you do the day after.",
+  "page": "guides/index.html",
+  "where": "after heading 'Why one missed day doesn't break a habit' <p.muted>"
+ },
+ "d215b54c72": {
+  "src": "<a href=\"/guides/rest-days.html\">Rest days are part of the plan</a>",
+  "page": "guides/index.html",
+  "where": "after heading 'Why one missed day doesn't break a habit' <h3>"
+ },
+ "2451626e47": {
+  "src": "How planned rest keeps habits going for years.",
+  "page": "guides/index.html",
+  "where": "after heading 'Rest days are part of the plan' <p.muted>"
+ },
+ "d3b55267ae": {
+  "src": "<a href=\"/guides/habits-you-want-less-of.html\">Habits you want less of</a>",
+  "page": "guides/index.html",
+  "where": "after heading 'Rest days are part of the plan' <h3>"
+ },
+ "e8572022ae": {
+  "src": "<a href=\"/guides/habit-tracker-without-streaks.html\">A habit tracker without streaks</a>",
+  "page": "guides/index.html",
+  "where": "after heading 'Habits you want less of' <h3>"
+ },
+ "0a551b7ada": {
+  "src": "Why streaks backfire, and what to count instead.",
+  "page": "guides/index.html",
+  "where": "after heading 'A habit tracker without streaks' <p.muted>"
+ },
+ "7f7c7972b8": {
+  "src": "<a href=\"/guides/sick-and-travel-days.html\">Sick days, travel and holidays in a habit tracker</a>",
+  "page": "guides/index.html",
+  "where": "after heading 'A habit tracker without streaks' <h3>"
+ },
+ "f702cc8b7f": {
+  "src": "How to keep a habit going when you are ill or away.",
+  "page": "guides/index.html",
+  "where": "after heading 'Sick days, travel and holidays in a habit tracker' <p.muted>"
+ },
+ "eedbc4bea8": {
+  "src": "<a href=\"/guides/cut-back-with-a-calendar.html\">How to cut back on drinks, sugar or screen time</a>",
+  "page": "guides/index.html",
+  "where": "after heading 'Sick days, travel and holidays in a habit tracker' <h3>"
+ },
+ "4b755ef33c": {
+  "src": "Count clear days in a week, on a colour calendar.",
+  "page": "guides/index.html",
+  "where": "after heading 'How to cut back on drinks, sugar or screen time' <p.muted>"
+ },
+ "4583838a88": {
+  "src": "<a href=\"/guides/iphone-habit-widgets.html\">Habit widgets on iPhone</a>",
+  "page": "guides/index.html",
+  "where": "after heading 'How to cut back on drinks, sugar or screen time' <h3>"
+ },
+ "45951fea36": {
+  "src": "Home Screen, Lock Screen, StandBy and Control Center.",
+  "page": "guides/index.html",
+  "where": "after heading 'Habit widgets on iPhone' <p.muted>"
+ },
+ "8c33e805ec": {
+  "src": "<a href=\"/guides/private-habit-tracker.html\">A private habit tracker with no account</a>",
+  "page": "guides/index.html",
+  "where": "after heading 'Habit widgets on iPhone' <h3>"
+ },
+ "061bc28a84": {
+  "src": "No account, no server, no analytics. Where each thing is kept.",
+  "page": "guides/index.html",
+  "where": "after heading 'A private habit tracker with no account' <p.muted>"
+ },
+ "6a42e82c88": {
+  "src": "Steps, workouts, sleep, water and rings, checked off for you.",
+  "page": "guides/index.html",
+  "where": "after heading 'Habits that check themselves off from Apple Health' <p.muted>"
+ },
+ "89b1d4b260": {
+  "src": "Habit widgets on iPhone · Mostly Daily",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "96032a55e2": {
+  "src": "Check in a habit from the Home Screen, Lock Screen, StandBy or Control Center with one tap, without opening the app.",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "bc2af35591": {
+  "src": "Habit widgets on iPhone",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "H1 of the guide (also its JSON-LD headline)"
+ },
+ "630b002418": {
+  "src": "Mostly Daily has widgets for the Home Screen, Lock Screen and StandBy, and controls for Control Center. One tap checks a habit in without opening the app, and a second tap undoes it.",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Habit widgets on iPhone' <p.lead>"
+ },
+ "895ff84d2f": {
+  "src": "To add a widget, touch and hold the Home Screen, tap Edit, then Add Widget, and search for Mostly Daily.",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Habit widgets on iPhone' <p>"
+ },
+ "e35c9a7017": {
+  "src": "Home Screen",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Habit widgets on iPhone' <h2>"
+ },
+ "cfc0244b7a": {
+  "src": "Free has three widgets. Habit is one habit with a ring to tap; pick a Limit habit and it gets a square button that logs a clear day. Next up shows the next open habit and, when everything is done, your mosaic. Today, the medium widget, has the day ring and your habits for the day.",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Home Screen' <p>"
+ },
+ "5d62873ce3": {
+  "src": "Premium adds Today and week (large and extra large), a Month calendar (small and large), This week (medium and large, with up to 3 or 7 habits you choose) and Who you're becoming, the mosaic of your check-ins. Every widget works in the tinted and clear Home Screen styles.",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Home Screen' <p>"
+ },
+ "b33b2234fc": {
+  "src": "Lock Screen and StandBy",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Home Screen' <h2>"
+ },
+ "04a311a651": {
+  "src": "On the Lock Screen there is a round day ring with done out of due, a rectangle with your next open habit, and a line above the clock like \"2/5 · Read\". The round Habit widget checks a habit in without unlocking the phone. In StandBy the widgets drop their background and the names get bigger, so you can read them from the bedside.",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Lock Screen and StandBy' <p>"
+ },
+ "f8c0e937cf": {
+  "src": "Control Center, Siri and Shortcuts",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Lock Screen and StandBy' <h2>"
+ },
+ "0140323135": {
+  "src": "Add Check in to Control Center for a habit you build, or Clear day for a habit you want less of (Clear day asks you to unlock first). Siri understands \"Check in Read in Mostly Daily\" and \"Rest today for Read in Mostly Daily\", and none of the shortcuts open the app.",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Control Center, Siri and Shortcuts' <p>"
+ },
+ "3c221e6d10": {
+  "src": "Private habits stay private",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Control Center, Siri and Shortcuts' <h2>"
+ },
+ "6b31d23f40": {
+  "src": "A Limit habit is never named on the Lock Screen; it shows as \"a private habit\". Turn on Keep private for any habit and every widget, control and notification shows \"Private habit\" with a plain symbol. Inside the app you still see the real name.",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Private habits stay private' <p>"
+ },
+ "500158e6ec": {
+  "src": "<a href=\"/#widgets\">See the widgets</a>",
+  "page": "guides/iphone-habit-widgets.html",
+  "where": "after heading 'Private habits stay private' <p>"
+ },
+ "82a9651319": {
+  "src": "Why one missed day doesn&#x27;t break a habit · Mostly Daily",
+  "page": "guides/one-missed-day.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "d8dcbe6062": {
+  "src": "A missed day is a small dip and nothing resets. The day after is what counts.",
+  "page": "guides/one-missed-day.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "eee579ae23": {
+  "src": "Why one missed day doesn't break a habit",
+  "page": "guides/one-missed-day.html",
+  "where": "H1 of the guide (also its JSON-LD headline)"
+ },
+ "b3afc891da": {
+  "src": "A missed day feels like a failure when an app shows a streak going back to zero. It isn't one.",
+  "page": "guides/one-missed-day.html",
+  "where": "after heading 'Why one missed day doesn't break a habit' <p.lead>"
+ },
+ "190dd014e5": {
+  "src": "Habits form from repetition over weeks and months. A single gap in that repetition barely changes the pattern: the habit is still the default thing you do in that moment, at that place, after that cue. What changes the pattern is when one miss becomes two, then three, and the cue stops leading to the action.",
+  "page": "guides/one-missed-day.html",
+  "where": "after heading 'Why one missed day doesn't break a habit' <p>"
+ },
+ "3b16e67bd5": {
+  "src": "The day after is the one that counts",
+  "page": "guides/one-missed-day.html",
+  "where": "after heading 'Why one missed day doesn't break a habit' <h2>"
+ },
+ "6fa7b06f32": {
+  "src": "That is why Mostly Daily's run is \"never missed twice\". One miss keeps the run going. Two misses in a row end it, gently, and a new one starts with your next check-in. After a missed day, the question is \"what's the smallest thing I can do today?\"",
+  "page": "guides/one-missed-day.html",
+  "where": "after heading 'The day after is the one that counts' <p>"
+ },
+ "aa0160e20d": {
+  "src": "Make the smallest version count",
+  "page": "guides/one-missed-day.html",
+  "where": "after heading 'The day after is the one that counts' <h2>"
+ },
+ "6401f6ea8d": {
+  "src": "Every habit can have a two-minute version: read one page, put on your shoes, floss one tooth. On a hard day it counts fully. It keeps the cue and the action connected.",
+  "page": "guides/one-missed-day.html",
+  "where": "after heading 'Make the smallest version count' <p>"
+ },
+ "92c09f316d": {
+  "src": "Consistency counts",
+  "page": "guides/one-missed-day.html",
+  "where": "after heading 'Make the smallest version count' <h2>"
+ },
+ "cf689f7ec7": {
+  "src": "Each habit has a level based on the last couple of months. A miss after a good month costs a few points; you are still at Mostly. The level comes back as fast as it dipped. You never need 100%.",
+  "page": "guides/one-missed-day.html",
+  "where": "after heading 'Consistency counts' <p>"
+ },
+ "3d96e8efe9": {
+  "src": "A private habit tracker with no account · Mostly Daily",
+  "page": "guides/private-habit-tracker.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "d3fe75053d": {
+  "src": "Mostly Daily has no account, no server and no analytics. Habits sync through your own iCloud; Health data stays on your iPhone.",
+  "page": "guides/private-habit-tracker.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "2009c65785": {
+  "src": "A private habit tracker with no account",
+  "page": "guides/private-habit-tracker.html",
+  "where": "H1 of the guide (also its JSON-LD headline)"
+ },
+ "336fb2cf89": {
+  "src": "Mostly Daily has no account, no sign-in and no server. Your habits sync through your own private iCloud, health data stays on your iPhone and in Apple Health, and there are no analytics or ads.",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'A private habit tracker with no account' <p.lead>"
+ },
+ "1dddcabedf": {
+  "src": "A habit tracker knows a lot about you, like when you sleep and how often you drink. That is a good reason to keep it off a company server. The App Store privacy label for Mostly Daily says Data Not Collected.",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'A private habit tracker with no account' <p>"
+ },
+ "2cd57eebcf": {
+  "src": "Where each thing is kept",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'A private habit tracker with no account' <h2>"
+ },
+ "2a1aaafe4b": {
+  "src": "Your habits, the check-ins you make yourself and your time off sync through your private iCloud, so a new iPhone gets them back. The developer can't read them. Check-ins that come from Apple Health stay on the iPhone, and each device reads its own Health. Drink logs stay in Apple Health or on the iPhone and never go to iCloud. Other Limit habit logs stay on the iPhone too, unless you turn on Sync logs through iCloud for that habit. The reason you give for time off and the Your day list never leave the device.",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'Where each thing is kept' <p>"
+ },
+ "8731e54245": {
+  "src": "Without iCloud the app works the same and keeps everything on the iPhone. Settings shows where your data lives.",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'Where each thing is kept' <p>"
+ },
+ "8bec169450": {
+  "src": "Nothing in the app talks to a server",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'Where each thing is kept' <h2>"
+ },
+ "2b281f98ae": {
+  "src": "There is no sign-in, no e-mail, no analytics, no crash reporting and no tracking. Data leaves the iPhone only through your own iCloud, Apple Health's own sync, Apple's purchase system and files you share yourself.",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'Nothing in the app talks to a server' <p>"
+ },
+ "3f2ab9a870": {
+  "src": "Private on the Lock Screen",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'Nothing in the app talks to a server' <h2>"
+ },
+ "54fcca914b": {
+  "src": "Habits you want less of are never named on the Lock Screen. Turn on Keep private for any habit and widgets, Control Center, notifications and Siri show \"Private habit\" instead of its name. See <a href=\"/guides/iphone-habit-widgets.html\">habit widgets on iPhone</a>.",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'Private on the Lock Screen' <p>"
+ },
+ "e41df9fa48": {
+  "src": "Take it with you",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'Private on the Lock Screen' <h2>"
+ },
+ "ed56b37f04": {
+  "src": "Settings, Export and import makes CSV files of your habits, check-ins and time off on any plan. Premium never locks your data, and Delete all data removes your habits, check-ins and time off from the iPhone and from iCloud. The full details are in the <a href=\"/privacy.html\">privacy policy</a>.",
+  "page": "guides/private-habit-tracker.html",
+  "where": "after heading 'Take it with you' <p>"
+ },
+ "92dc27481b": {
+  "src": "Rest days are part of the plan · Mostly Daily",
+  "page": "guides/rest-days.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "d8be74849c": {
+  "src": "Rest, low energy and travel days are real days. Planned rest keeps habits going for years.",
+  "page": "guides/rest-days.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "96b23666bd": {
+  "src": "Rest days are part of the plan",
+  "page": "guides/rest-days.html",
+  "where": "H1 of the guide (also its JSON-LD headline)"
+ },
+ "c082e32214": {
+  "src": "Athletes plan rest. Habits deserve the same.",
+  "page": "guides/rest-days.html",
+  "where": "after heading 'Rest days are part of the plan' <p.lead>"
+ },
+ "767f01488d": {
+  "src": "A habit that only works when everything goes right won't last a year. Illness, travel, a busy week at work and holidays are part of every year, and a plan that counts them as failures teaches you to give up.",
+  "page": "guides/rest-days.html",
+  "where": "after heading 'Rest days are part of the plan' <p>"
+ },
+ "fd62759c29": {
+  "src": "Rest is not a miss",
+  "page": "guides/rest-days.html",
+  "where": "after heading 'Rest days are part of the plan' <h2>"
+ },
+ "3731967e51": {
+  "src": "In Mostly Daily, rest, low energy and travel days are real states. They don't help your level and they don't hurt it: the day simply doesn't count as a chance to do the habit. Low energy days never use the rest budget; rest and travel have a soft monthly budget, so rest stays a choice.",
+  "page": "guides/rest-days.html",
+  "where": "after heading 'Rest is not a miss' <p>"
+ },
+ "33c0fcae83": {
+  "src": "Plan time off",
+  "page": "guides/rest-days.html",
+  "where": "after heading 'Rest is not a miss' <h2>"
+ },
+ "0e6cf54535": {
+  "src": "Going on holiday? Set time off for all your habits at once, or only for the ones you choose, and give it a reason: Vacation, Low energy or Other. Reminders go quiet, nothing counts as missed, and when you come back you get a short welcome. There is no list of what you didn't do.",
+  "page": "guides/rest-days.html",
+  "where": "after heading 'Plan time off' <p>"
+ },
+ "dc3150ba14": {
+  "src": "Sick days, travel and holidays in a habit tracker · Mostly Daily",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "b2ea29eaeb": {
+  "src": "Mark the day as Low energy or Travel, or set time off for a whole trip. Those days are not misses and don't lower your level.",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "head (title, meta description or share text)"
+ },
+ "b999bb73e5": {
+  "src": "Sick days, travel and holidays in a habit tracker",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "H1 of the guide (also its JSON-LD headline)"
+ },
+ "8db819328d": {
+  "src": "In Mostly Daily you mark the day as Low energy or Travel, or set time off for a whole trip. Those days are not misses and don't lower your level.",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'Sick days, travel and holidays in a habit tracker' <p.lead>"
+ },
+ "78a751eec5": {
+  "src": "Most habit trackers know two states, done and not done. A week with the flu then looks like seven failures, and two weeks at the sea look like you gave up. You need a way to tell the app that this day doesn't count.",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'Sick days, travel and holidays in a habit tracker' <p>"
+ },
+ "17887d1d0f": {
+  "src": "One day: Low energy, Rest or Travel",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'Sick days, travel and holidays in a habit tracker' <h2>"
+ },
+ "449a0d5582": {
+  "src": "Touch and hold a habit on Today and pick Rest today, Low energy or Travel. The day is skipped: it doesn't count for the habit or against it. Low energy is the one for days when you are ill or worn out, and you can use it as often as you need.",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'One day: Low energy, Rest or Travel' <p>"
+ },
+ "237af1f5b0": {
+  "src": "Rest and Travel share a soft budget of 4 days a month per habit, which you can change from 0 to 10. Going over is fine: the menu shows how many you used, and an extra rest day is still a rest day, never a miss. Each week that ends with the habit at Often or Mostly also earns one more rest day, and you can bank up to 4.",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'One day: Low energy, Rest or Travel' <p>"
+ },
+ "d6163ac9a8": {
+  "src": "A trip or a holiday: time off",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'One day: Low energy, Rest or Travel' <h2>"
+ },
+ "c335d25e08": {
+  "src": "For more than a day or two, go to Settings, Time off. Choose the dates, a reason (Vacation, Travel, Low energy or Other) and either all your habits or only some of them. Reminders go quiet, those days never count as a miss and they don't use your rest days. The reason stays on your iPhone.",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'A trip or a holiday: time off' <p>"
+ },
+ "97c7cf20e1": {
+  "src": "If you did it anyway",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'A trip or a holiday: time off' <h2>"
+ },
+ "943e68666f": {
+  "src": "A check-in on a rest day or during time off still counts. A short walk on holiday is a done day.",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'If you did it anyway' <p>"
+ },
+ "97fa5270c1": {
+  "src": "Coming back",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'If you did it anyway' <h2>"
+ },
+ "3f2dea0461": {
+  "src": "If you haven't opened the app for 3 days or more, it says welcome back and asks you to pick one habit for today, in its two-minute version if it has one. There is no list of what you missed. More in <a href=\"/guides/rest-days.html\">rest days are part of the plan</a>.",
+  "page": "guides/sick-and-travel-days.html",
+  "where": "after heading 'Coming back' <p>"
+ },
  "sim.all_done": {
   "src": "Every day done. Mostly is the top level; there's nothing above it.",
   "page": "assets/site.js",
