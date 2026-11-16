@@ -1129,5 +1129,685 @@
   "src": "{day} (today), {state}. Tap to change.",
   "text": "{day} (сегодня), {state}. Коснись, чтобы изменить.",
   "status": "reviewed"
+ },
+ "2ffd964908": {
+  "src": "Habits that check themselves off from Apple Health · Mostly Daily",
+  "text": "Привычки, которые отмечаются сами через Apple Health · Mostly Daily",
+  "status": "reviewed"
+ },
+ "d5ce9953a7": {
+  "src": "Link a habit to Apple Health and Mostly Daily checks it off when the day reaches your goal: steps, workouts, sleep, water and more.",
+  "text": "Свяжи привычку с Apple Health, и трекер привычек Mostly Daily отметит её сам, когда цель на день будет выполнена: шаги, тренировки, сон, вода и не только.",
+  "status": "reviewed"
+ },
+ "edad9b1640": {
+  "src": "Link a habit to Apple Health and Mostly Daily checks it off when the day reaches your goal: 8,000 steps, 30 minutes of exercise, a run, 7 hours of sleep, 2 litres of water.",
+  "text": "Свяжи привычку с Apple Health, и Mostly Daily отметит её сам, когда цель на день будет выполнена: 8000 шагов, 30 минут упражнений, пробежка, 7 часов сна, 2 литра воды.",
+  "status": "reviewed"
+ },
+ "2e981bc326": {
+  "src": "Your iPhone and Apple Watch already count a lot of what you do. Ticking the same thing off by hand is one more chore.",
+  "text": "iPhone и Apple Watch уже считают многое из того, что ты делаешь. Отмечать то же самое вручную - ещё одна обязанность.",
+  "status": "reviewed"
+ },
+ "7cf36673f7": {
+  "src": "What a habit can follow",
+  "text": "За чем может следить привычка",
+  "status": "reviewed"
+ },
+ "6a99b30c40": {
+  "src": "A habit you build can follow steps, exercise minutes, mindful minutes, workouts, walking and running distance, cycling, swimming, sleep hours, stand hours or water. For workouts you choose the kind, like a run, yoga or a swim, or any workout. The app shows only sources that fit the goal: a habit in minutes can follow exercise or a workout, and a habit in steps can follow steps.",
+  "text": "Привычка, которую ты формируешь, может следить за шагами, минутами упражнений, минутами осознанности, тренировками, дистанцией ходьбы и бега, велосипедом, плаванием, часами сна, часами с разминкой или водой. Для тренировок ты выбираешь вид, например бег, йогу или плавание, или любую тренировку. Приложение показывает только те источники, которые подходят к цели: привычка в минутах может следить за упражнениями или тренировкой, а привычка в шагах за шагами.",
+  "status": "reviewed"
+ },
+ "9382de0459": {
+  "src": "Four more check off wellbeing habits: Close my rings (or just the Move ring), Get outside (time in daylight), In bed by 23:00 (from your sleep) and Check in with how I feel (a State of Mind entry). The app only sees whether the day counted. It never shows calories, ring amounts or what you logged as a mood.",
+  "text": "Ещё четыре источника отмечают привычки для самочувствия: Закрывать кольца (или только кольцо \"Подвижность\"), Выходить на улицу (время при дневном свете), В постели к 23:00 (по данным сна) и Записывать, как я себя чувствую (запись в разделе \"Настроение\"). Приложение видит только, засчитан день или нет. Оно никогда не показывает калории, значения колец или то, какое настроение ты записываешь.",
+  "status": "reviewed"
+ },
+ "89ac3d7626": {
+  "src": "How the check-in happens",
+  "text": "Как появляется отметка",
+  "status": "reviewed"
+ },
+ "93b214a418": {
+  "src": "When you open the app, and in the background when Health has new data, Mostly Daily reads the last week for each linked habit and checks off the days that reached the goal. Part of a count or timed goal still counts as showing up. Anything you log by hand wins: a rest day you set stays a rest day.",
+  "text": "Когда ты открываешь приложение, а также в фоне, когда в Apple Health появляются новые данные, Mostly Daily читает последнюю неделю по каждой связанной привычке и отмечает дни, в которые цель достигнута. Если цель в количестве или минутах выполнена частично, день всё равно считается сделанным. То, что ты записываешь вручную, важнее: день отдыха, который ты ставишь, остаётся днём отдыха.",
+  "status": "reviewed"
+ },
+ "309632f56d": {
+  "src": "Ideas from Apple Health",
+  "text": "Идеи из Apple Health",
+  "status": "reviewed"
+ },
+ "5a8c4c5054": {
+  "src": "Not sure what to track? Tap Ideas from Apple Health when you add a habit. The app looks at your last 30 days on the iPhone, suggests habits you already do, and keeps nothing from the scan.",
+  "text": "Не знаешь, что отслеживать? Когда добавляешь привычку, коснись \"Идеи из Apple Health\". Приложение смотрит на твои последние 30 дней на iPhone, предлагает привычки, которые у тебя уже есть, и ничего из просмотренного не сохраняет.",
+  "status": "reviewed"
+ },
+ "53c9dbba22": {
+  "src": "Your Health data stays on the iPhone",
+  "text": "Данные Apple Health остаются на iPhone",
+  "status": "reviewed"
+ },
+ "e168af1557": {
+  "src": "Access is optional and asked per habit. Check-ins that come from Apple Health stay on the iPhone and never go to iCloud, and each device fills them in from its own Health. Apple Health works on the Free plan. For drinks, see <a href=\"/guides/cut-back-with-a-calendar.html\">how to cut back on drinks, sugar or screen time</a>.",
+  "text": "Доступ необязателен и запрашивается для каждой привычки отдельно. Отметки из Apple Health остаются на iPhone и никогда не попадают в iCloud, а каждое устройство заполняет их из своего Apple Health. Apple Health работает и в бесплатном плане. О напитках читай в гайде <a href=\"/guides/cut-back-with-a-calendar.html\">как сократить напитки, сахар или экранное время</a>.",
+  "status": "reviewed"
+ },
+ "b3d853b751": {
+  "src": "<a href=\"/\">Learn more about Mostly Daily</a>",
+  "text": "<a href=\"/\">Подробнее о Mostly Daily</a>",
+  "status": "reviewed"
+ },
+ "3cfc73e20d": {
+  "src": "How to cut back on drinks, sugar or screen time · Mostly Daily",
+  "text": "Как сократить алкоголь, сахар или экранное время · Mostly Daily",
+  "status": "reviewed"
+ },
+ "6e271beca6": {
+  "src": "Count clear days. Set a goal like 4 clear days a week, log the amount each evening, and see the month as a colour calendar.",
+  "text": "Считай чистые дни. Поставь цель, например 4 чистых дня в неделю, записывай количество каждый вечер и смотри на месяц в цветном календаре.",
+  "status": "reviewed"
+ },
+ "3805835023": {
+  "src": "Count clear days. Set a goal like 4 clear days a week, log the amount each evening, and look at the month as a colour calendar.",
+  "text": "Считай чистые дни. Поставь цель, например 4 чистых дня в неделю, записывай количество каждый вечер и смотри на месяц в цветном календаре.",
+  "status": "reviewed"
+ },
+ "5335acb957": {
+  "src": "A clear day is a day with none. Four of them a week is a real change, and over a month you can see it on the calendar. A week with three clear days still counts for three.",
+  "text": "Чистый день - это день, когда не было ничего. Четыре таких дня в неделю - уже настоящая перемена, и за месяц её видно в календаре. Неделя с тремя чистыми днями - это всё равно три чистых дня.",
+  "status": "reviewed"
+ },
+ "dabba3f4e9": {
+  "src": "Set it up as a Limit habit",
+  "text": "Настрой это как привычку-ограничение",
+  "status": "reviewed"
+ },
+ "311a34cf50": {
+  "src": "In Mostly Daily, add a habit and pick \"Do less\" at the top, or start the name with \"Less\" or \"Stop\". Choose a unit (drinks, treats, minutes, or your own word), how much still counts as a light day (2 by default) and how many clear days a week you aim for (4 by default). For screen time, use minutes for one app or one kind of use, such as social media, and log the minutes yourself.",
+  "text": "В Mostly Daily добавь привычку и выбери вверху \"Меньше\" или начни название со слова \"Меньше\" или \"Бросить\". Выбери единицу (напитки, лакомства, минуты или своё слово), сколько ещё считается лёгким днём (по умолчанию 2) и сколько чистых дней в неделю ты хочешь (по умолчанию 4). Для экранного времени бери минуты для одного приложения или одного вида использования, например соцсетей, и записывай минуты самостоятельно.",
+  "status": "reviewed"
+ },
+ "67853cfed8": {
+  "src": "Log it once, in the evening",
+  "text": "Записывай один раз, вечером",
+  "status": "reviewed"
+ },
+ "d02827c086": {
+  "src": "When the day is nearly over, one tap on the square button logs a clear day, or you enter the amount. The Habit widget and the Clear day control in Control Center do the same without opening the app. You can add one reason to a day, like Social or Unwinding, and the habit shows a count per reason. It describes what happened and gives no advice.",
+  "text": "Когда день почти закончился, одно касание квадратной кнопки записывает чистый день, или ты вводишь количество. Виджет \"Привычка\" и элемент управления \"Чистый день\" в Пункте управления делают то же самое без открытия приложения. Ко дню можно добавить одну причину, например Компания или Расслабление, и привычка покажет счёт по каждой причине. Она описывает, что было, и не даёт советов.",
+  "status": "reviewed"
+ },
+ "3cb4356ca5": {
+  "src": "Read the calendar",
+  "text": "Читай календарь",
+  "status": "reviewed"
+ },
+ "f57532a7ab": {
+  "src": "Each day gets a tile: green for clear, amber with one dot for light, coral with two dots for heavier, and a moon for a rest day. Days with nothing logged stay empty and are never counted as a slip. The card on Today says how the week is going, for example \"3 of 4 clear days this week\". A light day only means it wasn't a clear day, and after a heavier day the app says \"Tomorrow is a fresh day.\"",
+  "text": "Каждый день получает плитку: зелёную для чистого дня, янтарную с одной точкой для лёгкого, коралловую с двумя точками для более тяжёлого и луну для дня отдыха. Дни без записей остаются пустыми и никогда не считаются промахом. Карточка на экране \"Сегодня\" говорит, как идёт неделя, например \"Чистых дней на этой неделе: 3 из 4\". Лёгкий день означает только то, что день не был чистым, а после более тяжёлого дня приложение говорит: \"Завтра новый день.\"",
+  "status": "reviewed"
+ },
+ "8a85750df2": {
+  "src": "Drinks and Apple Health",
+  "text": "Напитки и Apple Health",
+  "status": "reviewed"
+ },
+ "59cbdd5af0": {
+  "src": "Drinks can be kept in Apple Health. The app reads drinks other apps logged and saves the ones you log there. Drink logs stay in Apple Health and on your iPhone, never in iCloud. Read more in <a href=\"/guides/habits-you-want-less-of.html\">habits you want less of</a>.",
+  "text": "Напитки можно хранить в Apple Health. Приложение читает напитки, записанные другими приложениями, и сохраняет туда те, что записываешь ты. Записи напитков остаются в Apple Health и на твоём iPhone и никогда не попадают в iCloud. Подробнее в гайде <a href=\"/guides/habits-you-want-less-of.html\">привычки, которых хочешь меньше</a>.",
+  "status": "reviewed"
+ },
+ "08f9b1f034": {
+  "src": "Mostly Daily is for self-tracking. It gives no medical advice and is not a treatment or recovery program. If you are worried about your health or your drinking, please talk to a professional.",
+  "text": "Mostly Daily предназначен для самостоятельного отслеживания. Он не даёт медицинских советов и не является лечением или программой восстановления. Если тебя беспокоит здоровье или то, сколько ты пьёшь, поговори, пожалуйста, со специалистом.",
+  "status": "reviewed"
+ },
+ "50dff26f05": {
+  "src": "A habit tracker without streaks · Mostly Daily",
+  "text": "Трекер привычек без давления и обнуления серий · Mostly Daily",
+  "status": "reviewed"
+ },
+ "7029e1b514": {
+  "src": "Mostly Daily has no streak counter. Each habit has a level from Starting to Mostly, and one missed day never resets anything.",
+  "text": "В Mostly Daily нет счётчика дней подряд. У каждой привычки есть уровень, от \"Начало\" до \"В основном\", и один пропущенный день ничего не обнуляет.",
+  "status": "reviewed"
+ },
+ "d576b900f6": {
+  "src": "A streak counts days in a row, so one missed day sends it back to zero. That day usually comes when life is already hard, like a cold or a child up all night. The next morning the app says you are starting over, and for a lot of people that is the day they stop.",
+  "text": "Обычная серия считает дни подряд, поэтому один пропущенный день возвращает её к нулю. Такой день обычно приходит, когда и так тяжело: простуда или ребёнок, который не спал всю ночь. Наутро приложение говорит, что ты начинаешь сначала, и для многих это тот самый день, когда они бросают.",
+  "status": "reviewed"
+ },
+ "6715b8f0fb": {
+  "src": "Why streaks backfire",
+  "text": "Почему серии дней подряд работают против тебя",
+  "status": "reviewed"
+ },
+ "1569756f9b": {
+  "src": "After a few weeks the goal moves from doing the habit to protecting the number. People do a rushed version at midnight just to keep it alive, or tick it off when they didn't do it. When the streak breaks, the drop from 120 to 0 says those 120 days didn't count. They did, and the habit is still mostly there.",
+  "text": "Через несколько недель цель смещается: вместо самой привычки ты бережёшь число. Люди делают что-то наспех в полночь, лишь бы серия жила, или ставят отметку, хотя ничего не сделали. Когда серия обрывается, падение со 120 до 0 говорит, что эти 120 дней не в счёт. Они в счёт, и привычка по большей части на месте.",
+  "status": "reviewed"
+ },
+ "6fc2773e65": {
+  "src": "What Mostly Daily counts instead",
+  "text": "Что Mostly Daily считает вместо этого",
+  "status": "reviewed"
+ },
+ "13f3db0404": {
+  "src": "Each habit has a consistency level based on how often you showed up over the last couple of months: Starting, Sometimes, Often and Mostly. Mostly is the top level and you never need 100%. A miss after a good month costs a few points, and they come back as fast as they went.",
+  "text": "У каждой привычки есть уровень постоянства. Он зависит от того, как часто у тебя получалось за последние пару месяцев: Начало, Иногда, Часто и В основном. \"В основном\" - высший уровень, и 100 % не нужны никогда. Пропуск после хорошего месяца стоит несколько пунктов, и они возвращаются так же быстро, как ушли.",
+  "status": "reviewed"
+ },
+ "3b6ffaf33c": {
+  "src": "Next to the level is a run: the days since you last missed twice in a row. One miss keeps the run going. Two misses in a row end it, and a new run starts with your next check-in. More on that in <a href=\"/guides/one-missed-day.html\">why one missed day doesn't break a habit</a>.",
+  "text": "Рядом с уровнем стоит серия \"Без двух пропусков подряд\": дни с тех пор, как у тебя последний раз было два пропуска подряд. При одном пропуске серия продолжается. Два пропуска подряд её завершают, и новая начинается со следующей отметки. Подробнее об этом в гайде <a href=\"/guides/one-missed-day.html\">почему один пропущенный день привычке не вредит</a>.",
+  "status": "reviewed"
+ },
+ "c83bd1b06e": {
+  "src": "Days that don't count either way",
+  "text": "Дни, которые не идут ни в плюс, ни в минус",
+  "status": "reviewed"
+ },
+ "2f01f6f64e": {
+  "src": "Rest, low energy and travel days are not misses. They don't help the level and they don't hurt it. If you are ill or away, see <a href=\"/guides/sick-and-travel-days.html\">sick days, travel and holidays</a>.",
+  "text": "Дни отдыха, дни, когда мало сил, и поездки не считаются пропусками. Они не поднимают уровень и не снижают его. Если ты болеешь или в отъезде, загляни в гайд <a href=\"/guides/sick-and-travel-days.html\">дни болезни, поездки и отпуск</a>.",
+  "status": "reviewed"
+ },
+ "e11835ca92": {
+  "src": "Habits you want less of · Mostly Daily",
+  "text": "Привычки, которых хочешь меньше: календарь чистых дней · Mostly Daily",
+  "status": "reviewed"
+ },
+ "7a7496a6c5": {
+  "src": "Why a calendar of clear days works better than a count of days since.",
+  "text": "Почему календарь чистых дней работает лучше, чем счётчик дней с последнего раза.",
+  "status": "reviewed"
+ },
+ "993e0898b8": {
+  "src": "Drinks, sugar, screen time. A \"days since\" counter makes one slip look like losing everything. A calendar of clear days tells the truth.",
+  "text": "Напитки, сахар, экранное время. Со счётчиком \"дней с последнего раза\" один промах выглядит так, будто потеряно всё. Календарь чистых дней показывает правду.",
+  "status": "reviewed"
+ },
+ "1d4ec38aea": {
+  "src": "When you want less of something, the useful thing to look at is how the weeks look. How long you have gone without it tells you less. A counter that jumps back to zero hides everything that came before the slip: the clear evenings, the light days, the weeks that went well.",
+  "text": "Когда хочешь чего-то меньше, полезнее всего смотреть, как выглядят недели. То, сколько дней прошло без этого, говорит меньше. Счётчик, который прыгает обратно к нулю, прячет всё, что было до промаха: чистые вечера, лёгкие дни, удачные недели.",
+  "status": "reviewed"
+ },
+ "73c03ec065": {
+  "src": "A picture of the month",
+  "text": "Картина месяца",
+  "status": "reviewed"
+ },
+ "948ae017e3": {
+  "src": "In Mostly Daily a Limit habit gets a colour calendar. A clear day is green. A light day is amber, a heavier day is coral, and each one has a small mark so you can read it without relying on colour. You choose a goal of clear days a week, and the calendar shows how the month is going. There is no red and no judgement: heavier days are part of the picture.",
+  "text": "В Mostly Daily у привычки-ограничения есть цветной календарь. Чистый день зелёный. Лёгкий день янтарный, более тяжёлый коралловый, и у каждого есть маленькая метка, чтобы календарь читался и без опоры на цвет. Ты выбираешь цель по чистым дням в неделю, а календарь показывает, как идёт месяц. Красного цвета и оценок нет: более тяжёлые дни тоже часть картины.",
+  "status": "reviewed"
+ },
+ "f0663ae9d7": {
+  "src": "Log it in the evening, and keep it quick",
+  "text": "Записывай вечером и быстро",
+  "status": "reviewed"
+ },
+ "a19cdbc718": {
+  "src": "Once the day is nearly over, one tap logs a clear day, or you enter the amount if it was not. The widget does the same from the Home Screen. That keeps the habit light enough to keep up on the days that are not going well, which are the days a record is most useful.",
+  "text": "Когда день почти закончился, одно касание записывает чистый день, или ты вводишь количество, если он чистым не был. Виджет делает то же самое с экрана \"Домой\". Так привычка остаётся достаточно лёгкой, чтобы вести её и в те дни, когда всё идёт не очень, а как раз в такие дни запись полезнее всего.",
+  "status": "reviewed"
+ },
+ "c8fbe64cd3": {
+  "src": "A slip is information",
+  "text": "Промах - это информация",
+  "status": "reviewed"
+ },
+ "046e668b21": {
+  "src": "A heavier day does not undo the clear days around it. Look at the calendar: what was different? Where were you, and who with? The pattern helps you choose the next small change.",
+  "text": "Более тяжёлый день не отменяет чистые дни вокруг него. Посмотри на календарь: что было иначе? Где это было и с кем? По этой закономерности легче выбрать следующую небольшую перемену.",
+  "status": "reviewed"
+ },
+ "c73c4e9062": {
+  "src": "Your data stays yours",
+  "text": "Твои данные остаются твоими",
+  "status": "reviewed"
+ },
+ "6a5d9609db": {
+  "src": "If you track drinks with Apple Health, they stay in Apple Health and on your phone, never in iCloud. Mostly Daily is for self-tracking. It does not give medical advice and is not a treatment or recovery program. If you are worried about your health or drinking, please talk to a professional.",
+  "text": "Если ты ведёшь напитки в Apple Health, они остаются в Apple Health и на твоём телефоне и никогда не попадают в iCloud. Mostly Daily предназначен для самостоятельного отслеживания. Он не даёт медицинских советов и не является лечением или программой восстановления. Если тебя беспокоит здоровье или то, сколько ты пьёшь, поговори, пожалуйста, со специалистом.",
+  "status": "reviewed"
+ },
+ "21b7613830": {
+  "src": "Guides · Mostly Daily",
+  "text": "Гайды о привычках · Mostly Daily",
+  "status": "reviewed"
+ },
+ "54f0c2829f": {
+  "src": "Short reads on building habits that last, from the makers of Mostly Daily.",
+  "text": "Короткие статьи о том, как формировать привычки надолго, от создателей трекера привычек Mostly Daily.",
+  "status": "reviewed"
+ },
+ "76b717a632": {
+  "src": "Short reads on building habits that last.",
+  "text": "Короткие статьи о том, как формировать привычки надолго.",
+  "status": "reviewed"
+ },
+ "49ec981503": {
+  "src": "<a href=\"/guides/one-missed-day.html\">Why one missed day doesn't break a habit</a>",
+  "text": "<a href=\"/guides/one-missed-day.html\">Почему один пропущенный день привычке не вредит</a>",
+  "status": "reviewed"
+ },
+ "aedfcc1ac4": {
+  "src": "What counts is what you do the day after.",
+  "text": "Важно то, что ты делаешь на следующий день.",
+  "status": "reviewed"
+ },
+ "d215b54c72": {
+  "src": "<a href=\"/guides/rest-days.html\">Rest days are part of the plan</a>",
+  "text": "<a href=\"/guides/rest-days.html\">Дни отдыха входят в план</a>",
+  "status": "reviewed"
+ },
+ "2451626e47": {
+  "src": "How planned rest keeps habits going for years.",
+  "text": "Как запланированный отдых помогает привычкам жить годами.",
+  "status": "reviewed"
+ },
+ "d3b55267ae": {
+  "src": "<a href=\"/guides/habits-you-want-less-of.html\">Habits you want less of</a>",
+  "text": "<a href=\"/guides/habits-you-want-less-of.html\">Привычки, которых хочешь меньше</a>",
+  "status": "reviewed"
+ },
+ "e8572022ae": {
+  "src": "<a href=\"/guides/habit-tracker-without-streaks.html\">A habit tracker without streaks</a>",
+  "text": "<a href=\"/guides/habit-tracker-without-streaks.html\">Трекер привычек без давления и обнуления серий</a>",
+  "status": "reviewed"
+ },
+ "0a551b7ada": {
+  "src": "Why streaks backfire, and what to count instead.",
+  "text": "Почему серии дней подряд работают против тебя и что считать вместо них.",
+  "status": "reviewed"
+ },
+ "7f7c7972b8": {
+  "src": "<a href=\"/guides/sick-and-travel-days.html\">Sick days, travel and holidays in a habit tracker</a>",
+  "text": "<a href=\"/guides/sick-and-travel-days.html\">Дни болезни, поездки и отпуск в трекере привычек</a>",
+  "status": "reviewed"
+ },
+ "f702cc8b7f": {
+  "src": "How to keep a habit going when you are ill or away.",
+  "text": "Как сохранить привычку, когда ты болеешь или в отъезде.",
+  "status": "reviewed"
+ },
+ "eedbc4bea8": {
+  "src": "<a href=\"/guides/cut-back-with-a-calendar.html\">How to cut back on drinks, sugar or screen time</a>",
+  "text": "<a href=\"/guides/cut-back-with-a-calendar.html\">Как сократить напитки, сахар или экранное время</a>",
+  "status": "reviewed"
+ },
+ "4b755ef33c": {
+  "src": "Count clear days in a week, on a colour calendar.",
+  "text": "Считай чистые дни за неделю в цветном календаре.",
+  "status": "reviewed"
+ },
+ "4583838a88": {
+  "src": "<a href=\"/guides/iphone-habit-widgets.html\">Habit widgets on iPhone</a>",
+  "text": "<a href=\"/guides/iphone-habit-widgets.html\">Виджеты привычек на iPhone</a>",
+  "status": "reviewed"
+ },
+ "45951fea36": {
+  "src": "Home Screen, Lock Screen, StandBy and Control Center.",
+  "text": "Экран \"Домой\", экран блокировки, режим ожидания и Пункт управления.",
+  "status": "reviewed"
+ },
+ "8c33e805ec": {
+  "src": "<a href=\"/guides/private-habit-tracker.html\">A private habit tracker with no account</a>",
+  "text": "<a href=\"/guides/private-habit-tracker.html\">Приватный трекер привычек без аккаунта</a>",
+  "status": "reviewed"
+ },
+ "061bc28a84": {
+  "src": "No account, no server, no analytics. Where each thing is kept.",
+  "text": "Нет аккаунта, сервера и аналитики. Где что хранится.",
+  "status": "reviewed"
+ },
+ "6a42e82c88": {
+  "src": "Steps, workouts, sleep, water and rings, checked off for you.",
+  "text": "Шаги, тренировки, сон, вода и кольца отмечаются за тебя.",
+  "status": "reviewed"
+ },
+ "89b1d4b260": {
+  "src": "Habit widgets on iPhone · Mostly Daily",
+  "text": "Виджеты привычек на iPhone · Mostly Daily",
+  "status": "reviewed"
+ },
+ "96032a55e2": {
+  "src": "Check in a habit from the Home Screen, Lock Screen, StandBy or Control Center with one tap, without opening the app.",
+  "text": "Отмечай привычку одним касанием с экрана \"Домой\", экрана блокировки, из режима ожидания или Пункта управления, не открывая приложение.",
+  "status": "reviewed"
+ },
+ "630b002418": {
+  "src": "Mostly Daily has widgets for the Home Screen, Lock Screen and StandBy, and controls for Control Center. One tap checks a habit in without opening the app, and a second tap undoes it.",
+  "text": "В Mostly Daily есть виджеты для экрана \"Домой\", экрана блокировки и режима ожидания и элементы управления для Пункта управления. Одно касание отмечает привычку без открытия приложения, а второе отменяет отметку.",
+  "status": "reviewed"
+ },
+ "895ff84d2f": {
+  "src": "To add a widget, touch and hold the Home Screen, tap Edit, then Add Widget, and search for Mostly Daily.",
+  "text": "Чтобы добавить виджет, коснись экрана \"Домой\" и удерживай, выбери \"Изменить\", затем \"Добавить виджет\" и найди Mostly Daily.",
+  "status": "reviewed"
+ },
+ "e35c9a7017": {
+  "src": "Home Screen",
+  "text": "Экран \"Домой\"",
+  "status": "reviewed"
+ },
+ "cfc0244b7a": {
+  "src": "Free has three widgets. Habit is one habit with a ring to tap; pick a Limit habit and it gets a square button that logs a clear day. Next up shows the next open habit and, when everything is done, your mosaic. Today, the medium widget, has the day ring and your habits for the day.",
+  "text": "В бесплатном плане три виджета. \"Привычка\" - это одна привычка с кольцом, которого можно коснуться. Если выбрать привычку-ограничение, у виджета будет квадратная кнопка, которая записывает чистый день. \"Дальше\" показывает следующую открытую привычку, а когда всё сделано, твою мозаику. \"Сегодня\", средний виджет, показывает кольцо дня и твои привычки на день.",
+  "status": "reviewed"
+ },
+ "5d62873ce3": {
+  "src": "Premium adds Today and week (large and extra large), a Month calendar (small and large), This week (medium and large, with up to 3 or 7 habits you choose) and Who you're becoming, the mosaic of your check-ins. Every widget works in the tinted and clear Home Screen styles.",
+  "text": "Premium добавляет \"Сегодня и неделя\" (большой и очень большой), \"Календарь месяца\" (маленький и большой), \"На этой неделе\" (средний и большой, с привычками на твой выбор, до 3 или до 7) и \"Кем ты становишься\", мозаику твоих отметок. Все виджеты работают в тонированном и прозрачном стилях экрана \"Домой\".",
+  "status": "reviewed"
+ },
+ "b33b2234fc": {
+  "src": "Lock Screen and StandBy",
+  "text": "Экран блокировки и режим ожидания",
+  "status": "reviewed"
+ },
+ "04a311a651": {
+  "src": "On the Lock Screen there is a round day ring with done out of due, a rectangle with your next open habit, and a line above the clock like \"2/5 · Read\". The round Habit widget checks a habit in without unlocking the phone. In StandBy the widgets drop their background and the names get bigger, so you can read them from the bedside.",
+  "text": "На экране блокировки есть круглое кольцо дня со счётом сделанных из запланированных, прямоугольник со следующей открытой привычкой и строка над часами вроде \"2/5 · Чтение\". Круглый виджет \"Привычка\" отмечает привычку без разблокировки телефона. В режиме ожидания виджеты теряют фон, а названия становятся крупнее, так что их можно прочитать с прикроватной тумбочки.",
+  "status": "reviewed"
+ },
+ "f8c0e937cf": {
+  "src": "Control Center, Siri and Shortcuts",
+  "text": "Пункт управления, Siri и Быстрые команды",
+  "status": "reviewed"
+ },
+ "0140323135": {
+  "src": "Add Check in to Control Center for a habit you build, or Clear day for a habit you want less of (Clear day asks you to unlock first). Siri understands \"Check in Read in Mostly Daily\" and \"Rest today for Read in Mostly Daily\", and none of the shortcuts open the app.",
+  "text": "Добавь в Пункт управления \"Отметить\" для привычки, которую ты формируешь, или \"Чистый день\" для привычки, которой хочешь меньше (\"Чистый день\" сначала просит разблокировать телефон). Siri понимает \"Отметить Чтение в Mostly Daily\" и \"Отдых сегодня: Чтение в Mostly Daily\", и ни одна из команд не открывает приложение.",
+  "status": "reviewed"
+ },
+ "3c221e6d10": {
+  "src": "Private habits stay private",
+  "text": "Личные привычки остаются личными",
+  "status": "reviewed"
+ },
+ "6b31d23f40": {
+  "src": "A Limit habit is never named on the Lock Screen; it shows as \"a private habit\". Turn on Keep private for any habit and every widget, control and notification shows \"Private habit\" with a plain symbol. Inside the app you still see the real name.",
+  "text": "Привычка-ограничение никогда не называется на экране блокировки: она показывается как \"личная привычка\". Включи \"Не показывать другим\" для любой привычки, и каждый виджет, элемент управления и уведомление покажет \"Личная привычка\" с простым символом. В самом приложении ты по-прежнему видишь настоящее название.",
+  "status": "reviewed"
+ },
+ "500158e6ec": {
+  "src": "<a href=\"/#widgets\">See the widgets</a>",
+  "text": "<a href=\"/#widgets\">Посмотреть виджеты</a>",
+  "status": "reviewed"
+ },
+ "82a9651319": {
+  "src": "Why one missed day doesn&#x27;t break a habit · Mostly Daily",
+  "text": "Почему один пропущенный день привычке не вредит · Mostly Daily",
+  "status": "reviewed"
+ },
+ "d8dcbe6062": {
+  "src": "A missed day is a small dip and nothing resets. The day after is what counts.",
+  "text": "Пропущенный день - это небольшое снижение уровня, и ничего не обнуляется. Важен следующий день.",
+  "status": "reviewed"
+ },
+ "b3afc891da": {
+  "src": "A missed day feels like a failure when an app shows a streak going back to zero. It isn't one.",
+  "text": "Пропущенный день кажется провалом, когда приложение показывает, как серия возвращается к нулю. Но это не провал.",
+  "status": "reviewed"
+ },
+ "190dd014e5": {
+  "src": "Habits form from repetition over weeks and months. A single gap in that repetition barely changes the pattern: the habit is still the default thing you do in that moment, at that place, after that cue. What changes the pattern is when one miss becomes two, then three, and the cue stops leading to the action.",
+  "text": "Привычки складываются из повторений за недели и месяцы. Один пробел в этом повторении почти ничего не меняет: привычка остаётся тем, что ты по умолчанию делаешь в этот момент, в этом месте, после этого сигнала. Всё меняется, когда один пропуск превращается в два, потом в три, и сигнал перестаёт вести к действию.",
+  "status": "reviewed"
+ },
+ "3b16e67bd5": {
+  "src": "The day after is the one that counts",
+  "text": "Важен следующий день",
+  "status": "reviewed"
+ },
+ "6fa7b06f32": {
+  "src": "That is why Mostly Daily's run is \"never missed twice\". One miss keeps the run going. Two misses in a row end it, gently, and a new one starts with your next check-in. After a missed day, the question is \"what's the smallest thing I can do today?\"",
+  "text": "Поэтому серия в Mostly Daily называется \"Без двух пропусков подряд\". При одном пропуске серия продолжается. Два пропуска подряд мягко её завершают, и новая начинается со следующей отметки. После пропущенного дня вопрос такой: \"Какой самый маленький шаг я могу сделать сегодня?\"",
+  "status": "reviewed"
+ },
+ "aa0160e20d": {
+  "src": "Make the smallest version count",
+  "text": "Пусть самая маленькая версия идёт в счёт",
+  "status": "reviewed"
+ },
+ "6401f6ea8d": {
+  "src": "Every habit can have a two-minute version: read one page, put on your shoes, floss one tooth. On a hard day it counts fully. It keeps the cue and the action connected.",
+  "text": "У каждой привычки может быть двухминутная версия: прочитать одну страницу, надеть кроссовки, почистить нитью один зуб. В трудный день она засчитывается полностью. С ней сигнал и действие остаются связанными.",
+  "status": "reviewed"
+ },
+ "92c09f316d": {
+  "src": "Consistency counts",
+  "text": "В счёт идёт постоянство",
+  "status": "reviewed"
+ },
+ "cf689f7ec7": {
+  "src": "Each habit has a level based on the last couple of months. A miss after a good month costs a few points; you are still at Mostly. The level comes back as fast as it dipped. You never need 100%.",
+  "text": "У каждой привычки есть уровень по последним двум месяцам. Пропуск после хорошего месяца стоит несколько пунктов, и ты по-прежнему на уровне \"В основном\". Уровень возвращается так же быстро, как снизился. 100 % не нужны никогда.",
+  "status": "reviewed"
+ },
+ "3d96e8efe9": {
+  "src": "A private habit tracker with no account · Mostly Daily",
+  "text": "Приватный трекер привычек без аккаунта · Mostly Daily",
+  "status": "reviewed"
+ },
+ "d3fe75053d": {
+  "src": "Mostly Daily has no account, no server and no analytics. Habits sync through your own iCloud; Health data stays on your iPhone.",
+  "text": "В Mostly Daily нет аккаунта, сервера и аналитики. Привычки синхронизируются через твой личный iCloud, а данные о здоровье остаются на твоём iPhone.",
+  "status": "reviewed"
+ },
+ "336fb2cf89": {
+  "src": "Mostly Daily has no account, no sign-in and no server. Your habits sync through your own private iCloud, health data stays on your iPhone and in Apple Health, and there are no analytics or ads.",
+  "text": "В Mostly Daily нет аккаунта, входа и сервера. Привычки синхронизируются через твой личный iCloud, данные о здоровье остаются на твоём iPhone и в Apple Health, а аналитики и рекламы нет.",
+  "status": "reviewed"
+ },
+ "1dddcabedf": {
+  "src": "A habit tracker knows a lot about you, like when you sleep and how often you drink. That is a good reason to keep it off a company server. The App Store privacy label for Mostly Daily says Data Not Collected.",
+  "text": "Трекер привычек знает о тебе многое, например когда ты спишь и как часто пьёшь. Это хорошая причина не держать его данные на сервере компании. В App Store в разделе \"Конфиденциальность приложения\" у Mostly Daily написано \"Сбор данных не ведется\".",
+  "status": "reviewed"
+ },
+ "2cd57eebcf": {
+  "src": "Where each thing is kept",
+  "text": "Где что хранится",
+  "status": "reviewed"
+ },
+ "2a1aaafe4b": {
+  "src": "Your habits, the check-ins you make yourself and your time off sync through your private iCloud, so a new iPhone gets them back. The developer can't read them. Check-ins that come from Apple Health stay on the iPhone, and each device reads its own Health. Drink logs stay in Apple Health or on the iPhone and never go to iCloud. Other Limit habit logs stay on the iPhone too, unless you turn on Sync logs through iCloud for that habit. The reason you give for time off and the Your day list never leave the device.",
+  "text": "Привычки, отметки, которые ты ставишь вручную, и перерывы синхронизируются через твой личный iCloud, поэтому на новом iPhone они появятся снова. Разработчик не может их прочитать. Отметки из Apple Health остаются на iPhone, и каждое устройство читает свой Apple Health. Записи напитков остаются в Apple Health или на iPhone и никогда не попадают в iCloud. Записи других привычек-ограничений тоже остаются на iPhone, пока ты не включишь \"Синхронизировать записи через iCloud\" для этой привычки. Причина перерыва и список \"Твой день\" никогда не покидают устройство.",
+  "status": "reviewed"
+ },
+ "8731e54245": {
+  "src": "Without iCloud the app works the same and keeps everything on the iPhone. Settings shows where your data lives.",
+  "text": "Без iCloud приложение работает так же и хранит всё на iPhone. В Настройках показано, где находятся твои данные.",
+  "status": "reviewed"
+ },
+ "8bec169450": {
+  "src": "Nothing in the app talks to a server",
+  "text": "Ничто в приложении не обращается к серверу",
+  "status": "reviewed"
+ },
+ "2b281f98ae": {
+  "src": "There is no sign-in, no e-mail, no analytics, no crash reporting and no tracking. Data leaves the iPhone only through your own iCloud, Apple Health's own sync, Apple's purchase system and files you share yourself.",
+  "text": "Нет входа, e-mail, аналитики, отчётов о сбоях и слежки. Данные покидают iPhone только через твой личный iCloud, собственную синхронизацию Apple Health, систему покупок Apple и файлы, которыми ты делишься самостоятельно.",
+  "status": "reviewed"
+ },
+ "3f2ab9a870": {
+  "src": "Private on the Lock Screen",
+  "text": "Приватность на экране блокировки",
+  "status": "reviewed"
+ },
+ "54fcca914b": {
+  "src": "Habits you want less of are never named on the Lock Screen. Turn on Keep private for any habit and widgets, Control Center, notifications and Siri show \"Private habit\" instead of its name. See <a href=\"/guides/iphone-habit-widgets.html\">habit widgets on iPhone</a>.",
+  "text": "Привычки, которых хочешь меньше, никогда не называются на экране блокировки. Включи \"Не показывать другим\" для любой привычки, и виджеты, Пункт управления, уведомления и Siri покажут \"Личная привычка\" вместо её названия. Подробнее в гайде <a href=\"/guides/iphone-habit-widgets.html\">виджеты привычек на iPhone</a>.",
+  "status": "reviewed"
+ },
+ "e41df9fa48": {
+  "src": "Take it with you",
+  "text": "Забери данные с собой",
+  "status": "reviewed"
+ },
+ "ed56b37f04": {
+  "src": "Settings, Export and import makes CSV files of your habits, check-ins and time off on any plan. Premium never locks your data, and Delete all data removes your habits, check-ins and time off from the iPhone and from iCloud. The full details are in the <a href=\"/privacy.html\">privacy policy</a>.",
+  "text": "В меню Настройки &gt; \"Экспорт и импорт\" можно в любом плане сохранить привычки, отметки и перерывы в файлы CSV. Premium никогда не блокирует твои данные, а \"Удалить все данные\" удаляет привычки, отметки и перерывы с iPhone и из iCloud. Все подробности есть в <a href=\"/privacy.html\">политике конфиденциальности</a>.",
+  "status": "reviewed"
+ },
+ "92dc27481b": {
+  "src": "Rest days are part of the plan · Mostly Daily",
+  "text": "Дни отдыха входят в план · Mostly Daily",
+  "status": "reviewed"
+ },
+ "d8be74849c": {
+  "src": "Rest, low energy and travel days are real days. Planned rest keeps habits going for years.",
+  "text": "Дни отдыха, дни, когда мало сил, и поездки - полноценные дни. Запланированный отдых помогает привычкам жить годами.",
+  "status": "reviewed"
+ },
+ "c082e32214": {
+  "src": "Athletes plan rest. Habits deserve the same.",
+  "text": "Спортсмены планируют отдых. Привычки заслуживают того же.",
+  "status": "reviewed"
+ },
+ "767f01488d": {
+  "src": "A habit that only works when everything goes right won't last a year. Illness, travel, a busy week at work and holidays are part of every year, and a plan that counts them as failures teaches you to give up.",
+  "text": "Привычка, которая работает, только когда всё идёт хорошо, не проживёт и года. Болезни, поездки, загруженная неделя на работе и отпуска бывают каждый год, и план, который считает их провалами, учит сдаваться.",
+  "status": "reviewed"
+ },
+ "fd62759c29": {
+  "src": "Rest is not a miss",
+  "text": "Отдых пропуском не считается",
+  "status": "reviewed"
+ },
+ "3731967e51": {
+  "src": "In Mostly Daily, rest, low energy and travel days are real states. They don't help your level and they don't hurt it: the day simply doesn't count as a chance to do the habit. Low energy days never use the rest budget; rest and travel have a soft monthly budget, so rest stays a choice.",
+  "text": "В Mostly Daily отдых, мало сил и поездка - настоящие состояния дня. Они не поднимают уровень и не снижают его: такой день просто не считается возможностью сделать привычку. Дни, когда мало сил, никогда не тратят дни отдыха. У отдыха и поездок есть мягкий запас на месяц, поэтому отдых остаётся выбором.",
+  "status": "reviewed"
+ },
+ "33c0fcae83": {
+  "src": "Plan time off",
+  "text": "Запланируй перерыв",
+  "status": "reviewed"
+ },
+ "0e6cf54535": {
+  "src": "Going on holiday? Set time off for all your habits at once, or only for the ones you choose, and give it a reason: Vacation, Low energy or Other. Reminders go quiet, nothing counts as missed, and when you come back you get a short welcome. There is no list of what you didn't do.",
+  "text": "Едешь в отпуск? Поставь перерыв для всех привычек сразу или только для тех, которые выберешь, и укажи причину: Отпуск, Мало сил или Другое. Напоминания замолкают, ничего не считается пропуском, а когда ты возвращаешься, тебя ждёт короткое приветствие. Списка того, что не сделано, нет.",
+  "status": "reviewed"
+ },
+ "dc3150ba14": {
+  "src": "Sick days, travel and holidays in a habit tracker · Mostly Daily",
+  "text": "Дни болезни, поездки и отпуск в трекере привычек · Mostly Daily",
+  "status": "reviewed"
+ },
+ "b2ea29eaeb": {
+  "src": "Mark the day as Low energy or Travel, or set time off for a whole trip. Those days are not misses and don't lower your level.",
+  "text": "Отметь день как \"Мало сил\" или \"Поездка\" или поставь перерыв на всю поездку. Такие дни не считаются пропусками и не снижают уровень.",
+  "status": "reviewed"
+ },
+ "8db819328d": {
+  "src": "In Mostly Daily you mark the day as Low energy or Travel, or set time off for a whole trip. Those days are not misses and don't lower your level.",
+  "text": "В Mostly Daily ты отмечаешь день как \"Мало сил\" или \"Поездка\" или ставишь перерыв на всю поездку. Такие дни не считаются пропусками и не снижают уровень.",
+  "status": "reviewed"
+ },
+ "78a751eec5": {
+  "src": "Most habit trackers know two states, done and not done. A week with the flu then looks like seven failures, and two weeks at the sea look like you gave up. You need a way to tell the app that this day doesn't count.",
+  "text": "Большинство трекеров привычек знают два состояния: сделано и не сделано. Тогда неделя с гриппом выглядит как семь провалов, а две недели на море - как будто привычка заброшена. Нужен способ сказать приложению, что этот день не в счёт.",
+  "status": "reviewed"
+ },
+ "17887d1d0f": {
+  "src": "One day: Low energy, Rest or Travel",
+  "text": "Один день: Мало сил, Отдых или Поездка",
+  "status": "reviewed"
+ },
+ "449a0d5582": {
+  "src": "Touch and hold a habit on Today and pick Rest today, Low energy or Travel. The day is skipped: it doesn't count for the habit or against it. Low energy is the one for days when you are ill or worn out, and you can use it as often as you need.",
+  "text": "Коснись привычки на экране \"Сегодня\" и удерживай, затем выбери \"Отдых сегодня\", \"Мало сил\" или \"Поездка\". Такой день не учитывается: он не идёт привычке ни в плюс, ни в минус. \"Мало сил\" подходит для дней, когда ты болеешь или совсем без сил, и пользоваться им можно так часто, как нужно.",
+  "status": "reviewed"
+ },
+ "237af1f5b0": {
+  "src": "Rest and Travel share a soft budget of 4 days a month per habit, which you can change from 0 to 10. Going over is fine: the menu shows how many you used, and an extra rest day is still a rest day, never a miss. Each week that ends with the habit at Often or Mostly also earns one more rest day, and you can bank up to 4.",
+  "text": "У отдыха и поездок общий мягкий запас: 4 дня в месяц на привычку, и его можно изменить от 0 до 10. Выйти за него не страшно: меню показывает, сколько дней использовано, а лишний день отдыха остаётся днём отдыха и пропуском не становится. Каждая неделя, которую привычка заканчивает на уровне Часто или В основном, даёт ещё один день отдыха, и накопить можно до 4.",
+  "status": "reviewed"
+ },
+ "d6163ac9a8": {
+  "src": "A trip or a holiday: time off",
+  "text": "Поездка или отпуск: перерыв",
+  "status": "reviewed"
+ },
+ "c335d25e08": {
+  "src": "For more than a day or two, go to Settings, Time off. Choose the dates, a reason (Vacation, Travel, Low energy or Other) and either all your habits or only some of them. Reminders go quiet, those days never count as a miss and they don't use your rest days. The reason stays on your iPhone.",
+  "text": "Если нужно больше одного-двух дней, открой Настройки &gt; \"Перерыв\". Выбери даты, причину (Отпуск, Поездка, Мало сил или Другое) и все привычки или только некоторые. Напоминания замолкают, эти дни никогда не считаются пропуском и не тратят твои дни отдыха. Причина остаётся на твоём iPhone.",
+  "status": "reviewed"
+ },
+ "97c7cf20e1": {
+  "src": "If you did it anyway",
+  "text": "Если привычка всё-таки сделана",
+  "status": "reviewed"
+ },
+ "943e68666f": {
+  "src": "A check-in on a rest day or during time off still counts. A short walk on holiday is a done day.",
+  "text": "Отметка в день отдыха или во время перерыва всё равно засчитывается. Короткая прогулка в отпуске - это сделанный день.",
+  "status": "reviewed"
+ },
+ "97fa5270c1": {
+  "src": "Coming back",
+  "text": "Возвращение",
+  "status": "reviewed"
+ },
+ "3f2dea0461": {
+  "src": "If you haven't opened the app for 3 days or more, it says welcome back and asks you to pick one habit for today, in its two-minute version if it has one. There is no list of what you missed. More in <a href=\"/guides/rest-days.html\">rest days are part of the plan</a>.",
+  "text": "Если ты не открываешь приложение 3 дня или дольше, оно говорит \"С возвращением\" и предлагает выбрать одну привычку на сегодня, в двухминутной версии, если она есть. Списка пропущенного нет. Подробнее в гайде <a href=\"/guides/rest-days.html\">дни отдыха входят в план</a>.",
+  "status": "reviewed"
+ },
+ "f10bfbe8ca": {
+  "src": "Habits that check themselves off from Apple Health",
+  "text": "Привычки, которые отмечаются сами через Apple Health",
+  "status": "reviewed"
+ },
+ "6dea275973": {
+  "src": "How to cut back on drinks, sugar or screen time",
+  "text": "Как сократить напитки, сахар или экранное время",
+  "status": "reviewed"
+ },
+ "0128196494": {
+  "src": "A habit tracker without streaks",
+  "text": "Трекер привычек без давления и обнуления серий",
+  "status": "reviewed"
+ },
+ "bfe51b2bdf": {
+  "src": "Habits you want less of",
+  "text": "Привычки, которых хочешь меньше",
+  "status": "reviewed"
+ },
+ "f14536e1c2": {
+  "src": "Guides",
+  "text": "Гайды",
+  "status": "reviewed"
+ },
+ "bc2af35591": {
+  "src": "Habit widgets on iPhone",
+  "text": "Виджеты привычек на iPhone",
+  "status": "reviewed"
+ },
+ "eee579ae23": {
+  "src": "Why one missed day doesn't break a habit",
+  "text": "Почему один пропущенный день привычке не вредит",
+  "status": "reviewed"
+ },
+ "2009c65785": {
+  "src": "A private habit tracker with no account",
+  "text": "Приватный трекер привычек без аккаунта",
+  "status": "reviewed"
+ },
+ "96b23666bd": {
+  "src": "Rest days are part of the plan",
+  "text": "Дни отдыха входят в план",
+  "status": "reviewed"
+ },
+ "b999bb73e5": {
+  "src": "Sick days, travel and holidays in a habit tracker",
+  "text": "Дни болезни, поездки и отпуск в трекере привычек",
+  "status": "reviewed"
  }
 }

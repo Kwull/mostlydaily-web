@@ -1125,5 +1125,685 @@
   "src": "{day} (today), {state}. Tap to change.",
   "text": "{day} (hoy), {state}. Toca para cambiar.",
   "status": "reviewed"
+ },
+ "2ffd964908": {
+  "src": "Habits that check themselves off from Apple Health · Mostly Daily",
+  "text": "Hábitos que se marcan solos con Apple Health · Mostly Daily",
+  "status": "reviewed"
+ },
+ "d5ce9953a7": {
+  "src": "Link a habit to Apple Health and Mostly Daily checks it off when the day reaches your goal: steps, workouts, sleep, water and more.",
+  "text": "Vincula un hábito con Apple Health y Mostly Daily lo marca cuando llegas a tu objetivo del día: pasos, entrenamientos, sueño, agua y más.",
+  "status": "reviewed"
+ },
+ "edad9b1640": {
+  "src": "Link a habit to Apple Health and Mostly Daily checks it off when the day reaches your goal: 8,000 steps, 30 minutes of exercise, a run, 7 hours of sleep, 2 litres of water.",
+  "text": "Vincula un hábito con Apple Health y Mostly Daily lo marca cuando llegas a tu objetivo del día: 8.000 pasos, 30 minutos de ejercicio, salir a correr, 7 horas de sueño, 2 litros de agua.",
+  "status": "reviewed"
+ },
+ "2e981bc326": {
+  "src": "Your iPhone and Apple Watch already count a lot of what you do. Ticking the same thing off by hand is one more chore.",
+  "text": "Tu iPhone y tu Apple Watch ya cuentan mucho de lo que haces. Marcar lo mismo a mano es una tarea más.",
+  "status": "reviewed"
+ },
+ "7cf36673f7": {
+  "src": "What a habit can follow",
+  "text": "Qué puede seguir un hábito",
+  "status": "reviewed"
+ },
+ "6a99b30c40": {
+  "src": "A habit you build can follow steps, exercise minutes, mindful minutes, workouts, walking and running distance, cycling, swimming, sleep hours, stand hours or water. For workouts you choose the kind, like a run, yoga or a swim, or any workout. The app shows only sources that fit the goal: a habit in minutes can follow exercise or a workout, and a habit in steps can follow steps.",
+  "text": "Un hábito que construyes puede seguir pasos, minutos de ejercicio, minutos de mindfulness, entrenamientos, distancia caminando y corriendo, ciclismo, natación, horas de sueño, horas de pie o agua. En los entrenamientos eliges el tipo, como correr, yoga o nadar, o cualquier entrenamiento. La app solo muestra las fuentes que encajan con el objetivo: un hábito en minutos puede seguir el ejercicio o un entrenamiento, y un hábito en pasos puede seguir los pasos.",
+  "status": "reviewed"
+ },
+ "9382de0459": {
+  "src": "Four more check off wellbeing habits: Close my rings (or just the Move ring), Get outside (time in daylight), In bed by 23:00 (from your sleep) and Check in with how I feel (a State of Mind entry). The app only sees whether the day counted. It never shows calories, ring amounts or what you logged as a mood.",
+  "text": "Otros cuatro marcan hábitos de bienestar: Cerrar mis anillos (o solo el anillo Moverse), Salir al aire libre (tiempo a la luz del día), En la cama antes de las 23:00 (según tu sueño) y Anotar cómo me siento (una entrada de Estado de ánimo). La app solo ve si el día contó. Nunca muestra calorías, cantidades de los anillos ni lo que anotaste como estado de ánimo.",
+  "status": "reviewed"
+ },
+ "89ac3d7626": {
+  "src": "How the check-in happens",
+  "text": "Cómo se marca el hábito",
+  "status": "reviewed"
+ },
+ "93b214a418": {
+  "src": "When you open the app, and in the background when Health has new data, Mostly Daily reads the last week for each linked habit and checks off the days that reached the goal. Part of a count or timed goal still counts as showing up. Anything you log by hand wins: a rest day you set stays a rest day.",
+  "text": "Cuando abres la app, y en segundo plano cuando Salud tiene datos nuevos, Mostly Daily lee la última semana de cada hábito vinculado y marca los días que llegaron al objetivo. Hacer una parte de un objetivo de cantidad o de tiempo también cuenta como haberlo hecho. Lo que registras a mano manda: un día de descanso que pusiste tú sigue siendo un día de descanso.",
+  "status": "reviewed"
+ },
+ "309632f56d": {
+  "src": "Ideas from Apple Health",
+  "text": "Ideas de Apple Health",
+  "status": "reviewed"
+ },
+ "5a8c4c5054": {
+  "src": "Not sure what to track? Tap Ideas from Apple Health when you add a habit. The app looks at your last 30 days on the iPhone, suggests habits you already do, and keeps nothing from the scan.",
+  "text": "¿No sabes qué seguir? Toca Ideas de Apple Health al añadir un hábito. La app mira tus últimos 30 días en el iPhone, te sugiere hábitos que ya haces y no guarda nada de lo que ha mirado.",
+  "status": "reviewed"
+ },
+ "53c9dbba22": {
+  "src": "Your Health data stays on the iPhone",
+  "text": "Tus datos de Salud se quedan en el iPhone",
+  "status": "reviewed"
+ },
+ "e168af1557": {
+  "src": "Access is optional and asked per habit. Check-ins that come from Apple Health stay on the iPhone and never go to iCloud, and each device fills them in from its own Health. Apple Health works on the Free plan. For drinks, see <a href=\"/guides/cut-back-with-a-calendar.html\">how to cut back on drinks, sugar or screen time</a>.",
+  "text": "El acceso es opcional y se pide hábito por hábito. Los registros que vienen de Apple Health se quedan en el iPhone y nunca van a iCloud, y cada dispositivo los rellena con su propia app Salud. Apple Health funciona en el plan Gratis. Para las bebidas, mira <a href=\"/guides/cut-back-with-a-calendar.html\">cómo reducir las bebidas, el azúcar o el tiempo de pantalla</a>.",
+  "status": "reviewed"
+ },
+ "b3d853b751": {
+  "src": "<a href=\"/\">Learn more about Mostly Daily</a>",
+  "text": "<a href=\"/\">Más sobre Mostly Daily</a>",
+  "status": "reviewed"
+ },
+ "3cfc73e20d": {
+  "src": "How to cut back on drinks, sugar or screen time · Mostly Daily",
+  "text": "Cómo beber menos, tomar menos azúcar o reducir el tiempo de pantalla · Mostly Daily",
+  "status": "reviewed"
+ },
+ "6e271beca6": {
+  "src": "Count clear days. Set a goal like 4 clear days a week, log the amount each evening, and see the month as a colour calendar.",
+  "text": "Cuenta los días en cero. Ponte un objetivo, como 4 días en cero a la semana, registra la cantidad cada noche y ve el mes como un calendario de colores.",
+  "status": "reviewed"
+ },
+ "3805835023": {
+  "src": "Count clear days. Set a goal like 4 clear days a week, log the amount each evening, and look at the month as a colour calendar.",
+  "text": "Cuenta los días en cero. Ponte un objetivo, como 4 días en cero a la semana, registra la cantidad cada noche y mira el mes en un calendario de colores.",
+  "status": "reviewed"
+ },
+ "5335acb957": {
+  "src": "A clear day is a day with none. Four of them a week is a real change, and over a month you can see it on the calendar. A week with three clear days still counts for three.",
+  "text": "Un día en cero es un día sin nada. Cuatro a la semana ya es un cambio de verdad, y al cabo de un mes se ve en el calendario. Una semana con tres días en cero sigue contando por tres.",
+  "status": "reviewed"
+ },
+ "dabba3f4e9": {
+  "src": "Set it up as a Limit habit",
+  "text": "Créalo como un hábito de limitar",
+  "status": "reviewed"
+ },
+ "311a34cf50": {
+  "src": "In Mostly Daily, add a habit and pick \"Do less\" at the top, or start the name with \"Less\" or \"Stop\". Choose a unit (drinks, treats, minutes, or your own word), how much still counts as a light day (2 by default) and how many clear days a week you aim for (4 by default). For screen time, use minutes for one app or one kind of use, such as social media, and log the minutes yourself.",
+  "text": "En Mostly Daily, añade un hábito y elige \"Hacer menos\" arriba, o empieza el nombre con \"Menos\" o \"Dejar\". Elige una unidad (bebidas, caprichos, minutos o tu propia palabra), cuánto cuenta todavía como un día ligero (2 si no cambias nada) y cuántos días en cero a la semana quieres (4 si no cambias nada). Para el tiempo de pantalla, usa minutos para una app o un tipo de uso, como las redes sociales, y registra tú los minutos.",
+  "status": "reviewed"
+ },
+ "67853cfed8": {
+  "src": "Log it once, in the evening",
+  "text": "Regístralo una vez, por la noche",
+  "status": "reviewed"
+ },
+ "d02827c086": {
+  "src": "When the day is nearly over, one tap on the square button logs a clear day, or you enter the amount. The Habit widget and the Clear day control in Control Center do the same without opening the app. You can add one reason to a day, like Social or Unwinding, and the habit shows a count per reason. It describes what happened and gives no advice.",
+  "text": "Cuando el día casi ha terminado, un toque en el botón cuadrado registra un día en cero, o anotas la cantidad. El widget Hábito y el control Día en cero del Centro de control hacen lo mismo sin abrir la app. Puedes añadir un motivo a un día, como Compañía o Desconectar, y el hábito muestra un recuento por motivo. Describe lo que pasó y no da consejos.",
+  "status": "reviewed"
+ },
+ "3cb4356ca5": {
+  "src": "Read the calendar",
+  "text": "Lee el calendario",
+  "status": "reviewed"
+ },
+ "f57532a7ab": {
+  "src": "Each day gets a tile: green for clear, amber with one dot for light, coral with two dots for heavier, and a moon for a rest day. Days with nothing logged stay empty and are never counted as a slip. The card on Today says how the week is going, for example \"3 of 4 clear days this week\". A light day only means it wasn't a clear day, and after a heavier day the app says \"Tomorrow is a fresh day.\"",
+  "text": "Cada día tiene una casilla: verde si fue un día en cero, ámbar con un punto si fue ligero, coral con dos puntos si fue más cargado y una luna si fue un día de descanso. Los días sin nada registrado se quedan vacíos y nunca cuentan como un tropiezo. La tarjeta de Hoy dice cómo va la semana, por ejemplo \"3 de 4 días en cero esta semana\". Un día ligero solo significa que no fue un día en cero, y después de un día más cargado la app dice \"Mañana es un día nuevo.\"",
+  "status": "reviewed"
+ },
+ "8a85750df2": {
+  "src": "Drinks and Apple Health",
+  "text": "Las bebidas y Apple Health",
+  "status": "reviewed"
+ },
+ "59cbdd5af0": {
+  "src": "Drinks can be kept in Apple Health. The app reads drinks other apps logged and saves the ones you log there. Drink logs stay in Apple Health and on your iPhone, never in iCloud. Read more in <a href=\"/guides/habits-you-want-less-of.html\">habits you want less of</a>.",
+  "text": "Las bebidas se pueden llevar en Apple Health. La app lee las bebidas que registraron otras apps y guarda allí las que registras tú. Los registros de bebidas se quedan en Apple Health y en tu iPhone, nunca en iCloud. Lee más en <a href=\"/guides/habits-you-want-less-of.html\">hábitos que quieres hacer menos</a>.",
+  "status": "reviewed"
+ },
+ "08f9b1f034": {
+  "src": "Mostly Daily is for self-tracking. It gives no medical advice and is not a treatment or recovery program. If you are worried about your health or your drinking, please talk to a professional.",
+  "text": "Mostly Daily es para llevar tu propio registro. No da consejos médicos y no es un tratamiento ni un programa de recuperación. Si te preocupa tu salud o lo que bebes, habla con un profesional.",
+  "status": "reviewed"
+ },
+ "50dff26f05": {
+  "src": "A habit tracker without streaks · Mostly Daily",
+  "text": "Seguimiento de hábitos sin rachas estrictas · Mostly Daily",
+  "status": "reviewed"
+ },
+ "7029e1b514": {
+  "src": "Mostly Daily has no streak counter. Each habit has a level from Starting to Mostly, and one missed day never resets anything.",
+  "text": "Mostly Daily no cuenta rachas estrictas. Cada hábito tiene un nivel, de Empezando a Casi siempre, y un día sin hacerlo nunca reinicia nada.",
+  "status": "reviewed"
+ },
+ "d576b900f6": {
+  "src": "A streak counts days in a row, so one missed day sends it back to zero. That day usually comes when life is already hard, like a cold or a child up all night. The next morning the app says you are starting over, and for a lot of people that is the day they stop.",
+  "text": "Una racha estricta cuenta días seguidos, así que un día sin hacerlo la devuelve a cero. Ese día suele llegar cuando la vida ya va cuesta arriba, con un resfriado o un niño que no duerme en toda la noche. A la mañana siguiente la app dice que empiezas de nuevo, y para mucha gente ese es el día en que lo deja.",
+  "status": "reviewed"
+ },
+ "6715b8f0fb": {
+  "src": "Why streaks backfire",
+  "text": "Por qué las rachas estrictas juegan en contra",
+  "status": "reviewed"
+ },
+ "1569756f9b": {
+  "src": "After a few weeks the goal moves from doing the habit to protecting the number. People do a rushed version at midnight just to keep it alive, or tick it off when they didn't do it. When the streak breaks, the drop from 120 to 0 says those 120 days didn't count. They did, and the habit is still mostly there.",
+  "text": "Al cabo de unas semanas el objetivo pasa de hacer el hábito a proteger el número. La gente hace una versión con prisas a medianoche solo para mantener la racha viva, o lo marca sin haberlo hecho. Cuando la racha se rompe, la caída de 120 a 0 dice que esos 120 días no contaron. Sí contaron, y el hábito sigue ahí casi entero.",
+  "status": "reviewed"
+ },
+ "6fc2773e65": {
+  "src": "What Mostly Daily counts instead",
+  "text": "Qué cuenta Mostly Daily en su lugar",
+  "status": "reviewed"
+ },
+ "13f3db0404": {
+  "src": "Each habit has a consistency level based on how often you showed up over the last couple of months: Starting, Sometimes, Often and Mostly. Mostly is the top level and you never need 100%. A miss after a good month costs a few points, and they come back as fast as they went.",
+  "text": "Cada hábito tiene un nivel de constancia según cuántas veces lo hiciste en el último par de meses: Empezando, A veces, A menudo y Casi siempre. El nivel más alto es Casi siempre y nunca necesitas el 100%. Un día sin hacerlo después de un buen mes cuesta unos puntos, y vuelven tan rápido como se fueron.",
+  "status": "reviewed"
+ },
+ "3b6ffaf33c": {
+  "src": "Next to the level is a run: the days since you last missed twice in a row. One miss keeps the run going. Two misses in a row end it, and a new run starts with your next check-in. More on that in <a href=\"/guides/one-missed-day.html\">why one missed day doesn't break a habit</a>.",
+  "text": "Junto al nivel está la racha sin faltar dos veces seguidas: los días desde la última vez que faltaste dos días seguidos. Con un día sin hacerlo la racha sigue. Dos días seguidos sin hacerlo la terminan, y una nueva empieza con tu siguiente registro. Más sobre esto en <a href=\"/guides/one-missed-day.html\">por qué un día sin hacerlo no rompe un hábito</a>.",
+  "status": "reviewed"
+ },
+ "c83bd1b06e": {
+  "src": "Days that don't count either way",
+  "text": "Días que no cuentan ni a favor ni en contra",
+  "status": "reviewed"
+ },
+ "2f01f6f64e": {
+  "src": "Rest, low energy and travel days are not misses. They don't help the level and they don't hurt it. If you are ill or away, see <a href=\"/guides/sick-and-travel-days.html\">sick days, travel and holidays</a>.",
+  "text": "Los días de descanso, de poca energía y de viaje no son días sin hacer. No suben el nivel y no lo bajan. Si no te encuentras bien o estás fuera, mira <a href=\"/guides/sick-and-travel-days.html\">días de enfermedad, viajes y vacaciones</a>.",
+  "status": "reviewed"
+ },
+ "e11835ca92": {
+  "src": "Habits you want less of · Mostly Daily",
+  "text": "Hábitos que quieres hacer menos · Mostly Daily",
+  "status": "reviewed"
+ },
+ "7a7496a6c5": {
+  "src": "Why a calendar of clear days works better than a count of days since.",
+  "text": "Por qué un calendario de días en cero funciona mejor que contar los días que llevas sin hacerlo.",
+  "status": "reviewed"
+ },
+ "993e0898b8": {
+  "src": "Drinks, sugar, screen time. A \"days since\" counter makes one slip look like losing everything. A calendar of clear days tells the truth.",
+  "text": "Bebidas, azúcar, tiempo de pantalla. Un contador de \"días sin\" hace que un tropiezo parezca perderlo todo. Un calendario de días en cero cuenta la verdad.",
+  "status": "reviewed"
+ },
+ "1d4ec38aea": {
+  "src": "When you want less of something, the useful thing to look at is how the weeks look. How long you have gone without it tells you less. A counter that jumps back to zero hides everything that came before the slip: the clear evenings, the light days, the weeks that went well.",
+  "text": "Cuando quieres hacer menos de algo, lo útil es mirar cómo van las semanas. Cuánto tiempo llevas sin hacerlo te dice menos. Un contador que vuelve a cero esconde todo lo que hubo antes del tropiezo: las noches en cero, los días ligeros, las semanas que fueron bien.",
+  "status": "reviewed"
+ },
+ "73c03ec065": {
+  "src": "A picture of the month",
+  "text": "Una imagen del mes",
+  "status": "reviewed"
+ },
+ "948ae017e3": {
+  "src": "In Mostly Daily a Limit habit gets a colour calendar. A clear day is green. A light day is amber, a heavier day is coral, and each one has a small mark so you can read it without relying on colour. You choose a goal of clear days a week, and the calendar shows how the month is going. There is no red and no judgement: heavier days are part of the picture.",
+  "text": "En Mostly Daily un hábito de limitar tiene un calendario de colores. Un día en cero es verde. Un día ligero es ámbar, un día más cargado es coral, y cada uno lleva una marca pequeña para que se lea sin depender del color. Eliges un objetivo de días en cero a la semana, y el calendario muestra cómo va el mes. No hay rojo ni juicios: los días más cargados son parte de la imagen.",
+  "status": "reviewed"
+ },
+ "f0663ae9d7": {
+  "src": "Log it in the evening, and keep it quick",
+  "text": "Regístralo por la noche, y que sea rápido",
+  "status": "reviewed"
+ },
+ "a19cdbc718": {
+  "src": "Once the day is nearly over, one tap logs a clear day, or you enter the amount if it was not. The widget does the same from the Home Screen. That keeps the habit light enough to keep up on the days that are not going well, which are the days a record is most useful.",
+  "text": "Cuando el día casi ha terminado, un toque registra un día en cero, o anotas la cantidad si no lo fue. El widget hace lo mismo desde la pantalla de inicio. Así el hábito pesa tan poco que puedes mantenerlo los días que no van bien, que son los días en que un registro es más útil.",
+  "status": "reviewed"
+ },
+ "c8fbe64cd3": {
+  "src": "A slip is information",
+  "text": "Un tropiezo es información",
+  "status": "reviewed"
+ },
+ "046e668b21": {
+  "src": "A heavier day does not undo the clear days around it. Look at the calendar: what was different? Where were you, and who with? The pattern helps you choose the next small change.",
+  "text": "Un día más cargado no deshace los días en cero que tiene alrededor. Mira el calendario: ¿qué fue distinto? ¿Dónde estabas y con quién? El patrón te ayuda a elegir el siguiente cambio pequeño.",
+  "status": "reviewed"
+ },
+ "c73c4e9062": {
+  "src": "Your data stays yours",
+  "text": "Tus datos siguen siendo tuyos",
+  "status": "reviewed"
+ },
+ "6a5d9609db": {
+  "src": "If you track drinks with Apple Health, they stay in Apple Health and on your phone, never in iCloud. Mostly Daily is for self-tracking. It does not give medical advice and is not a treatment or recovery program. If you are worried about your health or drinking, please talk to a professional.",
+  "text": "Si llevas las bebidas en Apple Health, se quedan en Apple Health y en tu teléfono, nunca en iCloud. Mostly Daily es para llevar tu propio registro. No da consejos médicos y no es un tratamiento ni un programa de recuperación. Si te preocupa tu salud o lo que bebes, habla con un profesional.",
+  "status": "reviewed"
+ },
+ "21b7613830": {
+  "src": "Guides · Mostly Daily",
+  "text": "Guías de hábitos diarios · Mostly Daily",
+  "status": "reviewed"
+ },
+ "54f0c2829f": {
+  "src": "Short reads on building habits that last, from the makers of Mostly Daily.",
+  "text": "Lecturas cortas sobre cómo construir hábitos que duran, de quienes hacen Mostly Daily.",
+  "status": "reviewed"
+ },
+ "76b717a632": {
+  "src": "Short reads on building habits that last.",
+  "text": "Lecturas cortas sobre cómo construir hábitos que duran.",
+  "status": "reviewed"
+ },
+ "49ec981503": {
+  "src": "<a href=\"/guides/one-missed-day.html\">Why one missed day doesn't break a habit</a>",
+  "text": "<a href=\"/guides/one-missed-day.html\">Por qué un día sin hacerlo no rompe un hábito</a>",
+  "status": "reviewed"
+ },
+ "aedfcc1ac4": {
+  "src": "What counts is what you do the day after.",
+  "text": "Lo que cuenta es lo que haces al día siguiente.",
+  "status": "reviewed"
+ },
+ "d215b54c72": {
+  "src": "<a href=\"/guides/rest-days.html\">Rest days are part of the plan</a>",
+  "text": "<a href=\"/guides/rest-days.html\">Los días de descanso son parte del plan</a>",
+  "status": "reviewed"
+ },
+ "2451626e47": {
+  "src": "How planned rest keeps habits going for years.",
+  "text": "Cómo el descanso planeado mantiene los hábitos durante años.",
+  "status": "reviewed"
+ },
+ "d3b55267ae": {
+  "src": "<a href=\"/guides/habits-you-want-less-of.html\">Habits you want less of</a>",
+  "text": "<a href=\"/guides/habits-you-want-less-of.html\">Hábitos que quieres hacer menos</a>",
+  "status": "reviewed"
+ },
+ "e8572022ae": {
+  "src": "<a href=\"/guides/habit-tracker-without-streaks.html\">A habit tracker without streaks</a>",
+  "text": "<a href=\"/guides/habit-tracker-without-streaks.html\">Seguimiento de hábitos sin rachas estrictas</a>",
+  "status": "reviewed"
+ },
+ "0a551b7ada": {
+  "src": "Why streaks backfire, and what to count instead.",
+  "text": "Por qué las rachas estrictas juegan en contra, y qué contar en su lugar.",
+  "status": "reviewed"
+ },
+ "7f7c7972b8": {
+  "src": "<a href=\"/guides/sick-and-travel-days.html\">Sick days, travel and holidays in a habit tracker</a>",
+  "text": "<a href=\"/guides/sick-and-travel-days.html\">Días de enfermedad, viajes y vacaciones en un registro de hábitos</a>",
+  "status": "reviewed"
+ },
+ "f702cc8b7f": {
+  "src": "How to keep a habit going when you are ill or away.",
+  "text": "Cómo mantener un hábito cuando no te encuentras bien o estás fuera.",
+  "status": "reviewed"
+ },
+ "eedbc4bea8": {
+  "src": "<a href=\"/guides/cut-back-with-a-calendar.html\">How to cut back on drinks, sugar or screen time</a>",
+  "text": "<a href=\"/guides/cut-back-with-a-calendar.html\">Cómo reducir las bebidas, el azúcar o el tiempo de pantalla</a>",
+  "status": "reviewed"
+ },
+ "4b755ef33c": {
+  "src": "Count clear days in a week, on a colour calendar.",
+  "text": "Cuenta los días en cero de la semana, en un calendario de colores.",
+  "status": "reviewed"
+ },
+ "4583838a88": {
+  "src": "<a href=\"/guides/iphone-habit-widgets.html\">Habit widgets on iPhone</a>",
+  "text": "<a href=\"/guides/iphone-habit-widgets.html\">Widgets de hábitos en el iPhone</a>",
+  "status": "reviewed"
+ },
+ "45951fea36": {
+  "src": "Home Screen, Lock Screen, StandBy and Control Center.",
+  "text": "Pantalla de inicio, pantalla de bloqueo, En reposo y Centro de control.",
+  "status": "reviewed"
+ },
+ "8c33e805ec": {
+  "src": "<a href=\"/guides/private-habit-tracker.html\">A private habit tracker with no account</a>",
+  "text": "<a href=\"/guides/private-habit-tracker.html\">Un registro de hábitos privado y sin cuenta</a>",
+  "status": "reviewed"
+ },
+ "061bc28a84": {
+  "src": "No account, no server, no analytics. Where each thing is kept.",
+  "text": "Sin cuenta, sin servidor, sin analíticas. Dónde se guarda cada cosa.",
+  "status": "reviewed"
+ },
+ "6a42e82c88": {
+  "src": "Steps, workouts, sleep, water and rings, checked off for you.",
+  "text": "Pasos, entrenamientos, sueño, agua y anillos, que se marcan solos.",
+  "status": "reviewed"
+ },
+ "89b1d4b260": {
+  "src": "Habit widgets on iPhone · Mostly Daily",
+  "text": "Widgets de hábitos en el iPhone · Mostly Daily",
+  "status": "reviewed"
+ },
+ "96032a55e2": {
+  "src": "Check in a habit from the Home Screen, Lock Screen, StandBy or Control Center with one tap, without opening the app.",
+  "text": "Marca un hábito desde la pantalla de inicio, la pantalla de bloqueo, En reposo o el Centro de control con un toque, sin abrir la app.",
+  "status": "reviewed"
+ },
+ "630b002418": {
+  "src": "Mostly Daily has widgets for the Home Screen, Lock Screen and StandBy, and controls for Control Center. One tap checks a habit in without opening the app, and a second tap undoes it.",
+  "text": "Mostly Daily tiene widgets para la pantalla de inicio, la pantalla de bloqueo y En reposo, y controles para el Centro de control. Un toque marca un hábito sin abrir la app, y un segundo toque lo deshace.",
+  "status": "reviewed"
+ },
+ "895ff84d2f": {
+  "src": "To add a widget, touch and hold the Home Screen, tap Edit, then Add Widget, and search for Mostly Daily.",
+  "text": "Para añadir un widget, mantén pulsada la pantalla de inicio, toca Editar, luego Añadir widget, y busca Mostly Daily.",
+  "status": "reviewed"
+ },
+ "e35c9a7017": {
+  "src": "Home Screen",
+  "text": "Pantalla de inicio",
+  "status": "reviewed"
+ },
+ "cfc0244b7a": {
+  "src": "Free has three widgets. Habit is one habit with a ring to tap; pick a Limit habit and it gets a square button that logs a clear day. Next up shows the next open habit and, when everything is done, your mosaic. Today, the medium widget, has the day ring and your habits for the day.",
+  "text": "Gratis tiene tres widgets. El widget Hábito muestra un hábito con un anillo para tocar; si eliges un hábito de limitar, tiene un botón cuadrado que registra un día en cero. El widget Siguiente muestra el siguiente hábito pendiente y, cuando todo está hecho, tu mosaico. Hoy, el widget mediano, tiene el anillo del día y tus hábitos del día.",
+  "status": "reviewed"
+ },
+ "5d62873ce3": {
+  "src": "Premium adds Today and week (large and extra large), a Month calendar (small and large), This week (medium and large, with up to 3 or 7 habits you choose) and Who you're becoming, the mosaic of your check-ins. Every widget works in the tinted and clear Home Screen styles.",
+  "text": "Premium añade Hoy y semana (grande y extragrande), un Calendario mensual (pequeño y grande), Esta semana (mediano y grande, con hasta 3 o 7 hábitos que eliges tú) y Quién estás siendo, el mosaico de tus registros. Todos los widgets funcionan con los estilos tintado y transparente de la pantalla de inicio.",
+  "status": "reviewed"
+ },
+ "b33b2234fc": {
+  "src": "Lock Screen and StandBy",
+  "text": "Pantalla de bloqueo y En reposo",
+  "status": "reviewed"
+ },
+ "04a311a651": {
+  "src": "On the Lock Screen there is a round day ring with done out of due, a rectangle with your next open habit, and a line above the clock like \"2/5 · Read\". The round Habit widget checks a habit in without unlocking the phone. In StandBy the widgets drop their background and the names get bigger, so you can read them from the bedside.",
+  "text": "En la pantalla de bloqueo hay un anillo del día redondo con cuántos hábitos llevas hechos de los que tocan hoy, un rectángulo con tu siguiente hábito pendiente y una línea encima del reloj como \"2/5 · Leer\". El widget redondo Hábito marca un hábito sin desbloquear el teléfono. En el modo En reposo los widgets pierden el fondo y los nombres se hacen más grandes, para que puedas leerlos desde la cama.",
+  "status": "reviewed"
+ },
+ "f8c0e937cf": {
+  "src": "Control Center, Siri and Shortcuts",
+  "text": "Centro de control, Siri y Atajos",
+  "status": "reviewed"
+ },
+ "0140323135": {
+  "src": "Add Check in to Control Center for a habit you build, or Clear day for a habit you want less of (Clear day asks you to unlock first). Siri understands \"Check in Read in Mostly Daily\" and \"Rest today for Read in Mostly Daily\", and none of the shortcuts open the app.",
+  "text": "Añade Marcar al Centro de control para un hábito que construyes, o Día en cero para un hábito que quieres hacer menos (Día en cero te pide desbloquear antes). Siri entiende \"Marca Leer en Mostly Daily\" y \"Descanso hoy para Leer en Mostly Daily\", y ninguno de los atajos abre la app.",
+  "status": "reviewed"
+ },
+ "3c221e6d10": {
+  "src": "Private habits stay private",
+  "text": "Los hábitos privados siguen siendo privados",
+  "status": "reviewed"
+ },
+ "6b31d23f40": {
+  "src": "A Limit habit is never named on the Lock Screen; it shows as \"a private habit\". Turn on Keep private for any habit and every widget, control and notification shows \"Private habit\" with a plain symbol. Inside the app you still see the real name.",
+  "text": "Un hábito de limitar nunca aparece con su nombre en la pantalla de bloqueo; se muestra como \"un hábito privado\". Activa Mantener privado en cualquier hábito y todos los widgets, controles y notificaciones muestran \"Hábito privado\" con un símbolo neutro. Dentro de la app sigues viendo el nombre real.",
+  "status": "reviewed"
+ },
+ "500158e6ec": {
+  "src": "<a href=\"/#widgets\">See the widgets</a>",
+  "text": "<a href=\"/#widgets\">Ver los widgets</a>",
+  "status": "reviewed"
+ },
+ "82a9651319": {
+  "src": "Why one missed day doesn&#x27;t break a habit · Mostly Daily",
+  "text": "Por qué un día sin hacerlo no rompe un hábito · Mostly Daily",
+  "status": "reviewed"
+ },
+ "d8dcbe6062": {
+  "src": "A missed day is a small dip and nothing resets. The day after is what counts.",
+  "text": "Un día sin hacerlo es una bajada pequeña y nada se reinicia. El día siguiente es el que cuenta.",
+  "status": "reviewed"
+ },
+ "b3afc891da": {
+  "src": "A missed day feels like a failure when an app shows a streak going back to zero. It isn't one.",
+  "text": "Un día sin hacerlo parece un fracaso cuando una app muestra una racha que vuelve a cero. No lo es.",
+  "status": "reviewed"
+ },
+ "190dd014e5": {
+  "src": "Habits form from repetition over weeks and months. A single gap in that repetition barely changes the pattern: the habit is still the default thing you do in that moment, at that place, after that cue. What changes the pattern is when one miss becomes two, then three, and the cue stops leading to the action.",
+  "text": "Los hábitos se forman repitiendo durante semanas y meses. Un solo hueco en esa repetición apenas cambia el patrón: el hábito sigue siendo lo que haces sin pensar en ese momento, en ese lugar, después de esa señal. Lo que cambia el patrón es que un día sin hacerlo se convierta en dos, luego en tres, y la señal deje de llevar a la acción.",
+  "status": "reviewed"
+ },
+ "3b16e67bd5": {
+  "src": "The day after is the one that counts",
+  "text": "El día siguiente es el que cuenta",
+  "status": "reviewed"
+ },
+ "6fa7b06f32": {
+  "src": "That is why Mostly Daily's run is \"never missed twice\". One miss keeps the run going. Two misses in a row end it, gently, and a new one starts with your next check-in. After a missed day, the question is \"what's the smallest thing I can do today?\"",
+  "text": "Por eso la racha de Mostly Daily es \"Sin faltar dos veces seguidas\". Con un día sin hacerlo la racha sigue. Dos días seguidos sin hacerlo la terminan, con suavidad, y una nueva empieza con tu siguiente registro. Después de un día sin hacerlo, la pregunta es \"¿qué es lo más pequeño que puedo hacer hoy?\"",
+  "status": "reviewed"
+ },
+ "aa0160e20d": {
+  "src": "Make the smallest version count",
+  "text": "Haz que la versión más pequeña cuente",
+  "status": "reviewed"
+ },
+ "6401f6ea8d": {
+  "src": "Every habit can have a two-minute version: read one page, put on your shoes, floss one tooth. On a hard day it counts fully. It keeps the cue and the action connected.",
+  "text": "Cada hábito puede tener una versión de dos minutos: leer una página, ponerte las zapatillas, pasarte el hilo dental por un diente. En un día difícil cuenta por completo. Mantiene unidas la señal y la acción.",
+  "status": "reviewed"
+ },
+ "92c09f316d": {
+  "src": "Consistency counts",
+  "text": "La constancia cuenta",
+  "status": "reviewed"
+ },
+ "cf689f7ec7": {
+  "src": "Each habit has a level based on the last couple of months. A miss after a good month costs a few points; you are still at Mostly. The level comes back as fast as it dipped. You never need 100%.",
+  "text": "Cada hábito tiene un nivel según el último par de meses. Un día sin hacerlo después de un buen mes cuesta unos puntos; sigues en el nivel Casi siempre. El nivel se recupera tan rápido como bajó. Nunca necesitas el 100%.",
+  "status": "reviewed"
+ },
+ "3d96e8efe9": {
+  "src": "A private habit tracker with no account · Mostly Daily",
+  "text": "Un registro de hábitos privado y sin cuenta · Mostly Daily",
+  "status": "reviewed"
+ },
+ "d3fe75053d": {
+  "src": "Mostly Daily has no account, no server and no analytics. Habits sync through your own iCloud; Health data stays on your iPhone.",
+  "text": "Mostly Daily no tiene cuenta, servidor ni analíticas. Los hábitos se sincronizan con tu propio iCloud; los datos de salud se quedan en tu iPhone.",
+  "status": "reviewed"
+ },
+ "336fb2cf89": {
+  "src": "Mostly Daily has no account, no sign-in and no server. Your habits sync through your own private iCloud, health data stays on your iPhone and in Apple Health, and there are no analytics or ads.",
+  "text": "Mostly Daily no tiene cuenta, inicio de sesión ni servidor. Tus hábitos se sincronizan con tu propio iCloud privado, los datos de salud se quedan en tu iPhone y en Apple Health, y no hay analíticas ni anuncios.",
+  "status": "reviewed"
+ },
+ "1dddcabedf": {
+  "src": "A habit tracker knows a lot about you, like when you sleep and how often you drink. That is a good reason to keep it off a company server. The App Store privacy label for Mostly Daily says Data Not Collected.",
+  "text": "Un registro de hábitos sabe mucho de ti, como cuándo duermes y cada cuánto bebes. Es un buen motivo para no tenerlo en el servidor de una empresa. La etiqueta de privacidad de Mostly Daily en el App Store dice No se recopilan datos.",
+  "status": "reviewed"
+ },
+ "2cd57eebcf": {
+  "src": "Where each thing is kept",
+  "text": "Dónde se guarda cada cosa",
+  "status": "reviewed"
+ },
+ "2a1aaafe4b": {
+  "src": "Your habits, the check-ins you make yourself and your time off sync through your private iCloud, so a new iPhone gets them back. The developer can't read them. Check-ins that come from Apple Health stay on the iPhone, and each device reads its own Health. Drink logs stay in Apple Health or on the iPhone and never go to iCloud. Other Limit habit logs stay on the iPhone too, unless you turn on Sync logs through iCloud for that habit. The reason you give for time off and the Your day list never leave the device.",
+  "text": "Tus hábitos, los registros que haces tú y tu tiempo libre se sincronizan con tu iCloud privado, así que un iPhone nuevo los recupera. El desarrollador no puede leerlos. Los registros que vienen de Apple Health se quedan en el iPhone, y cada dispositivo lee su propia app Salud. Los registros de bebidas se quedan en Apple Health o en el iPhone y nunca van a iCloud. Los registros de otros hábitos de limitar también se quedan en el iPhone, salvo que actives Sincronizar registros con iCloud en ese hábito. El motivo que das para el tiempo libre y la lista Tu día nunca salen del dispositivo.",
+  "status": "reviewed"
+ },
+ "8731e54245": {
+  "src": "Without iCloud the app works the same and keeps everything on the iPhone. Settings shows where your data lives.",
+  "text": "Sin iCloud la app funciona igual y lo guarda todo en el iPhone. Ajustes muestra dónde están tus datos.",
+  "status": "reviewed"
+ },
+ "8bec169450": {
+  "src": "Nothing in the app talks to a server",
+  "text": "Nada en la app se conecta a un servidor",
+  "status": "reviewed"
+ },
+ "2b281f98ae": {
+  "src": "There is no sign-in, no e-mail, no analytics, no crash reporting and no tracking. Data leaves the iPhone only through your own iCloud, Apple Health's own sync, Apple's purchase system and files you share yourself.",
+  "text": "No hay inicio de sesión, correo, analíticas, informes de fallos ni rastreo. Los datos solo salen del iPhone por tu propio iCloud, la sincronización propia de Apple Health, el sistema de compras de Apple y los archivos que compartes tú.",
+  "status": "reviewed"
+ },
+ "3f2ab9a870": {
+  "src": "Private on the Lock Screen",
+  "text": "Privado en la pantalla de bloqueo",
+  "status": "reviewed"
+ },
+ "54fcca914b": {
+  "src": "Habits you want less of are never named on the Lock Screen. Turn on Keep private for any habit and widgets, Control Center, notifications and Siri show \"Private habit\" instead of its name. See <a href=\"/guides/iphone-habit-widgets.html\">habit widgets on iPhone</a>.",
+  "text": "Los hábitos que quieres hacer menos nunca aparecen con su nombre en la pantalla de bloqueo. Activa Mantener privado en cualquier hábito y los widgets, el Centro de control, las notificaciones y Siri muestran \"Hábito privado\" en lugar de su nombre. Mira <a href=\"/guides/iphone-habit-widgets.html\">widgets de hábitos en el iPhone</a>.",
+  "status": "reviewed"
+ },
+ "e41df9fa48": {
+  "src": "Take it with you",
+  "text": "Llévatelo contigo",
+  "status": "reviewed"
+ },
+ "ed56b37f04": {
+  "src": "Settings, Export and import makes CSV files of your habits, check-ins and time off on any plan. Premium never locks your data, and Delete all data removes your habits, check-ins and time off from the iPhone and from iCloud. The full details are in the <a href=\"/privacy.html\">privacy policy</a>.",
+  "text": "Ajustes, Exportar e importar crea archivos CSV de tus hábitos, registros y tiempo libre en cualquier plan. Premium nunca bloquea tus datos, y Eliminar todos los datos quita tus hábitos, registros y tiempo libre del iPhone y de iCloud. Todos los detalles están en la <a href=\"/privacy.html\">política de privacidad</a>.",
+  "status": "reviewed"
+ },
+ "92dc27481b": {
+  "src": "Rest days are part of the plan · Mostly Daily",
+  "text": "Los días de descanso son parte del plan · Mostly Daily",
+  "status": "reviewed"
+ },
+ "d8be74849c": {
+  "src": "Rest, low energy and travel days are real days. Planned rest keeps habits going for years.",
+  "text": "Los días de descanso, de poca energía y de viaje son días de verdad. El descanso planeado mantiene los hábitos durante años.",
+  "status": "reviewed"
+ },
+ "c082e32214": {
+  "src": "Athletes plan rest. Habits deserve the same.",
+  "text": "Los deportistas planean el descanso. Los hábitos merecen lo mismo.",
+  "status": "reviewed"
+ },
+ "767f01488d": {
+  "src": "A habit that only works when everything goes right won't last a year. Illness, travel, a busy week at work and holidays are part of every year, and a plan that counts them as failures teaches you to give up.",
+  "text": "Un hábito que solo funciona cuando todo sale bien no dura un año. La enfermedad, los viajes, una semana de mucho trabajo y las vacaciones son parte de todos los años, y un plan que los cuenta como fracasos te enseña a rendirte.",
+  "status": "reviewed"
+ },
+ "fd62759c29": {
+  "src": "Rest is not a miss",
+  "text": "El descanso no es un día sin hacer",
+  "status": "reviewed"
+ },
+ "3731967e51": {
+  "src": "In Mostly Daily, rest, low energy and travel days are real states. They don't help your level and they don't hurt it: the day simply doesn't count as a chance to do the habit. Low energy days never use the rest budget; rest and travel have a soft monthly budget, so rest stays a choice.",
+  "text": "En Mostly Daily, los días de descanso, de poca energía y de viaje son estados de verdad. No suben tu nivel y no lo bajan: el día simplemente no cuenta como una ocasión de hacer el hábito. Los días de poca energía nunca gastan tus días de descanso; el descanso y el viaje tienen un tope mensual flexible, para que descansar siga siendo una elección.",
+  "status": "reviewed"
+ },
+ "33c0fcae83": {
+  "src": "Plan time off",
+  "text": "Planea tiempo libre",
+  "status": "reviewed"
+ },
+ "0e6cf54535": {
+  "src": "Going on holiday? Set time off for all your habits at once, or only for the ones you choose, and give it a reason: Vacation, Low energy or Other. Reminders go quiet, nothing counts as missed, and when you come back you get a short welcome. There is no list of what you didn't do.",
+  "text": "¿Te vas de vacaciones? Pon tiempo libre para todos tus hábitos a la vez, o solo para los que elijas, y dale un motivo: Vacaciones, Poca energía u Otra. Los recordatorios se callan, nada cuenta como un día sin hacer, y a la vuelta tienes una bienvenida corta. No hay lista de lo que no hiciste.",
+  "status": "reviewed"
+ },
+ "dc3150ba14": {
+  "src": "Sick days, travel and holidays in a habit tracker · Mostly Daily",
+  "text": "Días de enfermedad, viajes y vacaciones en un registro de hábitos · Mostly Daily",
+  "status": "reviewed"
+ },
+ "b2ea29eaeb": {
+  "src": "Mark the day as Low energy or Travel, or set time off for a whole trip. Those days are not misses and don't lower your level.",
+  "text": "Marca el día como Poca energía o Viaje, o pon tiempo libre para un viaje entero. Esos días no son días sin hacer y no bajan tu nivel.",
+  "status": "reviewed"
+ },
+ "8db819328d": {
+  "src": "In Mostly Daily you mark the day as Low energy or Travel, or set time off for a whole trip. Those days are not misses and don't lower your level.",
+  "text": "En Mostly Daily marcas el día como Poca energía o Viaje, o pones tiempo libre para un viaje entero. Esos días no son días sin hacer y no bajan tu nivel.",
+  "status": "reviewed"
+ },
+ "78a751eec5": {
+  "src": "Most habit trackers know two states, done and not done. A week with the flu then looks like seven failures, and two weeks at the sea look like you gave up. You need a way to tell the app that this day doesn't count.",
+  "text": "La mayoría de las apps de hábitos conocen dos estados, hecho y sin hacer. Una semana con gripe parece entonces siete fracasos, y dos semanas en la playa parecen un abandono. Necesitas una forma de decirle a la app que este día no cuenta.",
+  "status": "reviewed"
+ },
+ "17887d1d0f": {
+  "src": "One day: Low energy, Rest or Travel",
+  "text": "Un día: Poca energía, Descanso o Viaje",
+  "status": "reviewed"
+ },
+ "449a0d5582": {
+  "src": "Touch and hold a habit on Today and pick Rest today, Low energy or Travel. The day is skipped: it doesn't count for the habit or against it. Low energy is the one for days when you are ill or worn out, and you can use it as often as you need.",
+  "text": "Mantén pulsado un hábito en Hoy y elige Descansar hoy, Poca energía o Viaje. El día se salta: no cuenta ni a favor ni en contra del hábito. Poca energía es para los días en que no te encuentras bien o no puedes más, y puedes usarlo todas las veces que necesites.",
+  "status": "reviewed"
+ },
+ "237af1f5b0": {
+  "src": "Rest and Travel share a soft budget of 4 days a month per habit, which you can change from 0 to 10. Going over is fine: the menu shows how many you used, and an extra rest day is still a rest day, never a miss. Each week that ends with the habit at Often or Mostly also earns one more rest day, and you can bank up to 4.",
+  "text": "Descanso y Viaje comparten un tope flexible de 4 días al mes por hábito, que puedes cambiar de 0 a 10. Pasarte no es un problema: el menú muestra cuántos has usado, y un día de descanso extra sigue siendo un día de descanso, nunca un día sin hacer. Cada semana que termina con el hábito en el nivel A menudo o Casi siempre también te da un día de descanso más, y puedes guardar hasta 4.",
+  "status": "reviewed"
+ },
+ "d6163ac9a8": {
+  "src": "A trip or a holiday: time off",
+  "text": "Un viaje o unas vacaciones: tiempo libre",
+  "status": "reviewed"
+ },
+ "c335d25e08": {
+  "src": "For more than a day or two, go to Settings, Time off. Choose the dates, a reason (Vacation, Travel, Low energy or Other) and either all your habits or only some of them. Reminders go quiet, those days never count as a miss and they don't use your rest days. The reason stays on your iPhone.",
+  "text": "Para más de un día o dos, ve a Ajustes, Tiempo libre. Elige las fechas, un motivo (Vacaciones, Viaje, Poca energía u Otra) y todos tus hábitos o solo algunos. Los recordatorios se callan, esos días nunca cuentan como un día sin hacer y no gastan tus días de descanso. El motivo se queda en tu iPhone.",
+  "status": "reviewed"
+ },
+ "97c7cf20e1": {
+  "src": "If you did it anyway",
+  "text": "Si lo hiciste de todos modos",
+  "status": "reviewed"
+ },
+ "943e68666f": {
+  "src": "A check-in on a rest day or during time off still counts. A short walk on holiday is a done day.",
+  "text": "Un registro en un día de descanso o durante el tiempo libre también cuenta. Un paseo corto en vacaciones es un día hecho.",
+  "status": "reviewed"
+ },
+ "97fa5270c1": {
+  "src": "Coming back",
+  "text": "La vuelta",
+  "status": "reviewed"
+ },
+ "3f2dea0461": {
+  "src": "If you haven't opened the app for 3 days or more, it says welcome back and asks you to pick one habit for today, in its two-minute version if it has one. There is no list of what you missed. More in <a href=\"/guides/rest-days.html\">rest days are part of the plan</a>.",
+  "text": "Si llevas 3 días o más sin abrir la app, te dice Hola de nuevo y te pide que elijas un hábito para hoy, en su versión de dos minutos si la tiene. No hay lista de lo que no hiciste. Más en <a href=\"/guides/rest-days.html\">los días de descanso son parte del plan</a>.",
+  "status": "reviewed"
+ },
+ "f10bfbe8ca": {
+  "src": "Habits that check themselves off from Apple Health",
+  "text": "Hábitos que se marcan solos con Apple Health",
+  "status": "reviewed"
+ },
+ "6dea275973": {
+  "src": "How to cut back on drinks, sugar or screen time",
+  "text": "Cómo beber menos, tomar menos azúcar o reducir el tiempo de pantalla",
+  "status": "reviewed"
+ },
+ "0128196494": {
+  "src": "A habit tracker without streaks",
+  "text": "Seguimiento de hábitos sin rachas estrictas",
+  "status": "reviewed"
+ },
+ "bfe51b2bdf": {
+  "src": "Habits you want less of",
+  "text": "Hábitos que quieres hacer menos",
+  "status": "reviewed"
+ },
+ "f14536e1c2": {
+  "src": "Guides",
+  "text": "Guías",
+  "status": "reviewed"
+ },
+ "bc2af35591": {
+  "src": "Habit widgets on iPhone",
+  "text": "Widgets de hábitos en el iPhone",
+  "status": "reviewed"
+ },
+ "eee579ae23": {
+  "src": "Why one missed day doesn't break a habit",
+  "text": "Por qué un día sin hacerlo no rompe un hábito",
+  "status": "reviewed"
+ },
+ "2009c65785": {
+  "src": "A private habit tracker with no account",
+  "text": "Un registro de hábitos privado y sin cuenta",
+  "status": "reviewed"
+ },
+ "96b23666bd": {
+  "src": "Rest days are part of the plan",
+  "text": "Los días de descanso son parte del plan",
+  "status": "reviewed"
+ },
+ "b999bb73e5": {
+  "src": "Sick days, travel and holidays in a habit tracker",
+  "text": "Días de enfermedad, viajes y vacaciones en un registro de hábitos",
+  "status": "reviewed"
  }
 }

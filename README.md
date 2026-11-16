@@ -16,7 +16,7 @@ markup; change them everywhere at once.
 | `terms.html` | Terms of Use (Apple standard EULA + subscription terms), linked from the app's Premium sheet |
 | `guides/` | Short articles on building habits (our own words; no quotes or book titles) |
 | `llms.txt` | Plain-text summary for AI assistants |
-| `de/`, `es/`, `pl/`, `uk/`, `ru/` | Translated home and support pages, built by `tools/i18n.py` from `i18n/` (see below) |
+| `de/`, `es/`, `pl/`, `uk/`, `ru/` | Translated home, support and guide pages, built by `tools/i18n.py` from `i18n/` (see below) |
 | `404.html`, `CNAME`, `.nojekyll`, `robots.txt`, `sitemap.xml` | Hosting plumbing; add new pages to `sitemap.xml` |
 | `tools/site_images.py`, `tools/store_images.py`, `tools/images.py`, `tools/sim.test.js` | Pictures from the app, the App Store shots in light and dark, WebP copies, a test of the simulator's rules (see below) |
 
@@ -25,11 +25,11 @@ Connect link to them.
 
 ## Translated pages (de, es, pl, uk, ru)
 
-`/de/`, `/es/`, `/pl/`, `/uk/` and `/ru/` hold the home and support pages in the app's five other languages. They are
+`/de/`, `/es/`, `/pl/`, `/uk/` and `/ru/` hold the home and support pages and all guides in the app's five other languages. They are
 built, never edited by hand: the English `index.html` and `support.html` stay the source, and `tools/i18n.py` does
 the rest.
 
-1. `python3 tools/i18n.py extract` splits the two English pages into segments (`i18n/en.json`: the text of each block
+1. `python3 tools/i18n.py extract` splits the English home, support and guide pages into segments (`i18n/en.json`: the text of each block
    element with its inline markup, alt/aria-label/title values, the title and meta texts, the JSON-LD texts, and the
    strings `assets/site.js` uses for the "Try it" week). An id is a hash of the English text, so changing a sentence
    makes it show up as missing in every language.
@@ -42,11 +42,11 @@ the rest.
 4. `python3 tools/i18n.py build` writes `/<lang>/index.html` and `/<lang>/support.html`, the hreflang links and the
    footer language links on the English and translated pages, and the language pages in `sitemap.xml`.
 
-Links to `/` and `/support.html` point to the same language; guides, privacy and terms stay English. The pictures
+Links to `/`, `/support.html` and `/guides/` point to the same language; privacy and terms stay English. A new guide is picked up by `extract` on its own; a guide's H1 has its own id (the same English words elsewhere may need other words). The pictures
 and the App Store badge are the English ones. On a translated page `site.js` reads its strings from
 `<script type="application/json" id="i18n">` (plural forms through `Intl.PluralRules`, weekday names through `Intl`).
 
-**After any change to the English home or support page**, run `extract`, translate what `check` lists, then `build`.
+**After any change to the English home, support or a guide page**, run `extract`, translate what `check` lists, then `build`.
 
 ## Script policy
 

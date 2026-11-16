@@ -17,7 +17,7 @@ import hashlib, html, json, re, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PAGES = ["index.html", "support.html"]
+PAGES = ["index.html", "support.html"] + sorted(p.relative_to(ROOT).as_posix() for p in (ROOT / "guides").glob("*.html"))
 LANGS = ["de", "es", "pl", "uk", "ru"]
 NAMES = {"en": "English", "de": "Deutsch", "es": "Español", "pl": "Polski", "uk": "Українська", "ru": "Русский"}
 OG_LOCALE = {"en": "en_US", "de": "de_DE", "es": "es_ES", "pl": "pl_PL", "uk": "uk_UA", "ru": "ru_RU"}
@@ -67,6 +67,13 @@ TOKEN = re.compile(r"<!--.*?-->|<![^>]*>|<(/?)([a-zA-Z][a-zA-Z0-9-]*)((?:\"[^\"]
 
 def sid(text):
     return hashlib.sha1(text.encode()).hexdigest()[:10]
+
+
+def seg_id(page, src, a, text):
+    """A guide's H1 gets its own id: the same English words elsewhere (a home page label) may need other words."""
+    if page.startswith("guides/") and re.search(r"<h1[^>]*>$", src[max(0, a - 40):a]):
+        return sid(page + "|" + text)
+    return sid(text)
 
 
 class Node:
@@ -251,12 +258,15 @@ def extract():
         src, spans = page_segments(page)
         for a, b in spans:
             t = src[a:b]
-            i = sid(t)
+            i = seg_id(page, src, a, t)
             if i not in en:
                 en[i] = {"src": t, "page": page, "where": context(src, a)}
                 order.append(i)
         for m in ld_blocks(src):
-            for s in ld_strings(json.loads(m.group(2))):
+            obj = json.loads(m.group(2))
+            if obj.get("@type") == "Article":  # the headline is the page's H1
+                en[sid(page + "|" + obj["headline"])] = {"src": obj["headline"], "page": page, "where": "H1 of the guide (also its JSON-LD headline)"}
+            for s in ld_strings(obj):
                 i = sid(s)
                 if i not in en:
                     en[i] = {"src": s, "page": page, "where": "JSON-LD (search engines; plain text, no HTML)"}
@@ -334,12 +344,16 @@ def todo(lang):
 def localize_links(s, lang):
     s = re.sub(r'href="/(#[^"]*)?"', lambda m: f'href="/{lang}/{m.group(1) or ""}"', s)
     s = re.sub(r'href="/support\.html(#[^"]*)?"', lambda m: f'href="/{lang}/support.html{m.group(1) or ""}"', s)
+    s = re.sub(r'href="/guides/([^"]*)"', lambda m: f'href="/{lang}/guides/{m.group(1)}"', s)
     return s
 
 
+def path(page):
+    return page[: -len("index.html")] if page.endswith("index.html") else page
+
+
 def url(lang, page):
-    p = "" if page == "index.html" else page
-    return f"https://mostlydaily.com/{'' if lang == 'en' else lang + '/'}{p}"
+    return f"https://mostlydaily.com/{'' if lang == 'en' else lang + '/'}{path(page)}"
 
 
 def alternates(page):
@@ -349,7 +363,7 @@ def alternates(page):
 
 
 def switcher(page, lang):
-    href = lambda l: "/" + ("" if l == "en" else l + "/") + ("" if page == "index.html" else page)
+    href = lambda l: "/" + ("" if l == "en" else l + "/") + path(page)
     links = "".join(f'<a href="{href(l)}" hreflang="{l}" lang="{l}"' + (' aria-current="true"' if l == lang else "") + f">{NAMES[l]}</a>" for l in ["en"] + LANGS)
     return f'<nav class="langs" aria-label="Language" translate="no">{links}</nav>'
 
@@ -387,7 +401,7 @@ def build(langs):
             src, spans = page_segments(page)
             out, last = [], 0
             for a, b in spans:
-                out += [src[last:a], T[sid(src[a:b])]]
+                out += [src[last:a], T[seg_id(page, src, a, src[a:b])]]
                 last = b
             out.append(src[last:])
             s = "".join(out)
@@ -413,6 +427,12 @@ def build(langs):
                     obj["inLanguage"] = lang
                     obj["alternateName"] = [STORE_NAME[lang], "Mostly Daily"]
                     obj["url"] = url(lang, page)
+                if obj.get("@type") == "Article":
+                    obj["headline"] = T[sid(page + "|" + obj["headline"])]
+                    obj["inLanguage"] = lang
+                    obj["url"] = url(lang, page)
+                    if isinstance(obj.get("about"), dict):
+                        obj["about"]["url"] = url(lang, "index.html")
                 return m.group(1) + json.dumps(obj, ensure_ascii=False) + m.group(3)
 
             s = re.sub(r'(<script type="application/ld\+json">)(.*?)(</script>)', ld, s, flags=re.S)
@@ -423,10 +443,10 @@ def build(langs):
             s = head_and_footer(s, page, lang)
             if 'data-sim' in s:
                 s = s.replace("</head>", sim_json(lang, tr) + "\n</head>", 1)
-            d = ROOT / lang
-            d.mkdir(exist_ok=True)
-            (d / page).write_text(s)
-        print(f"{lang}: built {', '.join(PAGES)}")
+            out_path = ROOT / lang / page
+            out_path.parent.mkdir(parents=True, exist_ok=True)
+            out_path.write_text(s)
+        print(f"{lang}: built {len(PAGES)} pages")
     sitemap(langs)
 
 
