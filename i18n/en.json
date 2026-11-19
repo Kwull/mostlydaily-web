@@ -889,8 +889,8 @@
   "page": "support.html",
   "where": "after heading 'Widgets' <p>"
  },
- "8b10ea4a4b": {
-  "src": "Premium's This week widget shows the habits that are due, a Limit habit or done today. To choose the habits yourself, touch and hold the widget, tap Edit Widget and tap Habits: pick up to 3 for the medium widget or 7 for the large one. They stay in the order you picked, every day, even on a day a habit is not due. Remove them all to go back to the automatic list.",
+ "c9dec30c64": {
+  "src": "Today, Today and week and This week can show the habits you choose. Touch and hold the widget, tap Edit Widget and tap Habits: pick up to 6 for Today and for the large Today and week, 3 for the medium This week or 7 for the large one. They stay in the order you picked, every day, even on a day a habit is not due. Remove them all to go back to the automatic list: your habits for the day on Today and Today and week, the habits that are due, a Limit habit or done today on This week. Today is Free; Today and week and This week are Premium.",
   "page": "support.html",
   "where": "after heading 'Widgets' <p>"
  },
@@ -1439,13 +1439,13 @@
   "page": "guides/iphone-habit-widgets.html",
   "where": "after heading 'Habit widgets on iPhone' <h2>"
  },
- "cfc0244b7a": {
-  "src": "Free has three widgets. Habit is one habit with a ring to tap; pick a Limit habit and it gets a square button that logs a clear day. Next up shows the next open habit and, when everything is done, your mosaic. Today, the medium widget, has the day ring and your habits for the day.",
+ "8f69fe7939": {
+  "src": "Free has three widgets. Habit is one habit with a ring to tap; pick a Limit habit and it gets a square button that logs a clear day. Next up shows the next open habit and, when everything is done, your mosaic. Today, the medium widget, has the day ring and your habits for the day; in Edit Widget you can choose up to 6 habits for it.",
   "page": "guides/iphone-habit-widgets.html",
   "where": "after heading 'Home Screen' <p>"
  },
- "5d62873ce3": {
-  "src": "Premium adds Today and week (large and extra large), a Month calendar (small and large), This week (medium and large, with up to 3 or 7 habits you choose) and Who you're becoming, the mosaic of your check-ins. Every widget works in the tinted and clear Home Screen styles.",
+ "a87fee5401": {
+  "src": "Premium adds Today and week (large and extra large; the large one can show up to 6 habits you choose), a Month calendar (small and large), This week (medium and large, with up to 3 or 7 habits you choose) and Who you're becoming, the mosaic of your check-ins. Every widget works in the tinted and clear Home Screen styles.",
   "page": "guides/iphone-habit-widgets.html",
   "where": "after heading 'Home Screen' <p>"
  },
